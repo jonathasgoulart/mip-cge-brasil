@@ -1,0 +1,274 @@
+{
+  "total_products": 67,
+  "products": {
+    "1": {
+      "code": "",
+      "description": ""
+    },
+    "2": {
+      "code": "01911",
+      "description": "Arroz, trigo e outros cereais"
+    },
+    "3": {
+      "code": "01912",
+      "description": "Milho em grão"
+    },
+    "4": {
+      "code": "01913",
+      "description": "Algodão herbáceo, outras fibras da lavoura temporária"
+    },
+    "5": {
+      "code": "01914",
+      "description": "Cana-de-açúcar"
+    },
+    "6": {
+      "code": "01915",
+      "description": "Soja  em grão"
+    },
+    "7": {
+      "code": "01916",
+      "description": "Outros produtos e serviços da lavoura temporária"
+    },
+    "8": {
+      "code": "01917",
+      "description": "Laranja"
+    },
+    "9": {
+      "code": "01918",
+      "description": "Café em grão"
+    },
+    "10": {
+      "code": "01919",
+      "description": "Outros produtos da lavoura permanente"
+    },
+    "11": {
+      "code": "01921",
+      "description": "Bovinos e outros animais vivos, produtos animal, caça e serviços"
+    },
+    "12": {
+      "code": "01922",
+      "description": "Leite de vaca e de outros animais"
+    },
+    "13": {
+      "code": "01923",
+      "description": "Suínos"
+    },
+    "14": {
+      "code": "01924",
+      "description": "Aves e ovos"
+    },
+    "15": {
+      "code": "02801",
+      "description": "Produtos da exploração florestal e da silvicultura"
+    },
+    "16": {
+      "code": "02802",
+      "description": "Pesca e aquicultura (peixe, crustáceos e moluscos)"
+    },
+    "17": {
+      "code": "05801",
+      "description": "Carvão mineral"
+    },
+    "18": {
+      "code": "05802",
+      "description": "Minerais não metálicos"
+    },
+    "19": {
+      "code": "06801",
+      "description": "Petróleo, gás natural e serviços de apoio"
+    },
+    "20": {
+      "code": "07911",
+      "description": "Minério de ferro"
+    },
+    "21": {
+      "code": "07921",
+      "description": "Minerais metálicos não ferrosos"
+    },
+    "22": {
+      "code": "10911",
+      "description": "Carne de bovinos e outros produtos de carne"
+    },
+    "23": {
+      "code": "10912",
+      "description": "Carne de suíno"
+    },
+    "24": {
+      "code": "10913",
+      "description": "Carne de aves"
+    },
+    "25": {
+      "code": "10914",
+      "description": "Pescado industrializado"
+    },
+    "26": {
+      "code": "10915",
+      "description": "Leite resfriado, esterilizado e pasteurizado"
+    },
+    "27": {
+      "code": "10916",
+      "description": "Outros produtos do laticínio"
+    },
+    "28": {
+      "code": "10921",
+      "description": "Açúcar"
+    },
+    "29": {
+      "code": "10931",
+      "description": "Conservas de frutas, legumes, outros vegetais e sucos de frutas"
+    },
+    "30": {
+      "code": "10932",
+      "description": "Óleos e gorduras vegetais e animais"
+    },
+    "31": {
+      "code": "10933",
+      "description": "Café beneficiado"
+    },
+    "32": {
+      "code": "10934",
+      "description": "Arroz beneficiado e produtos derivados do arroz"
+    },
+    "33": {
+      "code": "10935",
+      "description": "Produtos derivados do trigo, mandioca ou milho"
+    },
+    "34": {
+      "code": "10936",
+      "description": "Rações balanceadas para animais"
+    },
+    "35": {
+      "code": "10937",
+      "description": "Outros produtos alimentares"
+    },
+    "36": {
+      "code": "11001",
+      "description": "Bebidas"
+    },
+    "37": {
+      "code": "12001",
+      "description": "Produtos do fumo"
+    },
+    "38": {
+      "code": "13001",
+      "description": "Fios e fibras têxteis beneficiadas"
+    },
+    "39": {
+      "code": "13002",
+      "description": "Tecidos"
+    },
+    "40": {
+      "code": "13003",
+      "description": "Artigos têxteis de uso doméstico e outros têxteis"
+    },
+    "41": {
+      "code": "14001",
+      "description": "Artigos do vestuário e acessórios"
+    },
+    "42": {
+      "code": "15001",
+      "description": "Calçados e artefatos de couro"
+    },
+    "43": {
+      "code": "16001",
+      "description": "Produtos de madeira, exclusive móveis"
+    },
+    "44": {
+      "code": "17001",
+      "description": "Celulose"
+    },
+    "45": {
+      "code": "17002",
+      "description": "Papel, papelão, embalagens e artefatos de papel"
+    },
+    "46": {
+      "code": "18001",
+      "description": "Serviços de impressão e reprodução"
+    },
+    "47": {
+      "code": "19911",
+      "description": "Combustíveis para aviação"
+    },
+    "48": {
+      "code": "19912",
+      "description": "Gasoálcool"
+    },
+    "49": {
+      "code": "19913",
+      "description": "Naftas para petroquímica"
+    },
+    "50": {
+      "code": "19914",
+      "description": "Óleo combustível"
+    },
+    "51": {
+      "code": "19915",
+      "description": "Diesel - biodiesel"
+    },
+    "52": {
+      "code": "19916",
+      "description": "Outros produtos do refino do petróleo"
+    },
+    "53": {
+      "code": "19921",
+      "description": "Etanol e outros biocombustíveis"
+    },
+    "54": {
+      "code": "20911",
+      "description": "Produtos químicos inorgânicos"
+    },
+    "55": {
+      "code": "20912",
+      "description": "Adubos e fertilizantes"
+    },
+    "56": {
+      "code": "20913",
+      "description": "Produtos químicos orgânicos"
+    },
+    "57": {
+      "code": "20914",
+      "description": "Resinas, elastômeros e fibras artificiais e sintéticas"
+    },
+    "58": {
+      "code": "20921",
+      "description": "Defensivos agrícolas e desinfestantes domissanitários"
+    },
+    "59": {
+      "code": "20922",
+      "description": "Produtos químicos diversos"
+    },
+    "60": {
+      "code": "20923",
+      "description": "Tintas, vernizes, esmaltes e lacas"
+    },
+    "61": {
+      "code": "20931",
+      "description": "Perfumaria, sabões e artigos de limpeza"
+    },
+    "62": {
+      "code": "21001",
+      "description": "Produtos farmacêuticos"
+    },
+    "63": {
+      "code": "22001",
+      "description": "Artigos de borracha"
+    },
+    "64": {
+      "code": "22002",
+      "description": "Artigos de plástico"
+    },
+    "65": {
+      "code": "23001",
+      "description": "Cimento"
+    },
+    "66": {
+      "code": "23002",
+      "description": "Artefatos de cimento, gesso e semelhantes"
+    },
+    "67": {
+      "code": "23003",
+      "description": "Vidros, cerâmicos e outros produtos de minerais não metálicos"
+    }
+  },
+  "source": "MIP 2015 - Tabela 05.csv (ROWS = products)"
+}

@@ -1,0 +1,12 @@
+{
+  "audit_date": "2024-01-24",
+  "icms_2021_total": 537000.0,
+  "confaz_2024_total": 2403762214965.4497,
+  "ratio_2024_to_2021": 4476279.729917038,
+  "regional_factors_mean": 0.9999999999999999,
+  "issues": [
+    "ALERTA: CONFAZ 2024 tem magnitude ~4.5x maior que CTB 2021",
+    "  Isso e esperado? (CONFAZ pode incluir impostos adicionais)"
+  ],
+  "recommendation": "Apply factors with renormalization to preserve 2021 total"
+}

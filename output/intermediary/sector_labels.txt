@@ -1,0 +1,67 @@
+Agricultura, inclusive o apoio à agricultura e a pós-colheita
+Pecuária, inclusive o apoio à pecuária
+Produção florestal; pesca e aquicultura
+Extração de carvão mineral e de minerais não metálicos
+Extração de petróleo e gás, inclusive as atividades de apoio
+Extração de minério de ferro, inclusive beneficiamentos e a aglomeração
+Extração de minerais metálicos não ferrosos, inclusive beneficiamentos
+Abate e produtos de carne, inclusive os produtos do laticínio e da pesca
+Fabricação e refino de açúcar
+Outros produtos alimentares
+Fabricação de bebidas
+Fabricação de produtos do fumo
+Fabricação de produtos têxteis
+Confecção de artefatos do vestuário e acessórios
+Fabricação de calçados e de artefatos de couro
+Fabricação de produtos da madeira
+Fabricação de celulose, papel e produtos de papel
+Impressão e reprodução de gravações
+Refino de petróleo e coquerias
+Fabricação de biocombustíveis
+Fabricação de químicos orgânicos e inorgânicos, resinas e elastômeros
+Fabricação de defensivos, desinfestantes, tintas e químicos diversos
+Fabricação de produtos de limpeza, cosméticos/perfumaria e higiene pessoal
+Fabricação de produtos farmoquímicos e farmacêuticos
+Fabricação de produtos de borracha e de material plástico
+Fabricação de produtos de minerais não metálicos
+Produção de ferro gusa/ferroligas, siderurgia e tubos de aço sem costura
+Metalurgia de metais não ferosos e a fundição de metais
+Fabricação de produtos de metal, exceto máquinas e equipamentos
+Fabricação de equipamentos de informática, produtos eletrônicos e ópticos
+Fabricação de máquinas e equipamentos elétricos
+Fabricação de máquinas e equipamentos mecânicos
+Fabricação de automóveis, caminhões e ônibus, exceto peças
+Fabricação de peças e acessórios para veículos automotores
+Fabricação de outros equipamentos de transporte, exceto veículos automotores
+Fabricação de móveis e de produtos de indústrias diversas
+Manutenção, reparação e instalação de máquinas e equipamentos
+Energia elétrica, gás natural e outras utilidades
+Água, esgoto e gestão de resíduos
+Construção
+Comércio por atacado e varejo
+Transporte terrestre
+Transporte aquaviário
+Transporte aéreo
+Armazenamento, atividades auxiliares dos transportes e correio
+Alojamento
+Alimentação
+Edição e edição integrada à impressão
+Atividades de televisão, rádio, cinema e gravação/edição de som e imagem
+Telecomunicações
+Desenvolvimento de sistemas e outros serviços de informação
+Intermediação financeira, seguros e previdência complementar
+Atividades imobiliárias
+Atividades jurídicas, contábeis, consultoria e sedes de empresas
+Serviços de arquitetura, engenharia, testes/análises técnicas e P & D
+Outras atividades profissionais, científicas e técnicas
+Aluguéis não imobiliários e gestão de ativos de propriedade intelectual
+Outras atividades administrativas e serviços complementares
+Atividades de vigilância, segurança e investigação
+Administração pública, defesa e seguridade social
+Educação pública
+Educação privada
+Saúde pública
+Saúde privada
+Atividades artísticas, criativas e de espetáculos
+Organizações associativas e outros serviços pessoais
+Serviços domésticos

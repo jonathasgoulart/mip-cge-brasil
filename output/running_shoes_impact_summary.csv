@@ -1,0 +1,68 @@
+Setor,Indice,Choque_R$M,Impacto_Producao_R$M,Empregos
+"Agricultura, inclusive o apoio Ã  agricultura e a pÃ³s-colheita",0,0.00,36.23,434
+"PecuÃ¡ria, inclusive o apoio Ã  pecuÃ¡ria",1,0.00,23.65,283
+"ProduÃ§Ã£o florestal; pesca e aquicultura",2,0.00,1.83,21
+"ExtraÃ§Ã£o de carvÃ£o mineral e de minerais nÃ£o metÃ¡licos",3,0.00,0.39,4
+"ExtraÃ§Ã£o de petrÃ³leo e gÃ¡s, inclusive as atividades de apoio",4,0.00,3.59,43
+"ExtraÃ§Ã£o de minÃ©rio de ferro, inclusive beneficiamentos e a aglomeraÃ§Ã£o",5,0.00,0.03,0
+"ExtraÃ§Ã£o de minerais metÃ¡licos nÃ£o ferrosos, inclusive beneficiamentos",6,0.00,0.07,0
+"Abate e produtos de carne, inclusive os produtos do laticÃ­nio e da pesca",7,0.00,87.28,1047
+"FabricaÃ§Ã£o e refino de aÃ§Ãºcar",8,0.00,0.70,8
+"Outros produtos alimentares",9,0.00,7.12,71
+"FabricaÃ§Ã£o de bebidas",10,0.00,0.39,3
+"FabricaÃ§Ã£o de produtos do fumo",11,0.00,0.01,0
+"FabricaÃ§Ã£o de produtos tÃªxteis",12,250.00,342.66,3426
+"ConfecÃ§Ã£o de artefatos do vestuÃ¡rio e acessÃ³rios",13,0.00,3.13,0
+"FabricaÃ§Ã£o de calÃ§ados e de artefatos de couro",14,1750.00,1942.50,0
+"FabricaÃ§Ã£o de produtos da madeira",15,0.00,0.47,0
+"FabricaÃ§Ã£o de celulose, papel e produtos de papel",16,0.00,6.56,9
+"ImpressÃ£o e reproduÃ§Ã£o de gravaÃ§Ãµes",17,0.00,1.12,1
+"Refino de petrÃ³leo e coquerias",18,0.00,10.14,6
+"FabricaÃ§Ã£o de biocombustÃ­veis",19,0.00,0.43,0
+"FabricaÃ§Ã£o de quÃ­micos orgÃ¢nicos e inorgÃ¢nicos, resinas e elastÃ´meros",20,0.00,9.86,31
+"FabricaÃ§Ã£o de defensivos, desinfestantes, tintas e quÃ­micos diversos",21,0.00,2.12,6
+"FabricaÃ§Ã£o de produtos de limpeza, cosmÃ©ticos/perfumaria e higiene pessoal",22,0.00,0.38,1
+"FabricaÃ§Ã£o de produtos farmoquÃ­micos e farmacÃªuticos",23,0.00,0.11,0
+"FabricaÃ§Ã£o de produtos de borracha e de material plÃ¡stico",24,0.00,3.91,12
+"FabricaÃ§Ã£o de produtos de minerais nÃ£o metÃ¡licos",25,0.00,0.36,1
+"ProduÃ§Ã£o de ferro gusa/ferroligas, siderurgia e tubos de aÃ§o sem costura",26,0.00,0.41,1
+"Metalurgia de metais nÃ£o ferosos e a fundiÃ§Ã£o de metais",27,0.00,0.31,0
+"FabricaÃ§Ã£o de produtos de metal, exceto mÃ¡quinas e equipamentos",28,0.00,0.71,2
+"FabricaÃ§Ã£o de equipamentos de informÃ¡tica, produtos eletrÃ´nicos e Ã³pticos",29,0.00,0.13,0
+"FabricaÃ§Ã£o de mÃ¡quinas e equipamentos elÃ©tricos",30,0.00,0.38,1
+"FabricaÃ§Ã£o de mÃ¡quinas e equipamentos mecÃ¢nicos",31,0.00,0.31,0
+"FabricaÃ§Ã£o de automÃ³veis, caminhÃµes e Ã´nibus, exceto peÃ§as",32,0.00,0.13,0
+"FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para veÃ­culos automotores",33,0.00,1.06,3
+"FabricaÃ§Ã£o de outros equipamentos de transporte, exceto veÃ­culos automotores",34,0.00,0.08,0
+"FabricaÃ§Ã£o de mÃ³veis e de produtos de indÃºstrias diversas",35,0.00,0.73,2
+"ManutenÃ§Ã£o, reparaÃ§Ã£o e instalaÃ§Ã£o de mÃ¡quinas e equipamentos",36,0.00,1.34,6
+"Energia elÃ©trica, gÃ¡s natural e outras utilidades",37,0.00,18.88,33
+"Ãgua, esgoto e gestÃ£o de resÃ­duos",38,0.00,1.87,3
+"ConstruÃ§Ã£o",39,0.00,2.13,15
+"ComÃ©rcio por atacado e varejo",40,500.00,636.08,5724
+"Transporte terrestre",41,0.00,47.97,263
+"Transporte aquaviÃ¡rio",42,0.00,0.95,5
+"Transporte aÃ©reo",43,0.00,2.09,11
+"Armazenamento, atividades auxiliares dos transportes e correio",44,0.00,10.68,58
+"Alojamento",45,0.00,1.48,16
+"AlimentaÃ§Ã£o",46,0.00,1.17,14
+"EdiÃ§Ã£o e ediÃ§Ã£o integrada Ã  impressÃ£o",47,0.00,0.70,3
+"Atividades de televisÃ£o, rÃ¡dio, cinema e  gravaÃ§Ã£o/ediÃ§Ã£o de som e imagem",48,0.00,7.08,31
+"TelecomunicaÃ§Ãµes",49,0.00,9.23,41
+"Desenvolvimento de sistemas e outros serviÃ§os de informaÃ§Ã£o",50,0.00,5.57,25
+"IntermediaÃ§Ã£o financeira, seguros e previdÃªncia complementar",51,0.00,52.18,114
+"Atividades imobiliÃ¡rias",52,0.00,23.85,19
+"Atividades jurÃ­dicas, contÃ¡beis, consultoria e sedes de empresas",53,0.00,24.39,195
+"ServiÃ§os de arquitetura, engenharia, testes/anÃ¡lises tÃ©cnicas e P & D",54,0.00,5.92,47
+"Outras atividades profissionais, cientÃ­ficas e tÃ©cnicas",55,0.00,30.57,244
+"AluguÃ©is nÃ£o imobiliÃ¡rios e gestÃ£o de ativos de propriedade intelectual",56,0.00,4.05,32
+"Outras atividades administrativas e serviÃ§os complementares",57,0.00,22.41,179
+"Atividades de vigilÃ¢ncia, seguranÃ§a e investigaÃ§Ã£o",58,0.00,5.10,40
+"AdministraÃ§Ã£o pÃºblica, defesa e seguridade social",59,0.00,5.96,35
+"EducaÃ§Ã£o pÃºblica",60,0.00,0.46,2
+"EducaÃ§Ã£o privada",61,0.00,1.14,10
+"SaÃºde pÃºblica",62,0.00,0.03,0
+"SaÃºde privada",63,0.00,0.08,0
+"Atividades artÃ­sticas, criativas e de espetÃ¡culos",64,0.00,1.20,11
+"OrganizaÃ§Ãµes associativas e outros serviÃ§os pessoais",65,0.00,3.37,0
+"ServiÃ§os domÃ©sticos",66,0.00,0.00,0

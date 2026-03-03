@@ -1,0 +1,65 @@
+{
+  "total_brasil_bilhoes": 536.9999999999999,
+  "methodology": "Share-based (CONFAZ 2024 shares applied to CTB 2021 total)",
+  "top_5_ufs": [
+    {
+      "uf": "SP",
+      "icms_bilhoes": 154.33963344239066,
+      "share_pct": 28.741086302121165
+    },
+    {
+      "uf": "MG",
+      "icms_bilhoes": 54.99228258798346,
+      "share_pct": 10.240648526626343
+    },
+    {
+      "uf": "PR",
+      "icms_bilhoes": 37.005799323932884,
+      "share_pct": 6.891210302408359
+    },
+    {
+      "uf": "RS",
+      "icms_bilhoes": 34.81364335157758,
+      "share_pct": 6.482987588748153
+    },
+    {
+      "uf": "RJ",
+      "icms_bilhoes": 30.514642547506718,
+      "share_pct": 5.6824287797964095
+    }
+  ],
+  "bottom_5_ufs": [
+    {
+      "uf": "TO",
+      "icms_bilhoes": 3.875946330064651,
+      "share_pct": 0.7217777150958382
+    },
+    {
+      "uf": "SE",
+      "icms_bilhoes": 3.6821985559975046,
+      "share_pct": 0.6856980551205781
+    },
+    {
+      "uf": "AC",
+      "icms_bilhoes": 1.3575614771465405,
+      "share_pct": 0.2528047443475867
+    },
+    {
+      "uf": "RR",
+      "icms_bilhoes": 1.2524860079280613,
+      "share_pct": 0.23323761786369857
+    },
+    {
+      "uf": "AP",
+      "icms_bilhoes": 0.9401942948396973,
+      "share_pct": 0.17508273646921738
+    }
+  ],
+  "statistics": {
+    "mean_coefficient_pct": 4.264798838797628,
+    "min_coefficient_pct": 1.702974632738425,
+    "max_coefficient_pct": 6.300040128726908,
+    "n_ufs": 27,
+    "n_sectors": 67
+  }
+}

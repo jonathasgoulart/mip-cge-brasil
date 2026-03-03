@@ -1,0 +1,102 @@
+{
+  "resumo_setorial": [
+    {
+      "Setor": "Agropecuária e Extração",
+      "Impacto_Producao_MM": 4.622601488441006,
+      "Empregos_Gerados": 60.692015153420016,
+      "ICMS_MM": 0.05138213762740396,
+      "ISS_MM": 0.014151575813505655,
+      "Vazamento_Outros_Estados_MM": 9.260719514603943
+    },
+    {
+      "Setor": "Extração e Mineração",
+      "Impacto_Producao_MM": 14.7989437502141,
+      "Empregos_Gerados": 28.423548672431288,
+      "ICMS_MM": 0.2605946773812276,
+      "ISS_MM": 0.07177251675083364,
+      "Vazamento_Outros_Estados_MM": 1.1477069292133995
+    },
+    {
+      "Setor": "Indústria de Alimentos e Refino",
+      "Impacto_Producao_MM": 92.02456213438415,
+      "Empregos_Gerados": 241.4016277904579,
+      "ICMS_MM": 3.7311207618618742,
+      "ISS_MM": 0.9222771581291614,
+      "Vazamento_Outros_Estados_MM": 87.92897186711241
+    },
+    {
+      "Setor": "Outras Indústrias",
+      "Impacto_Producao_MM": 18.423209974133137,
+      "Empregos_Gerados": 53.69709346343872,
+      "ICMS_MM": 0.7640073826438805,
+      "ISS_MM": 0.21042153746045233,
+      "Vazamento_Outros_Estados_MM": 37.0804397925956
+    },
+    {
+      "Setor": "Utilidades Públicas",
+      "Impacto_Producao_MM": 188.22056081548067,
+      "Empregos_Gerados": 412.3521622585402,
+      "ICMS_MM": 12.173103352461112,
+      "ISS_MM": 1.2896293320881094,
+      "Vazamento_Outros_Estados_MM": 0.010736096966246503
+    },
+    {
+      "Setor": "Construção Civil",
+      "Impacto_Producao_MM": 5.900617512651152,
+      "Empregos_Gerados": 50.155248857534794,
+      "ICMS_MM": 0.15332078960192522,
+      "ISS_MM": 0.04222733576348911,
+      "Vazamento_Outros_Estados_MM": 0.0
+    },
+    {
+      "Setor": "Comércio",
+      "Impacto_Producao_MM": 203.31648665070693,
+      "Empregos_Gerados": 2439.7978398084833,
+      "ICMS_MM": 19.120618869561422,
+      "ISS_MM": 0.18545765660003327,
+      "Vazamento_Outros_Estados_MM": 0.0
+    },
+    {
+      "Setor": "Transportes e Logística",
+      "Impacto_Producao_MM": 341.54225601228063,
+      "Empregos_Gerados": 1878.4824080675435,
+      "ICMS_MM": 11.012526419087196,
+      "ISS_MM": 3.0330501943700523,
+      "Vazamento_Outros_Estados_MM": 0.42453034267007717
+    },
+    {
+      "Setor": "Alojamento e Alimentação",
+      "Impacto_Producao_MM": 759.2428373368355,
+      "Empregos_Gerados": 11334.9704336662,
+      "ICMS_MM": 36.895213627128676,
+      "ISS_MM": 10.161613294214716,
+      "Vazamento_Outros_Estados_MM": 21.69972969238679
+    },
+    {
+      "Setor": "Serviços Profissionais e TI",
+      "Impacto_Producao_MM": 497.24803588850375,
+      "Empregos_Gerados": 2402.461930344599,
+      "ICMS_MM": 23.302235844863095,
+      "ISS_MM": 4.321367907145391,
+      "Vazamento_Outros_Estados_MM": 100.03452263024585
+    },
+    {
+      "Setor": "Cultura, Lazer e Pessoais",
+      "Impacto_Producao_MM": 800.0,
+      "Empregos_Gerados": 9600.0,
+      "ICMS_MM": 19.69577780974768,
+      "ISS_MM": 5.42457565509987,
+      "Vazamento_Outros_Estados_MM": 0.0
+    }
+  ],
+  "totais": {
+    "choque": 2000.0,
+    "producao_total_rj": 2925.340111563631,
+    "icms_rj": 127.15990167196549,
+    "iss_rj": 25.676544163435615,
+    "arrecadacao_total_rj": 152.8364458354011,
+    "multiplicador": 1.4626700557818155,
+    "empregos": 28502.43430808265,
+    "vazamento_brasil": 257.58735686579433
+  }
+}

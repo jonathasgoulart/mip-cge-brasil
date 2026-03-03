@@ -1,0 +1,68 @@
+ID;Setor;VAB (R$ Mi);Impostos (R$ Mi);Carga (%)
+1;Agricultura, inclusive o apoio ÃÂ  agricultura e a pÃÂ³s-colheita;0,0;0,0;0,0
+2;PecuÃÂ¡ria, inclusive o apoio ÃÂ  pecuÃÂ¡ria;138076,4253791614;5254,100191225278;3,8052116259509066
+3;"ProduÃÂ§ÃÂ£o florestal; pesca e aquicultura";28599,41487399023;14270,71885030606;49,89863923154799
+4;ExtraÃÂ§ÃÂ£o de carvÃÂ£o mineral e de minerais nÃÂ£o metÃÂ¡licos;15992,07069665781;4257,649330384891;26,623502429080055
+5;ExtraÃÂ§ÃÂ£o de petrÃÂ³leo e gÃÂ¡s, inclusive as atividades de apoio;82401,27671944448;21938,105908994272;26,623502429080048
+6;ExtraÃÂ§ÃÂ£o de minÃÂ©rio de ferro, inclusive beneficiamentos e a aglomeraÃÂ§ÃÂ£o;195220,2122279026;51974,45794455088;26,623502429080048
+7;ExtraÃÂ§ÃÂ£o de minerais metÃÂ¡licos nÃÂ£o ferrosos, inclusive beneficiamentos;96088,3290634251;28038,66360696883;29,180092816955245
+8;Abate e produtos de carne, inclusive os produtos do laticÃÂ­nio e da pesca;13109,51833283477;3075,517983017722;23,460190564855633
+9;FabricaÃÂ§ÃÂ£o e refino de aÃÂ§ÃÂºcar;36345,88379315456;8526,813600355039;23,460190564855633
+10;Outros produtos alimentares;47037,68132045975;11035,129675069355;23,460190564855623
+11;FabricaÃÂ§ÃÂ£o de bebidas;157621,16154982502;36978,2248701279;23,460190564855633
+12;FabricaÃÂ§ÃÂ£o de produtos do fumo;56237,0311380038;13193,314672992889;23,46019056485563
+13;FabricaÃÂ§ÃÂ£o de produtos tÃÂªxteis;19150,484025399957;4492,7400464510665;23,460190564855633
+14;ConfecÃÂ§ÃÂ£o de artefatos do vestuÃÂ¡rio e acessÃÂ³rios;53737,01440809095;12606,805984002061;23,460190564855626
+15;FabricaÃÂ§ÃÂ£o de calÃÂ§ados e de artefatos de couro;47960,730202055674;11251,678701698529;23,46019056485563
+16;FabricaÃÂ§ÃÂ£o de produtos da madeira;27887,197295059774;6542,38962861829;23,460190564855637
+17;FabricaÃÂ§ÃÂ£o de celulose, papel e produtos de papel;3042,724988007799;713,8290805511102;23,46019056485563
+18;ImpressÃÂ£o e reproduÃÂ§ÃÂ£o de gravaÃÂ§ÃÂµes;42253,39663536853;9912,727370781755;23,460190564855633
+19;Refino de petrÃÂ³leo e coquerias;360611,84379071963;89000,22575274232;24,680339064069518
+20;FabricaÃÂ§ÃÂ£o de biocombustÃÂ­veis;117098,20354067732;27471,461698665426;23,460190564855633
+21;FabricaÃÂ§ÃÂ£o de quÃÂ­micos orgÃÂ¢nicos e inorgÃÂ¢nicos, resinas e elastÃÂ´meros;36910,834192974726;8659,352040749762;23,46019056485563
+22;FabricaÃÂ§ÃÂ£o de defensivos, desinfestantes, tintas e quÃÂ­micos diversos;274932,8896510643;64499,77983760394;23,460190564855633
+23;FabricaÃÂ§ÃÂ£o de produtos de limpeza, cosmÃÂ©ticos/perfumaria e higiene pessoal;32191,0517188866;7552,08207808203;23,460190564855633
+24;FabricaÃÂ§ÃÂ£o de produtos farmoquÃÂ­micos e farmacÃÂªuticos;117634,23915625471;27597,216675575375;23,46019056485563
+25;FabricaÃÂ§ÃÂ£o de produtos de borracha e de material plÃÂ¡stico;9257,179386029575;2171,7519248930707;23,460190564855633
+26;FabricaÃÂ§ÃÂ£o de produtos de minerais nÃÂ£o metÃÂ¡licos;43659,09999240138;10242,508057118233;23,46019056485563
+27;ProduÃÂ§ÃÂ£o de ferro gusa/ferroligas, siderurgia e tubos de aÃÂ§o sem costura;101441,9599803068;23798,47712410456;23,460190564855633
+28;Metalurgia de metais nÃÂ£o ferosos e a fundiÃÂ§ÃÂ£o de metais;79502,31138256633;18651,393753814973;23,460190564855633
+29;FabricaÃÂ§ÃÂ£o de produtos de metal, exceto mÃÂ¡quinas e equipamentos;53043,059586264615;12444,0028603676;23,46019056485563
+30;FabricaÃÂ§ÃÂ£o de equipamentos de informÃÂ¡tica, produtos eletrÃÂ´nicos e ÃÂ³pticos;135630,3560261166;31819,13998751912;23,460190564855637
+31;FabricaÃÂ§ÃÂ£o de mÃÂ¡quinas e equipamentos elÃÂ©tricos;25169,207576239947;5904,7440610499725;23,46019056485563
+32;FabricaÃÂ§ÃÂ£o de mÃÂ¡quinas e equipamentos mecÃÂ¢nicos;29986,85547391897;7034,973438589231;23,460190564855623
+33;FabricaÃÂ§ÃÂ£o de automÃÂ³veis, caminhÃÂµes e ÃÂ´nibus, exceto peÃÂ§as;75658,86929245121;17749,714915224096;23,460190564855633
+34;FabricaÃÂ§ÃÂ£o de peÃÂ§as e acessÃÂ³rios para veÃÂ­culos automotores;73877,27374026245;17331,74920358562;23,460190564855633
+35;FabricaÃÂ§ÃÂ£o de outros equipamentos de transporte, exceto veÃÂ­culos automotores;220081,54394254068;51631,54960699654;23,460190564855633
+36;FabricaÃÂ§ÃÂ£o de mÃÂ³veis e de produtos de indÃÂºstrias diversas;173973,58414619448;40814,534373206676;23,460190564855623
+37;ManutenÃÂ§ÃÂ£o, reparaÃÂ§ÃÂ£o e instalaÃÂ§ÃÂ£o de mÃÂ¡quinas e equipamentos;33578,96136253928;7877,688325350958;23,46019056485563
+38;Energia elÃÂ©trica, gÃÂ¡s natural e outras utilidades;98918,09402291194;4774,514683510715;4,826735422545461
+39;ÃÂgua, esgoto e gestÃÂ£o de resÃÂ­duos;181436,32480727116;8757,451358837196;4,826735422545462
+40;ConstruÃÂ§ÃÂ£o;347646,40423931496;10543,90693503681;3,0329400236737474
+41;ComÃÂ©rcio por atacado e varejo;814020,1034410713;29479,80590257887;3,621508335968631
+42;Transporte terrestre;101508,0883978387;18752,605330932623;18,47400106426583
+43;Transporte aquaviÃÂ¡rio;67410,91615198825;12453,493367349656;18,47400106426583
+44;Transporte aÃÂ©reo;55293,547555511126;4349,178761957008;7,865617154679241
+45;Armazenamento, atividades auxiliares dos transportes e correio;147279,373732171;11584,431685581796;7,865617154679243
+46;Alojamento;101422,9319495308;3827,828660551647;3,774125424077089
+47;AlimentaÃÂ§ÃÂ£o;55561,33398739123;2096,954431974518;3,7741254240770905
+48;EdiÃÂ§ÃÂ£o e ediÃÂ§ÃÂ£o integrada ÃÂ  impressÃÂ£o;90932,26763847643;16496,919907805328;18,14198670750507
+49;Atividades de televisÃÂ£o, rÃÂ¡dio, cinema e  gravaÃÂ§ÃÂ£o/ediÃÂ§ÃÂ£o de som e imagem;9182,052902291573;1665,80681700982;18,141986707505065
+50;TelecomunicaÃÂ§ÃÂµes;18348,463465737674;3328,7758029855513;18,141986707505062
+51;Desenvolvimento de sistemas e outros serviÃÂ§os de informaÃÂ§ÃÂ£o;125616,9194084737;29204,22219013416;23,248637466717035
+52;IntermediaÃÂ§ÃÂ£o financeira, seguros e previdÃÂªncia complementar;347167,1238563605;39227,036019485626;11,299179364609339
+53;Atividades imobiliÃÂ¡rias;371390,5773703322;15266,055947932764;4,110512457269537
+54;Atividades jurÃÂ­dicas, contÃÂ¡beis, consultoria e sedes de empresas;71828,85410121184;8098,256937770152;11,274378575438703
+55;ServiÃÂ§os de arquitetura, engenharia, testes/anÃÂ¡lises tÃÂ©cnicas e P & D;88249,31353088007;9949,56169769727;11,274378575438702
+56;Outras atividades profissionais, cientÃÂ­ficas e tÃÂ©cnicas;92831,92806793776;10466,223009258241;11,274378575438702
+57;AluguÃÂ©is nÃÂ£o imobiliÃÂ¡rios e gestÃÂ£o de ativos de propriedade intelectual;81065,50652909734;9139,632100187413;11,274378575438702
+58;Outras atividades administrativas e serviÃÂ§os complementares;68835,98518032802;7760,829565363062;11,274378575438702
+59;Atividades de vigilÃÂ¢ncia, seguranÃÂ§a e investigaÃÂ§ÃÂ£o;57537,271409724264;6486,969800709969;11,2743785754387
+60;AdministraÃÂ§ÃÂ£o pÃÂºblica, defesa e seguridade social;191097,3760549317;4543,710237216945;2,377693682152306
+61;EducaÃÂ§ÃÂ£o pÃÂºblica;406884,90017092816;9674,476564995879;2,3776936821523065
+62;EducaÃÂ§ÃÂ£o privada;118619,09879761166;16150,276714425245;13,615241456167954
+63;SaÃÂºde pÃÂºblica;266828,3965678968;6344,361927383185;2,3776936821523065
+64;SaÃÂºde privada;139790,5875124619;19032,826022817448;13,615241456167947
+65;Atividades artÃÂ­sticas, criativas e de espetÃÂ¡culos;45226,07540958601;4255,637137910199;9,40969805442854
+66;OrganizaÃÂ§ÃÂµes associativas e outros serviÃÂ§os pessoais;66725,23156473806;6278,642816360094;9,409698054428537
+67;ServiÃÂ§os domÃÂ©sticos;30343,97558874175;12094,394502905383;39,85764642979959

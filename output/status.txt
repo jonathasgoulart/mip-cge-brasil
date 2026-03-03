@@ -1,0 +1,131 @@
+Iniciando Ato 1: Consolidação de Dados (Corrigido)
+[ATO 1] Lendo Matriz Nacional (MIP 2015)...
+[ATO 1] Z_nas (67, 67) e X_nas (67,) salvos.
+[ATO 1] Agregando Regiões (Contas Regionais 2021)...
+[ATO 1] ERRO FATAL: [Errno 2] No such file or directory: 'data/processed/contas_regionais_2021_t1/Tabela1.21.csv'
+[ATO 1] Iniciando Ato 1: Consolidação de Dados (Multi-Fonte)
+[ATO 1] Lendo Matriz Nacional (MIP 2015)...
+[ATO 1] Z_nas (67, 67) e X_nas (67,) salvos.
+[ATO 1] Agregando Regiões (Multi-Tabela)...
+[ATO 1]   AVISO: UF 21 não encontrada em T1 ou T2.
+[ATO 1]   AVISO: UF 22 não encontrada em T1 ou T2.
+[ATO 1]   AVISO: UF 23 não encontrada em T1 ou T2.
+[ATO 1]   Região Sul processada.
+[ATO 1]   AVISO: UF 24 não encontrada em T1 ou T2.
+[ATO 1]   AVISO: UF 25 não encontrada em T1 ou T2.
+[ATO 1]   AVISO: UF 26 não encontrada em T1 ou T2.
+[ATO 1]   AVISO: UF 27 não encontrada em T1 ou T2.
+[ATO 1]   Região Centro_Oeste processada.
+[ATO 1] ERRO FATAL: operands could not be broadcast together with shapes (67,) (52,) (67,) 
+[ATO 1] Iniciando Ato 1 (Versão Robusta)
+[ATO 1] Lendo Matriz Nacional...
+[ATO 1] MIP Nacional salva. Z: (67, 67), X: (67,)
+[ATO 1] Processando Sul...
+[ATO 1]   AVISO: UF 21 não encontrada pelo índice. Tentando busca manual...
+[ATO 1]   AVISO: UF 22 não encontrada pelo índice. Tentando busca manual...
+[ATO 1]   AVISO: UF 23 não encontrada pelo índice. Tentando busca manual...
+[ATO 1] Processando Centro_Oeste...
+[ATO 1]   AVISO: UF 24 não encontrada pelo índice. Tentando busca manual...
+[ATO 1]   AVISO: UF 25 não encontrada pelo índice. Tentando busca manual...
+[ATO 1]   AVISO: UF 26 não encontrada pelo índice. Tentando busca manual...
+[ATO 1]   AVISO: UF 27 não encontrada pelo índice. Tentando busca manual...
+[ATO 1] Processando Norte_Nordeste...
+[ATO 1] Processando Rio_de_Janeiro...
+[ATO 1] Processando Sao_Paulo...
+[ATO 1]   AVISO: UF 20 não encontrada pelo índice. Tentando busca manual...
+[ATO 1] Processando Minas_EspiritoSanto...
+[ATO 1] Ato 1 CONCLUÍDO com sucesso.
+[ATO 2] Iniciando Ato 2: Cálculos Matemáticos (FLQ)
+[ATO 2]   Calculando regionalização para: Centro_Oeste
+[ATO 2]     AVISO: VAB total da região Centro_Oeste é zero. Pulando.
+[ATO 2]   Calculando regionalização para: Minas_EspiritoSanto
+[ATO 2]     Matriz A_Minas_EspiritoSanto salva.
+[ATO 2]   Calculando regionalização para: Norte_Nordeste
+[ATO 2]     Matriz A_Norte_Nordeste salva.
+[ATO 2]   Calculando regionalização para: Rio_de_Janeiro
+[ATO 2]     Matriz A_Rio_de_Janeiro salva.
+[ATO 2]   Calculando regionalização para: Sao_Paulo
+[ATO 2]     AVISO: VAB total da região Sao_Paulo é zero. Pulando.
+[ATO 2]   Calculando regionalização para: Sul
+[ATO 2]     AVISO: VAB total da região Sul é zero. Pulando.
+[ATO 2] FIM DO ATO 2: Cálculos concluídos.
+[ATO 2] Iniciando Ato 2: Cálculos Matemáticos (FLQ)
+[ATO 2]   Calculando regionalização para: Centro_Oeste
+[ATO 2]     Matriz A_Centro_Oeste salva.
+[ATO 2]   Calculando regionalização para: Minas_EspiritoSanto
+[ATO 2]     Matriz A_Minas_EspiritoSanto salva.
+[ATO 2]   Calculando regionalização para: nacional
+[ATO 2]     AVISO: VAB total da região nacional é zero. Pulando.
+[ATO 2]   Calculando regionalização para: Norte_Nordeste
+[ATO 2]     Matriz A_Norte_Nordeste salva.
+[ATO 2]   Calculando regionalização para: Rio_de_Janeiro
+[ATO 2]     Matriz A_Rio_de_Janeiro salva.
+[ATO 2]   Calculando regionalização para: Sao_Paulo
+[ATO 2]     Matriz A_Sao_Paulo salva.
+[ATO 2]   Calculando regionalização para: Sul
+[ATO 2]     Matriz A_Sul salva.
+[ATO 2] FIM DO ATO 2: Cálculos concluídos.
+[ATO 2] Iniciando Ato 2: Cálculos Matemáticos (FLQ)
+[ATO 2]   Calculando regionalização para: Centro_Oeste
+[ATO 2]     Matriz A_Centro_Oeste salva.
+[ATO 2]   Calculando regionalização para: Minas_EspiritoSanto
+[ATO 2]     Matriz A_Minas_EspiritoSanto salva.
+[ATO 2]   Calculando regionalização para: nacional
+[ATO 2]     AVISO: VAB total da região nacional é zero. Pulando.
+[ATO 2]   Calculando regionalização para: Norte_Nordeste
+[ATO 2]     Matriz A_Norte_Nordeste salva.
+[ATO 2]   Calculando regionalização para: Rio_de_Janeiro
+[ATO 2]     Matriz A_Rio_de_Janeiro salva.
+[ATO 2]   Calculando regionalização para: Sao_Paulo
+[ATO 2]     Matriz A_Sao_Paulo salva.
+[ATO 2]   Calculando regionalização para: Sul
+[ATO 2]     Matriz A_Sul salva.
+[ATO 2] FIM DO ATO 2: Cálculos concluídos.
+[ATO 2] Iniciando Ato 2: Cálculos Matemáticos (FLQ)
+[ATO 2]   Calculando regionalização para: Centro_Oeste
+[ATO 2]     Matriz A_Centro_Oeste salva.
+[ATO 2]   Calculando regionalização para: Minas_EspiritoSanto
+[ATO 2]     Matriz A_Minas_EspiritoSanto salva.
+[ATO 2]   Calculando regionalização para: nacional
+[ATO 2]     Matriz A_nacional salva.
+[ATO 2]   Calculando regionalização para: Norte_Nordeste
+[ATO 2]     Matriz A_Norte_Nordeste salva.
+[ATO 2]   Calculando regionalização para: Rio_de_Janeiro
+[ATO 2]     Matriz A_Rio_de_Janeiro salva.
+[ATO 2]   Calculando regionalização para: Sao_Paulo
+[ATO 2]     Matriz A_Sao_Paulo salva.
+[ATO 2]   Calculando regionalização para: Sul
+[ATO 2]     Matriz A_Sul salva.
+[ATO 2] FIM DO ATO 2: Cálculos concluídos.
+[ATO 2] Iniciando Ato 2: Cálculos Matemáticos (FLQ)
+[ATO 2]   Calculando regionalização para: Centro_Oeste
+[ATO 2]     Matriz A_Centro_Oeste salva.
+[ATO 2]   Calculando regionalização para: Minas_EspiritoSanto
+[ATO 2]     Matriz A_Minas_EspiritoSanto salva.
+[ATO 2]   Calculando regionalização para: nacional
+[ATO 2]     Matriz A_nacional salva.
+[ATO 2]   Calculando regionalização para: Norte_Nordeste
+[ATO 2]     Matriz A_Norte_Nordeste salva.
+[ATO 2]   Calculando regionalização para: Rio_de_Janeiro
+[ATO 2]     Matriz A_Rio_de_Janeiro salva.
+[ATO 2]   Calculando regionalização para: Sao_Paulo
+[ATO 2]     Matriz A_Sao_Paulo salva.
+[ATO 2]   Calculando regionalização para: Sul
+[ATO 2]     Matriz A_Sul salva.
+[ATO 2] FIM DO ATO 2: Cálculos concluídos.
+[ATO 2] Iniciando Ato 2: Cálculos Matemáticos (FLQ)
+[ATO 2]   Calculando regionalização para: Centro_Oeste
+[ATO 2]     Matriz A_Centro_Oeste salva.
+[ATO 2]   Calculando regionalização para: Minas_EspiritoSanto
+[ATO 2]     Matriz A_Minas_EspiritoSanto salva.
+[ATO 2]   Calculando regionalização para: nacional
+[ATO 2]     Matriz A_nacional salva.
+[ATO 2]   Calculando regionalização para: Norte_Nordeste
+[ATO 2]     Matriz A_Norte_Nordeste salva.
+[ATO 2]   Calculando regionalização para: Rio_de_Janeiro
+[ATO 2]     Matriz A_Rio_de_Janeiro salva.
+[ATO 2]   Calculando regionalização para: Sao_Paulo
+[ATO 2]     Matriz A_Sao_Paulo salva.
+[ATO 2]   Calculando regionalização para: Sul
+[ATO 2]     Matriz A_Sul salva.
+[ATO 2] FIM DO ATO 2: Cálculos concluídos.

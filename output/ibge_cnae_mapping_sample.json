@@ -1,0 +1,314 @@
+{
+  "columns": [
+    "Unnamed: 0",
+    "Unnamed: 1",
+    "Unnamed: 2",
+    "Unnamed: 3"
+  ],
+  "shape": [
+    73,
+    4
+  ],
+  "sample_rows": [
+    {
+      "Unnamed: 0": "Correspondência entre atividades-contas de divulgação e a Cnae 2.0 (2/3/4 dígitos)",
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN
+    },
+    {
+      "Unnamed: 0": NaN,
+      "Unnamed: 1": NaN,
+      "Unnamed: 2": NaN,
+      "Unnamed: 3": NaN
+    },
+    {
+      "Unnamed: 0": "Ativ_Divulg.",
+      "Unnamed: 1": "Descr_Ativ_Divulgação",
+      "Unnamed: 2": "RESUMO_CNAE 2.0_ATIV",
+      "Unnamed: 3": "Seção_ISIC Rev.4 (1)"
+    },
+    {
+      "Unnamed: 0": "0191",
+      "Unnamed: 1": "Agricultura, inclusive o apoio à agricultura e a pós-colheita",
+      "Unnamed: 2": "011 + 012 + 013 + 014 + 0161 + 0163",
+      "Unnamed: 3": "A"
+    },
+    {
+      "Unnamed: 0": "0192",
+      "Unnamed: 1": "Pecuária, inclusive o apoio à pecuária",
+      "Unnamed: 2": "015 + 0162 + 017",
+      "Unnamed: 3": "A"
+    },
+    {
+      "Unnamed: 0": "0280",
+      "Unnamed: 1": "Produção florestal; pesca e aquicultura",
+      "Unnamed: 2": "02 + 03",
+      "Unnamed: 3": "A"
+    },
+    {
+      "Unnamed: 0": "0580",
+      "Unnamed: 1": "Extração de carvão mineral e de minerais não-metálicos",
+      "Unnamed: 2": "05 + 08",
+      "Unnamed: 3": "B"
+    },
+    {
+      "Unnamed: 0": "0680",
+      "Unnamed: 1": "Extração de petróleo e gás, inclusive as atividades de apoio",
+      "Unnamed: 2": "06 + 09",
+      "Unnamed: 3": "B"
+    },
+    {
+      "Unnamed: 0": "0791",
+      "Unnamed: 1": "Extração de minério de ferro, inclusive beneficiamentos e a aglomeração",
+      "Unnamed: 2": "071",
+      "Unnamed: 3": "B"
+    },
+    {
+      "Unnamed: 0": "0792",
+      "Unnamed: 1": "Extração de minerais metálicos não-ferrosos, inclusive beneficiamentos",
+      "Unnamed: 2": "072",
+      "Unnamed: 3": "B"
+    },
+    {
+      "Unnamed: 0": "1091",
+      "Unnamed: 1": "Abate e produtos de carne, inclusive os produtos do laticínio e da pesca",
+      "Unnamed: 2": "101 + 102 + 105",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "1092",
+      "Unnamed: 1": "Fabricação e refino de açúcar",
+      "Unnamed: 2": "107",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "1093",
+      "Unnamed: 1": "Outros produtos alimentares",
+      "Unnamed: 2": "103 + 104 + 106 + 108 + 109",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "1100",
+      "Unnamed: 1": "Fabricação de bebidas",
+      "Unnamed: 2": "11",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "1200",
+      "Unnamed: 1": "Fabricação de produtos do fumo",
+      "Unnamed: 2": "12",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "1300",
+      "Unnamed: 1": "Fabricação de produtos têxteis",
+      "Unnamed: 2": "13",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "1400",
+      "Unnamed: 1": "Confecção de artefatos do vestuário e acessórios",
+      "Unnamed: 2": "14",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "1500",
+      "Unnamed: 1": "Fabricação de calçados e de artefatos de couro",
+      "Unnamed: 2": "15",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "1600",
+      "Unnamed: 1": "Fabricação de produtos da madeira",
+      "Unnamed: 2": "16",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "1700",
+      "Unnamed: 1": "Fabricação de celulose, papel e produtos de papel",
+      "Unnamed: 2": "17",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "1800",
+      "Unnamed: 1": "Impressão e reprodução de gravações",
+      "Unnamed: 2": "18",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "1991",
+      "Unnamed: 1": "Refino de petróleo e coquerias",
+      "Unnamed: 2": "191 + 192",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "1992",
+      "Unnamed: 1": "Fabricação de biocombustíveis",
+      "Unnamed: 2": "193",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "2091",
+      "Unnamed: 1": "Fabricação de químicos orgânicos e inorgânicos, resinas e elastômeros",
+      "Unnamed: 2": "201 + 202 + 203 + 204",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "2092",
+      "Unnamed: 1": "Fabricação de defensivos, desinfestantes, tintas e químicos diversos",
+      "Unnamed: 2": "205 + 207 + 209",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "2093",
+      "Unnamed: 1": "Fabricação de produtos de limpeza, cosméticos/perfumaria e higiene pessoal",
+      "Unnamed: 2": "206",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "2100",
+      "Unnamed: 1": "Fabricação de produtos farmoquímicos e farmacêuticos",
+      "Unnamed: 2": "21",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "2200",
+      "Unnamed: 1": "Fabricação de produtos de borracha e de material plástico",
+      "Unnamed: 2": "22",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "2300",
+      "Unnamed: 1": "Fabricação de produtos de minerais não-metálicos",
+      "Unnamed: 2": "23",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "2491",
+      "Unnamed: 1": "Produção de ferro-gusa/ferroligas, siderurgia e tubos de aço sem costura",
+      "Unnamed: 2": "241 + 242 + 243",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "2492",
+      "Unnamed: 1": "Metalurgia de metais não-ferosos e a fundição de metais",
+      "Unnamed: 2": "244 + 245",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "2500",
+      "Unnamed: 1": "Fabricação de produtos de metal, exceto máquinas e equipamentos",
+      "Unnamed: 2": "25",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "2600",
+      "Unnamed: 1": "Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",
+      "Unnamed: 2": "26",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "2700",
+      "Unnamed: 1": "Fabricação de máquinas e equipamentos elétricos",
+      "Unnamed: 2": "27",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "2800",
+      "Unnamed: 1": "Fabricação de máquinas e equipamentos mecânicos",
+      "Unnamed: 2": "28",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "2991",
+      "Unnamed: 1": "Fabricação de automóveis, caminhões e ônibus, exceto peças",
+      "Unnamed: 2": "291 + 292 + 293",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "2992",
+      "Unnamed: 1": "Fabricação de peças e acessórios para veículos automotores",
+      "Unnamed: 2": "294 + 295",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "3000",
+      "Unnamed: 1": "Fabricação de outros equipamentos de transporte, exceto veículos automotores",
+      "Unnamed: 2": "30",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "3180",
+      "Unnamed: 1": "Fabricação de móveis e de produtos de indústrias diversas",
+      "Unnamed: 2": "31 + 32",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "3300",
+      "Unnamed: 1": "Manutenção, reparação e instalação de máquinas e equipamentos",
+      "Unnamed: 2": "33",
+      "Unnamed: 3": "C"
+    },
+    {
+      "Unnamed: 0": "3500",
+      "Unnamed: 1": "Energia elétrica, gás natural e outras utilidades",
+      "Unnamed: 2": "35",
+      "Unnamed: 3": "D"
+    },
+    {
+      "Unnamed: 0": "3680",
+      "Unnamed: 1": "Água, esgoto e gestão de resíduos",
+      "Unnamed: 2": "36 + 37 + 38 + 39",
+      "Unnamed: 3": "E"
+    },
+    {
+      "Unnamed: 0": "4180",
+      "Unnamed: 1": "Construção",
+      "Unnamed: 2": "41 + 42 + 43",
+      "Unnamed: 3": "F"
+    },
+    {
+      "Unnamed: 0": "4500",
+      "Unnamed: 1": "Comércio e reparação de veículos automotores e motocicletas",
+      "Unnamed: 2": "45",
+      "Unnamed: 3": "G"
+    },
+    {
+      "Unnamed: 0": "4680",
+      "Unnamed: 1": "Comércio por atacado e a varejo, exceto veículos automotores",
+      "Unnamed: 2": "46 + 47",
+      "Unnamed: 3": "G"
+    },
+    {
+      "Unnamed: 0": "4900",
+      "Unnamed: 1": "Transporte terrestre",
+      "Unnamed: 2": "49",
+      "Unnamed: 3": "H"
+    },
+    {
+      "Unnamed: 0": "5000",
+      "Unnamed: 1": "Transporte aquaviário",
+      "Unnamed: 2": "50",
+      "Unnamed: 3": "H"
+    },
+    {
+      "Unnamed: 0": "5100",
+      "Unnamed: 1": "Transporte aéreo",
+      "Unnamed: 2": "51",
+      "Unnamed: 3": "H"
+    },
+    {
+      "Unnamed: 0": "5280",
+      "Unnamed: 1": "Armazenamento, atividades auxiliares dos transportes e correio",
+      "Unnamed: 2": "52 + 53",
+      "Unnamed: 3": "H"
+    },
+    {
+      "Unnamed: 0": "5500",
+      "Unnamed: 1": "Alojamento",
+      "Unnamed: 2": "55",
+      "Unnamed: 3": "I"
+    }
+  ]
+}

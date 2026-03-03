@@ -1,0 +1,38 @@
+{
+  "version": "v3_make",
+  "total_brasil_bilhoes": 537.0,
+  "methodology": "Official IBGE Make matrix",
+  "top_5_ufs": [
+    {
+      "uf": "SP",
+      "icms_bilhoes": 153.53003954235314,
+      "share_pct": 28.590323937123486
+    },
+    {
+      "uf": "MG",
+      "icms_bilhoes": 55.77420914459063,
+      "share_pct": 10.386258686143506
+    },
+    {
+      "uf": "PR",
+      "icms_bilhoes": 37.07316753923294,
+      "share_pct": 6.9037555938981265
+    },
+    {
+      "uf": "RS",
+      "icms_bilhoes": 35.241323265102125,
+      "share_pct": 6.562630030745274
+    },
+    {
+      "uf": "RJ",
+      "icms_bilhoes": 29.570989172537498,
+      "share_pct": 5.506701894327281
+    }
+  ],
+  "statistics": {
+    "mean_coefficient_pct": Infinity,
+    "min_coefficient_pct": 6.662792347073155e-08,
+    "max_coefficient_pct": Infinity,
+    "extreme_coefficients_count": 243
+  }
+}

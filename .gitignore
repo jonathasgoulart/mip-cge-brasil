@@ -1,0 +1,29 @@
+# General
+.vscode/
+.idea/
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+venv/
+ENV/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project Specific
+node_modules/
+dist/
+*.log
+temporary_scripts/
+tmp/
+.gemini/
+brain/
+
+# Matrices & Large Data (ONLY include finalized MRIO/A matrices)
+# If a matrix is exceptionally large (e.g., > 100MB), it should be handled via Git LFS
+# data/raw/
+# data/intermediary/
+# output/archive/

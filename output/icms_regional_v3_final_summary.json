@@ -1,0 +1,36 @@
+{
+  "version": "v3_final",
+  "total_brasil_bilhoes": 537.0,
+  "top_5_ufs": [
+    {
+      "uf": "SP",
+      "icms_bilhoes": 153.5300395423531,
+      "share_pct": 28.590323937123486
+    },
+    {
+      "uf": "MG",
+      "icms_bilhoes": 55.77420914459063,
+      "share_pct": 10.386258686143506
+    },
+    {
+      "uf": "PR",
+      "icms_bilhoes": 37.07316753923295,
+      "share_pct": 6.903755593898128
+    },
+    {
+      "uf": "RS",
+      "icms_bilhoes": 35.24132326510212,
+      "share_pct": 6.5626300307452725
+    },
+    {
+      "uf": "RJ",
+      "icms_bilhoes": 29.570989172537494,
+      "share_pct": 5.50670189432728
+    }
+  ],
+  "statistics": {
+    "mean_coefficient_pct": 12.658141920269136,
+    "min_coefficient_pct": 0.24879234405802614,
+    "max_coefficient_pct": 1199.209993728057
+  }
+}

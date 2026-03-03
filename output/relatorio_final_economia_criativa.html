@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo de Impacto: Economia Criativa do Rio de Janeiro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #f8fafc; color: #1e293b; }
+        .card { background: white; border-radius: 12px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1); padding: 24px; margin-bottom: 24px; }
+        h1 { background: linear-gradient(135deg, #2563eb, #7c3aed); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .gradient-bg { background: linear-gradient(135deg, #1e40af, #4c1d95); color: white; }
+        table { width: 100%; border-collapse: collapse; margin-top: 16px; margin-bottom: 16px; }
+        th { background-color: #f1f5f9; text-align: left; padding: 12px 16px; font-weight: 600; border-bottom: 2px solid #e2e8f0; font-size: 0.875rem; color: #475569; text-transform: uppercase; letter-spacing: 0.05em; }
+        td { padding: 12px 16px; border-bottom: 1px solid #e2e8f0; font-size: 0.9rem; }
+        tr:hover td { background-color: #f8fafc; }
+        .number-col { text-align: right; font-variant-numeric: tabular-nums; }
+        .badge-creative { background-color: #dbeafe; color: #1e40af; padding: 2px 8px; border-radius: 9999px; font-size: 0.75rem; font-weight: 600; }
+        .badge-noncreative { background-color: #f1f5f9; color: #475569; padding: 2px 8px; border-radius: 9999px; font-size: 0.75rem; font-weight: 600; }
+    </style>
+</head>
+<body class="p-8 max-w-7xl mx-auto">
+    
+    <header class="text-center mb-12">
+        <h1 class="text-4xl font-bold mb-4">Impacto Econômico da Economia Criativa no Rio de Janeiro</h1>
+        <p class="text-xl text-slate-600 max-w-3xl mx-auto">Análise de Insumo-Produto Multi-Regional (MRIO v4 2021) com calibração econométrica (Modelagem Gravitacional e Coeficientes FLQ). Avaliação do efeito multiplicador de grandes eventos e transbordamentos estaduais e intra-setoriais.</p>
+    </header>
+
+
+    <div class="card gradient-bg mb-8">
+        <h2 class="text-2xl font-bold mb-6 border-b border-white/20 pb-2">Panorama Macroestrutural (Matriz 67x67 RJ)</h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div>
+                <p class="text-indigo-200 text-sm font-semibold uppercase tracking-wider mb-1">VAB Criativo (RJ)</p>
+                <p class="text-3xl font-bold">R$ 157,0 Bi</p>
+                <p class="text-sm mt-1 text-indigo-100">10,0% do PIB Estadual</p>
+            </div>
+            <div>
+                <p class="text-indigo-200 text-sm font-semibold uppercase tracking-wider mb-1">Especialização (LQ)</p>
+                <p class="text-3xl font-bold">1,16</p>
+                <p class="text-sm mt-1 text-indigo-100">Vantagem comparativa latente</p>
+            </div>
+            <div>
+                <p class="text-indigo-200 text-sm font-semibold uppercase tracking-wider mb-1">Multiplicador Médio</p>
+                <p class="text-3xl font-bold">1,48x</p>
+                <p class="text-sm mt-1 text-indigo-100">R$1 de demanda = R$1,48 de VBP</p>
+            </div>
+            <div>
+                <p class="text-indigo-200 text-sm font-semibold uppercase tracking-wider mb-1">Spillover Nao-Criativo</p>
+                <p class="text-3xl font-bold">22,7%</p>
+                <p class="text-sm mt-1 text-indigo-100">Vazamento inter-setorial</p>
+            </div>
+        </div>
+    </div>
+
+    <h2 class="text-3xl font-bold mb-6 mt-12 text-slate-800 border-b-2 border-indigo-500 pb-2 inline-block">Raio-X da Economia Criativa do RJ</h2>
+    <p class="text-slate-600 mb-8 max-w-4xl">O ecossistema criativo fluminense é heterogêneo. A tabela abaixo detalha o perfil econômico e inter-setorial de cada sub-segmento, evidenciando o Valor Adicionado Bruto (VAB), a especialização local (Location Quotient > 1 indica vantagem comparativa face ao resto do Brasil) e as métricas de encadeamento.</p>
+
+    <div class="overflow-x-auto mb-12">
+        <table>
+            <thead>
+                <tr>
+                    <th>Segmento Criativo</th>
+                    <th class="number-col">VAB (R$ Mi)</th>
+                    <th class="number-col">Especialização (LQ)</th>
+                    <th class="number-col">Mult. de Produção</th>
+                    <th class="number-col">Mult. de Emprego</th>
+                    <th class="number-col">Empregos Totais base</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td class="font-medium text-slate-700">Design & Serviços Criativos</td>
+                    <td class="number-col">R$ 58.321,7</td>
+                    <td class="number-col text-green-600 font-bold">1.26</td>
+                    <td class="number-col text-slate-600">1.46x</td>
+                    <td class="number-col text-slate-600">3.00x</td>
+                    <td class="number-col text-slate-600">11.192</td>
+                </tr>
+
+                <tr>
+                    <td class="font-medium text-slate-700">Turismo & Gastronomia</td>
+                    <td class="number-col">R$ 35.717,1</td>
+                    <td class="number-col text-green-600 font-bold">1.28</td>
+                    <td class="number-col text-slate-600">1.47x</td>
+                    <td class="number-col text-slate-600">1.11x</td>
+                    <td class="number-col text-slate-600">61.847</td>
+                </tr>
+
+                <tr>
+                    <td class="font-medium text-slate-700">Tecnologia & Software</td>
+                    <td class="number-col">R$ 29.371,3</td>
+                    <td class="number-col text-blue-600 font-semibold">1.06</td>
+                    <td class="number-col text-slate-600">1.50x</td>
+                    <td class="number-col text-slate-600">2.32x</td>
+                    <td class="number-col text-slate-600">18.080</td>
+                </tr>
+
+                <tr>
+                    <td class="font-medium text-slate-700">Audiovisual & Mídia</td>
+                    <td class="number-col">R$ 23.408,4</td>
+                    <td class="number-col text-blue-600 font-semibold">1.06</td>
+                    <td class="number-col text-slate-600">1.50x</td>
+                    <td class="number-col text-slate-600">1.58x</td>
+                    <td class="number-col text-slate-600">28.115</td>
+                </tr>
+
+                <tr>
+                    <td class="font-medium text-slate-700">Eventos & Artes</td>
+                    <td class="number-col">R$ 10.214,7</td>
+                    <td class="number-col text-slate-500">0.85</td>
+                    <td class="number-col text-slate-600">1.46x</td>
+                    <td class="number-col text-slate-600">1.51x</td>
+                    <td class="number-col text-slate-600">27.914</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <h2 class="text-3xl font-bold mb-6 mt-12 text-slate-800 border-b-2 border-indigo-500 pb-2 inline-block">Estudos de Caso: Choques Exógenos de Demanda Final</h2>
+    <p class="text-slate-600 mb-8 max-w-4xl">Simulações de impacto econômico (efeitos diretos e indiretos via Inversa de Leontief) para eventos reais, incorporando vetores de demanda parametrizados para 67 setores. Vazamentos inter-regionais calculados utilizando coeficientes de comércio (Trade Probabilities) do modelo gravitacional calibrado (MRIO).</p>
+
+    <div class="card">
+        <div class="flex items-center justify-between mb-6">
+            <h3 class="text-2xl font-bold text-slate-800">Rock in Rio</h3>
+            <span class="bg-indigo-100 text-indigo-800 text-sm font-semibold px-3 py-1 rounded-full">Festival de música (7 dias, ~700 mil pessoas)</span>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+            <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+                <p class="text-slate-500 text-xs font-semibold uppercase tracking-wider mb-1">Choque de Demanda F</p>
+                <p class="text-2xl font-bold text-slate-800">R$ 2.000,0 Mi</p>
+                <p class="text-xs text-slate-500 mt-1">(0.0% direcionado a setores criativos)</p>
+            </div>
+            <div class="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                <p class="text-blue-600 text-xs font-semibold uppercase tracking-wider mb-1">Produção Total (Brasil)</p>
+                <p class="text-2xl font-bold text-blue-900">R$ 2.987,4 Mi</p>
+                <p class="text-xs text-blue-700 mt-1">Multiplicador: 1.494x</p>
+            </div>
+            <div class="bg-green-50 p-4 rounded-lg border border-green-200">
+                <p class="text-green-600 text-xs font-semibold uppercase tracking-wider mb-1">Empregos Totais Gerados</p>
+                <p class="text-2xl font-bold text-green-900">76.011</p>
+                <p class="text-xs text-green-700 mt-1">38,006 vagas por R$ 1 Bi</p>
+            </div>
+            <div class="bg-amber-50 p-4 rounded-lg border border-amber-200">
+                <p class="text-amber-600 text-xs font-semibold uppercase tracking-wider mb-1">Arrecadação RJ (ICMS+ISS)</p>
+                <p class="text-2xl font-bold text-amber-900">R$ 396,5 Mi</p>
+                <p class="text-xs text-amber-700 mt-1">19.8% do choque (Retorno Tácito)</p>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+            <!-- Col 1: Spillovers Nacionais -->
+            <div>
+                <h4 class="text-lg font-semibold mb-4 text-slate-700">Vazamento Inter-regional (Spillovers de Demanda)</h4>
+                <p class="text-sm text-slate-600 mb-4">A demanda gerada no RJ ativa cadeias produtivas globais, exigindo importações intermediárias de outros estados. O MRIO captura o fluxo reverso onde R$ R$ 58,9 Mi (2.0%) vazam para o resto do Brasil.</p>
+                
+                <div style="height: 300px;">
+                    <canvas id="chartSpillover_0"></canvas>
+                </div>
+            </div>
+
+            <!-- Col 2: Segmentos Criativos -->
+            <div>
+                <h4 class="text-lg font-semibold mb-4 text-slate-700">Decomposição por Segmento Criativo</h4>
+                <p class="text-sm text-slate-600 mb-4">A captação local de valor varia por sub-segmento da economia criativa consoante as suas ligações inter-industriais (backward/forward linkages).</p>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Segmento Criativo</th>
+                            <th class="number-col">VBP Gerado (R$ Mi)</th>
+                            <th class="number-col">Empregos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td class="font-medium text-slate-700">Eventos & Artes</td>
+                            <td class="number-col text-slate-600">R$ 850,0</td>
+                            <td class="number-col text-slate-600">15.257</td>
+                        </tr>
+
+                        <tr>
+                            <td class="font-medium text-slate-700">Turismo & Gastronomia</td>
+                            <td class="number-col text-slate-600">R$ 759,6</td>
+                            <td class="number-col text-slate-600">39.667</td>
+                        </tr>
+
+                        <tr>
+                            <td class="font-medium text-slate-700">Tecnologia & Software</td>
+                            <td class="number-col text-slate-600">R$ 168,9</td>
+                            <td class="number-col text-slate-600">1.317</td>
+                        </tr>
+
+                        <tr>
+                            <td class="font-medium text-slate-700">Audiovisual & Mídia</td>
+                            <td class="number-col text-slate-600">R$ 121,9</td>
+                            <td class="number-col text-slate-600">3.856</td>
+                        </tr>
+
+                        <tr>
+                            <td class="font-medium text-slate-700">Design & Serviços Criativos</td>
+                            <td class="number-col text-slate-600">R$ 118,4</td>
+                            <td class="number-col text-slate-600">1.174</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="mb-8 bg-slate-50 border border-slate-200 rounded-lg p-5">
+            <h4 class="text-lg font-semibold mb-2 text-slate-800">Premissas do Choque (Vetor de Demanda Final)</h4>
+            <p class="text-sm text-slate-600 mb-4">Como a injeção monetária do evento foi alocada na matriz insumo-produto. Esta distribuição reflete o perfil estimado de gastos (turistas, infraestrutura, cachês e organização).</p>
+            <div class="overflow-x-auto">
+                <table class="mb-0">
+                    <thead>
+                        <tr>
+                            <th class="bg-slate-100">Setor Padrão IBGE</th>
+                            <th class="bg-slate-100 number-col">Choque Direto (R$ Mi)</th>
+                            <th class="bg-slate-100 number-col">% do Total</th>
+                            <th class="bg-slate-100 text-center">Classificação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td class="font-medium text-slate-700">Atividades artÃ­sticas, criativas e de espetÃ¡culos</td>
+                            <td class="number-col text-slate-800 font-bold">R$ 800,0</td>
+                            <td class="number-col text-slate-500">40.0%</td>
+                            <td class="text-center"><span class="badge-creative">Criativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td class="font-medium text-slate-700">Alojamento</td>
+                            <td class="number-col text-slate-800 font-bold">R$ 400,0</td>
+                            <td class="number-col text-slate-500">20.0%</td>
+                            <td class="text-center"><span class="badge-creative">Criativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td class="font-medium text-slate-700">AlimentaÃ§Ã£o</td>
+                            <td class="number-col text-slate-800 font-bold">R$ 300,0</td>
+                            <td class="number-col text-slate-500">15.0%</td>
+                            <td class="text-center"><span class="badge-creative">Criativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td class="font-medium text-slate-700">Transporte terrestre</td>
+                            <td class="number-col text-slate-800 font-bold">R$ 150,0</td>
+                            <td class="number-col text-slate-500">7.5%</td>
+                            <td class="text-center"><span class="badge-noncreative">Não-Criativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td class="font-medium text-slate-700">ComÃ©rcio por atacado e varejo</td>
+                            <td class="number-col text-slate-800 font-bold">R$ 150,0</td>
+                            <td class="number-col text-slate-500">7.5%</td>
+                            <td class="text-center"><span class="badge-noncreative">Não-Criativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td class="font-medium text-slate-700">Desenvolvimento de sistemas e outros serviÃ§os de informaÃ§Ã£o</td>
+                            <td class="number-col text-slate-800 font-bold">R$ 100,0</td>
+                            <td class="number-col text-slate-500">5.0%</td>
+                            <td class="text-center"><span class="badge-creative">Criativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td class="font-medium text-slate-700">Atividades de televisÃ£o, rÃ¡dio, cinema e  gravaÃ§Ã£o/ediÃ§Ã£o de som e imagem</td>
+                            <td class="number-col text-slate-800 font-bold">R$ 50,0</td>
+                            <td class="number-col text-slate-500">2.5%</td>
+                            <td class="text-center"><span class="badge-creative">Criativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td class="font-medium text-slate-700">Outras atividades profissionais, cientÃ­ficas e tÃ©cnicas</td>
+                            <td class="number-col text-slate-800 font-bold">R$ 50,0</td>
+                            <td class="number-col text-slate-500">2.5%</td>
+                            <td class="text-center"><span class="badge-creative">Criativo</span></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div>
+            <h4 class="text-lg font-semibold mb-2 text-slate-700">Top Setores Nao-Criativos Beneficiados (Efeito Indireto)</h4>
+            <p class="text-sm text-slate-600 mb-4">Setores que recebem os maiores transbordamentos intersetoriais de demanda induzida, sem pertencerem primariamente à classificação de economia criativa (CNAEs selecionados).</p>
+            <div class="overflow-x-auto">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Setor MIP (IBGE)</th>
+                            <th class="number-col">Incremento no VBP (R$ Mi)</th>
+                            <th class="number-col">Novos Empregos</th>
+                            <th class="number-col">Arrecadação ICMS/ISS (R$ Mi)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td class="text-slate-500 font-medium">#1</td>
+                            <td class="font-medium text-slate-700">Transporte terrestre</td>
+                            <td class="number-col text-indigo-600 font-medium">R$ 211,1</td>
+                            <td class="number-col text-slate-600">7.268</td>
+                            <td class="number-col text-slate-600">R$ 26,0</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-slate-500 font-medium">#2</td>
+                            <td class="font-medium text-slate-700">ComÃ©rcio por atacado e varejo</td>
+                            <td class="number-col text-indigo-600 font-medium">R$ 153,3</td>
+                            <td class="number-col text-slate-600">3.027</td>
+                            <td class="number-col text-slate-600">R$ 16,4</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-slate-500 font-medium">#3</td>
+                            <td class="font-medium text-slate-700">Ãgua, esgoto e gestÃ£o de resÃ­duos</td>
+                            <td class="number-col text-indigo-600 font-medium">R$ 143,2</td>
+                            <td class="number-col text-slate-600">515</td>
+                            <td class="number-col text-slate-600">R$ 3,3</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-slate-500 font-medium">#4</td>
+                            <td class="font-medium text-slate-700">IntermediaÃ§Ã£o financeira, seguros e previdÃªncia complementar</td>
+                            <td class="number-col text-indigo-600 font-medium">R$ 59,0</td>
+                            <td class="number-col text-slate-600">269</td>
+                            <td class="number-col text-slate-600">R$ 10,7</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-slate-500 font-medium">#5</td>
+                            <td class="font-medium text-slate-700">TelecomunicaÃ§Ãµes</td>
+                            <td class="number-col text-indigo-600 font-medium">R$ 45,1</td>
+                            <td class="number-col text-slate-600">1.116</td>
+                            <td class="number-col text-slate-600">R$ 39,9</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-slate-500 font-medium">#6</td>
+                            <td class="font-medium text-slate-700">Energia elÃ©trica, gÃ¡s natural e outras utilidades</td>
+                            <td class="number-col text-indigo-600 font-medium">R$ 39,5</td>
+                            <td class="number-col text-slate-600">282</td>
+                            <td class="number-col text-slate-600">R$ 22,5</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-slate-500 font-medium">#7</td>
+                            <td class="font-medium text-slate-700">Transporte aquaviÃ¡rio</td>
+                            <td class="number-col text-indigo-600 font-medium">R$ 38,1</td>
+                            <td class="number-col text-slate-600">92</td>
+                            <td class="number-col text-slate-600">R$ 0,7</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-slate-500 font-medium">#8</td>
+                            <td class="font-medium text-slate-700">Atividades imobiliÃ¡rias</td>
+                            <td class="number-col text-indigo-600 font-medium">R$ 35,8</td>
+                            <td class="number-col text-slate-600">27</td>
+                            <td class="number-col text-slate-600">R$ 0,0</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-slate-500 font-medium">#9</td>
+                            <td class="font-medium text-slate-700">FabricaÃ§Ã£o de bebidas</td>
+                            <td class="number-col text-indigo-600 font-medium">R$ 30,6</td>
+                            <td class="number-col text-slate-600">64</td>
+                            <td class="number-col text-slate-600">R$ 6,8</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-slate-500 font-medium">#10</td>
+                            <td class="font-medium text-slate-700">Transporte aÃ©reo</td>
+                            <td class="number-col text-indigo-600 font-medium">R$ 27,4</td>
+                            <td class="number-col text-slate-600">37</td>
+                            <td class="number-col text-slate-600">R$ 0,4</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const ctx_0 = document.getElementById('chartSpillover_0').getContext('2d');
+            new Chart(ctx_0, {
+                type: 'bar',
+                data: {
+                    labels: ["SP", "MG", "PR", "ES", "SC", "RS"],
+                    datasets: [{
+                        label: 'VBP Gerado (Transbordamento p/ outros Estados)',
+                        data: [20.984894974773614, 14.511121852827525, 4.3756061393965995, 3.386111301734088, 2.941081255173049, 2.434147068812918],
+                        backgroundColor: '#3b82f6',
+                        borderRadius: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        y: { beginAtZero: true, grid: { borderDash: [2, 4] } }
+                    }
+                }
+            });
+        });
+    </script>
+
+    <div class="card">
+        <div class="flex items-center justify-between mb-6">
+            <h3 class="text-2xl font-bold text-slate-800">Carnaval</h3>
+            <span class="bg-indigo-100 text-indigo-800 text-sm font-semibold px-3 py-1 rounded-full">Carnaval do Rio (6 dias, ~7 milhões de foliões)</span>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+            <div class="bg-slate-50 p-4 rounded-lg border border-slate-200">
+                <p class="text-slate-500 text-xs font-semibold uppercase tracking-wider mb-1">Choque de Demanda F</p>
+                <p class="text-2xl font-bold text-slate-800">R$ 6.000,0 Mi</p>
+                <p class="text-xs text-slate-500 mt-1">(0.0% direcionado a setores criativos)</p>
+            </div>
+            <div class="bg-blue-50 p-4 rounded-lg border border-blue-200">
+                <p class="text-blue-600 text-xs font-semibold uppercase tracking-wider mb-1">Produção Total (Brasil)</p>
+                <p class="text-2xl font-bold text-blue-900">R$ 8.995,3 Mi</p>
+                <p class="text-xs text-blue-700 mt-1">Multiplicador: 1.499x</p>
+            </div>
+            <div class="bg-green-50 p-4 rounded-lg border border-green-200">
+                <p class="text-green-600 text-xs font-semibold uppercase tracking-wider mb-1">Empregos Totais Gerados</p>
+                <p class="text-2xl font-bold text-green-900">248.708</p>
+                <p class="text-xs text-green-700 mt-1">41,451 vagas por R$ 1 Bi</p>
+            </div>
+            <div class="bg-amber-50 p-4 rounded-lg border border-amber-200">
+                <p class="text-amber-600 text-xs font-semibold uppercase tracking-wider mb-1">Arrecadação RJ (ICMS+ISS)</p>
+                <p class="text-2xl font-bold text-amber-900">R$ 1.272,5 Mi</p>
+                <p class="text-xs text-amber-700 mt-1">21.2% do choque (Retorno Tácito)</p>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+            <!-- Col 1: Spillovers Nacionais -->
+            <div>
+                <h4 class="text-lg font-semibold mb-4 text-slate-700">Vazamento Inter-regional (Spillovers de Demanda)</h4>
+                <p class="text-sm text-slate-600 mb-4">A demanda gerada no RJ ativa cadeias produtivas globais, exigindo importações intermediárias de outros estados. O MRIO captura o fluxo reverso onde R$ R$ 197,4 Mi (2.2%) vazam para o resto do Brasil.</p>
+                
+                <div style="height: 300px;">
+                    <canvas id="chartSpillover_1"></canvas>
+                </div>
+            </div>
+
+            <!-- Col 2: Segmentos Criativos -->
+            <div>
+                <h4 class="text-lg font-semibold mb-4 text-slate-700">Decomposição por Segmento Criativo</h4>
+                <p class="text-sm text-slate-600 mb-4">A captação local de valor varia por sub-segmento da economia criativa consoante as suas ligações inter-industriais (backward/forward linkages).</p>
+                
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Segmento Criativo</th>
+                            <th class="number-col">VBP Gerado (R$ Mi)</th>
+                            <th class="number-col">Empregos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td class="font-medium text-slate-700">Turismo & Gastronomia</td>
+                            <td class="number-col text-slate-600">R$ 2.859,1</td>
+                            <td class="number-col text-slate-600">150.687</td>
+                        </tr>
+
+                        <tr>
+                            <td class="font-medium text-slate-700">Eventos & Artes</td>
+                            <td class="number-col text-slate-600">R$ 2.000,0</td>
+                            <td class="number-col text-slate-600">36.941</td>
+                        </tr>
+
+                        <tr>
+                            <td class="font-medium text-slate-700">Design & Serviços Criativos</td>
+                            <td class="number-col text-slate-600">R$ 353,5</td>
+                            <td class="number-col text-slate-600">3.548</td>
+                        </tr>
+
+                        <tr>
+                            <td class="font-medium text-slate-700">Tecnologia & Software</td>
+                            <td class="number-col text-slate-600">R$ 223,5</td>
+                            <td class="number-col text-slate-600">1.743</td>
+                        </tr>
+
+                        <tr>
+                            <td class="font-medium text-slate-700">Audiovisual & Mídia</td>
+                            <td class="number-col text-slate-600">R$ 128,8</td>
+                            <td class="number-col text-slate-600">3.891</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="mb-8 bg-slate-50 border border-slate-200 rounded-lg p-5">
+            <h4 class="text-lg font-semibold mb-2 text-slate-800">Premissas do Choque (Vetor de Demanda Final)</h4>
+            <p class="text-sm text-slate-600 mb-4">Como a injeção monetária do evento foi alocada na matriz insumo-produto. Esta distribuição reflete o perfil estimado de gastos (turistas, infraestrutura, cachês e organização).</p>
+            <div class="overflow-x-auto">
+                <table class="mb-0">
+                    <thead>
+                        <tr>
+                            <th class="bg-slate-100">Setor Padrão IBGE</th>
+                            <th class="bg-slate-100 number-col">Choque Direto (R$ Mi)</th>
+                            <th class="bg-slate-100 number-col">% do Total</th>
+                            <th class="bg-slate-100 text-center">Classificação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td class="font-medium text-slate-700">Atividades artÃ­sticas, criativas e de espetÃ¡culos</td>
+                            <td class="number-col text-slate-800 font-bold">R$ 2.000,0</td>
+                            <td class="number-col text-slate-500">33.3%</td>
+                            <td class="text-center"><span class="badge-creative">Criativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td class="font-medium text-slate-700">Alojamento</td>
+                            <td class="number-col text-slate-800 font-bold">R$ 1.500,0</td>
+                            <td class="number-col text-slate-500">25.0%</td>
+                            <td class="text-center"><span class="badge-creative">Criativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td class="font-medium text-slate-700">AlimentaÃ§Ã£o</td>
+                            <td class="number-col text-slate-800 font-bold">R$ 1.200,0</td>
+                            <td class="number-col text-slate-500">20.0%</td>
+                            <td class="text-center"><span class="badge-creative">Criativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td class="font-medium text-slate-700">Transporte terrestre</td>
+                            <td class="number-col text-slate-800 font-bold">R$ 600,0</td>
+                            <td class="number-col text-slate-500">10.0%</td>
+                            <td class="text-center"><span class="badge-noncreative">Não-Criativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td class="font-medium text-slate-700">ComÃ©rcio por atacado e varejo</td>
+                            <td class="number-col text-slate-800 font-bold">R$ 500,0</td>
+                            <td class="number-col text-slate-500">8.3%</td>
+                            <td class="text-center"><span class="badge-noncreative">Não-Criativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td class="font-medium text-slate-700">Transporte aÃ©reo</td>
+                            <td class="number-col text-slate-800 font-bold">R$ 200,0</td>
+                            <td class="number-col text-slate-500">3.3%</td>
+                            <td class="text-center"><span class="badge-noncreative">Não-Criativo</span></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div>
+            <h4 class="text-lg font-semibold mb-2 text-slate-700">Top Setores Nao-Criativos Beneficiados (Efeito Indireto)</h4>
+            <p class="text-sm text-slate-600 mb-4">Setores que recebem os maiores transbordamentos intersetoriais de demanda induzida, sem pertencerem primariamente à classificação de economia criativa (CNAEs selecionados).</p>
+            <div class="overflow-x-auto">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Setor MIP (IBGE)</th>
+                            <th class="number-col">Incremento no VBP (R$ Mi)</th>
+                            <th class="number-col">Novos Empregos</th>
+                            <th class="number-col">Arrecadação ICMS/ISS (R$ Mi)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td class="text-slate-500 font-medium">#1</td>
+                            <td class="font-medium text-slate-700">Transporte terrestre</td>
+                            <td class="number-col text-indigo-600 font-medium">R$ 794,9</td>
+                            <td class="number-col text-slate-600">27.361</td>
+                            <td class="number-col text-slate-600">R$ 97,9</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-slate-500 font-medium">#2</td>
+                            <td class="font-medium text-slate-700">ComÃ©rcio por atacado e varejo</td>
+                            <td class="number-col text-indigo-600 font-medium">R$ 510,4</td>
+                            <td class="number-col text-slate-600">10.079</td>
+                            <td class="number-col text-slate-600">R$ 54,5</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-slate-500 font-medium">#3</td>
+                            <td class="font-medium text-slate-700">Ãgua, esgoto e gestÃ£o de resÃ­duos</td>
+                            <td class="number-col text-indigo-600 font-medium">R$ 470,1</td>
+                            <td class="number-col text-slate-600">1.691</td>
+                            <td class="number-col text-slate-600">R$ 11,0</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-slate-500 font-medium">#4</td>
+                            <td class="font-medium text-slate-700">Transporte aÃ©reo</td>
+                            <td class="number-col text-indigo-600 font-medium">R$ 269,3</td>
+                            <td class="number-col text-slate-600">361</td>
+                            <td class="number-col text-slate-600">R$ 3,6</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-slate-500 font-medium">#5</td>
+                            <td class="font-medium text-slate-700">IntermediaÃ§Ã£o financeira, seguros e previdÃªncia complementar</td>
+                            <td class="number-col text-indigo-600 font-medium">R$ 157,6</td>
+                            <td class="number-col text-slate-600">718</td>
+                            <td class="number-col text-slate-600">R$ 28,7</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-slate-500 font-medium">#6</td>
+                            <td class="font-medium text-slate-700">TelecomunicaÃ§Ãµes</td>
+                            <td class="number-col text-indigo-600 font-medium">R$ 151,6</td>
+                            <td class="number-col text-slate-600">3.754</td>
+                            <td class="number-col text-slate-600">R$ 134,1</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-slate-500 font-medium">#7</td>
+                            <td class="font-medium text-slate-700">Energia elÃ©trica, gÃ¡s natural e outras utilidades</td>
+                            <td class="number-col text-indigo-600 font-medium">R$ 135,1</td>
+                            <td class="number-col text-slate-600">962</td>
+                            <td class="number-col text-slate-600">R$ 76,9</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-slate-500 font-medium">#8</td>
+                            <td class="font-medium text-slate-700">Transporte aquaviÃ¡rio</td>
+                            <td class="number-col text-indigo-600 font-medium">R$ 117,0</td>
+                            <td class="number-col text-slate-600">283</td>
+                            <td class="number-col text-slate-600">R$ 2,1</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-slate-500 font-medium">#9</td>
+                            <td class="font-medium text-slate-700">FabricaÃ§Ã£o de bebidas</td>
+                            <td class="number-col text-indigo-600 font-medium">R$ 115,7</td>
+                            <td class="number-col text-slate-600">242</td>
+                            <td class="number-col text-slate-600">R$ 25,7</td>
+                        </tr>
+
+                        <tr>
+                            <td class="text-slate-500 font-medium">#10</td>
+                            <td class="font-medium text-slate-700">Atividades imobiliÃ¡rias</td>
+                            <td class="number-col text-indigo-600 font-medium">R$ 98,7</td>
+                            <td class="number-col text-slate-600">75</td>
+                            <td class="number-col text-slate-600">R$ 0,1</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const ctx_1 = document.getElementById('chartSpillover_1').getContext('2d');
+            new Chart(ctx_1, {
+                type: 'bar',
+                data: {
+                    labels: ["SP", "MG", "PR", "ES", "SC", "DF"],
+                    datasets: [{
+                        label: 'VBP Gerado (Transbordamento p/ outros Estados)',
+                        data: [72.23226470318268, 46.77619337103074, 14.296041209302444, 11.210937166758082, 9.654242868078573, 8.278097442504862],
+                        backgroundColor: '#3b82f6',
+                        borderRadius: 4
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        y: { beginAtZero: true, grid: { borderDash: [2, 4] } }
+                    }
+                }
+            });
+        });
+    </script>
+
+    <footer class="mt-12 pt-6 border-t border-slate-200 text-slate-500 text-sm flex justify-between">
+        <p>Modelo CGE-MIP Brasil - Calibrado 2021</p>
+        <p>Base Matemática: Inversa de Leontief, Ajuste FLQ Regional, Modelo Gravitacional Inter-Regional (Haversine)</p>
+    </footer>
+</body>
+</html>

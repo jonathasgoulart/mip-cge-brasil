@@ -1,0 +1,236 @@
+[
+  {
+    "evento": "Rock in Rio",
+    "descricao": "Festival de musica (7 dias, ~700 mil pessoas)",
+    "choque_total": 2000.0,
+    "choque_criativo": 1700.0,
+    "producao_total": 2928.21539874277,
+    "multiplicador": 1.464107699371385,
+    "prod_criativo": 2018.7465180692914,
+    "prod_nao_criativo": 909.4688806734787,
+    "pct_criativo": 68.94118919448483,
+    "empregos_total": 75003.77942781203,
+    "empregos_criativos": 61269.68051291798,
+    "renda_total": 2751.642999660402,
+    "icms": 122.17887567590518,
+    "iss": 274.27738516898376,
+    "fiscal_total": 396.4562608448889,
+    "vazamento": 260.0000592064018,
+    "segmentos": {
+      "Audiovisual & Midia": {
+        "producao": 121.91029675817076,
+        "empregos": 3855.3507722350732,
+        "renda": 252.53404906997068
+      },
+      "Tecnologia & Software": {
+        "producao": 168.87709710512374,
+        "empregos": 1316.7557514784223,
+        "renda": 91.60513291390691
+      },
+      "Eventos & Artes": {
+        "producao": 850.0,
+        "empregos": 15257.397864446084,
+        "renda": 1016.709357844382
+      },
+      "Turismo & Gastronomia": {
+        "producao": 759.635473679976,
+        "empregos": 39666.46500260019,
+        "renda": 832.6230688049496
+      },
+      "Design & Servicos Criativos": {
+        "producao": 118.32365052602069,
+        "empregos": 1173.7111221582236,
+        "renda": 93.63714641807816
+      }
+    },
+    "top_setores": [
+      {
+        "idx": 64,
+        "setor": "Atividades artÃ­sticas, criativas e de espetÃ¡culos",
+        "producao": 800.0,
+        "empregos": 14776.524889843713,
+        "criativo": true
+      },
+      {
+        "idx": 45,
+        "setor": "Alojamento",
+        "producao": 406.4674831237574,
+        "empregos": 2069.0589313275764,
+        "criativo": true
+      },
+      {
+        "idx": 46,
+        "setor": "AlimentaÃ§Ã£o",
+        "producao": 353.1679905562187,
+        "empregos": 37597.40607127261,
+        "criativo": true
+      },
+      {
+        "idx": 41,
+        "setor": "Transporte terrestre",
+        "producao": 211.13247877600122,
+        "empregos": 7267.303086086087,
+        "criativo": false
+      },
+      {
+        "idx": 50,
+        "setor": "Desenvolvimento de sistemas e outros serviÃ§os de informaÃ§Ã£o",
+        "producao": 168.87709710512374,
+        "empregos": 1316.7557514784223,
+        "criativo": true
+      },
+      {
+        "idx": 40,
+        "setor": "ComÃ©rcio por atacado e varejo",
+        "producao": 153.2937516747678,
+        "empregos": 3027.420024381998,
+        "criativo": false
+      },
+      {
+        "idx": 38,
+        "setor": "Ãgua, esgoto e gestÃ£o de resÃ­duos",
+        "producao": 143.159056484051,
+        "empregos": 515.0954510820643,
+        "criativo": false
+      },
+      {
+        "idx": 48,
+        "setor": "Atividades de televisÃ£o, rÃ¡dio, cinema e  gravaÃ§Ã£o/ediÃ§Ã£o de som e imagem",
+        "producao": 112.45342539141987,
+        "empregos": 3851.5559918619438,
+        "criativo": true
+      },
+      {
+        "idx": 54,
+        "setor": "ServiÃ§os de arquitetura, engenharia, testes/anÃ¡lises tÃ©cnicas e P & D",
+        "producao": 107.58413798597411,
+        "empregos": 965.1127638727187,
+        "criativo": true
+      },
+      {
+        "idx": 51,
+        "setor": "IntermediaÃ§Ã£o financeira, seguros e previdÃªncia complementar",
+        "producao": 58.972908891973745,
+        "empregos": 268.54100217955096,
+        "criativo": false
+      }
+    ]
+  },
+  {
+    "evento": "Carnaval",
+    "descricao": "Carnaval do Rio (6 dias, ~7 milhoes de folioes)",
+    "choque_total": 6000.0,
+    "choque_criativo": 4700.0,
+    "producao_total": 8796.81374194332,
+    "multiplicador": 1.46613562365722,
+    "prod_criativo": 5564.6883706397,
+    "prod_nao_criativo": 3232.1253713036203,
+    "pct_criativo": 63.257999247013665,
+    "empregos_total": 245362.50167363998,
+    "empregos_criativos": 196805.40569726835,
+    "renda_total": 7947.012252799673,
+    "icms": 397.9951815845012,
+    "iss": 874.2735931902314,
+    "fiscal_total": 1272.2687747747327,
+    "vazamento": 820.2293549267961,
+    "segmentos": {
+      "Audiovisual & Midia": {
+        "producao": 128.74931215922325,
+        "empregos": 3890.3577773158413,
+        "renda": 254.7517533141165
+      },
+      "Tecnologia & Software": {
+        "producao": 223.48919040174928,
+        "empregos": 1742.5730421667172,
+        "renda": 121.22873582336435
+      },
+      "Eventos & Artes": {
+        "producao": 2000.0,
+        "empregos": 36941.31222460928,
+        "renda": 2490.890279273827
+      },
+      "Turismo & Gastronomia": {
+        "producao": 2859.127730186883,
+        "empregos": 150685.52621979997,
+        "renda": 3160.788799297833
+      },
+      "Design & Servicos Criativos": {
+        "producao": 353.32213789184567,
+        "empregos": 3545.636433376596,
+        "renda": 281.4529591526523
+      }
+    },
+    "top_setores": [
+      {
+        "idx": 64,
+        "setor": "Atividades artÃ­sticas, criativas e de espetÃ¡culos",
+        "producao": 2000.0,
+        "empregos": 36941.31222460928,
+        "criativo": true
+      },
+      {
+        "idx": 45,
+        "setor": "Alojamento",
+        "producao": 1516.173115055227,
+        "empregos": 7717.8412920883775,
+        "criativo": true
+      },
+      {
+        "idx": 46,
+        "setor": "AlimentaÃ§Ã£o",
+        "producao": 1342.9546151316558,
+        "empregos": 142967.68492771158,
+        "criativo": true
+      },
+      {
+        "idx": 41,
+        "setor": "Transporte terrestre",
+        "producao": 794.8700852530948,
+        "empregos": 27359.89203122988,
+        "criativo": false
+      },
+      {
+        "idx": 40,
+        "setor": "ComÃ©rcio por atacado e varejo",
+        "producao": 510.3736330665048,
+        "empregos": 10079.441202145576,
+        "criativo": false
+      },
+      {
+        "idx": 38,
+        "setor": "Ãgua, esgoto e gestÃ£o de resÃ­duos",
+        "producao": 470.0198593799401,
+        "empregos": 1691.161547378674,
+        "criativo": false
+      },
+      {
+        "idx": 54,
+        "setor": "ServiÃ§os de arquitetura, engenharia, testes/anÃ¡lises tÃ©cnicas e P & D",
+        "producao": 318.89904028055213,
+        "empregos": 2860.7705552434318,
+        "criativo": true
+      },
+      {
+        "idx": 43,
+        "setor": "Transporte aÃ©reo",
+        "producao": 269.310421482843,
+        "empregos": 361.2771326272983,
+        "criativo": false
+      },
+      {
+        "idx": 50,
+        "setor": "Desenvolvimento de sistemas e outros serviÃ§os de informaÃ§Ã£o",
+        "producao": 223.48919040174928,
+        "empregos": 1742.5730421667172,
+        "criativo": true
+      },
+      {
+        "idx": 51,
+        "setor": "IntermediaÃ§Ã£o financeira, seguros e previdÃªncia complementar",
+        "producao": 157.62245388849254,
+        "empregos": 717.7548560603008,
+        "criativo": false
+      }
+    ]
+  }
+]

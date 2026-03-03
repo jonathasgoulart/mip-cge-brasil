@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Apresentação: Economia Criativa RJ</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/white.min.css" id="theme">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .reveal { font-family: 'Inter', sans-serif; }
+        .reveal h1, .reveal h2, .reveal h3, .reveal h4 { font-family: 'Inter', sans-serif; text-transform: none; color: #1e293b; font-weight: 700; }
+        .reveal section img { border: none; box-shadow: none; margin: 0; }
+        .gradient-text { background: linear-gradient(135deg, #2563eb, #7c3aed); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .slide-bg-blue { background: linear-gradient(135deg, #1e40af, #4c1d95); }
+        .reveal .slide-background.slide-bg-blue { background: linear-gradient(135deg, #1e40af, #4c1d95); }
+        .box-stat { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px; margin: 8px; flex: 1; }
+        .box-title { font-size: 0.8em; color: #64748b; font-weight: 600; text-transform: uppercase; margin-bottom: 8px; }
+        .box-value { font-size: 1.8em; color: #0f172a; font-weight: bold; margin-bottom: 0; }
+        .box-desc { font-size: 0.7em; color: #64748b; margin-top: 4px; }
+        .creative-table { width: 100%; font-size: 0.6em; border-collapse: collapse; margin-top: 20px; }
+        .creative-table th { background: #f1f5f9; padding: 12px; text-align: left; border-bottom: 2px solid #cbd5e1; color: #334155; }
+        .creative-table td { padding: 10px 12px; border-bottom: 1px solid #e2e8f0; color: #475569; }
+        .num-col { text-align: right !important; font-variant-numeric: tabular-nums; }
+        .flex-row { display: flex; flex-direction: row; gap: 16px; justify-content: center; align-items: stretch; width: 100%; }
+        .flex-col { display: flex; flex-direction: column; width: 50%; justify-content: flex-start; align-items: stretch; }
+        .chart-container { height: 350px; width: 100%; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            
+            <!-- Slide 1: Capa -->
+            <section>
+                <h1 class="gradient-text" style="font-size: 2.2em; margin-bottom: 1em;">Impacto Econômico da<br>Economia Criativa no Rio de Janeiro</h1>
+                <p style="font-size: 0.9em; color: #64748b;">Análise de Insumo-Produto Multi-Regional (MRIO v4 2021)</p>
+                <p style="font-size: 0.7em; color: #94a3b8; margin-top: 2em;">Utilize as setas do teclado para navegar</p>
+            </section>
+
+            <!-- Slide 2: Panorama -->
+            <section data-state="slide-bg-blue" data-background-color="#1e3a8a">
+                <h2 style="color: white; font-size: 1.6em; margin-bottom: 1.5em;">Panorama Macroestrutural (RJ)</h2>
+                <div class="flex-row">
+                    <div style="background: rgba(255,255,255,0.1); border-radius: 8px; padding: 20px; flex: 1;">
+                        <p style="color: #93c5fd; font-size: 0.7em; font-weight: 600; text-transform: uppercase;">VAB Criativo (RJ)</p>
+                        <p style="color: white; font-size: 2em; font-weight: bold; margin: 0;">R$ 157,0 Bi</p>
+                        <p style="color: #bfdbfe; font-size: 0.8em; margin-top: 8px;">10,0% do PIB Estadual</p>
+                    </div>
+                    <div style="background: rgba(255,255,255,0.1); border-radius: 8px; padding: 20px; flex: 1;">
+                        <p style="color: #93c5fd; font-size: 0.7em; font-weight: 600; text-transform: uppercase;">Especialização (LQ)</p>
+                        <p style="color: white; font-size: 2em; font-weight: bold; margin: 0;">1,16</p>
+                        <p style="color: #bfdbfe; font-size: 0.8em; margin-top: 8px;">Vantagem comparativa</p>
+                    </div>
+                </div>
+                <div class="flex-row" style="margin-top: 20px;">
+                    <div style="background: rgba(255,255,255,0.1); border-radius: 8px; padding: 20px; flex: 1;">
+                        <p style="color: #93c5fd; font-size: 0.7em; font-weight: 600; text-transform: uppercase;">Multiplicador Médio</p>
+                        <p style="color: white; font-size: 2em; font-weight: bold; margin: 0;">1,48x</p>
+                        <p style="color: #bfdbfe; font-size: 0.8em; margin-top: 8px;">R$1 demanda = R$1,48 VBP</p>
+                    </div>
+                    <div style="background: rgba(255,255,255,0.1); border-radius: 8px; padding: 20px; flex: 1;">
+                        <p style="color: #93c5fd; font-size: 0.7em; font-weight: 600; text-transform: uppercase;">Spillover Não-Criativo</p>
+                        <p style="color: white; font-size: 2em; font-weight: bold; margin: 0;">22,7%</p>
+                        <p style="color: #bfdbfe; font-size: 0.8em; margin-top: 8px;">Vazamento para outros setores</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 3: Raio-X -->
+            <section>
+                <h2 style="font-size: 1.4em;">Raio-X da Economia Criativa</h2>
+                <table class="creative-table">
+                    <thead>
+                        <tr>
+                            <th>Segmento</th>
+                            <th class="num-col">VAB (R$ Mi)</th>
+                            <th class="num-col">Espec. (LQ)</th>
+                            <th class="num-col">Mult. de Produção</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td style="font-weight: 600; color: #334155;">Design & Serviços Criativos</td>
+                            <td class="num-col">R$ 58.321,7</td>
+                            <td class="num-col" style="color: #16a34a; font-weight: bold;">1.26</td>
+                            <td class="num-col">1.46x</td>
+                        </tr>
+
+                        <tr>
+                            <td style="font-weight: 600; color: #334155;">Turismo & Gastronomia</td>
+                            <td class="num-col">R$ 35.717,1</td>
+                            <td class="num-col" style="color: #16a34a; font-weight: bold;">1.28</td>
+                            <td class="num-col">1.47x</td>
+                        </tr>
+
+                        <tr>
+                            <td style="font-weight: 600; color: #334155;">Tecnologia & Software</td>
+                            <td class="num-col">R$ 29.371,3</td>
+                            <td class="num-col" style="color: #2563eb; font-weight: bold;">1.06</td>
+                            <td class="num-col">1.50x</td>
+                        </tr>
+
+                        <tr>
+                            <td style="font-weight: 600; color: #334155;">Audiovisual & Mídia</td>
+                            <td class="num-col">R$ 23.408,4</td>
+                            <td class="num-col" style="color: #2563eb; font-weight: bold;">1.06</td>
+                            <td class="num-col">1.50x</td>
+                        </tr>
+
+                        <tr>
+                            <td style="font-weight: 600; color: #334155;">Eventos & Artes</td>
+                            <td class="num-col">R$ 10.214,7</td>
+                            <td class="num-col" style="color: #64748b; ">0.85</td>
+                            <td class="num-col">1.46x</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <p style="font-size: 0.5em; color: #94a3b8; text-align: left; margin-top: 15px;">* LQ > 1 indica que o estado tem concentração produtiva no setor superior à média nacional.</p>
+            </section>
+
+            <section>
+                <h2 style="font-size: 1.8em;" class="gradient-text">Simulação: Rock in Rio</h2>
+                <p style="color: #64748b;">Festival de música (7 dias, ~700 mil pessoas)</p>
+            </section>
+
+            <section>
+                <h3 style="font-size: 1.3em;">Métricas Globais do Evento</h3>
+                <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-top: 40px;">
+                    <div style="width: 45%; background: #f8fafc; padding: 20px; border-radius: 12px; border: 1px solid #e2e8f0; text-align: left;">
+                        <p style="font-size: 0.6em; color: #64748b; font-weight: bold; text-transform: uppercase; margin: 0 0 5px 0;">Choque Direto (Demanda)</p>
+                        <p style="font-size: 1.6em; font-weight: 800; color: #0f172a; margin: 0;">R$ 2.000,0 Mi</p>
+                    </div>
+                    <div style="width: 45%; background: #eff6ff; padding: 20px; border-radius: 12px; border: 1px solid #bfdbfe; text-align: left;">
+                        <p style="font-size: 0.6em; color: #2563eb; font-weight: bold; text-transform: uppercase; margin: 0 0 5px 0;">Produção Induzida (BR)</p>
+                        <p style="font-size: 1.6em; font-weight: 800; color: #1e3a8a; margin: 0;">R$ 2.987,4 Mi</p>
+                        <p style="font-size: 0.5em; color: #3b82f6; margin: 5px 0 0 0;">Multiplicador: 1.494x</p>
+                    </div>
+                    <div style="width: 45%; background: #f0fdf4; padding: 20px; border-radius: 12px; border: 1px solid #bbf7d0; text-align: left;">
+                        <p style="font-size: 0.6em; color: #16a34a; font-weight: bold; text-transform: uppercase; margin: 0 0 5px 0;">Empregos Gerados</p>
+                        <p style="font-size: 1.6em; font-weight: 800; color: #14532d; margin: 0;">76.011</p>
+                    </div>
+                    <div style="width: 45%; background: #fffbeb; padding: 20px; border-radius: 12px; border: 1px solid #fde68a; text-align: left;">
+                        <p style="font-size: 0.6em; color: #d97706; font-weight: bold; text-transform: uppercase; margin: 0 0 5px 0;">Retorno Fiscal (ICMS+ISS)</p>
+                        <p style="font-size: 1.6em; font-weight: 800; color: #78350f; margin: 0;">R$ 396,5 Mi</p>
+                        <p style="font-size: 0.5em; color: #b45309; margin: 5px 0 0 0;">19.8% do choque inicial</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h3 style="font-size: 1.2em;">Premissas do Choque</h3>
+                <p style="font-size: 0.6em; color: #64748b;">Como a demanda final foi distribuída na Matriz Insumo-Produto</p>
+                
+                <table class="creative-table" style="font-size: 0.55em; margin-top: 10px;">
+                    <thead>
+                        <tr>
+                            <th>Setor (IBGE)</th>
+                            <th class="num-col">Choque Direto (R$ Mi)</th>
+                            <th class="num-col">% Total</th>
+                            <th style="text-align: center;">Tipo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td style="width: 50%;">Atividades artÃ­sticas, criativas e de espetÃ¡culos</td>
+                            <td class="num-col" style="font-weight: bold;">R$ 800,0</td>
+                            <td class="num-col">40.0%</td>
+                            <td style="text-align: center;"><span style="background: #3b82f6; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.9em;">Criativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td style="width: 50%;">Alojamento</td>
+                            <td class="num-col" style="font-weight: bold;">R$ 400,0</td>
+                            <td class="num-col">20.0%</td>
+                            <td style="text-align: center;"><span style="background: #3b82f6; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.9em;">Criativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td style="width: 50%;">AlimentaÃ§Ã£o</td>
+                            <td class="num-col" style="font-weight: bold;">R$ 300,0</td>
+                            <td class="num-col">15.0%</td>
+                            <td style="text-align: center;"><span style="background: #3b82f6; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.9em;">Criativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td style="width: 50%;">Transporte terrestre</td>
+                            <td class="num-col" style="font-weight: bold;">R$ 150,0</td>
+                            <td class="num-col">7.5%</td>
+                            <td style="text-align: center;"><span style="background: #94a3b8; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.9em;">Não-Criativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td style="width: 50%;">ComÃ©rcio por atacado e varejo</td>
+                            <td class="num-col" style="font-weight: bold;">R$ 150,0</td>
+                            <td class="num-col">7.5%</td>
+                            <td style="text-align: center;"><span style="background: #94a3b8; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.9em;">Não-Criativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td style="width: 50%;">Desenvolvimento de sistemas e outros serviÃ§os de informaÃ§Ã£o</td>
+                            <td class="num-col" style="font-weight: bold;">R$ 100,0</td>
+                            <td class="num-col">5.0%</td>
+                            <td style="text-align: center;"><span style="background: #3b82f6; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.9em;">Criativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td style="width: 50%;">Atividades de televisÃ£o, rÃ¡dio, cinema e  gravaÃ§Ã£o/ediÃ§Ã£o de som e imagem</td>
+                            <td class="num-col" style="font-weight: bold;">R$ 50,0</td>
+                            <td class="num-col">2.5%</td>
+                            <td style="text-align: center;"><span style="background: #3b82f6; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.9em;">Criativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td style="width: 50%;">Outras atividades profissionais, cientÃ­ficas e tÃ©cnicas</td>
+                            <td class="num-col" style="font-weight: bold;">R$ 50,0</td>
+                            <td class="num-col">2.5%</td>
+                            <td style="text-align: center;"><span style="background: #3b82f6; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.9em;">Criativo</span></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h3 style="font-size: 1.2em;">Apropriação por Segmento Criativo</h3>
+                
+                <table class="creative-table" style="font-size: 0.6em;">
+                    <thead>
+                        <tr>
+                            <th>Segmento</th>
+                            <th class="num-col">Produção Induzida (R$ Mi)</th>
+                            <th class="num-col">Empregos Totais</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td style="font-weight: bold; color: #334155;">Eventos & Artes</td>
+                            <td class="num-col" style="color: #2563eb; font-weight: bold;">R$ 850,0</td>
+                            <td class="num-col">15.257</td>
+                        </tr>
+
+                        <tr>
+                            <td style="font-weight: bold; color: #334155;">Turismo & Gastronomia</td>
+                            <td class="num-col" style="color: #2563eb; font-weight: bold;">R$ 759,6</td>
+                            <td class="num-col">39.667</td>
+                        </tr>
+
+                        <tr>
+                            <td style="font-weight: bold; color: #334155;">Tecnologia & Software</td>
+                            <td class="num-col" style="color: #2563eb; font-weight: bold;">R$ 168,9</td>
+                            <td class="num-col">1.317</td>
+                        </tr>
+
+                        <tr>
+                            <td style="font-weight: bold; color: #334155;">Audiovisual & Mídia</td>
+                            <td class="num-col" style="color: #2563eb; font-weight: bold;">R$ 121,9</td>
+                            <td class="num-col">3.856</td>
+                        </tr>
+
+                        <tr>
+                            <td style="font-weight: bold; color: #334155;">Design & Serviços Criativos</td>
+                            <td class="num-col" style="color: #2563eb; font-weight: bold;">R$ 118,4</td>
+                            <td class="num-col">1.174</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h3 style="font-size: 1.2em;">Vazamento Inter-estadual (Spillover)</h3>
+                <p style="font-size: 0.6em; color: #64748b;">R$ R$ 58,9 Mi (2.0%) transbordam para outros estados via importação intermédias.</p>
+                <div class="chart-container">
+                    <canvas id="chartSpillover_0"></canvas>
+                </div>
+            </section>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    // wait for chart.js loading
+                    setTimeout(() => {
+                        const ctx = document.getElementById('chartSpillover_0').getContext('2d');
+                        new Chart(ctx, {
+                            type: 'bar',
+                            data: {
+                                labels: ["SP", "MG", "PR", "ES", "SC", "RS"],
+                                datasets: [{
+                                    label: 'Produção (R$ Mi)',
+                                    data: [20.984894974773614, 14.511121852827525, 4.3756061393965995, 3.386111301734088, 2.941081255173049, 2.434147068812918],
+                                    backgroundColor: '#8b5cf6',
+                                    borderRadius: 4
+                                }]
+                            },
+                            options: {
+                                responsive: true,
+                                maintainAspectRatio: false,
+                                plugins: { legend: { display: false } },
+                                scales: { y: { beginAtZero: true } }
+                            }
+                        });
+                    }, 500);
+                });
+            </script>
+
+            <section>
+                <h3 style="font-size: 1.1em;">Efeito Indireto: Setores Não-Criativos</h3>
+                <p style="font-size: 0.55em; color: #64748b; margin-bottom: 20px;">Indústrias de base e serviços utilitários tracionados primariamente pela cadeia criativa.</p>
+                <table class="creative-table" style="font-size: 0.5em;">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Setor MIP</th>
+                            <th class="num-col">Produção (R$ Mi)</th>
+                            <th class="num-col">Empregos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td style="color: #94a3b8;">1</td>
+                            <td>Transporte terrestre</td>
+                            <td class="num-col" style="color: #059669; font-weight: bold;">R$ 211,1</td>
+                            <td class="num-col">7.268</td>
+                        </tr>
+
+                        <tr>
+                            <td style="color: #94a3b8;">2</td>
+                            <td>ComÃ©rcio por atacado e varejo</td>
+                            <td class="num-col" style="color: #059669; font-weight: bold;">R$ 153,3</td>
+                            <td class="num-col">3.027</td>
+                        </tr>
+
+                        <tr>
+                            <td style="color: #94a3b8;">3</td>
+                            <td>Ãgua, esgoto e gestÃ£o de resÃ­duos</td>
+                            <td class="num-col" style="color: #059669; font-weight: bold;">R$ 143,2</td>
+                            <td class="num-col">515</td>
+                        </tr>
+
+                        <tr>
+                            <td style="color: #94a3b8;">4</td>
+                            <td>IntermediaÃ§Ã£o financeira, seguros e previdÃªncia complementar</td>
+                            <td class="num-col" style="color: #059669; font-weight: bold;">R$ 59,0</td>
+                            <td class="num-col">269</td>
+                        </tr>
+
+                        <tr>
+                            <td style="color: #94a3b8;">5</td>
+                            <td>TelecomunicaÃ§Ãµes</td>
+                            <td class="num-col" style="color: #059669; font-weight: bold;">R$ 45,1</td>
+                            <td class="num-col">1.116</td>
+                        </tr>
+
+                        <tr>
+                            <td style="color: #94a3b8;">6</td>
+                            <td>Energia elÃ©trica, gÃ¡s natural e outras utilidades</td>
+                            <td class="num-col" style="color: #059669; font-weight: bold;">R$ 39,5</td>
+                            <td class="num-col">282</td>
+                        </tr>
+
+                        <tr>
+                            <td style="color: #94a3b8;">7</td>
+                            <td>Transporte aquaviÃ¡rio</td>
+                            <td class="num-col" style="color: #059669; font-weight: bold;">R$ 38,1</td>
+                            <td class="num-col">92</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2 style="font-size: 1.8em;" class="gradient-text">Simulação: Carnaval</h2>
+                <p style="color: #64748b;">Carnaval do Rio (6 dias, ~7 milhões de foliões)</p>
+            </section>
+
+            <section>
+                <h3 style="font-size: 1.3em;">Métricas Globais do Evento</h3>
+                <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; margin-top: 40px;">
+                    <div style="width: 45%; background: #f8fafc; padding: 20px; border-radius: 12px; border: 1px solid #e2e8f0; text-align: left;">
+                        <p style="font-size: 0.6em; color: #64748b; font-weight: bold; text-transform: uppercase; margin: 0 0 5px 0;">Choque Direto (Demanda)</p>
+                        <p style="font-size: 1.6em; font-weight: 800; color: #0f172a; margin: 0;">R$ 6.000,0 Mi</p>
+                    </div>
+                    <div style="width: 45%; background: #eff6ff; padding: 20px; border-radius: 12px; border: 1px solid #bfdbfe; text-align: left;">
+                        <p style="font-size: 0.6em; color: #2563eb; font-weight: bold; text-transform: uppercase; margin: 0 0 5px 0;">Produção Induzida (BR)</p>
+                        <p style="font-size: 1.6em; font-weight: 800; color: #1e3a8a; margin: 0;">R$ 8.995,3 Mi</p>
+                        <p style="font-size: 0.5em; color: #3b82f6; margin: 5px 0 0 0;">Multiplicador: 1.499x</p>
+                    </div>
+                    <div style="width: 45%; background: #f0fdf4; padding: 20px; border-radius: 12px; border: 1px solid #bbf7d0; text-align: left;">
+                        <p style="font-size: 0.6em; color: #16a34a; font-weight: bold; text-transform: uppercase; margin: 0 0 5px 0;">Empregos Gerados</p>
+                        <p style="font-size: 1.6em; font-weight: 800; color: #14532d; margin: 0;">248.708</p>
+                    </div>
+                    <div style="width: 45%; background: #fffbeb; padding: 20px; border-radius: 12px; border: 1px solid #fde68a; text-align: left;">
+                        <p style="font-size: 0.6em; color: #d97706; font-weight: bold; text-transform: uppercase; margin: 0 0 5px 0;">Retorno Fiscal (ICMS+ISS)</p>
+                        <p style="font-size: 1.6em; font-weight: 800; color: #78350f; margin: 0;">R$ 1.272,5 Mi</p>
+                        <p style="font-size: 0.5em; color: #b45309; margin: 5px 0 0 0;">21.2% do choque inicial</p>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h3 style="font-size: 1.2em;">Premissas do Choque</h3>
+                <p style="font-size: 0.6em; color: #64748b;">Como a demanda final foi distribuída na Matriz Insumo-Produto</p>
+                
+                <table class="creative-table" style="font-size: 0.55em; margin-top: 10px;">
+                    <thead>
+                        <tr>
+                            <th>Setor (IBGE)</th>
+                            <th class="num-col">Choque Direto (R$ Mi)</th>
+                            <th class="num-col">% Total</th>
+                            <th style="text-align: center;">Tipo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td style="width: 50%;">Atividades artÃ­sticas, criativas e de espetÃ¡culos</td>
+                            <td class="num-col" style="font-weight: bold;">R$ 2.000,0</td>
+                            <td class="num-col">33.3%</td>
+                            <td style="text-align: center;"><span style="background: #3b82f6; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.9em;">Criativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td style="width: 50%;">Alojamento</td>
+                            <td class="num-col" style="font-weight: bold;">R$ 1.500,0</td>
+                            <td class="num-col">25.0%</td>
+                            <td style="text-align: center;"><span style="background: #3b82f6; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.9em;">Criativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td style="width: 50%;">AlimentaÃ§Ã£o</td>
+                            <td class="num-col" style="font-weight: bold;">R$ 1.200,0</td>
+                            <td class="num-col">20.0%</td>
+                            <td style="text-align: center;"><span style="background: #3b82f6; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.9em;">Criativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td style="width: 50%;">Transporte terrestre</td>
+                            <td class="num-col" style="font-weight: bold;">R$ 600,0</td>
+                            <td class="num-col">10.0%</td>
+                            <td style="text-align: center;"><span style="background: #94a3b8; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.9em;">Não-Criativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td style="width: 50%;">ComÃ©rcio por atacado e varejo</td>
+                            <td class="num-col" style="font-weight: bold;">R$ 500,0</td>
+                            <td class="num-col">8.3%</td>
+                            <td style="text-align: center;"><span style="background: #94a3b8; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.9em;">Não-Criativo</span></td>
+                        </tr>
+
+                        <tr>
+                            <td style="width: 50%;">Transporte aÃ©reo</td>
+                            <td class="num-col" style="font-weight: bold;">R$ 200,0</td>
+                            <td class="num-col">3.3%</td>
+                            <td style="text-align: center;"><span style="background: #94a3b8; color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.9em;">Não-Criativo</span></td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h3 style="font-size: 1.2em;">Apropriação por Segmento Criativo</h3>
+                
+                <table class="creative-table" style="font-size: 0.6em;">
+                    <thead>
+                        <tr>
+                            <th>Segmento</th>
+                            <th class="num-col">Produção Induzida (R$ Mi)</th>
+                            <th class="num-col">Empregos Totais</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td style="font-weight: bold; color: #334155;">Turismo & Gastronomia</td>
+                            <td class="num-col" style="color: #2563eb; font-weight: bold;">R$ 2.859,1</td>
+                            <td class="num-col">150.687</td>
+                        </tr>
+
+                        <tr>
+                            <td style="font-weight: bold; color: #334155;">Eventos & Artes</td>
+                            <td class="num-col" style="color: #2563eb; font-weight: bold;">R$ 2.000,0</td>
+                            <td class="num-col">36.941</td>
+                        </tr>
+
+                        <tr>
+                            <td style="font-weight: bold; color: #334155;">Design & Serviços Criativos</td>
+                            <td class="num-col" style="color: #2563eb; font-weight: bold;">R$ 353,5</td>
+                            <td class="num-col">3.548</td>
+                        </tr>
+
+                        <tr>
+                            <td style="font-weight: bold; color: #334155;">Tecnologia & Software</td>
+                            <td class="num-col" style="color: #2563eb; font-weight: bold;">R$ 223,5</td>
+                            <td class="num-col">1.743</td>
+                        </tr>
+
+                        <tr>
+                            <td style="font-weight: bold; color: #334155;">Audiovisual & Mídia</td>
+                            <td class="num-col" style="color: #2563eb; font-weight: bold;">R$ 128,8</td>
+                            <td class="num-col">3.891</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h3 style="font-size: 1.2em;">Vazamento Inter-estadual (Spillover)</h3>
+                <p style="font-size: 0.6em; color: #64748b;">R$ R$ 197,4 Mi (2.2%) transbordam para outros estados via importação intermédias.</p>
+                <div class="chart-container">
+                    <canvas id="chartSpillover_1"></canvas>
+                </div>
+            </section>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    // wait for chart.js loading
+                    setTimeout(() => {
+                        const ctx = document.getElementById('chartSpillover_1').getContext('2d');
+                        new Chart(ctx, {
+                            type: 'bar',
+                            data: {
+                                labels: ["SP", "MG", "PR", "ES", "SC", "DF"],
+                                datasets: [{
+                                    label: 'Produção (R$ Mi)',
+                                    data: [72.23226470318268, 46.77619337103074, 14.296041209302444, 11.210937166758082, 9.654242868078573, 8.278097442504862],
+                                    backgroundColor: '#8b5cf6',
+                                    borderRadius: 4
+                                }]
+                            },
+                            options: {
+                                responsive: true,
+                                maintainAspectRatio: false,
+                                plugins: { legend: { display: false } },
+                                scales: { y: { beginAtZero: true } }
+                            }
+                        });
+                    }, 500);
+                });
+            </script>
+
+            <section>
+                <h3 style="font-size: 1.1em;">Efeito Indireto: Setores Não-Criativos</h3>
+                <p style="font-size: 0.55em; color: #64748b; margin-bottom: 20px;">Indústrias de base e serviços utilitários tracionados primariamente pela cadeia criativa.</p>
+                <table class="creative-table" style="font-size: 0.5em;">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Setor MIP</th>
+                            <th class="num-col">Produção (R$ Mi)</th>
+                            <th class="num-col">Empregos</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td style="color: #94a3b8;">1</td>
+                            <td>Transporte terrestre</td>
+                            <td class="num-col" style="color: #059669; font-weight: bold;">R$ 794,9</td>
+                            <td class="num-col">27.361</td>
+                        </tr>
+
+                        <tr>
+                            <td style="color: #94a3b8;">2</td>
+                            <td>ComÃ©rcio por atacado e varejo</td>
+                            <td class="num-col" style="color: #059669; font-weight: bold;">R$ 510,4</td>
+                            <td class="num-col">10.079</td>
+                        </tr>
+
+                        <tr>
+                            <td style="color: #94a3b8;">3</td>
+                            <td>Ãgua, esgoto e gestÃ£o de resÃ­duos</td>
+                            <td class="num-col" style="color: #059669; font-weight: bold;">R$ 470,1</td>
+                            <td class="num-col">1.691</td>
+                        </tr>
+
+                        <tr>
+                            <td style="color: #94a3b8;">4</td>
+                            <td>Transporte aÃ©reo</td>
+                            <td class="num-col" style="color: #059669; font-weight: bold;">R$ 269,3</td>
+                            <td class="num-col">361</td>
+                        </tr>
+
+                        <tr>
+                            <td style="color: #94a3b8;">5</td>
+                            <td>IntermediaÃ§Ã£o financeira, seguros e previdÃªncia complementar</td>
+                            <td class="num-col" style="color: #059669; font-weight: bold;">R$ 157,6</td>
+                            <td class="num-col">718</td>
+                        </tr>
+
+                        <tr>
+                            <td style="color: #94a3b8;">6</td>
+                            <td>TelecomunicaÃ§Ãµes</td>
+                            <td class="num-col" style="color: #059669; font-weight: bold;">R$ 151,6</td>
+                            <td class="num-col">3.754</td>
+                        </tr>
+
+                        <tr>
+                            <td style="color: #94a3b8;">7</td>
+                            <td>Energia elÃ©trica, gÃ¡s natural e outras utilidades</td>
+                            <td class="num-col" style="color: #059669; font-weight: bold;">R$ 135,1</td>
+                            <td class="num-col">962</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- Slide Final -->
+            <section>
+                <h2 style="font-size: 1.8em;" class="gradient-text">Obrigado</h2>
+                <p style="color: #64748b; margin-top: 1em;">Estudo elaborado com MRIO v4 (2021)</p>
+                <p style="font-size: 0.6em; color: #94a3b8; margin-top: 2em;">Pressione ESC para visão geral da apresentação.</p>
+            </section>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            slideNumber: 'c/t',
+            transition: 'slide',
+            backgroundTransition: 'fade',
+            width: 1024,
+            height: 768,
+            margin: 0.04,
+            minScale: 0.2,
+            maxScale: 2.0
+        });
+    </script>
+</body>
+</html>

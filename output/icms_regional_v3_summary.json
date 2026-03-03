@@ -1,0 +1,64 @@
+{
+  "version": "v3_sectoral",
+  "total_brasil_bilhoes": 537.0,
+  "methodology": "CNAE divisions mapped to MIP sectors using validated correspondence table",
+  "top_5_ufs": [
+    {
+      "uf": "SP",
+      "icms_bilhoes": 153.5300395423531,
+      "share_pct": 28.590323937123486
+    },
+    {
+      "uf": "MG",
+      "icms_bilhoes": 55.77420914459062,
+      "share_pct": 10.386258686143504
+    },
+    {
+      "uf": "PR",
+      "icms_bilhoes": 37.073167539232934,
+      "share_pct": 6.903755593898126
+    },
+    {
+      "uf": "RS",
+      "icms_bilhoes": 35.24132326510212,
+      "share_pct": 6.5626300307452725
+    },
+    {
+      "uf": "RJ",
+      "icms_bilhoes": 29.570989172537494,
+      "share_pct": 5.50670189432728
+    }
+  ],
+  "bottom_5_ufs": [
+    {
+      "uf": "TO",
+      "icms_bilhoes": 3.934562813644867,
+      "share_pct": 0.7326932613863812
+    },
+    {
+      "uf": "SE",
+      "icms_bilhoes": 3.7473266785916914,
+      "share_pct": 0.6978261971306687
+    },
+    {
+      "uf": "AC",
+      "icms_bilhoes": 1.3978804062121137,
+      "share_pct": 0.2603129248067251
+    },
+    {
+      "uf": "RR",
+      "icms_bilhoes": 1.2831868433848765,
+      "share_pct": 0.2389547194385245
+    },
+    {
+      "uf": "AP",
+      "icms_bilhoes": 0.9630538982840902,
+      "share_pct": 0.17933964586295906
+    }
+  ],
+  "statistics": {
+    "mean_coefficient_pct": 9.432288293321903,
+    "min_coefficient_pct": 7.815213118847184e-08,
+    "max_coefficient_pct": 603.3420797058428
+  }
+}

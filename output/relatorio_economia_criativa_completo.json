@@ -1,0 +1,2958 @@
+{
+  "Rock in Rio": {
+    "descricao": "Festival de música (7 dias, ~700 mil pessoas)",
+    "choque_total": 2000.0,
+    "producao_total_brasil": 2987.447856979314,
+    "producao_rj": 2928.5323051566543,
+    "producao_outros_estados": 58.915551822659836,
+    "multiplicador_rj": 1.4642661525783272,
+    "multiplicador_brasil": 1.493723928489657,
+    "empregos_total_brasil": 76011.32378845828,
+    "empregos_rj": 75007.89444606316,
+    "renda_total_brasil": 2784.9216123970127,
+    "renda_rj": 2751.8208806464854,
+    "icms_rj": 122.19876131758537,
+    "iss_rj": 274.3244031436001,
+    "fiscal_rj": 396.52316446118544,
+    "spillover_por_estado": [
+      {
+        "uf": "RJ",
+        "nome": "Rio de Janeiro",
+        "producao": 2928.5323051566543,
+        "empregos": 75007.89444606316,
+        "renda": 2751.8208806464854,
+        "prod_criativo": 2018.80904980212,
+        "emp_criativo": 61271.05887571019
+      },
+      {
+        "uf": "SP",
+        "nome": "São Paulo",
+        "producao": 20.984894974773614,
+        "empregos": 233.02589852605547,
+        "renda": 8.293870638031544,
+        "prod_criativo": 1.2835668671046718,
+        "emp_criativo": 17.846338002763552
+      },
+      {
+        "uf": "MG",
+        "nome": "Minas Gerais",
+        "producao": 14.511121852827525,
+        "empregos": 252.04915356344466,
+        "renda": 8.5796879616875,
+        "prod_criativo": 2.9564237251294134,
+        "emp_criativo": 57.643112655948336
+      },
+      {
+        "uf": "PR",
+        "nome": "Paraná",
+        "producao": 4.3756061393965995,
+        "empregos": 81.11613668364583,
+        "renda": 2.9817695752479416,
+        "prod_criativo": 0.8966852801540428,
+        "emp_criativo": 18.105424516557836
+      },
+      {
+        "uf": "ES",
+        "nome": "Espírito Santo",
+        "producao": 3.386111301734088,
+        "empregos": 65.06192264680287,
+        "renda": 1.9241607487203518,
+        "prod_criativo": 0.6174217642834818,
+        "emp_criativo": 14.252601514145345
+      },
+      {
+        "uf": "SC",
+        "nome": "Santa Catarina",
+        "producao": 2.941081255173049,
+        "empregos": 41.2062970681688,
+        "renda": 1.6430104277873911,
+        "prod_criativo": 0.574395416247119,
+        "emp_criativo": 9.488907493533999
+      },
+      {
+        "uf": "RS",
+        "nome": "Rio Grande do Sul",
+        "producao": 2.434147068812918,
+        "empregos": 40.78427457547077,
+        "renda": 1.8527013911258914,
+        "prod_criativo": 0.42730936061794117,
+        "emp_criativo": 8.547175860853773
+      },
+      {
+        "uf": "DF",
+        "nome": "Distrito Federal",
+        "producao": 2.3631756840308773,
+        "empregos": 46.5336291403975,
+        "renda": 1.5065739378635132,
+        "prod_criativo": 0.2619413931620403,
+        "emp_criativo": 5.157691254157051
+      },
+      {
+        "uf": "GO",
+        "nome": "Goiás",
+        "producao": 1.5986897130383775,
+        "empregos": 40.52689845639451,
+        "renda": 1.2598512887521502,
+        "prod_criativo": 0.30533633248497505,
+        "emp_criativo": 8.572238750857482
+      },
+      {
+        "uf": "BA",
+        "nome": "Bahia",
+        "producao": 1.4111848737846937,
+        "empregos": 39.19966716796015,
+        "renda": 0.9425018454945745,
+        "prod_criativo": 0.26286374176928856,
+        "emp_criativo": 5.946907222281221
+      },
+      {
+        "uf": "PA",
+        "nome": "Pará",
+        "producao": 0.6057604951515765,
+        "empregos": 23.025315166642773,
+        "renda": 0.45754082906247084,
+        "prod_criativo": 0.08303404459815916,
+        "emp_criativo": 2.708819408543489
+      },
+      {
+        "uf": "MS",
+        "nome": "Mato Grosso do Sul",
+        "producao": 0.5866397949032468,
+        "empregos": 12.694597076239152,
+        "renda": 0.43308909079315155,
+        "prod_criativo": 0.11162556012196402,
+        "emp_criativo": 3.3500264634477084
+      },
+      {
+        "uf": "PE",
+        "nome": "Pernambuco",
+        "producao": 0.5619052316755112,
+        "empregos": 22.500934276731595,
+        "renda": 0.6844360973590099,
+        "prod_criativo": 0.09618711337669197,
+        "emp_criativo": 2.291323729676478
+      },
+      {
+        "uf": "MT",
+        "nome": "Mato Grosso",
+        "producao": 0.5550208097244645,
+        "empregos": 9.398420451067272,
+        "renda": 0.3404026638443181,
+        "prod_criativo": 0.11926623689604046,
+        "emp_criativo": 3.1653776597859173
+      },
+      {
+        "uf": "CE",
+        "nome": "Ceará",
+        "producao": 0.42582471616299766,
+        "empregos": 11.775011743571568,
+        "renda": 0.2830069729954095,
+        "prod_criativo": 0.05707275906955101,
+        "emp_criativo": 1.2505683555408558
+      },
+      {
+        "uf": "MA",
+        "nome": "Maranhão",
+        "producao": 0.29864770663455514,
+        "empregos": 10.223795802365935,
+        "renda": 0.19398457549334192,
+        "prod_criativo": 0.040740821263581556,
+        "emp_criativo": 1.7620936565414462
+      },
+      {
+        "uf": "AM",
+        "nome": "Amazonas",
+        "producao": 0.26268518400053226,
+        "empregos": 7.622088285744032,
+        "renda": 0.16152069460963658,
+        "prod_criativo": 0.04596592250302628,
+        "emp_criativo": 1.1060838374397044
+      },
+      {
+        "uf": "AL",
+        "nome": "Alagoas",
+        "producao": 0.24600374931681662,
+        "empregos": 6.962027880477812,
+        "renda": 0.1509499470453291,
+        "prod_criativo": 0.030813983661549145,
+        "emp_criativo": 0.8395320957351816
+      },
+      {
+        "uf": "PB",
+        "nome": "Paraíba",
+        "producao": 0.24548131738272813,
+        "empregos": 9.297482010085254,
+        "renda": 0.19860857893165892,
+        "prod_criativo": 0.030004677740353997,
+        "emp_criativo": 0.8114942116140766
+      },
+      {
+        "uf": "RN",
+        "nome": "Rio Grande do Norte",
+        "producao": 0.24212495254962185,
+        "empregos": 9.289136648159651,
+        "renda": 0.2245407344110486,
+        "prod_criativo": 0.032312276468388454,
+        "emp_criativo": 0.8977356732220304
+      },
+      {
+        "uf": "SE",
+        "nome": "Sergipe",
+        "producao": 0.23463515647668554,
+        "empregos": 10.69130823444606,
+        "renda": 0.2586746018518084,
+        "prod_criativo": 0.031128924698829354,
+        "emp_criativo": 1.2996109958609139
+      },
+      {
+        "uf": "TO",
+        "nome": "Tocantins",
+        "producao": 0.21514421038680354,
+        "empregos": 7.02106494201814,
+        "renda": 0.17896863274288222,
+        "prod_criativo": 0.028889544941510362,
+        "emp_criativo": 1.4673444043909636
+      },
+      {
+        "uf": "PI",
+        "nome": "Piauí",
+        "producao": 0.1920073768872629,
+        "empregos": 8.430442106927734,
+        "renda": 0.17416583529815557,
+        "prod_criativo": 0.02364205889142855,
+        "emp_criativo": 1.1523772151339637
+      },
+      {
+        "uf": "RO",
+        "nome": "Rondônia",
+        "producao": 0.12421081326992674,
+        "empregos": 5.526303359081897,
+        "renda": 0.17882362560316453,
+        "prod_criativo": 0.01664317224475048,
+        "emp_criativo": 1.229729634112514
+      },
+      {
+        "uf": "AP",
+        "nome": "Amapá",
+        "producao": 0.044280772064975105,
+        "empregos": 5.041919964048503,
+        "renda": 0.10965162998407046,
+        "prod_criativo": 0.005099221162616226,
+        "emp_criativo": 0.7357984331665346
+      },
+      {
+        "uf": "AC",
+        "nome": "Acre",
+        "producao": 0.038130570633273776,
+        "empregos": 2.9071454397936356,
+        "renda": 0.052244657548738666,
+        "prod_criativo": 0.004296443188098269,
+        "emp_criativo": 0.17064467256600385
+      },
+      {
+        "uf": "RR",
+        "nome": "Roraima",
+        "producao": 0.031036101867246882,
+        "empregos": 1.518471179380946,
+        "renda": 0.03599476824231719,
+        "prod_criativo": 0.0034683881780323764,
+        "emp_criativo": 0.1740414954746306
+      }
+    ],
+    "setores_detalhados_rj": [
+      {
+        "idx": 64,
+        "setor": "Atividades artÃ­sticas, criativas e de espetÃ¡culos",
+        "producao": 800.0,
+        "empregos": 14776.524889843713,
+        "renda": 996.356111709531,
+        "icms": 19.69577780974768,
+        "iss": 63.85112029691615,
+        "criativo": true,
+        "choque_direto": 800.0
+      },
+      {
+        "idx": 45,
+        "setor": "Alojamento",
+        "producao": 406.4684276164836,
+        "empregos": 2069.063739119569,
+        "renda": 73.6691611228695,
+        "icms": 1.8015417031140066,
+        "iss": 5.021401394673792,
+        "criativo": true,
+        "choque_direto": 400.0
+      },
+      {
+        "idx": 46,
+        "setor": "AlimentaÃ§Ã£o",
+        "producao": 353.1716924164655,
+        "empregos": 37597.80016231891,
+        "renda": 758.9620341203017,
+        "icms": 35.132151739787915,
+        "iss": 97.92314851170472,
+        "criativo": true,
+        "choque_direto": 300.0
+      },
+      {
+        "idx": 41,
+        "setor": "Transporte terrestre",
+        "producao": 211.14534707772808,
+        "empregos": 7267.746020538401,
+        "renda": 220.88108960705233,
+        "icms": 8.457356971134365,
+        "iss": 17.536252883352457,
+        "criativo": false,
+        "choque_direto": 150.0
+      },
+      {
+        "idx": 50,
+        "setor": "Desenvolvimento de sistemas e outros serviÃ§os de informaÃ§Ã£o",
+        "producao": 168.8797609655866,
+        "empregos": 1316.776521930104,
+        "renda": 91.60657788954866,
+        "icms": 1.598656985320417,
+        "iss": 4.586707619771698,
+        "criativo": true,
+        "choque_direto": 100.0
+      },
+      {
+        "idx": 40,
+        "setor": "ComÃ©rcio por atacado e varejo",
+        "producao": 153.2941724158231,
+        "empregos": 3027.4283336567205,
+        "renda": 81.6384077500741,
+        "icms": 14.416339245146002,
+        "iss": 1.9517509885125224,
+        "criativo": false,
+        "choque_direto": 150.0
+      },
+      {
+        "idx": 38,
+        "setor": "Ãgua, esgoto e gestÃ£o de resÃ­duos",
+        "producao": 143.1728695666286,
+        "empregos": 515.1451514375702,
+        "renda": 20.966805912943332,
+        "icms": 0.7979217458425214,
+        "iss": 2.5427084342084236,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 48,
+        "setor": "Atividades de televisÃ£o, rÃ¡dio, cinema e  gravaÃ§Ã£o/ediÃ§Ã£o de som e imagem",
+        "producao": 112.4630496113645,
+        "empregos": 3851.8856236349707,
+        "renda": 252.41627123126764,
+        "icms": 3.8497043925421357,
+        "iss": 11.045188951276204,
+        "criativo": true,
+        "choque_direto": 50.0
+      },
+      {
+        "idx": 54,
+        "setor": "ServiÃ§os de arquitetura, engenharia, testes/anÃ¡lises tÃ©cnicas e P & D",
+        "producao": 107.61510244962761,
+        "empregos": 965.3905390137191,
+        "renda": 81.5754686046935,
+        "icms": 1.104675801260308,
+        "iss": 2.8273801964510654,
+        "criativo": true,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 51,
+        "setor": "IntermediaÃ§Ã£o financeira, seguros e previdÃªncia complementar",
+        "producao": 58.977665392578366,
+        "empregos": 268.562661539132,
+        "renda": 18.349615914008588,
+        "icms": 2.363564102121521,
+        "iss": 8.366456996388434,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 55,
+        "setor": "Outras atividades profissionais, cientÃ­ficas e tÃ©cnicas",
+        "producao": 50.0,
+        "empregos": 480.8729746023701,
+        "renda": 20.353246134850995,
+        "icms": 0.4323505064107877,
+        "iss": 1.1065864377193841,
+        "criativo": true,
+        "choque_direto": 50.0
+      },
+      {
+        "idx": 49,
+        "setor": "TelecomunicaÃ§Ãµes",
+        "producao": 45.066283791199986,
+        "empregos": 1115.8003560305574,
+        "renda": 53.479273048990486,
+        "icms": 15.88317475729664,
+        "iss": 23.97061071144594,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 37,
+        "setor": "Energia elÃ©trica, gÃ¡s natural e outras utilidades",
+        "producao": 39.5337753569026,
+        "empregos": 281.6995193862793,
+        "renda": 23.996804308459964,
+        "icms": 10.799333087237146,
+        "iss": 11.71333964584189,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 42,
+        "setor": "Transporte aquaviÃ¡rio",
+        "producao": 38.094931435984776,
+        "empregos": 92.12707446943152,
+        "renda": 6.48723598249622,
+        "icms": 0.22382338603440174,
+        "iss": 0.4640957585335358,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 52,
+        "setor": "Atividades imobiliÃ¡rias",
+        "producao": 35.77941055015233,
+        "empregos": 27.103289684681165,
+        "renda": 1.1172052133331973,
+        "icms": 0.012712386892420578,
+        "iss": 0.03358823801548271,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 10,
+        "setor": "FabricaÃ§Ã£o de bebidas",
+        "producao": 30.59370946324439,
+        "empregos": 63.8988284073508,
+        "renda": 2.6829033731598004,
+        "icms": 1.2663165589515537,
+        "iss": 5.520868941738724,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 43,
+        "setor": "Transporte aÃ©reo",
+        "producao": 27.371752263774333,
+        "empregos": 36.718921304243466,
+        "renda": 2.7310733577452035,
+        "icms": 0.11885298072792001,
+        "iss": 0.24644057630518448,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 18,
+        "setor": "Refino de petrÃ³leo e coquerias",
+        "producao": 23.34709066373535,
+        "empregos": 9.350475079191828,
+        "renda": 0.4305355019118028,
+        "icms": 1.2291824141844554,
+        "iss": 3.9114894244093463,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 44,
+        "setor": "Armazenamento, atividades auxiliares dos transportes e correio",
+        "producao": 15.030296064184942,
+        "empregos": 92.71940177402524,
+        "renda": 3.3367903231824365,
+        "icms": 0.21255609744151394,
+        "iss": 0.4407331379478172,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 3,
+        "setor": "ExtraÃ§Ã£o de carvÃ£o mineral e de minerais nÃ£o metÃ¡licos",
+        "producao": 12.936137934129423,
+        "empregos": 11.33321164188775,
+        "renda": 0.4699432105193172,
+        "icms": 0.23623023150942765,
+        "iss": 0.15036181082772743,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 58,
+        "setor": "Atividades de vigilÃ¢ncia, seguranÃ§a e investigaÃ§Ã£o",
+        "producao": 11.067857179663347,
+        "empregos": 133.40857253110872,
+        "renda": 4.113335567117889,
+        "icms": 0.11982951189569623,
+        "iss": 0.3066995660606968,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 15,
+        "setor": "FabricaÃ§Ã£o de produtos da madeira",
+        "producao": 9.600832660274595,
+        "empregos": 170.53584999601222,
+        "renda": 2.743784731110465,
+        "icms": 0.3672645716187253,
+        "iss": 1.6011948612040299,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 29,
+        "setor": "FabricaÃ§Ã£o de equipamentos de informÃ¡tica, produtos eletrÃ´nicos e Ã³pticos",
+        "producao": 8.523831400576267,
+        "empregos": 2.4716880648380317,
+        "renda": 0.06934730888161683,
+        "icms": 0.48181507245930527,
+        "iss": 2.1006105072214716,
+        "criativo": true,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 19,
+        "setor": "FabricaÃ§Ã£o de biocombustÃ­veis",
+        "producao": 7.770502719809148,
+        "empregos": 3.112074779716603,
+        "renda": 0.1432931124808855,
+        "icms": 0.11330406488165758,
+        "iss": 0.4939814522332438,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 53,
+        "setor": "Atividades jurÃ­dicas, contÃ¡beis, consultoria e sedes de empresas",
+        "producao": 6.409222387435369,
+        "empregos": 203.2930589690965,
+        "renda": 11.97284628378638,
+        "icms": 0.24562982470038527,
+        "iss": 0.6286811942682947,
+        "criativo": true,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 39,
+        "setor": "ConstruÃ§Ã£o",
+        "producao": 6.2193993778145344,
+        "empregos": 161.61825980019765,
+        "renda": 4.345410404886679,
+        "icms": 0.16160397134906143,
+        "iss": 0.5558505999315676,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 9,
+        "setor": "Outros produtos alimentares",
+        "producao": 5.618111170603045,
+        "empregos": 15.91467775624707,
+        "renda": 0.42469029941520337,
+        "icms": 0.14954761650974788,
+        "iss": 0.6519955736686431,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 16,
+        "setor": "FabricaÃ§Ã£o de celulose, papel e produtos de papel",
+        "producao": 4.55831425294185,
+        "empregos": 14.421591252614665,
+        "renda": 0.18530306773153696,
+        "icms": 0.17757213892910756,
+        "iss": 0.7741764883367759,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 56,
+        "setor": "AluguÃ©is nÃ£o imobiliÃ¡rios e gestÃ£o de ativos de propriedade intelectual",
+        "producao": 4.34197249770022,
+        "empregos": 5.655266924322743,
+        "renda": 0.13288349432969143,
+        "icms": 0.03834909574831513,
+        "iss": 0.09815320816015764,
+        "criativo": true,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 12,
+        "setor": "FabricaÃ§Ã£o de produtos tÃªxteis",
+        "producao": 4.107620138457488,
+        "empregos": 36.38284428998694,
+        "renda": 0.5369357278266755,
+        "icms": 0.13476691211341849,
+        "iss": 0.5875548686475555,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 59,
+        "setor": "AdministraÃ§Ã£o pÃºblica, defesa e seguridade social",
+        "producao": 3.650211278409632,
+        "empregos": 92.07045628748799,
+        "renda": 6.593235512012241,
+        "icms": 0.013469803991721376,
+        "iss": 0.029151914864160224,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 60,
+        "setor": "EducaÃ§Ã£o pÃºblica",
+        "producao": 3.0919046980591975,
+        "empregos": 12.751872186485471,
+        "renda": 0.5475683259451157,
+        "icms": 9.155812644558207e-05,
+        "iss": 0.00021083252341228722,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 22,
+        "setor": "FabricaÃ§Ã£o de produtos de limpeza, cosmÃ©ticos/perfumaria e higiene pessoal",
+        "producao": 2.2773054610816943,
+        "empregos": 1.8149127015002158,
+        "renda": 0.1387407566249348,
+        "icms": 0.07248885184925664,
+        "iss": 0.31603586636204717,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 24,
+        "setor": "FabricaÃ§Ã£o de produtos de borracha e de material plÃ¡stico",
+        "producao": 2.2695252722380967,
+        "empregos": 18.27870665499208,
+        "renda": 0.5387923585452828,
+        "icms": 0.06923998679904657,
+        "iss": 0.3018715106764073,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 0,
+        "setor": "Agricultura, inclusive o apoio Ã  agricultura e a pÃ³s-colheita",
+        "producao": 2.182066804340403,
+        "empregos": 51.31827565878703,
+        "renda": 1.3636995495335829,
+        "icms": 0.006085457045555919,
+        "iss": 0.36964955466563343,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 26,
+        "setor": "ProduÃ§Ã£o de ferro gusa/ferroligas, siderurgia e tubos de aÃ§o sem costura",
+        "producao": 1.8797305740059844,
+        "empregos": 24.566220066871114,
+        "renda": 0.8178664765101725,
+        "icms": 0.017156609617567705,
+        "iss": 0.07479914284749485,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 2,
+        "setor": "ProduÃ§Ã£o florestal; pesca e aquicultura",
+        "producao": 1.834771732917286,
+        "empregos": 34.00801597971373,
+        "renda": 0.6463946093667148,
+        "icms": 0.0406234911192262,
+        "iss": 0.5984916297114986,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 14,
+        "setor": "FabricaÃ§Ã£o de calÃ§ados e de artefatos de couro",
+        "producao": 1.7746220787733802,
+        "empregos": 5.218015191347763,
+        "renda": 0.09186800711789093,
+        "icms": 0.09775967700496184,
+        "iss": 0.42621125082496164,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 28,
+        "setor": "FabricaÃ§Ã£o de produtos de metal, exceto mÃ¡quinas e equipamentos",
+        "producao": 1.4116098187731179,
+        "empregos": 47.173280748305324,
+        "renda": 1.367147134755581,
+        "icms": 0.0881184002216744,
+        "iss": 0.3841773492896075,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 47,
+        "setor": "EdiÃ§Ã£o e ediÃ§Ã£o integrada Ã  impressÃ£o",
+        "producao": 0.9359904568801637,
+        "empregos": 1.3244112885696546,
+        "renda": 0.0700829846414336,
+        "icms": 0.0013226335256131328,
+        "iss": 0.0037947685624876893,
+        "criativo": true,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 17,
+        "setor": "ImpressÃ£o e reproduÃ§Ã£o de gravaÃ§Ãµes",
+        "producao": 0.7796047854364683,
+        "empregos": 13.85028297679232,
+        "renda": 0.7447292114362373,
+        "icms": 0.024335228970772622,
+        "iss": 0.10609638550890889,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 32,
+        "setor": "FabricaÃ§Ã£o de automÃ³veis, caminhÃµes e Ã´nibus, exceto peÃ§as",
+        "producao": 0.7666526691984232,
+        "empregos": 2.792524608971095,
+        "renda": 0.0988623099441235,
+        "icms": 0.028606063410457797,
+        "iss": 0.124716308818518,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 27,
+        "setor": "Metalurgia de metais nÃ£o ferosos e a fundiÃ§Ã£o de metais",
+        "producao": 0.693005045758914,
+        "empregos": 1.1056688786203959,
+        "renda": 0.044752284884294245,
+        "icms": 0.004531744879717269,
+        "iss": 0.01975743693901403,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 4,
+        "setor": "ExtraÃ§Ã£o de petrÃ³leo e gÃ¡s, inclusive as atividades de apoio",
+        "producao": 0.6877388172747532,
+        "empregos": 1.5657128218736034,
+        "renda": 0.14622739937893392,
+        "icms": 0.003019086592377309,
+        "iss": 0.0019216648274649317,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 1,
+        "setor": "PecuÃ¡ria, inclusive o apoio Ã  pecuÃ¡ria",
+        "producao": 0.6208416755137185,
+        "empregos": 11.933418786898269,
+        "renda": 0.2321489502425106,
+        "icms": 0.004793909626183203,
+        "iss": 0.0997229716165596,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 36,
+        "setor": "ManutenÃ§Ã£o, reparaÃ§Ã£o e instalaÃ§Ã£o de mÃ¡quinas e equipamentos",
+        "producao": 0.574760533444723,
+        "empregos": 54.579525893249446,
+        "renda": 1.496399442716604,
+        "icms": 0.03377833832861141,
+        "iss": 0.14726631951837874,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 20,
+        "setor": "FabricaÃ§Ã£o de quÃ­micos orgÃ¢nicos e inorgÃ¢nicos, resinas e elastÃ´meros",
+        "producao": 0.5698731578391827,
+        "empregos": 7.567070555001969,
+        "renda": 0.31462339091188146,
+        "icms": 0.02289861518179229,
+        "iss": 0.09983305712329425,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 25,
+        "setor": "FabricaÃ§Ã£o de produtos de minerais nÃ£o metÃ¡licos",
+        "producao": 0.24591561816421695,
+        "empregos": 5.722046027972841,
+        "renda": 0.1099516289687294,
+        "icms": 0.019231727322564625,
+        "iss": 0.08384621153421806,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 34,
+        "setor": "FabricaÃ§Ã£o de outros equipamentos de transporte, exceto veÃ­culos automotores",
+        "producao": 0.23788776578591095,
+        "empregos": 0.8767301777406232,
+        "renda": 0.08592955521763124,
+        "icms": 0.002194336218180008,
+        "iss": 0.009566835866627795,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 21,
+        "setor": "FabricaÃ§Ã£o de defensivos, desinfestantes, tintas e quÃ­micos diversos",
+        "producao": 0.22027624587745143,
+        "empregos": 0.17555051938086477,
+        "renda": 0.013419935771383746,
+        "icms": 0.0011233962655537088,
+        "iss": 0.00489776707721155,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 35,
+        "setor": "FabricaÃ§Ã£o de mÃ³veis e de produtos de indÃºstrias diversas",
+        "producao": 0.19870385982373187,
+        "empregos": 2.265621152810179,
+        "renda": 0.05682905315010793,
+        "icms": 0.008212970631045686,
+        "iss": 0.0358067926663566,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 23,
+        "setor": "FabricaÃ§Ã£o de produtos farmoquÃ­micos e farmacÃªuticos",
+        "producao": 0.16865911367827274,
+        "empregos": 1.0869580510318044,
+        "renda": 0.07269085634194347,
+        "icms": 0.005866677780182986,
+        "iss": 0.02557745843157695,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 30,
+        "setor": "FabricaÃ§Ã£o de mÃ¡quinas e equipamentos elÃ©tricos",
+        "producao": 0.146960425746954,
+        "empregos": 0.22471126767644276,
+        "renda": 0.012147729820827704,
+        "icms": 0.0063624658857754585,
+        "iss": 0.027738988370121856,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 7,
+        "setor": "Abate e produtos de carne, inclusive os produtos do laticÃ­nio e da pesca",
+        "producao": 0.09175454639151048,
+        "empregos": 0.26718144853537285,
+        "renda": 0.010132127965654714,
+        "icms": 0.0019124839376034805,
+        "iss": 0.008338020298361415,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 31,
+        "setor": "FabricaÃ§Ã£o de mÃ¡quinas e equipamentos mecÃ¢nicos",
+        "producao": 0.02879635583412668,
+        "empregos": 0.28179316198566706,
+        "renda": 0.026110159818718778,
+        "icms": 0.002829806713185692,
+        "iss": 0.012337351101912208,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 33,
+        "setor": "FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para veÃ­culos automotores",
+        "producao": 0.018237494361358665,
+        "empregos": 0.030583166784654375,
+        "renda": 0.0005996485856380692,
+        "icms": 0.0003746161779065277,
+        "iss": 0.001633246289845083,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 6,
+        "setor": "ExtraÃ§Ã£o de minerais metÃ¡licos nÃ£o ferrosos, inclusive beneficiamentos",
+        "producao": 0.008083974913147511,
+        "empregos": 0.0007150747825445807,
+        "renda": 2.3933359823830395e-05,
+        "icms": 3.325982336429684e-06,
+        "iss": 2.11700561647481e-06,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 13,
+        "setor": "ConfecÃ§Ã£o de artefatos do vestuÃ¡rio e acessÃ³rios",
+        "producao": 0.007273634219518505,
+        "empregos": 0.26593855044409775,
+        "renda": 0.005061183741372101,
+        "icms": 0.0004081946218850403,
+        "iss": 0.0017796411128160243,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 57,
+        "setor": "Outras atividades administrativas e serviÃ§os complementares",
+        "producao": 0.0003979323640753527,
+        "empregos": 0.01666573315807965,
+        "renda": 0.0004617961374215883,
+        "icms": 1.6137108505607177e-05,
+        "iss": 4.130238117344659e-05,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 5,
+        "setor": "ExtraÃ§Ã£o de minÃ©rio de ferro, inclusive beneficiamentos e a aglomeraÃ§Ã£o",
+        "producao": 3.510149772420272e-06,
+        "empregos": 3.145038426124877e-08,
+        "renda": 2.509740664047652e-09,
+        "icms": 6.046518396331575e-10,
+        "iss": 3.848641426909403e-10,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 11,
+        "setor": "FabricaÃ§Ã£o de produtos do fumo",
+        "producao": 9.98529124980294e-07,
+        "empregos": 6.369670935504082e-07,
+        "renda": 1.60222656457034e-08,
+        "icms": 3.9136455958859676e-08,
+        "iss": 1.7062656463395426e-07,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 8,
+        "setor": "FabricaÃ§Ã£o e refino de aÃ§Ãºcar",
+        "producao": 0.0,
+        "empregos": 0.0,
+        "renda": 0.0,
+        "icms": 0.0,
+        "iss": 0.0,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 61,
+        "setor": "EducaÃ§Ã£o privada",
+        "producao": 0.0,
+        "empregos": 0.0,
+        "renda": 0.0,
+        "icms": 0.0,
+        "iss": 0.0,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 62,
+        "setor": "SaÃºde pÃºblica",
+        "producao": 0.0,
+        "empregos": 0.0,
+        "renda": 0.0,
+        "icms": 0.0,
+        "iss": 0.0,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 63,
+        "setor": "SaÃºde privada",
+        "producao": 0.0,
+        "empregos": 0.0,
+        "renda": 0.0,
+        "icms": 0.0,
+        "iss": 0.0,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 65,
+        "setor": "OrganizaÃ§Ãµes associativas e outros serviÃ§os pessoais",
+        "producao": 0.0,
+        "empregos": 0.0,
+        "renda": 0.0,
+        "icms": 0.0,
+        "iss": 0.0,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 66,
+        "setor": "ServiÃ§os domÃ©sticos",
+        "producao": 0.0,
+        "empregos": 0.0,
+        "renda": 0.0,
+        "icms": 0.0,
+        "iss": 0.0,
+        "criativo": false,
+        "choque_direto": 0.0
+      }
+    ],
+    "setores_nao_criativos_rj": [
+      {
+        "idx": 41,
+        "setor": "Transporte terrestre",
+        "producao": 211.14534707772808,
+        "empregos": 7267.746020538401,
+        "renda": 220.88108960705233,
+        "icms": 8.457356971134365,
+        "iss": 17.536252883352457,
+        "criativo": false,
+        "choque_direto": 150.0
+      },
+      {
+        "idx": 40,
+        "setor": "ComÃ©rcio por atacado e varejo",
+        "producao": 153.2941724158231,
+        "empregos": 3027.4283336567205,
+        "renda": 81.6384077500741,
+        "icms": 14.416339245146002,
+        "iss": 1.9517509885125224,
+        "criativo": false,
+        "choque_direto": 150.0
+      },
+      {
+        "idx": 38,
+        "setor": "Ãgua, esgoto e gestÃ£o de resÃ­duos",
+        "producao": 143.1728695666286,
+        "empregos": 515.1451514375702,
+        "renda": 20.966805912943332,
+        "icms": 0.7979217458425214,
+        "iss": 2.5427084342084236,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 51,
+        "setor": "IntermediaÃ§Ã£o financeira, seguros e previdÃªncia complementar",
+        "producao": 58.977665392578366,
+        "empregos": 268.562661539132,
+        "renda": 18.349615914008588,
+        "icms": 2.363564102121521,
+        "iss": 8.366456996388434,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 49,
+        "setor": "TelecomunicaÃ§Ãµes",
+        "producao": 45.066283791199986,
+        "empregos": 1115.8003560305574,
+        "renda": 53.479273048990486,
+        "icms": 15.88317475729664,
+        "iss": 23.97061071144594,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 37,
+        "setor": "Energia elÃ©trica, gÃ¡s natural e outras utilidades",
+        "producao": 39.5337753569026,
+        "empregos": 281.6995193862793,
+        "renda": 23.996804308459964,
+        "icms": 10.799333087237146,
+        "iss": 11.71333964584189,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 42,
+        "setor": "Transporte aquaviÃ¡rio",
+        "producao": 38.094931435984776,
+        "empregos": 92.12707446943152,
+        "renda": 6.48723598249622,
+        "icms": 0.22382338603440174,
+        "iss": 0.4640957585335358,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 52,
+        "setor": "Atividades imobiliÃ¡rias",
+        "producao": 35.77941055015233,
+        "empregos": 27.103289684681165,
+        "renda": 1.1172052133331973,
+        "icms": 0.012712386892420578,
+        "iss": 0.03358823801548271,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 10,
+        "setor": "FabricaÃ§Ã£o de bebidas",
+        "producao": 30.59370946324439,
+        "empregos": 63.8988284073508,
+        "renda": 2.6829033731598004,
+        "icms": 1.2663165589515537,
+        "iss": 5.520868941738724,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 43,
+        "setor": "Transporte aÃ©reo",
+        "producao": 27.371752263774333,
+        "empregos": 36.718921304243466,
+        "renda": 2.7310733577452035,
+        "icms": 0.11885298072792001,
+        "iss": 0.24644057630518448,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 18,
+        "setor": "Refino de petrÃ³leo e coquerias",
+        "producao": 23.34709066373535,
+        "empregos": 9.350475079191828,
+        "renda": 0.4305355019118028,
+        "icms": 1.2291824141844554,
+        "iss": 3.9114894244093463,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 44,
+        "setor": "Armazenamento, atividades auxiliares dos transportes e correio",
+        "producao": 15.030296064184942,
+        "empregos": 92.71940177402524,
+        "renda": 3.3367903231824365,
+        "icms": 0.21255609744151394,
+        "iss": 0.4407331379478172,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 3,
+        "setor": "ExtraÃ§Ã£o de carvÃ£o mineral e de minerais nÃ£o metÃ¡licos",
+        "producao": 12.936137934129423,
+        "empregos": 11.33321164188775,
+        "renda": 0.4699432105193172,
+        "icms": 0.23623023150942765,
+        "iss": 0.15036181082772743,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 58,
+        "setor": "Atividades de vigilÃ¢ncia, seguranÃ§a e investigaÃ§Ã£o",
+        "producao": 11.067857179663347,
+        "empregos": 133.40857253110872,
+        "renda": 4.113335567117889,
+        "icms": 0.11982951189569623,
+        "iss": 0.3066995660606968,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 15,
+        "setor": "FabricaÃ§Ã£o de produtos da madeira",
+        "producao": 9.600832660274595,
+        "empregos": 170.53584999601222,
+        "renda": 2.743784731110465,
+        "icms": 0.3672645716187253,
+        "iss": 1.6011948612040299,
+        "criativo": false,
+        "choque_direto": 0.0
+      }
+    ],
+    "segmentos_criativos": {
+      "Audiovisual & Mídia": {
+        "producao": 121.92287146882093,
+        "empregos": 3855.681722988378,
+        "renda": 252.5557015247907,
+        "icms": 4.332842098527054,
+        "iss": 13.149594227060163,
+        "setores": [
+          "FabricaÃ§Ã£o de equipamentos de informÃ¡tica, produtos eletrÃ´nicos e Ã³pticos",
+          "EdiÃ§Ã£o e ediÃ§Ã£o integrada Ã  impressÃ£o",
+          "Atividades de televisÃ£o, rÃ¡dio, cinema e  gravaÃ§Ã£o/ediÃ§Ã£o de som e imagem"
+        ]
+      },
+      "Tecnologia & Software": {
+        "producao": 168.8797609655866,
+        "empregos": 1316.776521930104,
+        "renda": 91.60657788954866,
+        "icms": 1.598656985320417,
+        "iss": 4.586707619771698,
+        "setores": [
+          "Desenvolvimento de sistemas e outros serviÃ§os de informaÃ§Ã£o"
+        ]
+      },
+      "Eventos & Artes": {
+        "producao": 850.0,
+        "empregos": 15257.397864446084,
+        "renda": 1016.709357844382,
+        "icms": 20.128128316158467,
+        "iss": 64.95770673463554,
+        "setores": [
+          "Outras atividades profissionais, cientÃ­ficas e tÃ©cnicas",
+          "Atividades artÃ­sticas, criativas e de espetÃ¡culos"
+        ]
+      },
+      "Turismo & Gastronomia": {
+        "producao": 759.6401200329491,
+        "empregos": 39666.86390143848,
+        "renda": 832.6311952431712,
+        "icms": 36.93369344290192,
+        "iss": 102.94454990637851,
+        "setores": [
+          "Alojamento",
+          "AlimentaÃ§Ã£o"
+        ]
+      },
+      "Design & Serviços Criativos": {
+        "producao": 118.3662973347632,
+        "empregos": 1174.3388649071383,
+        "renda": 93.68119838280957,
+        "icms": 1.3886547217090084,
+        "iss": 3.5542145988795175,
+        "setores": [
+          "Atividades jurÃ­dicas, contÃ¡beis, consultoria e sedes de empresas",
+          "ServiÃ§os de arquitetura, engenharia, testes/anÃ¡lises tÃ©cnicas e P & D",
+          "AluguÃ©is nÃ£o imobiliÃ¡rios e gestÃ£o de ativos de propriedade intelectual"
+        ]
+      }
+    }
+  },
+  "Carnaval": {
+    "descricao": "Carnaval do Rio (6 dias, ~7 milhões de foliões)",
+    "choque_total": 6000.0,
+    "producao_total_brasil": 8995.270641674235,
+    "producao_rj": 8797.91703245391,
+    "producao_outros_estados": 197.35360922032487,
+    "multiplicador_rj": 1.466319505408985,
+    "multiplicador_brasil": 1.4992117736123725,
+    "empregos_total_brasil": 248707.5069115821,
+    "empregos_rj": 245376.66532271236,
+    "renda_total_brasil": 8054.769042677075,
+    "renda_rj": 7947.621076062315,
+    "icms_rj": 398.06365561408927,
+    "iss_rj": 874.436351981934,
+    "fiscal_rj": 1272.5000075960234,
+    "spillover_por_estado": [
+      {
+        "uf": "RJ",
+        "nome": "Rio de Janeiro",
+        "producao": 8797.91703245391,
+        "empregos": 245376.66532271236,
+        "renda": 7947.621076062315,
+        "prod_criativo": 5564.8968804713,
+        "emp_criativo": 196810.01077381187
+      },
+      {
+        "uf": "SP",
+        "nome": "São Paulo",
+        "producao": 72.23226470318268,
+        "empregos": 801.0257978662235,
+        "renda": 28.441061553268778,
+        "prod_criativo": 3.7401397844953443,
+        "emp_criativo": 55.856685776955146
+      },
+      {
+        "uf": "MG",
+        "nome": "Minas Gerais",
+        "producao": 46.77619337103074,
+        "empregos": 818.1478333256568,
+        "renda": 25.8804279539804,
+        "prod_criativo": 7.707520864510648,
+        "emp_criativo": 164.3513988019572
+      },
+      {
+        "uf": "PR",
+        "nome": "Paraná",
+        "producao": 14.296041209302444,
+        "empregos": 264.3717385335632,
+        "renda": 9.569925915518965,
+        "prod_criativo": 2.43634869737257,
+        "emp_criativo": 51.91741158005334
+      },
+      {
+        "uf": "ES",
+        "nome": "Espírito Santo",
+        "producao": 11.210937166758082,
+        "empregos": 209.9329792385845,
+        "renda": 6.122685509645197,
+        "prod_criativo": 1.6173307149009175,
+        "emp_criativo": 38.79333713915938
+      },
+      {
+        "uf": "SC",
+        "nome": "Santa Catarina",
+        "producao": 9.654242868078573,
+        "empregos": 133.60067879524,
+        "renda": 5.259466915839121,
+        "prod_criativo": 1.5656818822253904,
+        "emp_criativo": 26.225072648117827
+      },
+      {
+        "uf": "DF",
+        "nome": "Distrito Federal",
+        "producao": 8.278097442504862,
+        "empregos": 156.12676534869576,
+        "renda": 5.0030010434803,
+        "prod_criativo": 0.7491667945665145,
+        "emp_criativo": 15.041409882862101
+      },
+      {
+        "uf": "RS",
+        "nome": "Rio Grande do Sul",
+        "producao": 8.123626474642334,
+        "empregos": 135.3165614603224,
+        "renda": 6.163418723777883,
+        "prod_criativo": 1.1925324248245055,
+        "emp_criativo": 24.688343842495776
+      },
+      {
+        "uf": "GO",
+        "nome": "Goiás",
+        "producao": 5.298201016767109,
+        "empregos": 132.13822128732104,
+        "renda": 4.061504981658678,
+        "prod_criativo": 0.8422983084249136,
+        "emp_criativo": 24.32692346586064
+      },
+      {
+        "uf": "BA",
+        "nome": "Bahia",
+        "producao": 4.692212400827339,
+        "empregos": 129.35534475854962,
+        "renda": 3.000705474708401,
+        "prod_criativo": 0.7231544908291864,
+        "emp_criativo": 16.375137735743426
+      },
+      {
+        "uf": "PA",
+        "nome": "Pará",
+        "producao": 2.1052594641475126,
+        "empregos": 77.67306444736857,
+        "renda": 1.535423418765006,
+        "prod_criativo": 0.2417008733301122,
+        "emp_criativo": 7.4844243054638975
+      },
+      {
+        "uf": "MS",
+        "nome": "Mato Grosso do Sul",
+        "producao": 1.9586798802340806,
+        "empregos": 41.13826020973014,
+        "renda": 1.3889203358631959,
+        "prod_criativo": 0.315546672802105,
+        "emp_criativo": 9.786640967839933
+      },
+      {
+        "uf": "PE",
+        "nome": "Pernambuco",
+        "producao": 1.8969763604475325,
+        "empregos": 76.42223464404279,
+        "renda": 2.32216986179158,
+        "prod_criativo": 0.2763785466187205,
+        "emp_criativo": 6.404475743134676
+      },
+      {
+        "uf": "MT",
+        "nome": "Mato Grosso",
+        "producao": 1.8282597786179882,
+        "empregos": 29.43103720708902,
+        "renda": 1.065484500531304,
+        "prod_criativo": 0.3371157907201527,
+        "emp_criativo": 8.817910839904654
+      },
+      {
+        "uf": "CE",
+        "nome": "Ceará",
+        "producao": 1.4714687577338579,
+        "empregos": 40.27161971914768,
+        "renda": 0.9280087725976204,
+        "prod_criativo": 0.16610170431281324,
+        "emp_criativo": 3.766888766571578
+      },
+      {
+        "uf": "MA",
+        "nome": "Maranhão",
+        "producao": 1.0358308822649862,
+        "empregos": 34.08581420210339,
+        "renda": 0.6416358755113796,
+        "prod_criativo": 0.11857520295597744,
+        "emp_criativo": 5.248622523690903
+      },
+      {
+        "uf": "AM",
+        "nome": "Amazonas",
+        "producao": 0.8935082945606612,
+        "empregos": 25.90314059339146,
+        "renda": 0.53284221311613,
+        "prod_criativo": 0.13551280375643707,
+        "emp_criativo": 3.2409063941568235
+      },
+      {
+        "uf": "PB",
+        "nome": "Paraíba",
+        "producao": 0.8553189527081678,
+        "empregos": 32.006776330192494,
+        "renda": 0.6702063391226887,
+        "prod_criativo": 0.0875537266279422,
+        "emp_criativo": 2.3104986415716975
+      },
+      {
+        "uf": "AL",
+        "nome": "Alagoas",
+        "producao": 0.853157998171541,
+        "empregos": 23.686005129564997,
+        "renda": 0.5093438016235512,
+        "prod_criativo": 0.08747621367353803,
+        "emp_criativo": 2.3621341973111383
+      },
+      {
+        "uf": "RN",
+        "nome": "Rio Grande do Norte",
+        "producao": 0.8389889267615858,
+        "empregos": 31.66257765245591,
+        "renda": 0.7634207927550252,
+        "prod_criativo": 0.09346083604268582,
+        "emp_criativo": 2.4196892955897913
+      },
+      {
+        "uf": "SE",
+        "nome": "Sergipe",
+        "producao": 0.8114914564772491,
+        "empregos": 35.87579279523443,
+        "renda": 0.858884352134692,
+        "prod_criativo": 0.0879603163042593,
+        "emp_criativo": 3.691358020055346
+      },
+      {
+        "uf": "TO",
+        "nome": "Tocantins",
+        "producao": 0.743415896681118,
+        "empregos": 23.421764071145965,
+        "renda": 0.5901068304231385,
+        "prod_criativo": 0.08165584839934412,
+        "emp_criativo": 4.159804530713967
+      },
+      {
+        "uf": "PI",
+        "nome": "Piauí",
+        "producao": 0.669407094392721,
+        "empregos": 28.634715186272384,
+        "renda": 0.5870183042973727,
+        "prod_criativo": 0.06836668967420233,
+        "emp_criativo": 3.3602190461731674
+      },
+      {
+        "uf": "RO",
+        "nome": "Rondônia",
+        "producao": 0.4322179560256209,
+        "empregos": 18.515821506206482,
+        "renda": 0.5942929640181079,
+        "prod_criativo": 0.04886417518323417,
+        "emp_criativo": 3.8874403816515506
+      },
+      {
+        "uf": "AP",
+        "nome": "Amapá",
+        "producao": 0.15509217014988025,
+        "empregos": 16.958430236645942,
+        "renda": 0.3610739292142747,
+        "prod_criativo": 0.014950200915582725,
+        "emp_criativo": 2.2415757652348005
+      },
+      {
+        "uf": "AC",
+        "nome": "Acre",
+        "producao": 0.13365800068134184,
+        "empregos": 9.954284363287236,
+        "renda": 0.176001586616186,
+        "prod_criativo": 0.012676015229807042,
+        "emp_criativo": 0.48932583285947084
+      },
+      {
+        "uf": "RR",
+        "nome": "Roraima",
+        "producao": 0.10906069717508343,
+        "empregos": 5.184329961726826,
+        "renda": 0.12093466450083591,
+        "prod_criativo": 0.01032384703706501,
+        "emp_criativo": 0.5245476364061515
+      }
+    ],
+    "setores_detalhados_rj": [
+      {
+        "idx": 64,
+        "setor": "Atividades artÃ­sticas, criativas e de espetÃ¡culos",
+        "producao": 2000.0,
+        "empregos": 36941.31222460928,
+        "renda": 2490.890279273827,
+        "icms": 49.2394445243692,
+        "iss": 159.6278007422904,
+        "criativo": true,
+        "choque_direto": 2000.0
+      },
+      {
+        "idx": 45,
+        "setor": "Alojamento",
+        "producao": 1516.1762534702568,
+        "empregos": 7717.85726769754,
+        "renda": 274.7948551934206,
+        "icms": 6.719967811313104,
+        "iss": 18.730432762985124,
+        "criativo": true,
+        "choque_direto": 1500.0
+      },
+      {
+        "idx": 46,
+        "setor": "AlimentaÃ§Ã£o",
+        "producao": 1342.9670754717013,
+        "empregos": 142969.011425234,
+        "renda": 2886.0212900491097,
+        "icms": 133.59316188165522,
+        "iss": 372.361565781069,
+        "criativo": true,
+        "choque_direto": 1200.0
+      },
+      {
+        "idx": 41,
+        "setor": "Transporte terrestre",
+        "producao": 794.9151447862124,
+        "empregos": 27361.443006645797,
+        "renda": 831.5680442671094,
+        "icms": 31.840062943670215,
+        "iss": 66.02008139277699,
+        "criativo": false,
+        "choque_direto": 600.0
+      },
+      {
+        "idx": 40,
+        "setor": "ComÃ©rcio por atacado e varejo",
+        "producao": 510.37509420847937,
+        "empregos": 10079.470058445482,
+        "renda": 271.8055708827031,
+        "icms": 47.99752257003163,
+        "iss": 6.498127612649878,
+        "criativo": false,
+        "choque_direto": 500.0
+      },
+      {
+        "idx": 38,
+        "setor": "Ãgua, esgoto e gestÃ£o de resÃ­duos",
+        "producao": 470.0682262810591,
+        "empregos": 1691.3355745856227,
+        "renda": 68.83866542669153,
+        "icms": 2.6197537348703452,
+        "iss": 8.348274692238455,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 54,
+        "setor": "ServiÃ§os de arquitetura, engenharia, testes/anÃ¡lises tÃ©cnicas e P & D",
+        "producao": 319.0037274370617,
+        "empregos": 2861.7096798472285,
+        "renda": 241.81437326143876,
+        "icms": 3.2745933441499075,
+        "iss": 8.381210452982685,
+        "criativo": true,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 43,
+        "setor": "Transporte aÃ©reo",
+        "producao": 269.31166804113235,
+        "empregos": 361.2788048722932,
+        "renda": 26.8711302962683,
+        "icms": 1.1693988087806475,
+        "iss": 2.4247378113824642,
+        "criativo": false,
+        "choque_direto": 200.0
+      },
+      {
+        "idx": 50,
+        "setor": "Desenvolvimento de sistemas e outros serviÃ§os de informaÃ§Ã£o",
+        "producao": 223.49826694805725,
+        "empregos": 1742.6438131283185,
+        "renda": 121.23365927506498,
+        "icms": 2.1156890773686436,
+        "iss": 6.070124674236819,
+        "criativo": true,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 51,
+        "setor": "IntermediaÃ§Ã£o financeira, seguros e previdÃªncia complementar",
+        "producao": 157.63890805286405,
+        "empregos": 717.8297822912324,
+        "renda": 49.04591249279547,
+        "icms": 6.31747054908468,
+        "iss": 22.36234914357737,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 49,
+        "setor": "TelecomunicaÃ§Ãµes",
+        "producao": 151.60422944353977,
+        "empregos": 3753.5833656173704,
+        "renda": 179.90575880090736,
+        "icms": 53.431440705284786,
+        "iss": 80.63779971379482,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 37,
+        "setor": "Energia elÃ©trica, gÃ¡s natural e outras utilidades",
+        "producao": 135.0752128830139,
+        "empregos": 962.4839066502343,
+        "renda": 81.9899799909019,
+        "icms": 36.89812578191929,
+        "iss": 40.021015750444654,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 42,
+        "setor": "Transporte aquaviÃ¡rio",
+        "producao": 116.98980073493462,
+        "empregos": 282.92288969157613,
+        "renda": 19.922347049976032,
+        "icms": 0.6873631831044168,
+        "iss": 1.4252413186253878,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 10,
+        "setor": "FabricaÃ§Ã£o de bebidas",
+        "producao": 115.69721239286805,
+        "empregos": 241.64824898996392,
+        "renda": 10.146021742375986,
+        "icms": 4.788869949021434,
+        "iss": 20.878447162902354,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 48,
+        "setor": "Atividades de televisÃ£o, rÃ¡dio, cinema e  gravaÃ§Ã£o/ediÃ§Ã£o de som e imagem",
+        "producao": 113.40024336874538,
+        "empregos": 3883.9847279460373,
+        "renda": 254.51974392275866,
+        "icms": 3.8817853198948975,
+        "iss": 11.13723235726599,
+        "criativo": true,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 52,
+        "setor": "Atividades imobiliÃ¡rias",
+        "producao": 98.70199936112141,
+        "empregos": 74.76782987779823,
+        "renda": 3.0819509476850584,
+        "icms": 0.03506871643889287,
+        "iss": 0.09265737462327349,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 18,
+        "setor": "Refino de petrÃ³leo e coquerias",
+        "producao": 82.6634712342918,
+        "empregos": 33.10659725737627,
+        "renda": 1.5243680504016017,
+        "icms": 4.352083375187336,
+        "iss": 13.849147123934078,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 44,
+        "setor": "Armazenamento, atividades auxiliares dos transportes e correio",
+        "producao": 45.37824229979995,
+        "empregos": 279.93084511621555,
+        "renda": 10.07416481634099,
+        "icms": 0.6417320091907289,
+        "iss": 1.3306254938652629,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 3,
+        "setor": "ExtraÃ§Ã£o de carvÃ£o mineral e de minerais nÃ£o metÃ¡licos",
+        "producao": 44.347650779495154,
+        "empregos": 38.852501006388735,
+        "renda": 1.6110586863271572,
+        "icms": 0.8098441639911612,
+        "iss": 0.5154701589543097,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 16,
+        "setor": "FabricaÃ§Ã£o de celulose, papel e produtos de papel",
+        "producao": 33.54688393501536,
+        "empregos": 106.13560651231141,
+        "renda": 1.3637367151639999,
+        "icms": 1.306840995199632,
+        "iss": 5.697546803117022,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 19,
+        "setor": "FabricaÃ§Ã£o de biocombustÃ­veis",
+        "producao": 27.361246427175992,
+        "empregos": 10.95813849090536,
+        "renda": 0.5045591390003209,
+        "icms": 0.3989626607458305,
+        "iss": 1.739391739810113,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 58,
+        "setor": "Atividades de vigilÃ¢ncia, seguranÃ§a e investigaÃ§Ã£o",
+        "producao": 24.993009306743055,
+        "empregos": 301.2581063113,
+        "renda": 9.288576139167496,
+        "icms": 0.27059439396585255,
+        "iss": 0.6925771614593792,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 15,
+        "setor": "FabricaÃ§Ã£o de produtos da madeira",
+        "producao": 21.71612006973337,
+        "empregos": 385.7349800534405,
+        "renda": 6.206165733190872,
+        "icms": 0.8307156073693424,
+        "iss": 3.621742102101409,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 53,
+        "setor": "Atividades jurÃ­dicas, contÃ¡beis, consultoria e sedes de empresas",
+        "producao": 21.07950688629265,
+        "empregos": 668.6173731271203,
+        "renda": 39.377896479667655,
+        "icms": 0.8078601846303683,
+        "iss": 2.067690706105155,
+        "criativo": true,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 9,
+        "setor": "Outros produtos alimentares",
+        "producao": 20.370305665606217,
+        "empregos": 57.703886701405175,
+        "renda": 1.5398540451767024,
+        "icms": 0.542233958595631,
+        "iss": 2.3640239085598096,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 39,
+        "setor": "ConstruÃ§Ã£o",
+        "producao": 17.731479434627662,
+        "empregos": 460.77292610118866,
+        "renda": 12.388745367296286,
+        "icms": 0.4607321897917665,
+        "iss": 1.584727540824916,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 56,
+        "setor": "AluguÃ©is nÃ£o imobiliÃ¡rios e gestÃ£o de ativos de propriedade intelectual",
+        "producao": 13.383101443197347,
+        "empregos": 17.43102034309463,
+        "renda": 0.4095818860397546,
+        "icms": 0.1182020012624281,
+        "iss": 0.3025340078681791,
+        "criativo": true,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 29,
+        "setor": "FabricaÃ§Ã£o de equipamentos de informÃ¡tica, produtos eletrÃ´nicos e Ã³pticos",
+        "producao": 12.739022164965156,
+        "empregos": 3.693983088487977,
+        "renda": 0.10364082340529132,
+        "icms": 0.7200814515240674,
+        "iss": 3.139400881350597,
+        "criativo": true,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 12,
+        "setor": "FabricaÃ§Ã£o de produtos tÃªxteis",
+        "producao": 11.874000440830518,
+        "empregos": 105.17279947415082,
+        "renda": 1.552133560068138,
+        "icms": 0.38957408910869284,
+        "iss": 1.6984595785804781,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 59,
+        "setor": "AdministraÃ§Ã£o pÃºblica, defesa e seguridade social",
+        "producao": 11.08569479700079,
+        "empregos": 279.6180550591006,
+        "renda": 20.023661929717104,
+        "icms": 0.040907806326406566,
+        "iss": 0.08853439055534158,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 60,
+        "setor": "EducaÃ§Ã£o pÃºblica",
+        "producao": 8.104185959894178,
+        "empregos": 33.42390973465315,
+        "renda": 1.4352303749829884,
+        "icms": 0.00023998284401206198,
+        "iss": 0.0005526127558845623,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 0,
+        "setor": "Agricultura, inclusive o apoio Ã  agricultura e a pÃ³s-colheita",
+        "producao": 7.797089950761105,
+        "empregos": 183.3734927975632,
+        "renda": 4.8728517533815205,
+        "icms": 0.02174491444593297,
+        "iss": 1.3208536155967778,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 24,
+        "setor": "FabricaÃ§Ã£o de produtos de borracha e de material plÃ¡stico",
+        "producao": 6.977378451297455,
+        "empregos": 56.19565267337069,
+        "renda": 1.6564513461135821,
+        "icms": 0.21286988859276476,
+        "iss": 0.9280671158057077,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 2,
+        "setor": "ProduÃ§Ã£o florestal; pesca e aquicultura",
+        "producao": 6.864636150474634,
+        "empregos": 127.23798372949224,
+        "renda": 2.4184282563997392,
+        "icms": 0.15198919881555484,
+        "iss": 2.2392034951081543,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 26,
+        "setor": "ProduÃ§Ã£o de ferro gusa/ferroligas, siderurgia e tubos de aÃ§o sem costura",
+        "producao": 6.440265472000439,
+        "empregos": 84.1679020717629,
+        "renda": 2.802144787244575,
+        "icms": 0.058781360512285934,
+        "iss": 0.25627414038881086,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 22,
+        "setor": "FabricaÃ§Ã£o de produtos de limpeza, cosmÃ©ticos/perfumaria e higiene pessoal",
+        "producao": 6.142285548596322,
+        "empregos": 4.895132536631098,
+        "renda": 0.3742077463836924,
+        "icms": 0.1955149340995922,
+        "iss": 0.8524032317876589,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 14,
+        "setor": "FabricaÃ§Ã£o de calÃ§ados e de artefatos de couro",
+        "producao": 5.0153937932949315,
+        "empregos": 14.747027728908472,
+        "renda": 0.25963512919884235,
+        "icms": 0.2762860234580766,
+        "iss": 1.2045478795674085,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 28,
+        "setor": "FabricaÃ§Ã£o de produtos de metal, exceto mÃ¡quinas e equipamentos",
+        "producao": 4.781650374798733,
+        "empregos": 159.79354391758756,
+        "renda": 4.631038635726391,
+        "icms": 0.2984899763681484,
+        "iss": 1.3013523579883013,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 17,
+        "setor": "ImpressÃ£o e reproduÃ§Ã£o de gravaÃ§Ãµes",
+        "producao": 2.6981768158736363,
+        "empregos": 47.93520142433212,
+        "renda": 2.5774740354834083,
+        "icms": 0.08422312413225429,
+        "iss": 0.3671947799395058,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 47,
+        "setor": "EdiÃ§Ã£o e ediÃ§Ã£o integrada Ã  impressÃ£o",
+        "producao": 2.649683281022522,
+        "empregos": 3.7492587907547503,
+        "renda": 0.19839701497334816,
+        "icms": 0.0037442261445895125,
+        "iss": 0.010742561253122743,
+        "criativo": true,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 4,
+        "setor": "ExtraÃ§Ã£o de petrÃ³leo e gÃ¡s, inclusive as atividades de apoio",
+        "producao": 2.5886058268454875,
+        "empregos": 5.893244982054739,
+        "renda": 0.5503907712766908,
+        "icms": 0.01136365281190285,
+        "iss": 0.007233026033533386,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 1,
+        "setor": "PecuÃ¡ria, inclusive o apoio Ã  pecuÃ¡ria",
+        "producao": 2.2407019140970865,
+        "empregos": 43.069328899996236,
+        "renda": 0.8378570860817295,
+        "icms": 0.017301870829642456,
+        "iss": 0.3599137464407172,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 32,
+        "setor": "FabricaÃ§Ã£o de automÃ³veis, caminhÃµes e Ã´nibus, exceto peÃ§as",
+        "producao": 2.1819821415477434,
+        "empregos": 7.947847925682351,
+        "renda": 0.2813735651579716,
+        "icms": 0.08141616407187698,
+        "iss": 0.35495703534989964,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 27,
+        "setor": "Metalurgia de metais nÃ£o ferosos e a fundiÃ§Ã£o de metais",
+        "producao": 1.9784305316411723,
+        "empregos": 3.156526897942736,
+        "renda": 0.12776138834433964,
+        "icms": 0.01293748506812495,
+        "iss": 0.056404663582664355,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 20,
+        "setor": "FabricaÃ§Ã£o de quÃ­micos orgÃ¢nicos e inorgÃ¢nicos, resinas e elastÃ´meros",
+        "producao": 1.7049517581381595,
+        "empregos": 22.639231325836345,
+        "renda": 0.9412931563938969,
+        "icms": 0.06850828763572549,
+        "iss": 0.29868145906023,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 36,
+        "setor": "ManutenÃ§Ã£o, reparaÃ§Ã£o e instalaÃ§Ã£o de mÃ¡quinas e equipamentos",
+        "producao": 1.4711428938033415,
+        "empregos": 139.7004091143492,
+        "renda": 3.8301471279700023,
+        "icms": 0.08645820216429467,
+        "iss": 0.37693924138733736,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 25,
+        "setor": "FabricaÃ§Ã£o de produtos de minerais nÃ£o metÃ¡licos",
+        "producao": 1.2392704499779628,
+        "empregos": 28.83575516194013,
+        "renda": 0.554091707249338,
+        "icms": 0.09691662347762228,
+        "iss": 0.422535718034673,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 34,
+        "setor": "FabricaÃ§Ã£o de outros equipamentos de transporte, exceto veÃ­culos automotores",
+        "producao": 0.7544487065341605,
+        "empregos": 2.780504270115149,
+        "renda": 0.2725211259722427,
+        "icms": 0.0069592234642148944,
+        "iss": 0.03034072358179853,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 35,
+        "setor": "FabricaÃ§Ã£o de mÃ³veis e de produtos de indÃºstrias diversas",
+        "producao": 0.7466540970092013,
+        "empregos": 8.513349048765646,
+        "renda": 0.2135421294851666,
+        "icms": 0.030861243338334544,
+        "iss": 0.13454841022620684,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 21,
+        "setor": "FabricaÃ§Ã£o de defensivos, desinfestantes, tintas e quÃ­micos diversos",
+        "producao": 0.5926840322025221,
+        "empregos": 0.4723432128028136,
+        "renda": 0.03610821318113253,
+        "icms": 0.0030226546933256227,
+        "iss": 0.013178126985718937,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 23,
+        "setor": "FabricaÃ§Ã£o de produtos farmoquÃ­micos e farmacÃªuticos",
+        "producao": 0.4889406143904567,
+        "empregos": 3.151077494109992,
+        "renda": 0.210729863244721,
+        "icms": 0.017007423884280937,
+        "iss": 0.0741487250071601,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 30,
+        "setor": "FabricaÃ§Ã£o de mÃ¡quinas e equipamentos elÃ©tricos",
+        "producao": 0.30770554612084944,
+        "empregos": 0.4705001566812713,
+        "renda": 0.025434900720024564,
+        "icms": 0.013321722702605803,
+        "iss": 0.05807985736217934,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 7,
+        "setor": "Abate e produtos de carne, inclusive os produtos do laticÃ­nio e da pesca",
+        "producao": 0.30238361401622216,
+        "empregos": 0.8805154096831812,
+        "renda": 0.03339114618753082,
+        "icms": 0.006302726432028034,
+        "iss": 0.0274785371484592,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 33,
+        "setor": "FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para veÃ­culos automotores",
+        "producao": 0.05752497199965716,
+        "empregos": 0.09646587289291547,
+        "renda": 0.0018914203571490037,
+        "icms": 0.0011816198386523401,
+        "iss": 0.005151609383959421,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 31,
+        "setor": "FabricaÃ§Ã£o de mÃ¡quinas e equipamentos mecÃ¢nicos",
+        "producao": 0.05044886053902419,
+        "empregos": 0.49367857557232847,
+        "renda": 0.045742864789339935,
+        "icms": 0.004957589948125079,
+        "iss": 0.021614030217800347,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 6,
+        "setor": "ExtraÃ§Ã£o de minerais metÃ¡licos nÃ£o ferrosos, inclusive beneficiamentos",
+        "producao": 0.026602050668480023,
+        "empregos": 0.0023531067081944764,
+        "renda": 7.875784592861992e-05,
+        "icms": 1.0944857150938754e-05,
+        "iss": 6.9664603465466065e-06,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 13,
+        "setor": "ConfecÃ§Ã£o de artefatos do vestuÃ¡rio e acessÃ³rios",
+        "producao": 0.01986280308775918,
+        "empregos": 0.726223632024336,
+        "renda": 0.013821054649143065,
+        "icms": 0.00111469578360535,
+        "iss": 0.004859834839630594,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 57,
+        "setor": "Outras atividades administrativas e serviÃ§os complementares",
+        "producao": 0.0011326228505364304,
+        "empregos": 0.047435172154555665,
+        "renda": 0.0013143963767523797,
+        "icms": 4.5930563796955915e-05,
+        "iss": 0.00011755771814969286,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 5,
+        "setor": "ExtraÃ§Ã£o de minÃ©rio de ferro, inclusive beneficiamentos e a aglomeraÃ§Ã£o",
+        "producao": 1.205645494961433e-05,
+        "empregos": 1.0802392079479791e-07,
+        "renda": 8.620308879424875e-09,
+        "icms": 2.076822397157178e-09,
+        "iss": 1.3219086075851075e-09,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 11,
+        "setor": "FabricaÃ§Ã£o de produtos do fumo",
+        "producao": 3.398148760364621e-06,
+        "empregos": 2.167697351225576e-06,
+        "renda": 5.452624343156156e-08,
+        "icms": 1.3318740132320947e-07,
+        "iss": 5.806685399462817e-07,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 8,
+        "setor": "FabricaÃ§Ã£o e refino de aÃ§Ãºcar",
+        "producao": 0.0,
+        "empregos": 0.0,
+        "renda": 0.0,
+        "icms": 0.0,
+        "iss": 0.0,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 55,
+        "setor": "Outras atividades profissionais, cientÃ­ficas e tÃ©cnicas",
+        "producao": 0.0,
+        "empregos": 0.0,
+        "renda": 0.0,
+        "icms": 0.0,
+        "iss": 0.0,
+        "criativo": true,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 61,
+        "setor": "EducaÃ§Ã£o privada",
+        "producao": 0.0,
+        "empregos": 0.0,
+        "renda": 0.0,
+        "icms": 0.0,
+        "iss": 0.0,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 62,
+        "setor": "SaÃºde pÃºblica",
+        "producao": 0.0,
+        "empregos": 0.0,
+        "renda": 0.0,
+        "icms": 0.0,
+        "iss": 0.0,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 63,
+        "setor": "SaÃºde privada",
+        "producao": 0.0,
+        "empregos": 0.0,
+        "renda": 0.0,
+        "icms": 0.0,
+        "iss": 0.0,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 65,
+        "setor": "OrganizaÃ§Ãµes associativas e outros serviÃ§os pessoais",
+        "producao": 0.0,
+        "empregos": 0.0,
+        "renda": 0.0,
+        "icms": 0.0,
+        "iss": 0.0,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 66,
+        "setor": "ServiÃ§os domÃ©sticos",
+        "producao": 0.0,
+        "empregos": 0.0,
+        "renda": 0.0,
+        "icms": 0.0,
+        "iss": 0.0,
+        "criativo": false,
+        "choque_direto": 0.0
+      }
+    ],
+    "setores_nao_criativos_rj": [
+      {
+        "idx": 41,
+        "setor": "Transporte terrestre",
+        "producao": 794.9151447862124,
+        "empregos": 27361.443006645797,
+        "renda": 831.5680442671094,
+        "icms": 31.840062943670215,
+        "iss": 66.02008139277699,
+        "criativo": false,
+        "choque_direto": 600.0
+      },
+      {
+        "idx": 40,
+        "setor": "ComÃ©rcio por atacado e varejo",
+        "producao": 510.37509420847937,
+        "empregos": 10079.470058445482,
+        "renda": 271.8055708827031,
+        "icms": 47.99752257003163,
+        "iss": 6.498127612649878,
+        "criativo": false,
+        "choque_direto": 500.0
+      },
+      {
+        "idx": 38,
+        "setor": "Ãgua, esgoto e gestÃ£o de resÃ­duos",
+        "producao": 470.0682262810591,
+        "empregos": 1691.3355745856227,
+        "renda": 68.83866542669153,
+        "icms": 2.6197537348703452,
+        "iss": 8.348274692238455,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 43,
+        "setor": "Transporte aÃ©reo",
+        "producao": 269.31166804113235,
+        "empregos": 361.2788048722932,
+        "renda": 26.8711302962683,
+        "icms": 1.1693988087806475,
+        "iss": 2.4247378113824642,
+        "criativo": false,
+        "choque_direto": 200.0
+      },
+      {
+        "idx": 51,
+        "setor": "IntermediaÃ§Ã£o financeira, seguros e previdÃªncia complementar",
+        "producao": 157.63890805286405,
+        "empregos": 717.8297822912324,
+        "renda": 49.04591249279547,
+        "icms": 6.31747054908468,
+        "iss": 22.36234914357737,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 49,
+        "setor": "TelecomunicaÃ§Ãµes",
+        "producao": 151.60422944353977,
+        "empregos": 3753.5833656173704,
+        "renda": 179.90575880090736,
+        "icms": 53.431440705284786,
+        "iss": 80.63779971379482,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 37,
+        "setor": "Energia elÃ©trica, gÃ¡s natural e outras utilidades",
+        "producao": 135.0752128830139,
+        "empregos": 962.4839066502343,
+        "renda": 81.9899799909019,
+        "icms": 36.89812578191929,
+        "iss": 40.021015750444654,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 42,
+        "setor": "Transporte aquaviÃ¡rio",
+        "producao": 116.98980073493462,
+        "empregos": 282.92288969157613,
+        "renda": 19.922347049976032,
+        "icms": 0.6873631831044168,
+        "iss": 1.4252413186253878,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 10,
+        "setor": "FabricaÃ§Ã£o de bebidas",
+        "producao": 115.69721239286805,
+        "empregos": 241.64824898996392,
+        "renda": 10.146021742375986,
+        "icms": 4.788869949021434,
+        "iss": 20.878447162902354,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 52,
+        "setor": "Atividades imobiliÃ¡rias",
+        "producao": 98.70199936112141,
+        "empregos": 74.76782987779823,
+        "renda": 3.0819509476850584,
+        "icms": 0.03506871643889287,
+        "iss": 0.09265737462327349,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 18,
+        "setor": "Refino de petrÃ³leo e coquerias",
+        "producao": 82.6634712342918,
+        "empregos": 33.10659725737627,
+        "renda": 1.5243680504016017,
+        "icms": 4.352083375187336,
+        "iss": 13.849147123934078,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 44,
+        "setor": "Armazenamento, atividades auxiliares dos transportes e correio",
+        "producao": 45.37824229979995,
+        "empregos": 279.93084511621555,
+        "renda": 10.07416481634099,
+        "icms": 0.6417320091907289,
+        "iss": 1.3306254938652629,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 3,
+        "setor": "ExtraÃ§Ã£o de carvÃ£o mineral e de minerais nÃ£o metÃ¡licos",
+        "producao": 44.347650779495154,
+        "empregos": 38.852501006388735,
+        "renda": 1.6110586863271572,
+        "icms": 0.8098441639911612,
+        "iss": 0.5154701589543097,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 16,
+        "setor": "FabricaÃ§Ã£o de celulose, papel e produtos de papel",
+        "producao": 33.54688393501536,
+        "empregos": 106.13560651231141,
+        "renda": 1.3637367151639999,
+        "icms": 1.306840995199632,
+        "iss": 5.697546803117022,
+        "criativo": false,
+        "choque_direto": 0.0
+      },
+      {
+        "idx": 19,
+        "setor": "FabricaÃ§Ã£o de biocombustÃ­veis",
+        "producao": 27.361246427175992,
+        "empregos": 10.95813849090536,
+        "renda": 0.5045591390003209,
+        "icms": 0.3989626607458305,
+        "iss": 1.739391739810113,
+        "criativo": false,
+        "choque_direto": 0.0
+      }
+    ],
+    "segmentos_criativos": {
+      "Audiovisual & Mídia": {
+        "producao": 128.78894881473306,
+        "empregos": 3891.42796982528,
+        "renda": 254.82178176113732,
+        "icms": 4.605610997563554,
+        "iss": 14.28737579986971,
+        "setores": [
+          "FabricaÃ§Ã£o de equipamentos de informÃ¡tica, produtos eletrÃ´nicos e Ã³pticos",
+          "EdiÃ§Ã£o e ediÃ§Ã£o integrada Ã  impressÃ£o",
+          "Atividades de televisÃ£o, rÃ¡dio, cinema e  gravaÃ§Ã£o/ediÃ§Ã£o de som e imagem"
+        ]
+      },
+      "Tecnologia & Software": {
+        "producao": 223.49826694805725,
+        "empregos": 1742.6438131283185,
+        "renda": 121.23365927506498,
+        "icms": 2.1156890773686436,
+        "iss": 6.070124674236819,
+        "setores": [
+          "Desenvolvimento de sistemas e outros serviÃ§os de informaÃ§Ã£o"
+        ]
+      },
+      "Eventos & Artes": {
+        "producao": 2000.0,
+        "empregos": 36941.31222460928,
+        "renda": 2490.890279273827,
+        "icms": 49.2394445243692,
+        "iss": 159.6278007422904,
+        "setores": [
+          "Outras atividades profissionais, cientÃ­ficas e tÃ©cnicas",
+          "Atividades artÃ­sticas, criativas e de espetÃ¡culos"
+        ]
+      },
+      "Turismo & Gastronomia": {
+        "producao": 2859.1433289419583,
+        "empregos": 150686.86869293154,
+        "renda": 3160.81614524253,
+        "icms": 140.31312969296832,
+        "iss": 391.0919985440541,
+        "setores": [
+          "Alojamento",
+          "AlimentaÃ§Ã£o"
+        ]
+      },
+      "Design & Serviços Criativos": {
+        "producao": 353.46633576655165,
+        "empregos": 3547.758073317443,
+        "renda": 281.6018516271462,
+        "icms": 4.200655530042704,
+        "iss": 10.75143516695602,
+        "setores": [
+          "Atividades jurÃ­dicas, contÃ¡beis, consultoria e sedes de empresas",
+          "ServiÃ§os de arquitetura, engenharia, testes/anÃ¡lises tÃ©cnicas e P & D",
+          "AluguÃ©is nÃ£o imobiliÃ¡rios e gestÃ£o de ativos de propriedade intelectual"
+        ]
+      }
+    }
+  },
+  "estudo_central": {
+    "contexto": {
+      "vab_total_rj_bi": 1570.5701240267376,
+      "vab_total_brasil_bi": 7713.998999999994,
+      "share_rj_no_brasil_pct": 20.359999061793225,
+      "segmentos": {
+        "Audiovisual & Mídia": {
+          "vab_rj_mi": 23408.351804509846,
+          "vab_br_mi": 108502.8413114032,
+          "share_pib_rj_pct": 1.4904365902805967,
+          "location_quotient": 1.0596244511229784
+        },
+        "Tecnologia & Software": {
+          "vab_rj_mi": 29371.27302297282,
+          "vab_br_mi": 136142.2881260498,
+          "share_pib_rj_pct": 1.8701026190201995,
+          "location_quotient": 1.0596244511229784
+        },
+        "Eventos & Artes": {
+          "vab_rj_mi": 10214.71788989753,
+          "vab_br_mi": 59122.40936565349,
+          "share_pib_rj_pct": 0.6503827962618008,
+          "location_quotient": 0.8485872436205777
+        },
+        "Turismo & Gastronomia": {
+          "vab_rj_mi": 35717.05108504646,
+          "vab_br_mi": 137126.99999999953,
+          "share_pib_rj_pct": 2.2741455818268457,
+          "location_quotient": 1.2793072658241451
+        },
+        "Design & Serviços Criativos": {
+          "vab_rj_mi": 58321.7351726651,
+          "vab_br_mi": 226510.1712173732,
+          "share_pib_rj_pct": 3.7134117274009872,
+          "location_quotient": 1.2646343516410883
+        }
+      },
+      "total_criativo_rj_mi": 157033.12897509176,
+      "total_criativo_br_mi": 667404.7100204792,
+      "share_criativo_pib_rj_pct": 9.99847931479043,
+      "lq_criativo_total": 1.1556445179034973
+    },
+    "multiplicadores": {
+      "por_segmento": {
+        "Audiovisual & Mídia": {
+          "multiplicador_producao": 1.5012959041738563,
+          "backward_linkage": 0.9951711973492295,
+          "forward_linkage": 1.2354284649991587,
+          "empregos_por_bi": 28115.406442144034,
+          "renda_por_bi_mi": 1727.9863932168587,
+          "vazamento_pct": 7.3075309802092,
+          "impacto_producao_mi": 1501.2959041738563,
+          "impacto_setorial": {},
+          "top5_encadeados": [
+            {
+              "idx": 54,
+              "setor": "Serviços de arquitetura, engenharia, testes/análises técnicas e P&D",
+              "impacto_mi": 58.002102963798016
+            },
+            {
+              "idx": 51,
+              "setor": "Intermediação financeira, seguros e previdência complementar",
+              "impacto_mi": 50.57059893182728
+            },
+            {
+              "idx": 41,
+              "setor": "Transporte terrestre",
+              "impacto_mi": 23.4893539593822
+            },
+            {
+              "idx": 38,
+              "setor": "Água, esgoto e gestão de resíduos",
+              "impacto_mi": 21.584951933284465
+            },
+            {
+              "idx": 49,
+              "setor": "Telecomunicações",
+              "impacto_mi": 20.19636538029655
+            }
+          ]
+        },
+        "Tecnologia & Software": {
+          "multiplicador_producao": 1.5012959041738565,
+          "backward_linkage": 0.9951711973492295,
+          "forward_linkage": 1.2281043937979643,
+          "empregos_por_bi": 18079.922697917602,
+          "renda_por_bi_mi": 1110.766521099657,
+          "vazamento_pct": 7.307530980209198,
+          "impacto_producao_mi": 1501.2959041738566,
+          "impacto_setorial": {},
+          "top5_encadeados": [
+            {
+              "idx": 54,
+              "setor": "Serviços de arquitetura, engenharia, testes/análises técnicas e P&D",
+              "impacto_mi": 58.002102963798016
+            },
+            {
+              "idx": 51,
+              "setor": "Intermediação financeira, seguros e previdência complementar",
+              "impacto_mi": 50.570598931827284
+            },
+            {
+              "idx": 41,
+              "setor": "Transporte terrestre",
+              "impacto_mi": 23.4893539593822
+            },
+            {
+              "idx": 38,
+              "setor": "Água, esgoto e gestão de resíduos",
+              "impacto_mi": 21.58495193328447
+            },
+            {
+              "idx": 49,
+              "setor": "Telecomunicações",
+              "impacto_mi": 20.19636538029655
+            }
+          ]
+        },
+        "Eventos & Artes": {
+          "multiplicador_producao": 1.4593306514979287,
+          "backward_linkage": 0.9673534895699311,
+          "forward_linkage": 0.6628747834337556,
+          "empregos_por_bi": 27914.293617157273,
+          "renda_por_bi_mi": 1564.0054089134499,
+          "vazamento_pct": 8.496098186834743,
+          "impacto_producao_mi": 1459.3306514979288,
+          "impacto_setorial": {},
+          "top5_encadeados": [
+            {
+              "idx": 38,
+              "setor": "Água, esgoto e gestão de resíduos",
+              "impacto_mi": 58.14918532393491
+            },
+            {
+              "idx": 54,
+              "setor": "Serviços de arquitetura, engenharia, testes/análises técnicas e P&D",
+              "impacto_mi": 54.110043617091215
+            },
+            {
+              "idx": 51,
+              "setor": "Intermediação financeira, seguros e previdência complementar",
+              "impacto_mi": 33.25523141963281
+            },
+            {
+              "idx": 43,
+              "setor": "Transporte aéreo",
+              "impacto_mi": 31.868353233267268
+            },
+            {
+              "idx": 41,
+              "setor": "Transporte terrestre",
+              "impacto_mi": 25.195444398418935
+            }
+          ]
+        },
+        "Turismo & Gastronomia": {
+          "multiplicador_producao": 1.4743828127004057,
+          "backward_linkage": 0.9773311876672328,
+          "forward_linkage": 0.8875901793518535,
+          "empregos_por_bi": 61846.70415384967,
+          "renda_por_bi_mi": 1430.236460047684,
+          "vazamento_pct": 11.577808562506798,
+          "impacto_producao_mi": 1474.3828127004058,
+          "impacto_setorial": {},
+          "top5_encadeados": [
+            {
+              "idx": 38,
+              "setor": "Água, esgoto e gestão de resíduos",
+              "impacto_mi": 95.0321240742231
+            },
+            {
+              "idx": 54,
+              "setor": "Serviços de arquitetura, engenharia, testes/análises técnicas e P&D",
+              "impacto_mi": 47.0663516182573
+            },
+            {
+              "idx": 41,
+              "setor": "Transporte terrestre",
+              "impacto_mi": 43.74776501117077
+            },
+            {
+              "idx": 10,
+              "setor": "Fabricação de bebidas",
+              "impacto_mi": 42.77131775496121
+            },
+            {
+              "idx": 42,
+              "setor": "Transporte aquaviário",
+              "impacto_mi": 22.634580193527437
+            }
+          ]
+        },
+        "Design & Serviços Criativos": {
+          "multiplicador_producao": 1.4583984994024164,
+          "backward_linkage": 0.9667355894514907,
+          "forward_linkage": 0.7674990642005376,
+          "empregos_por_bi": 11191.558085326855,
+          "renda_por_bi_mi": 482.29028008513217,
+          "vazamento_pct": 11.139680741230782,
+          "impacto_producao_mi": 1458.3984994024163,
+          "impacto_setorial": {},
+          "top5_encadeados": [
+            {
+              "idx": 41,
+              "setor": "Transporte terrestre",
+              "impacto_mi": 62.22642137204768
+            },
+            {
+              "idx": 38,
+              "setor": "Água, esgoto e gestão de resíduos",
+              "impacto_mi": 48.4182550610432
+            },
+            {
+              "idx": 54,
+              "setor": "Serviços de arquitetura, engenharia, testes/análises técnicas e P&D",
+              "impacto_mi": 47.933484087911665
+            },
+            {
+              "idx": 42,
+              "setor": "Transporte aquaviário",
+              "impacto_mi": 27.67753724708592
+            },
+            {
+              "idx": 52,
+              "setor": "Atividades imobiliárias",
+              "impacto_mi": 23.561329799128764
+            }
+          ]
+        }
+      },
+      "ranking_encadeamento": [
+        {
+          "idx": 29,
+          "setor": "Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",
+          "bl": 1.0244994078164937,
+          "fl": 0.8529340750309897,
+          "tipo": "Forte p/ trás"
+        },
+        {
+          "idx": 45,
+          "setor": "Alojamento",
+          "bl": 1.0035441487269572,
+          "fl": 0.687460952281525,
+          "tipo": "Forte p/ trás"
+        },
+        {
+          "idx": 46,
+          "setor": "Alimentação",
+          "bl": 0.9511182266075086,
+          "fl": 1.087719406422182,
+          "tipo": "Forte p/ frente"
+        },
+        {
+          "idx": 47,
+          "setor": "Edição e edição integrada à impressão",
+          "bl": 0.9951711973492295,
+          "fl": 0.6795311289355123,
+          "tipo": "Independente"
+        },
+        {
+          "idx": 48,
+          "setor": "Atividades de televisão, rádio, cinema e gravação/edição de som e imagem",
+          "bl": 0.9951711973492295,
+          "fl": 1.7913258010628053,
+          "tipo": "Forte p/ frente"
+        },
+        {
+          "idx": 50,
+          "setor": "Desenvolvimento de sistemas e outros serviços de informação",
+          "bl": 0.9951711973492295,
+          "fl": 1.2281043937979643,
+          "tipo": "Forte p/ frente"
+        },
+        {
+          "idx": 55,
+          "setor": "Outras atividades profissionais, científicas e técnicas",
+          "bl": 0.9378536802689893,
+          "fl": 0.6628747834337556,
+          "tipo": "Independente"
+        },
+        {
+          "idx": 56,
+          "setor": "Aluguéis não imobiliários e gestão de ativos de propriedade intelectual",
+          "bl": 0.9378536802689894,
+          "fl": 0.7866883341368675,
+          "tipo": "Independente"
+        },
+        {
+          "idx": 64,
+          "setor": "Atividades artísticas, criativas e de espetáculos",
+          "bl": 0.9673534895699311,
+          "fl": 0.6628747834337556,
+          "tipo": "Independente"
+        }
+      ]
+    },
+    "decomposicao": {
+      "choque_total_mi": 1000.0,
+      "impacto_total_mi": 1476.938910683709,
+      "multiplicador_agregado": 1.476938910683709,
+      "impacto_criativo_mi": 1141.2183964899189,
+      "impacto_nao_criativo_mi": 335.7205141937902,
+      "efeito_indireto_pct": 22.730832789717585,
+      "top_beneficiados": [
+        {
+          "rank": 1,
+          "idx": 50,
+          "setor": "Desenvolvimento de sistemas e outros serviços de informação",
+          "impacto_mi": 213.13263510314536,
+          "pct": 14.430700793472992,
+          "e_criativo": true
+        },
+        {
+          "rank": 2,
+          "idx": 45,
+          "setor": "Alojamento",
+          "impacto_mi": 147.78268569714064,
+          "pct": 10.006012071868877,
+          "e_criativo": true
+        },
+        {
+          "rank": 3,
+          "idx": 55,
+          "setor": "Outras atividades profissionais, científicas e técnicas",
+          "impacto_mi": 141.1667936747619,
+          "pct": 9.558065851851145,
+          "e_criativo": true
+        },
+        {
+          "rank": 4,
+          "idx": 47,
+          "setor": "Edição e edição integrada à impressão",
+          "impacto_mi": 136.05450594979615,
+          "pct": 9.211925081370724,
+          "e_criativo": true
+        },
+        {
+          "rank": 5,
+          "idx": 56,
+          "setor": "Aluguéis não imobiliários e gestão de ativos de propriedade intelectual",
+          "impacto_mi": 126.81373457268005,
+          "pct": 8.586254560384969,
+          "e_criativo": true
+        },
+        {
+          "rank": 6,
+          "idx": 29,
+          "setor": "Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",
+          "impacto_mi": 121.16387046424002,
+          "pct": 8.20371577915504,
+          "e_criativo": true
+        },
+        {
+          "rank": 7,
+          "idx": 48,
+          "setor": "Atividades de televisão, rádio, cinema e gravação/edição de som e imagem",
+          "impacto_mi": 95.61332935653328,
+          "pct": 6.473749771564464,
+          "e_criativo": true
+        },
+        {
+          "rank": 8,
+          "idx": 46,
+          "setor": "Alimentação",
+          "impacto_mi": 94.4426702662247,
+          "pct": 6.394487245413895,
+          "e_criativo": true
+        },
+        {
+          "rank": 9,
+          "idx": 64,
+          "setor": "Atividades artísticas, criativas e de espetáculos",
+          "impacto_mi": 65.04817140539666,
+          "pct": 4.404256055200303,
+          "e_criativo": true
+        },
+        {
+          "rank": 10,
+          "idx": 38,
+          "setor": "Água, esgoto e gestão de resíduos",
+          "impacto_mi": 53.08103255619829,
+          "pct": 3.5939897156359604,
+          "e_criativo": false
+        },
+        {
+          "rank": 11,
+          "idx": 54,
+          "setor": "Serviços de arquitetura, engenharia, testes/análises técnicas e P&D",
+          "impacto_mi": 52.50807205867663,
+          "pct": 3.5551959311823826,
+          "e_criativo": false
+        },
+        {
+          "rank": 12,
+          "idx": 41,
+          "setor": "Transporte terrestre",
+          "impacto_mi": 40.287947230839606,
+          "pct": 2.727800516284684,
+          "e_criativo": false
+        },
+        {
+          "rank": 13,
+          "idx": 51,
+          "setor": "Intermediação financeira, seguros e previdência complementar",
+          "impacto_mi": 32.81059851645617,
+          "pct": 2.221527124724975,
+          "e_criativo": false
+        },
+        {
+          "rank": 14,
+          "idx": 49,
+          "setor": "Telecomunicações",
+          "impacto_mi": 21.970558523340475,
+          "pct": 1.487573952071572,
+          "e_criativo": false
+        },
+        {
+          "rank": 15,
+          "idx": 37,
+          "setor": "Energia elétrica, gás natural e outras utilidades",
+          "impacto_mi": 19.994091038528953,
+          "pct": 1.3537520674618309,
+          "e_criativo": false
+        }
+      ]
+    },
+    "fiscal": {
+      "por_segmento": {
+        "Audiovisual & Mídia": {
+          "choque_mi": 1000.0,
+          "icms_mi": 44.3277255935112,
+          "iss_mi": 7.300208602535702,
+          "total_tax_mi": 51.6279341960469,
+          "retorno_fiscal_pct": 5.16279341960469
+        },
+        "Tecnologia & Software": {
+          "choque_mi": 1000.0,
+          "icms_mi": 35.97200833451136,
+          "iss_mi": 7.439998493047133,
+          "total_tax_mi": 43.41200682755849,
+          "retorno_fiscal_pct": 4.341200682755849
+        },
+        "Eventos & Artes": {
+          "choque_mi": 1000.0,
+          "icms_mi": 46.731266978207316,
+          "iss_mi": 22.099167994166343,
+          "total_tax_mi": 68.83043497237367,
+          "retorno_fiscal_pct": 6.883043497237367
+        },
+        "Turismo & Gastronomia": {
+          "choque_mi": 1000.0,
+          "icms_mi": 75.31987632481643,
+          "iss_mi": 13.473397376139909,
+          "total_tax_mi": 88.79327370095635,
+          "retorno_fiscal_pct": 8.879327370095636
+        },
+        "Design & Serviços Criativos": {
+          "choque_mi": 1000.0,
+          "icms_mi": 48.80359219947527,
+          "iss_mi": 13.187795775790654,
+          "total_tax_mi": 61.99138797526592,
+          "retorno_fiscal_pct": 6.199138797526593
+        }
+      }
+    },
+    "emprego": {
+      "por_segmento": {
+        "Audiovisual & Mídia": {
+          "emprego_direto": 17832.60824512166,
+          "emprego_total": 28115.406442144034,
+          "multiplicador_emprego": 1.5766289516193104
+        },
+        "Tecnologia & Software": {
+          "emprego_direto": 7797.124500895224,
+          "emprego_total": 18079.922697917602,
+          "multiplicador_emprego": 2.318793639352785
+        },
+        "Eventos & Artes": {
+          "emprego_direto": 18470.65611230464,
+          "emprego_total": 27914.293617157273,
+          "multiplicador_emprego": 1.511277858644206
+        },
+        "Turismo & Gastronomia": {
+          "emprego_direto": 55773.956522119915,
+          "emprego_total": 61846.70415384967,
+          "multiplicador_emprego": 1.108881420835212
+        },
+        "Design & Serviços Criativos": {
+          "emprego_direto": 3736.6327532135597,
+          "emprego_total": 11191.558085326855,
+          "multiplicador_emprego": 2.995091791052238
+        }
+      }
+    },
+    "renuncia_fiscal": {
+      "renuncia_mi": 100.0,
+      "producao_gerada_mi": 147.6938910683709,
+      "multiplicador": 1.476938910683709,
+      "empregos_gerados": 2243.236606570626,
+      "renda_gerada_mi": 88.33247332918953,
+      "icms_retornado_mi": 4.5692550549213715,
+      "iss_retornado_mi": 1.1483558971200984,
+      "total_tax_retornado_mi": 5.71761095204147,
+      "roi_fiscal": 0.0571761095204147
+    }
+  }
+}

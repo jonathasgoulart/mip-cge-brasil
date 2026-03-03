@@ -1,0 +1,63 @@
+{
+  "total_brasil_bilhoes": 537.0,
+  "top_5_ufs": [
+    {
+      "uf": "SP",
+      "icms_bilhoes": 369.5972421562436,
+      "share_pct": 68.82630207751278
+    },
+    {
+      "uf": "MG",
+      "icms_bilhoes": 51.46050282327465,
+      "share_pct": 9.582961419604219
+    },
+    {
+      "uf": "RJ",
+      "icms_bilhoes": 27.89531671484012,
+      "share_pct": 5.194658606115478
+    },
+    {
+      "uf": "PR",
+      "icms_bilhoes": 22.681001419899427,
+      "share_pct": 4.223650171303431
+    },
+    {
+      "uf": "RS",
+      "icms_bilhoes": 20.501613558099066,
+      "share_pct": 3.817805131862024
+    }
+  ],
+  "bottom_5_ufs": [
+    {
+      "uf": "PI",
+      "icms_bilhoes": 0.1040027463332736,
+      "share_pct": 0.019367364307872177
+    },
+    {
+      "uf": "SE",
+      "icms_bilhoes": 0.0872948198561378,
+      "share_pct": 0.016256018595183948
+    },
+    {
+      "uf": "AC",
+      "icms_bilhoes": 0.006319345608394398,
+      "share_pct": 0.0011767868916935564
+    },
+    {
+      "uf": "RR",
+      "icms_bilhoes": 0.00418726336537587,
+      "share_pct": 0.0007797510922487656
+    },
+    {
+      "uf": "AP",
+      "icms_bilhoes": 0.004039783812267604,
+      "share_pct": 0.0007522874883179896
+    }
+  ],
+  "statistics": {
+    "mean_coefficient_pct": 2.1313436767833998,
+    "max_coefficient_pct": 43.79773077421939,
+    "n_ufs": 27,
+    "n_sectors": 67
+  }
+}

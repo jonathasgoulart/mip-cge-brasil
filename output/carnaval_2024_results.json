@@ -1,0 +1,29 @@
+{
+  "evento": "Carnaval Rio de Janeiro 2024",
+  "premissas": {
+    "gasto_direto_milhoes": 6000,
+    "multiplicador_producao": 1.65,
+    "multiplicador_emprego": 12.5,
+    "taxa_imposto": 0.0932
+  },
+  "resultados": {
+    "producao_total_milhoes": 9900.0,
+    "empregos_totais": 75000.0,
+    "impostos_totais_milhoes": 922.6800000000001,
+    "impostos_por_esfera": {
+      "estadual_milhoes": 446.57712000000004,
+      "municipal_milhoes": 61.81956000000001,
+      "federal_milhoes": 415.206
+    },
+    "impostos_por_tipo": {
+      "ICMS": 446.57712000000004,
+      "PIS_PASEP": 59.051520000000004,
+      "COFINS": 224.21124,
+      "ISS": 61.81956000000001,
+      "IPI": 46.13400000000001,
+      "IOF": 38.75256,
+      "II": 43.36596,
+      "CIDE": 3.6907200000000002
+    }
+  }
+}

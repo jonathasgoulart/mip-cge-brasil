@@ -1,0 +1,17 @@
+Official MIP 2015 Sheets Analysis
+========================================
+Sheet 01: Tabela 01 - Recursos de bens e serviços - 2015
+Sheet 02: Tabela 02 - Usos de bens e serviços - 2015
+Sheet 03: Tabela 03 - Oferta e demanda da produção nacional a preço básico - 2015
+Sheet 04: Tabela 04 - Oferta e demanda de produtos importados a preço básico - 2015
+Sheet 05: Tabela 05 - Destino dos impostos sobre produtos nacionais - 2015
+Sheet 06: Tabela 06 - Destino dos impostos sobre produtos importados - 2015
+Sheet 07: Tabela 07 - Destino da margem de comércio sobre produtos nacionais - 2015
+Sheet 08: Tabela 08 - Destino da margem de comércio sobre produtos importados - 2015
+Sheet 09: Tabela 09 - Destino da margem de transporte sobre produtos nacionais - 2015
+Sheet 10: Tabela 10 - Destino da margem de transporte sobre produtos importados - 2015
+Sheet 11: Tabela 11 - Matriz dos coeficientes técnicos dos insumos nacionais - Matriz Bn - 2015
+Sheet 12: Tabela 12 - Matriz dos coeficientes técnicos dos insumos importados - Matriz Bm - 2015
+Sheet 13: Tabela 13 - Matriz de participação setorial na produção dos produtos nacionais - Matriz D - Market Share - 2015
+Sheet 14: Tabela 14 - Matriz dos coeficientes técnicos intersetoriais - Matriz D.Bn - 2015
+Sheet 15: Tabela 15 - Matriz de impacto intersetorial - Matriz de Leontief - 2015

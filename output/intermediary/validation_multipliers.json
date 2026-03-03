@@ -1,0 +1,68 @@
+{
+    "Rio_de_Janeiro": {
+        "mean": 1.3570556341356885,
+        "max": {
+            "Abate e produtos de carne, inclusive os produtos do laticÃ­nio e da pesca": 1.8764094424383606,
+            "FabricaÃ§Ã£o e refino de aÃ§Ãºcar": 1.7815742005264874,
+            "FabricaÃ§Ã£o de bebidas": 1.752672238253137,
+            "ExtraÃ§Ã£o de minerais metÃ¡licos nÃ£o ferrosos, inclusive beneficiamentos": 1.7219918686665414,
+            "Outros produtos alimentares": 1.6516726416710978
+        },
+        "min": 1.0
+    },
+    "Sao_Paulo": {
+        "mean": 1.504246899125678,
+        "max": {
+            "FabricaÃ§Ã£o de biocombustÃ­veis": 2.150604649070882,
+            "Refino de petrÃ³leo e coquerias": 2.0888388701235576,
+            "Outros produtos alimentares": 2.0583686295823336,
+            "FabricaÃ§Ã£o de produtos do fumo": 1.9700661448386392,
+            "Abate e produtos de carne, inclusive os produtos do laticÃ­nio e da pesca": 1.9688701034129756
+        },
+        "min": 1.0
+    },
+    "Centro_Oeste": {
+        "mean": 1.3193878653188431,
+        "max": {
+            "FabricaÃ§Ã£o de biocombustÃ­veis": 1.8753493396749192,
+            "Refino de petrÃ³leo e coquerias": 1.7510449114751734,
+            "FabricaÃ§Ã£o de celulose, papel e produtos de papel": 1.6775718901858716,
+            "FabricaÃ§Ã£o de produtos da madeira": 1.6197627967175583,
+            "ImpressÃ£o e reproduÃ§Ã£o de gravaÃ§Ãµes": 1.557423974236908
+        },
+        "min": 1.0
+    },
+    "Sul": {
+        "mean": 1.3712878117233271,
+        "max": {
+            "FabricaÃ§Ã£o de biocombustÃ­veis": 1.9859654933526545,
+            "Refino de petrÃ³leo e coquerias": 1.8918841774645243,
+            "FabricaÃ§Ã£o de celulose, papel e produtos de papel": 1.7188407472023979,
+            "FabricaÃ§Ã£o de produtos da madeira": 1.66636279109927,
+            "Abate e produtos de carne, inclusive os produtos do laticÃ­nio e da pesca": 1.654461154160182
+        },
+        "min": 1.0
+    },
+    "Norte_Nordeste": {
+        "mean": 1.3967491960821925,
+        "max": {
+            "Abate e produtos de carne, inclusive os produtos do laticÃ­nio e da pesca": 1.726524747884629,
+            "FabricaÃ§Ã£o e refino de aÃ§Ãºcar": 1.6642936846704794,
+            "Metalurgia de metais nÃ£o ferosos e a fundiÃ§Ã£o de metais": 1.6615262370702835,
+            "FabricaÃ§Ã£o de produtos de limpeza, cosmÃ©ticos/perfumaria e higiene pessoal": 1.6594885320458495,
+            "ProduÃ§Ã£o de ferro gusa/ferroligas, siderurgia e tubos de aÃ§o sem costura": 1.6581653541209709
+        },
+        "min": 1.0
+    },
+    "Minas_EspiritoSanto": {
+        "mean": 1.338964479122191,
+        "max": {
+            "Abate e produtos de carne, inclusive os produtos do laticÃ­nio e da pesca": 1.6916644060898338,
+            "FabricaÃ§Ã£o e refino de aÃ§Ãºcar": 1.642151633945335,
+            "ExtraÃ§Ã£o de minerais metÃ¡licos nÃ£o ferrosos, inclusive beneficiamentos": 1.5071373861628998,
+            "FabricaÃ§Ã£o de produtos de limpeza, cosmÃ©ticos/perfumaria e higiene pessoal": 1.5024631188158277,
+            "Transporte terrestre": 1.4776216338916757
+        },
+        "min": 1.0
+    }
+}

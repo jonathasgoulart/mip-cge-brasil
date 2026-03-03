@@ -1,0 +1,641 @@
+{
+  "metadata": {
+    "data_simulacao": "2026-01-26T12:00:49.234234",
+    "descricao": "Impacto economico das corridas de rua na industria de tenis",
+    "modelo": "MIP-CGE Brasil 67 setores",
+    "ano_base": 2015,
+    "ano_referencia": 2024
+  },
+  "mercado": {
+    "praticantes_milhoes": 19.0,
+    "crescimento_percentual": 29.0,
+    "movimentacao_total_bilhoes": 3.5,
+    "choque_simulado_bilhoes": 2.0
+  },
+  "choque_setorial": {
+    "calcados_r_milhoes": 1750.0,
+    "comercio_r_milhoes": 500.0,
+    "texteis_r_milhoes": 250.0,
+    "total_r_milhoes": 2500.0
+  },
+  "impacto_producao": {
+    "efeito_direto_r_milhoes": 2500.0,
+    "efeito_indireto_r_milhoes": 917.2042951694257,
+    "efeito_total_r_milhoes": 3417.2042951694257,
+    "multiplicador": 1.3668817180677704
+  },
+  "impacto_emprego": {
+    "empregos_totais": 12623,
+    "empregos_por_r_milhao": 5.049568638638244
+  },
+  "impacto_tributario": {
+    "arrecadacao_total_r_milhoes": 387.5351320443042,
+    "arrecadacao_por_tipo": {
+      "icms": 237.55141500056715,
+      "iss": 3.399273322400264,
+      "ipi": 24.366314346766277,
+      "pis": 20.15580176031963,
+      "cofins": 76.64882359558169
+    },
+    "arrecadacao_por_esfera": {
+      "federal": 121.1709397026676,
+      "estadual": 237.55141500056715,
+      "municipal": 3.399273322400264
+    },
+    "aliquota_efetiva_percentual": 11.340707156201503,
+    "arrecadacao_por_r_milhao_choque": 0.15501405281772168
+  },
+  "top_setores": [
+    {
+      "posicao": 1,
+      "indice": 14,
+      "nome": "FabricaÃ§Ã£o de calÃ§ados e de artefatos de couro",
+      "impacto_producao_r_milhoes": 1942.5004911636752,
+      "empregos_gerados": 0,
+      "recebeu_choque_direto": true
+    },
+    {
+      "posicao": 2,
+      "indice": 40,
+      "nome": "ComÃ©rcio por atacado e varejo",
+      "impacto_producao_r_milhoes": 636.079508149295,
+      "empregos_gerados": 5724,
+      "recebeu_choque_direto": true
+    },
+    {
+      "posicao": 3,
+      "indice": 12,
+      "nome": "FabricaÃ§Ã£o de produtos tÃªxteis",
+      "impacto_producao_r_milhoes": 342.66268931726523,
+      "empregos_gerados": 3426,
+      "recebeu_choque_direto": true
+    },
+    {
+      "posicao": 4,
+      "indice": 7,
+      "nome": "Abate e produtos de carne, inclusive os produtos do laticÃ­nio e da pesca",
+      "impacto_producao_r_milhoes": 87.27852726733886,
+      "empregos_gerados": 1047,
+      "recebeu_choque_direto": false
+    },
+    {
+      "posicao": 5,
+      "indice": 51,
+      "nome": "IntermediaÃ§Ã£o financeira, seguros e previdÃªncia complementar",
+      "impacto_producao_r_milhoes": 52.18360673352571,
+      "empregos_gerados": 114,
+      "recebeu_choque_direto": false
+    },
+    {
+      "posicao": 6,
+      "indice": 41,
+      "nome": "Transporte terrestre",
+      "impacto_producao_r_milhoes": 47.966941784621774,
+      "empregos_gerados": 263,
+      "recebeu_choque_direto": false
+    },
+    {
+      "posicao": 7,
+      "indice": 0,
+      "nome": "Agricultura, inclusive o apoio Ã  agricultura e a pÃ³s-colheita",
+      "impacto_producao_r_milhoes": 36.23348678880383,
+      "empregos_gerados": 434,
+      "recebeu_choque_direto": false
+    },
+    {
+      "posicao": 8,
+      "indice": 55,
+      "nome": "Outras atividades profissionais, cientÃ­ficas e tÃ©cnicas",
+      "impacto_producao_r_milhoes": 30.56524858302722,
+      "empregos_gerados": 244,
+      "recebeu_choque_direto": false
+    },
+    {
+      "posicao": 9,
+      "indice": 53,
+      "nome": "Atividades jurÃ­dicas, contÃ¡beis, consultoria e sedes de empresas",
+      "impacto_producao_r_milhoes": 24.394883510963993,
+      "empregos_gerados": 195,
+      "recebeu_choque_direto": false
+    },
+    {
+      "posicao": 10,
+      "indice": 52,
+      "nome": "Atividades imobiliÃ¡rias",
+      "impacto_producao_r_milhoes": 23.85218554209348,
+      "empregos_gerados": 19,
+      "recebeu_choque_direto": false
+    },
+    {
+      "posicao": 11,
+      "indice": 1,
+      "nome": "PecuÃ¡ria, inclusive o apoio Ã  pecuÃ¡ria",
+      "impacto_producao_r_milhoes": 23.647561662183545,
+      "empregos_gerados": 283,
+      "recebeu_choque_direto": false
+    },
+    {
+      "posicao": 12,
+      "indice": 57,
+      "nome": "Outras atividades administrativas e serviÃ§os complementares",
+      "impacto_producao_r_milhoes": 22.414810546990633,
+      "empregos_gerados": 179,
+      "recebeu_choque_direto": false
+    },
+    {
+      "posicao": 13,
+      "indice": 37,
+      "nome": "Energia elÃ©trica, gÃ¡s natural e outras utilidades",
+      "impacto_producao_r_milhoes": 18.876162560770364,
+      "empregos_gerados": 33,
+      "recebeu_choque_direto": false
+    },
+    {
+      "posicao": 14,
+      "indice": 44,
+      "nome": "Armazenamento, atividades auxiliares dos transportes e correio",
+      "impacto_producao_r_milhoes": 10.679980004300722,
+      "empregos_gerados": 58,
+      "recebeu_choque_direto": false
+    },
+    {
+      "posicao": 15,
+      "indice": 18,
+      "nome": "Refino de petrÃ³leo e coquerias",
+      "impacto_producao_r_milhoes": 10.137503759440497,
+      "empregos_gerados": 6,
+      "recebeu_choque_direto": false
+    }
+  ],
+  "impacto_por_setor": [
+    {
+      "indice": 0,
+      "nome": "Agricultura, inclusive o apoio Ã  agricultura e a pÃ³s-colheita",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 36.23348678880383,
+      "empregos": 434
+    },
+    {
+      "indice": 1,
+      "nome": "PecuÃ¡ria, inclusive o apoio Ã  pecuÃ¡ria",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 23.647561662183545,
+      "empregos": 283
+    },
+    {
+      "indice": 2,
+      "nome": "ProduÃ§Ã£o florestal; pesca e aquicultura",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 1.8296006589184208,
+      "empregos": 21
+    },
+    {
+      "indice": 3,
+      "nome": "ExtraÃ§Ã£o de carvÃ£o mineral e de minerais nÃ£o metÃ¡licos",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.3885827272616122,
+      "empregos": 4
+    },
+    {
+      "indice": 4,
+      "nome": "ExtraÃ§Ã£o de petrÃ³leo e gÃ¡s, inclusive as atividades de apoio",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 3.592033877931573,
+      "empregos": 43
+    },
+    {
+      "indice": 5,
+      "nome": "ExtraÃ§Ã£o de minÃ©rio de ferro, inclusive beneficiamentos e a aglomeraÃ§Ã£o",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.033971344934267775,
+      "empregos": 0
+    },
+    {
+      "indice": 6,
+      "nome": "ExtraÃ§Ã£o de minerais metÃ¡licos nÃ£o ferrosos, inclusive beneficiamentos",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.0729324996876149,
+      "empregos": 0
+    },
+    {
+      "indice": 7,
+      "nome": "Abate e produtos de carne, inclusive os produtos do laticÃ­nio e da pesca",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 87.27852726733886,
+      "empregos": 1047
+    },
+    {
+      "indice": 8,
+      "nome": "FabricaÃ§Ã£o e refino de aÃ§Ãºcar",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.701839944486691,
+      "empregos": 8
+    },
+    {
+      "indice": 9,
+      "nome": "Outros produtos alimentares",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 7.119377758982928,
+      "empregos": 71
+    },
+    {
+      "indice": 10,
+      "nome": "FabricaÃ§Ã£o de bebidas",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.3861561157024599,
+      "empregos": 3
+    },
+    {
+      "indice": 11,
+      "nome": "FabricaÃ§Ã£o de produtos do fumo",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.0127357957965781,
+      "empregos": 0
+    },
+    {
+      "indice": 12,
+      "nome": "FabricaÃ§Ã£o de produtos tÃªxteis",
+      "choque_r_milhoes": 250.0,
+      "producao_total_r_milhoes": 342.66268931726523,
+      "empregos": 3426
+    },
+    {
+      "indice": 13,
+      "nome": "ConfecÃ§Ã£o de artefatos do vestuÃ¡rio e acessÃ³rios",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 3.132178591899749,
+      "empregos": 0
+    },
+    {
+      "indice": 14,
+      "nome": "FabricaÃ§Ã£o de calÃ§ados e de artefatos de couro",
+      "choque_r_milhoes": 1750.0,
+      "producao_total_r_milhoes": 1942.5004911636752,
+      "empregos": 0
+    },
+    {
+      "indice": 15,
+      "nome": "FabricaÃ§Ã£o de produtos da madeira",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.47064102295430155,
+      "empregos": 0
+    },
+    {
+      "indice": 16,
+      "nome": "FabricaÃ§Ã£o de celulose, papel e produtos de papel",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 6.556634629791528,
+      "empregos": 9
+    },
+    {
+      "indice": 17,
+      "nome": "ImpressÃ£o e reproduÃ§Ã£o de gravaÃ§Ãµes",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 1.117575447768796,
+      "empregos": 1
+    },
+    {
+      "indice": 18,
+      "nome": "Refino de petrÃ³leo e coquerias",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 10.137503759440497,
+      "empregos": 6
+    },
+    {
+      "indice": 19,
+      "nome": "FabricaÃ§Ã£o de biocombustÃ­veis",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.42779965846765405,
+      "empregos": 0
+    },
+    {
+      "indice": 20,
+      "nome": "FabricaÃ§Ã£o de quÃ­micos orgÃ¢nicos e inorgÃ¢nicos, resinas e elastÃ´meros",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 9.857795503938974,
+      "empregos": 31
+    },
+    {
+      "indice": 21,
+      "nome": "FabricaÃ§Ã£o de defensivos, desinfestantes, tintas e quÃ­micos diversos",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 2.1175596378715653,
+      "empregos": 6
+    },
+    {
+      "indice": 22,
+      "nome": "FabricaÃ§Ã£o de produtos de limpeza, cosmÃ©ticos/perfumaria e higiene pessoal",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.380665607132161,
+      "empregos": 1
+    },
+    {
+      "indice": 23,
+      "nome": "FabricaÃ§Ã£o de produtos farmoquÃ­micos e farmacÃªuticos",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.11422088434185577,
+      "empregos": 0
+    },
+    {
+      "indice": 24,
+      "nome": "FabricaÃ§Ã£o de produtos de borracha e de material plÃ¡stico",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 3.908925718426808,
+      "empregos": 12
+    },
+    {
+      "indice": 25,
+      "nome": "FabricaÃ§Ã£o de produtos de minerais nÃ£o metÃ¡licos",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.3641288532761423,
+      "empregos": 1
+    },
+    {
+      "indice": 26,
+      "nome": "ProduÃ§Ã£o de ferro gusa/ferroligas, siderurgia e tubos de aÃ§o sem costura",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.4084575474406108,
+      "empregos": 1
+    },
+    {
+      "indice": 27,
+      "nome": "Metalurgia de metais nÃ£o ferosos e a fundiÃ§Ã£o de metais",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.31087164393124156,
+      "empregos": 0
+    },
+    {
+      "indice": 28,
+      "nome": "FabricaÃ§Ã£o de produtos de metal, exceto mÃ¡quinas e equipamentos",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.7052345341810358,
+      "empregos": 2
+    },
+    {
+      "indice": 29,
+      "nome": "FabricaÃ§Ã£o de equipamentos de informÃ¡tica, produtos eletrÃ´nicos e Ã³pticos",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.12555507667591503,
+      "empregos": 0
+    },
+    {
+      "indice": 30,
+      "nome": "FabricaÃ§Ã£o de mÃ¡quinas e equipamentos elÃ©tricos",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.37713470915117,
+      "empregos": 1
+    },
+    {
+      "indice": 31,
+      "nome": "FabricaÃ§Ã£o de mÃ¡quinas e equipamentos mecÃ¢nicos",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.3060119725000928,
+      "empregos": 0
+    },
+    {
+      "indice": 32,
+      "nome": "FabricaÃ§Ã£o de automÃ³veis, caminhÃµes e Ã´nibus, exceto peÃ§as",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.13010038031067522,
+      "empregos": 0
+    },
+    {
+      "indice": 33,
+      "nome": "FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para veÃ­culos automotores",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 1.059475320764807,
+      "empregos": 3
+    },
+    {
+      "indice": 34,
+      "nome": "FabricaÃ§Ã£o de outros equipamentos de transporte, exceto veÃ­culos automotores",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.07818703894988902,
+      "empregos": 0
+    },
+    {
+      "indice": 35,
+      "nome": "FabricaÃ§Ã£o de mÃ³veis e de produtos de indÃºstrias diversas",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.7338373332815381,
+      "empregos": 2
+    },
+    {
+      "indice": 36,
+      "nome": "ManutenÃ§Ã£o, reparaÃ§Ã£o e instalaÃ§Ã£o de mÃ¡quinas e equipamentos",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 1.342885840837427,
+      "empregos": 6
+    },
+    {
+      "indice": 37,
+      "nome": "Energia elÃ©trica, gÃ¡s natural e outras utilidades",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 18.876162560770364,
+      "empregos": 33
+    },
+    {
+      "indice": 38,
+      "nome": "Ãgua, esgoto e gestÃ£o de resÃ­duos",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 1.870661036030536,
+      "empregos": 3
+    },
+    {
+      "indice": 39,
+      "nome": "ConstruÃ§Ã£o",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 2.132029644732128,
+      "empregos": 15
+    },
+    {
+      "indice": 40,
+      "nome": "ComÃ©rcio por atacado e varejo",
+      "choque_r_milhoes": 500.0,
+      "producao_total_r_milhoes": 636.079508149295,
+      "empregos": 5724
+    },
+    {
+      "indice": 41,
+      "nome": "Transporte terrestre",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 47.966941784621774,
+      "empregos": 263
+    },
+    {
+      "indice": 42,
+      "nome": "Transporte aquaviÃ¡rio",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.9455223920852474,
+      "empregos": 5
+    },
+    {
+      "indice": 43,
+      "nome": "Transporte aÃ©reo",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 2.0893841202754926,
+      "empregos": 11
+    },
+    {
+      "indice": 44,
+      "nome": "Armazenamento, atividades auxiliares dos transportes e correio",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 10.679980004300722,
+      "empregos": 58
+    },
+    {
+      "indice": 45,
+      "nome": "Alojamento",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 1.4752168508349643,
+      "empregos": 16
+    },
+    {
+      "indice": 46,
+      "nome": "AlimentaÃ§Ã£o",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 1.1724629466047936,
+      "empregos": 14
+    },
+    {
+      "indice": 47,
+      "nome": "EdiÃ§Ã£o e ediÃ§Ã£o integrada Ã  impressÃ£o",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.6973636656065347,
+      "empregos": 3
+    },
+    {
+      "indice": 48,
+      "nome": "Atividades de televisÃ£o, rÃ¡dio, cinema e  gravaÃ§Ã£o/ediÃ§Ã£o de som e imagem",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 7.079277950191219,
+      "empregos": 31
+    },
+    {
+      "indice": 49,
+      "nome": "TelecomunicaÃ§Ãµes",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 9.233876418630992,
+      "empregos": 41
+    },
+    {
+      "indice": 50,
+      "nome": "Desenvolvimento de sistemas e outros serviÃ§os de informaÃ§Ã£o",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 5.570095115729796,
+      "empregos": 25
+    },
+    {
+      "indice": 51,
+      "nome": "IntermediaÃ§Ã£o financeira, seguros e previdÃªncia complementar",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 52.18360673352571,
+      "empregos": 114
+    },
+    {
+      "indice": 52,
+      "nome": "Atividades imobiliÃ¡rias",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 23.85218554209348,
+      "empregos": 19
+    },
+    {
+      "indice": 53,
+      "nome": "Atividades jurÃ­dicas, contÃ¡beis, consultoria e sedes de empresas",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 24.394883510963993,
+      "empregos": 195
+    },
+    {
+      "indice": 54,
+      "nome": "ServiÃ§os de arquitetura, engenharia, testes/anÃ¡lises tÃ©cnicas e P & D",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 5.921188360419647,
+      "empregos": 47
+    },
+    {
+      "indice": 55,
+      "nome": "Outras atividades profissionais, cientÃ­ficas e tÃ©cnicas",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 30.56524858302722,
+      "empregos": 244
+    },
+    {
+      "indice": 56,
+      "nome": "AluguÃ©is nÃ£o imobiliÃ¡rios e gestÃ£o de ativos de propriedade intelectual",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 4.047540253716142,
+      "empregos": 32
+    },
+    {
+      "indice": 57,
+      "nome": "Outras atividades administrativas e serviÃ§os complementares",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 22.414810546990633,
+      "empregos": 179
+    },
+    {
+      "indice": 58,
+      "nome": "Atividades de vigilÃ¢ncia, seguranÃ§a e investigaÃ§Ã£o",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 5.101347714571874,
+      "empregos": 40
+    },
+    {
+      "indice": 59,
+      "nome": "AdministraÃ§Ã£o pÃºblica, defesa e seguridade social",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 5.960936528543471,
+      "empregos": 35
+    },
+    {
+      "indice": 60,
+      "nome": "EducaÃ§Ã£o pÃºblica",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.45869481110248156,
+      "empregos": 2
+    },
+    {
+      "indice": 61,
+      "nome": "EducaÃ§Ã£o privada",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 1.1397646937180879,
+      "empregos": 10
+    },
+    {
+      "indice": 62,
+      "nome": "SaÃºde pÃºblica",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.033818512835663034,
+      "empregos": 0
+    },
+    {
+      "indice": 63,
+      "nome": "SaÃºde privada",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.07564349377672468,
+      "empregos": 0
+    },
+    {
+      "indice": 64,
+      "nome": "Atividades artÃ­sticas, criativas e de espetÃ¡culos",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 1.1965969758108628,
+      "empregos": 11
+    },
+    {
+      "indice": 65,
+      "nome": "OrganizaÃ§Ãµes associativas e outros serviÃ§os pessoais",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 3.366178632316898,
+      "empregos": 0
+    },
+    {
+      "indice": 66,
+      "nome": "ServiÃ§os domÃ©sticos",
+      "choque_r_milhoes": 0.0,
+      "producao_total_r_milhoes": 0.0,
+      "empregos": 0
+    }
+  ]
+}

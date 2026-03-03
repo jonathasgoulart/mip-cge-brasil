@@ -1,0 +1,10 @@
+{
+  "base_year": 2021,
+  "regional_pattern_year": 2024,
+  "icms_2021_bilhoes": 537.0,
+  "icms_2024_bilhoes": 776.0712712980101,
+  "nominal_growth_pct": 44.519789813409695,
+  "regional_factors_mean": 0.9999999999999999,
+  "status": "normalized",
+  "recommendation": "Apply regional factors to distribute 2021 total preserving national calibration"
+}

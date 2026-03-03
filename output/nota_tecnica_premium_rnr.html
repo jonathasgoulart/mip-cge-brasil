@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nota Técnica - Rock in Rio 2024</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1a73e8;
+            --secondary: #34a853;
+            --dark: #202124;
+            --light: #f8f9fa;
+            --gray: #5f6368;
+            --border: #dadce0;
+        }
+
+        * {
+            box-sizing: border-box;
+            -webkit-print-color-adjust: exact;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--dark);
+            background: #e9ecef;
+            margin: 0;
+            padding: 40px 0;
+        }
+
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            padding: 20mm;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+
+        header {
+            border-bottom: 3px solid var(--primary);
+            padding-bottom: 20px;
+            margin-bottom: 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+        }
+
+        .header-left h1 {
+            margin: 0;
+            font-size: 28px;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .header-left p {
+            margin: 5px 0 0;
+            color: var(--gray);
+            font-weight: 600;
+        }
+
+        .header-right {
+            text-align: right;
+            font-size: 12px;
+            color: var(--gray);
+        }
+
+        h2 {
+            font-size: 20px;
+            color: var(--primary);
+            border-left: 5px solid var(--primary);
+            padding-left: 15px;
+            margin: 40px 0 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .stat-card {
+            background: var(--light);
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            border: 1px solid var(--border);
+        }
+
+        .stat-card h3 {
+            margin: 0;
+            font-size: 14px;
+            color: var(--gray);
+            text-transform: uppercase;
+        }
+
+        .stat-card .value {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary);
+            margin: 10px 0;
+        }
+
+        .chart-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .chart-container img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        .info-box {
+            background: #e8f0fe;
+            border-radius: 8px;
+            padding: 20px;
+            border-left: 8px solid var(--primary);
+            margin: 30px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th,
+        td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+
+        th {
+            background: var(--light);
+            color: var(--primary);
+            font-weight: 700;
+        }
+
+        footer {
+            margin-top: 60px;
+            font-size: 10px;
+            color: var(--gray);
+            border-top: 1px solid var(--border);
+            padding-top: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        @media print {
+            body {
+                background: none;
+                padding: 0;
+            }
+
+            .page {
+                box-shadow: none;
+                margin: 0;
+            }
+
+            .no-print {
+                display: none;
+            }
+        }
+
+        .print-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <button class="print-btn no-print" onclick="window.print()">Exportar como PDF</button>
+
+    <div class="page">
+        <header>
+            <div class="header-left">
+                <h1>Nota Técnica</h1>
+                <p>Análise de Impacto Econômico: Rock in Rio</p>
+            </div>
+            <div class="header-right">
+                Emissão: 30 de Janeiro, 2026<br>
+                MIP-CGE Brasil | Rio de Janeiro
+            </div>
+        </header>
+
+        <section>
+            <h2>1. Sumário Executivo</h2>
+            <p>
+                Esta nota técnica detalha o impacto econômico gerado pelo festival <strong>Rock in Rio</strong> na
+                economia do Estado do Rio de Janeiro. Utilizando a metodologia de Insumo-Produto (Leontief), estimamos
+                como um aporte inicial de R$ 2 bilhões repercute em toda a cadeia produtiva fluminense e nacional.
+            </p>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>Impacto Total (RJ)</h3>
+                    <div class="value">R$ 2,92 Bi</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Arrecadação (ICMS + ISS)</h3>
+                    <div class="value">R$ 152,8 Mi</div>
+                    <div style="font-size: 11px; color: var(--gray);">Estado: R$ 127M | Mun: R$ 25M</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Multiplicador</h3>
+                    <div class="value">1,46x</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Empregos Sustentados</h3>
+                    <div class="value">28.502</div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>2. Distribuição do Gasto (Choque Inicial)</h2>
+            <p>
+                O choque de demanda final foca nos setores de maior intensidade no evento, como Cultura, Lazer,
+                Hotelaria e Alimentação.
+            </p>
+            <div class="chart-container">
+                <img src="report_assets/composicao_choque.png" alt="Composição do Choque">
+            </div>
+        </section>
+
+        <section>
+            <h2>3. Impacto Setorial no Rio de Janeiro</h2>
+            <p>
+                A estrutura produtiva do Rio de Janeiro responde de forma robusta ao evento, com destaque para o setor
+                hoteleiro e de serviços profissionais.
+            </p>
+            <div class="chart-container">
+                <img src="report_assets/impacto_setorial.png" alt="Impacto por Setor">
+            </div>
+        </section>
+
+        <section>
+            <h2>4. Metodologia: O Diferencial Técnico</h2>
+            <div class="info-box">
+                A simulação foi realizada utilizando um <strong>Modelo Híbrido de Insumo-Produto</strong>. Diferente de
+                modelos simplificados, utilizamos os coeficientes técnicos reais extraídos da <strong>Matriz Oficial do
+                    RJ (Base UFRJ/CEPERJ)</strong>, permitindo capturar o "DNA tecnológico" exato do estado,
+                especialmente em cadeias complexas como TI e Petróleo que dão suporte aos eventos.
+            </div>
+        </section>
+
+        <section>
+            <h2>5. Geografia do Impacto (Vazamento)</h2>
+            <p>
+                Parte da demanda gerada pelo festival transborda para o restante do Brasil através da compra de insumos
+                interestaduais.
+            </p>
+            <div class="chart-container">
+                <img src="report_assets/geografia_impacto.png" alt="Distribuição Geográfica">
+            </div>
+        </section>
+
+        <footer>
+            <div>Gerado para: Direção Estratégica | Projeto MIP e CGE Brasil</div>
+            <div>Página 1 de 1</div>
+        </footer>
+    </div>
+</body>
+
+</html>

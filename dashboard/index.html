@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MRIO Analytics | Premium Simulation Suite</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <!-- Animated Background Particles -->
+    <div class="particles" id="particles"></div>
+    <div class="glow-bg"></div>
+
+    <aside class="glass-sidebar">
+        <div class="brand">
+            <div class="brand-cube"></div>
+            <h1>MRIO<span>2021</span></h1>
+        </div>
+        <nav>
+            <a href="#stats" class="nav-link active" data-section="stats">
+                <span class="nav-icon">📊</span>
+                <span>Dashboard</span>
+            </a>
+            <a href="#simulations" class="nav-link" data-section="simulations">
+                <span class="nav-icon">🎯</span>
+                <span>Simulations</span>
+            </a>
+            <a href="#regions" class="nav-link" data-section="regions">
+                <span class="nav-icon">🗺️</span>
+                <span>Regional Comparison</span>
+            </a>
+            <a href="#linkages" class="nav-link" data-section="linkages">
+                <span class="nav-icon">💎</span>
+                <span>Setores-Chave</span>
+            </a>
+            <a href="#simulator" class="nav-link" data-section="simulator">
+                <span class="nav-icon">⚡</span>
+                <span>Simulador Dinâmico</span>
+            </a>
+        </nav>
+        <div class="sidebar-footer">
+            <div class="data-tag">Brazil SCN Ref</div>
+            <p>Engine Ver: 2.1.0 Stable</p>
+        </div>
+    </aside>
+
+    <main class="main-viewport">
+        <header class="header-glass">
+            <div class="header-left">
+                <span class="breadcrumb">Analytics / Rio de Janeiro</span>
+                <h2>Executive Impact Report</h2>
+            </div>
+            <div class="header-right">
+                <div class="badge-live">SYSTEM OPERATIONAL</div>
+            </div>
+        </header>
+
+        <div class="scroll-container">
+            <!-- SEÇÃO STATS -->
+            <section id="stats" class="dashboard-grid">
+                <div class="hero-card">
+                    <div class="hero-content">
+                        <h3>Model Capacity</h3>
+                        <h2>67 Economic Sectors</h2>
+                        <p>Fully regionalized using FLQ-δ (0.3) calibrated for 2021 Regional Accounts.</p>
+                        <div class="hero-tags">
+                            <span>#SupplyUse</span><span>#MRIO</span><span>#Employment</span>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="radar-dot"></div>
+                    </div>
+                </div>
+
+                <div class="mini-stats">
+                    <div class="mini-card pulse">
+                        <div class="card-icon">📈</div>
+                        <label>Avg Multiplier</label>
+                        <strong id="avg-mult">1.258</strong>
+                        <div class="trend up">São Paulo Weighted</div>
+                        <div class="mini-sparkline" id="sparkline-mult"></div>
+                    </div>
+                    <div class="mini-card">
+                        <div class="card-icon">🌎</div>
+                        <label>Total Regions</label>
+                        <strong>06</strong>
+                        <div class="trend">Macro-regions</div>
+                    </div>
+                    <div class="mini-card">
+                        <div class="card-icon">💼</div>
+                        <label>Employment Impact</label>
+                        <strong id="total-jobs">52K+</strong>
+                        <div class="trend">Simulated Jobs</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SEÇÃO SIMULAÇÕES -->
+            <section id="simulations" class="section-container">
+                <div class="section-header">
+                    <h3>Simulation Insights</h3>
+                    <p>Comparative view of high-impact events in Rio de Janeiro.</p>
+                </div>
+
+                <div class="sim-row">
+                    <div class="impact-board beyonce">
+                        <div class="board-badge">SIMULATION 1</div>
+                        <div class="board-header">
+                            <h4>🎤 Show da Beyoncé (RJ)</h4>
+                            <span class="shock-tag">Choque: R$ 150M</span>
+                        </div>
+                        <div class="stats-row">
+                            <div class="s-item">
+                                <span>Output Impact</span>
+                                <strong id="bey-prod" class="counter">R$ 183M</strong>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 78%"></div>
+                                </div>
+                            </div>
+                            <div class="s-item">
+                                <span>Job Creation</span>
+                                <strong id="bey-emp" class="counter">1,667</strong>
+                                <div class="impact-badge">+22% multiplicador</div>
+                            </div>
+                        </div>
+                        <div class="chart-box">
+                            <canvas id="beyonce-bar"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="impact-board carnaval">
+                        <div class="board-badge gold">SIMULATION 2</div>
+                        <div class="board-header">
+                            <h4>🎭 Carnaval Spillover</h4>
+                            <span class="shock-tag gold">Choque: R$ 4B</span>
+                        </div>
+                        <div class="stats-row">
+                            <div class="s-item">
+                                <span>Nat. Production</span>
+                                <strong id="carn-prod" class="counter">R$ 5.5B</strong>
+                                <div class="progress-bar gold">
+                                    <div class="progress-fill" style="width: 88%"></div>
+                                </div>
+                            </div>
+                            <div class="s-item">
+                                <span>Total Leakage</span>
+                                <strong id="carn-leak" class="cyan counter">R$ 655M</strong>
+                                <div class="impact-badge gold">12% spillover</div>
+                            </div>
+                        </div>
+                        <div class="chart-box doughnut">
+                            <canvas id="carnaval-doughnut"></canvas>
+                        </div>
+                        <div class="info-footer">
+                            <span class="pulse-dot"></span> ~5,811 jobs created outside Rio
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SEÇÃO REGIONAL -->
+            <section id="regions" class="section-container">
+                <div class="section-header">
+                    <h3>Regional Scalability</h3>
+                    <p>Ranking of production multipliers across Brazilian regions.</p>
+                </div>
+                <div class="regional-rank-box">
+                    <div id="rank-list" class="rank-list">
+                        <!-- Gerado via JS -->
+                    </div>
+                    <div class="rank-chart">
+                        <canvas id="region-compare-chart"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SEÇÃO SETORES-CHAVE -->
+            <section id="linkages" class="section-container">
+                <div class="section-header">
+                    <h3>Setores Estratégicos</h3>
+                    <p>Identificação de setores-chave via índices de Rasmussen-Hirschman (Efeito Encadeamento).</p>
+                </div>
+
+                <div class="linkage-grid">
+                    <div class="key-sectors-card">
+                        <div class="card-header">
+                            <h4>Top Setores-Chave (RJ)</h4>
+                            <div class="legend-pill">BL & FL > 1</div>
+                        </div>
+                        <div id="key-sectors-list" class="key-list">
+                            <!-- Gerado via JS -->
+                        </div>
+                    </div>
+                    <div class="linkage-chart-box">
+                        <canvas id="linkage-bubble-chart"></canvas>
+                        <div class="chart-labels">
+                            <span class="label-top">Forward Linkage (FL)</span>
+                            <span class="label-right">Backward Linkage (BL)</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SEÇÃO SIMULADOR DINÂMICO -->
+            <section id="simulator" class="section-container">
+                <div class="section-header">
+                    <h3>Simulador de Impacto Dinâmico</h3>
+                    <p>Calcule impactos econômicos em tempo real usando a matriz inversa de Leontief.</p>
+                </div>
+
+                <div class="simulator-grid">
+                    <!-- Painel de Controle -->
+                    <div class="control-panel glass-card">
+                        <h4>Parâmetros do Choque</h4>
+
+                        <div class="input-group">
+                            <label>Região</label>
+                            <select id="sim-region">
+                                <option value="Rio_de_Janeiro">Rio de Janeiro</option>
+                                <option value="Sao_Paulo">São Paulo</option>
+                                <option value="Sul">Sul</option>
+                                <option value="Centro_Oeste">Centro-Oeste</option>
+                                <option value="Norte_Nordeste">Norte & Nordeste</option>
+                                <option value="Minas_EspiritoSanto">Minas Gerais & ES</option>
+                            </select>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Setor Econômico</label>
+                            <select id="sim-sector">
+                                <!-- Populado via JS -->
+                            </select>
+                        </div>
+
+                        <div class="input-group">
+                            <label>Valor do Choque (R$ Milhões)</label>
+                            <input type="number" id="sim-value" value="10" min="1" step="1">
+                        </div>
+
+                        <button id="btn-simulate" class="btn-primary pulse-btn">
+                            🚀 Simular Impacto
+                        </button>
+                    </div>
+
+                    <!-- Resultados -->
+                    <div class="results-panel">
+                        <div class="result-card highlight">
+                            <span>Impacto na Produção (Output)</span>
+                            <strong id="res-output" class="counter">R$ 0,00</strong>
+                            <div class="badge-result">Multiplicador: <span id="res-mult">-</span></div>
+                        </div>
+
+                        <div class="result-card">
+                            <span>Novos Empregos</span>
+                            <strong id="res-jobs" class="counter">0</strong>
+                            <div class="badge-result cyan">Vagas Totais</div>
+                        </div>
+
+                        <div class="result-card">
+                            <span>Impostos Gerados</span>
+                            <strong id="res-taxes" class="counter">R$ 0,00</strong>
+                            <div class="badge-result green">Est. Arrecadação</div>
+                        </div>
+
+                        <div class="result-chart-box">
+                            <h5>Top 5 Setores Impactados Indiretamente</h5>
+                            <canvas id="sim-chart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,506 @@
+{
+  "contexto": {
+    "vab_total_rj_bi": 1570.5701240267376,
+    "vab_total_brasil_bi": 7713.998999999994,
+    "share_rj_no_brasil_pct": 20.359999061793225,
+    "segmentos": {
+      "Audiovisual & Mídia": {
+        "vab_rj_mi": 23408.351804509846,
+        "vab_br_mi": 108502.8413114032,
+        "share_pib_rj_pct": 1.4904365902805967,
+        "location_quotient": 1.0596244511229784
+      },
+      "Tecnologia & Software": {
+        "vab_rj_mi": 29371.27302297282,
+        "vab_br_mi": 136142.2881260498,
+        "share_pib_rj_pct": 1.8701026190201995,
+        "location_quotient": 1.0596244511229784
+      },
+      "Eventos & Artes": {
+        "vab_rj_mi": 10214.71788989753,
+        "vab_br_mi": 59122.40936565349,
+        "share_pib_rj_pct": 0.6503827962618008,
+        "location_quotient": 0.8485872436205777
+      },
+      "Turismo & Gastronomia": {
+        "vab_rj_mi": 35717.05108504646,
+        "vab_br_mi": 137126.99999999953,
+        "share_pib_rj_pct": 2.2741455818268457,
+        "location_quotient": 1.2793072658241451
+      },
+      "Design & Serviços Criativos": {
+        "vab_rj_mi": 58321.7351726651,
+        "vab_br_mi": 226510.1712173732,
+        "share_pib_rj_pct": 3.7134117274009872,
+        "location_quotient": 1.2646343516410883
+      }
+    },
+    "total_criativo_rj_mi": 157033.12897509176,
+    "total_criativo_br_mi": 667404.7100204792,
+    "share_criativo_pib_rj_pct": 9.99847931479043,
+    "lq_criativo_total": 1.1556445179034973
+  },
+  "multiplicadores": {
+    "por_segmento": {
+      "Audiovisual & Mídia": {
+        "multiplicador_producao": 1.5012959041738563,
+        "backward_linkage": 0.9951711973492295,
+        "forward_linkage": 1.2354284649991587,
+        "empregos_por_bi": 28115.406442144034,
+        "renda_por_bi_mi": 1727.9863932168587,
+        "vazamento_pct": 7.3075309802092,
+        "impacto_producao_mi": 1501.2959041738563,
+        "impacto_setorial": {},
+        "top5_encadeados": [
+          {
+            "idx": 54,
+            "setor": "Serviços de arquitetura, engenharia, testes/análises técnicas e P&D",
+            "impacto_mi": 58.002102963798016
+          },
+          {
+            "idx": 51,
+            "setor": "Intermediação financeira, seguros e previdência complementar",
+            "impacto_mi": 50.57059893182728
+          },
+          {
+            "idx": 41,
+            "setor": "Transporte terrestre",
+            "impacto_mi": 23.4893539593822
+          },
+          {
+            "idx": 38,
+            "setor": "Água, esgoto e gestão de resíduos",
+            "impacto_mi": 21.584951933284465
+          },
+          {
+            "idx": 49,
+            "setor": "Telecomunicações",
+            "impacto_mi": 20.19636538029655
+          }
+        ]
+      },
+      "Tecnologia & Software": {
+        "multiplicador_producao": 1.5012959041738565,
+        "backward_linkage": 0.9951711973492295,
+        "forward_linkage": 1.2281043937979643,
+        "empregos_por_bi": 18079.922697917602,
+        "renda_por_bi_mi": 1110.766521099657,
+        "vazamento_pct": 7.307530980209198,
+        "impacto_producao_mi": 1501.2959041738566,
+        "impacto_setorial": {},
+        "top5_encadeados": [
+          {
+            "idx": 54,
+            "setor": "Serviços de arquitetura, engenharia, testes/análises técnicas e P&D",
+            "impacto_mi": 58.002102963798016
+          },
+          {
+            "idx": 51,
+            "setor": "Intermediação financeira, seguros e previdência complementar",
+            "impacto_mi": 50.570598931827284
+          },
+          {
+            "idx": 41,
+            "setor": "Transporte terrestre",
+            "impacto_mi": 23.4893539593822
+          },
+          {
+            "idx": 38,
+            "setor": "Água, esgoto e gestão de resíduos",
+            "impacto_mi": 21.58495193328447
+          },
+          {
+            "idx": 49,
+            "setor": "Telecomunicações",
+            "impacto_mi": 20.19636538029655
+          }
+        ]
+      },
+      "Eventos & Artes": {
+        "multiplicador_producao": 1.4593306514979287,
+        "backward_linkage": 0.9673534895699311,
+        "forward_linkage": 0.6628747834337556,
+        "empregos_por_bi": 27914.293617157273,
+        "renda_por_bi_mi": 1564.0054089134499,
+        "vazamento_pct": 8.496098186834743,
+        "impacto_producao_mi": 1459.3306514979288,
+        "impacto_setorial": {},
+        "top5_encadeados": [
+          {
+            "idx": 38,
+            "setor": "Água, esgoto e gestão de resíduos",
+            "impacto_mi": 58.14918532393491
+          },
+          {
+            "idx": 54,
+            "setor": "Serviços de arquitetura, engenharia, testes/análises técnicas e P&D",
+            "impacto_mi": 54.110043617091215
+          },
+          {
+            "idx": 51,
+            "setor": "Intermediação financeira, seguros e previdência complementar",
+            "impacto_mi": 33.25523141963281
+          },
+          {
+            "idx": 43,
+            "setor": "Transporte aéreo",
+            "impacto_mi": 31.868353233267268
+          },
+          {
+            "idx": 41,
+            "setor": "Transporte terrestre",
+            "impacto_mi": 25.195444398418935
+          }
+        ]
+      },
+      "Turismo & Gastronomia": {
+        "multiplicador_producao": 1.4743828127004057,
+        "backward_linkage": 0.9773311876672328,
+        "forward_linkage": 0.8875901793518535,
+        "empregos_por_bi": 61846.70415384967,
+        "renda_por_bi_mi": 1430.236460047684,
+        "vazamento_pct": 11.577808562506798,
+        "impacto_producao_mi": 1474.3828127004058,
+        "impacto_setorial": {},
+        "top5_encadeados": [
+          {
+            "idx": 38,
+            "setor": "Água, esgoto e gestão de resíduos",
+            "impacto_mi": 95.0321240742231
+          },
+          {
+            "idx": 54,
+            "setor": "Serviços de arquitetura, engenharia, testes/análises técnicas e P&D",
+            "impacto_mi": 47.0663516182573
+          },
+          {
+            "idx": 41,
+            "setor": "Transporte terrestre",
+            "impacto_mi": 43.74776501117077
+          },
+          {
+            "idx": 10,
+            "setor": "Fabricação de bebidas",
+            "impacto_mi": 42.77131775496121
+          },
+          {
+            "idx": 42,
+            "setor": "Transporte aquaviário",
+            "impacto_mi": 22.634580193527437
+          }
+        ]
+      },
+      "Design & Serviços Criativos": {
+        "multiplicador_producao": 1.4583984994024164,
+        "backward_linkage": 0.9667355894514907,
+        "forward_linkage": 0.7674990642005376,
+        "empregos_por_bi": 11191.558085326855,
+        "renda_por_bi_mi": 482.29028008513217,
+        "vazamento_pct": 11.139680741230782,
+        "impacto_producao_mi": 1458.3984994024163,
+        "impacto_setorial": {},
+        "top5_encadeados": [
+          {
+            "idx": 41,
+            "setor": "Transporte terrestre",
+            "impacto_mi": 62.22642137204768
+          },
+          {
+            "idx": 38,
+            "setor": "Água, esgoto e gestão de resíduos",
+            "impacto_mi": 48.4182550610432
+          },
+          {
+            "idx": 54,
+            "setor": "Serviços de arquitetura, engenharia, testes/análises técnicas e P&D",
+            "impacto_mi": 47.933484087911665
+          },
+          {
+            "idx": 42,
+            "setor": "Transporte aquaviário",
+            "impacto_mi": 27.67753724708592
+          },
+          {
+            "idx": 52,
+            "setor": "Atividades imobiliárias",
+            "impacto_mi": 23.561329799128764
+          }
+        ]
+      }
+    },
+    "ranking_encadeamento": [
+      {
+        "idx": 29,
+        "setor": "Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",
+        "bl": 1.0244994078164937,
+        "fl": 0.8529340750309897,
+        "tipo": "Forte p/ trás"
+      },
+      {
+        "idx": 45,
+        "setor": "Alojamento",
+        "bl": 1.0035441487269572,
+        "fl": 0.687460952281525,
+        "tipo": "Forte p/ trás"
+      },
+      {
+        "idx": 46,
+        "setor": "Alimentação",
+        "bl": 0.9511182266075086,
+        "fl": 1.087719406422182,
+        "tipo": "Forte p/ frente"
+      },
+      {
+        "idx": 47,
+        "setor": "Edição e edição integrada à impressão",
+        "bl": 0.9951711973492295,
+        "fl": 0.6795311289355123,
+        "tipo": "Independente"
+      },
+      {
+        "idx": 48,
+        "setor": "Atividades de televisão, rádio, cinema e gravação/edição de som e imagem",
+        "bl": 0.9951711973492295,
+        "fl": 1.7913258010628053,
+        "tipo": "Forte p/ frente"
+      },
+      {
+        "idx": 50,
+        "setor": "Desenvolvimento de sistemas e outros serviços de informação",
+        "bl": 0.9951711973492295,
+        "fl": 1.2281043937979643,
+        "tipo": "Forte p/ frente"
+      },
+      {
+        "idx": 55,
+        "setor": "Outras atividades profissionais, científicas e técnicas",
+        "bl": 0.9378536802689893,
+        "fl": 0.6628747834337556,
+        "tipo": "Independente"
+      },
+      {
+        "idx": 56,
+        "setor": "Aluguéis não imobiliários e gestão de ativos de propriedade intelectual",
+        "bl": 0.9378536802689894,
+        "fl": 0.7866883341368675,
+        "tipo": "Independente"
+      },
+      {
+        "idx": 64,
+        "setor": "Atividades artísticas, criativas e de espetáculos",
+        "bl": 0.9673534895699311,
+        "fl": 0.6628747834337556,
+        "tipo": "Independente"
+      }
+    ]
+  },
+  "decomposicao": {
+    "choque_total_mi": 1000.0,
+    "impacto_total_mi": 1476.938910683709,
+    "multiplicador_agregado": 1.476938910683709,
+    "impacto_criativo_mi": 1141.2183964899189,
+    "impacto_nao_criativo_mi": 335.7205141937902,
+    "efeito_indireto_pct": 22.730832789717585,
+    "top_beneficiados": [
+      {
+        "rank": 1,
+        "idx": 50,
+        "setor": "Desenvolvimento de sistemas e outros serviços de informação",
+        "impacto_mi": 213.13263510314536,
+        "pct": 14.430700793472992,
+        "e_criativo": true
+      },
+      {
+        "rank": 2,
+        "idx": 45,
+        "setor": "Alojamento",
+        "impacto_mi": 147.78268569714064,
+        "pct": 10.006012071868877,
+        "e_criativo": true
+      },
+      {
+        "rank": 3,
+        "idx": 55,
+        "setor": "Outras atividades profissionais, científicas e técnicas",
+        "impacto_mi": 141.1667936747619,
+        "pct": 9.558065851851145,
+        "e_criativo": true
+      },
+      {
+        "rank": 4,
+        "idx": 47,
+        "setor": "Edição e edição integrada à impressão",
+        "impacto_mi": 136.05450594979615,
+        "pct": 9.211925081370724,
+        "e_criativo": true
+      },
+      {
+        "rank": 5,
+        "idx": 56,
+        "setor": "Aluguéis não imobiliários e gestão de ativos de propriedade intelectual",
+        "impacto_mi": 126.81373457268005,
+        "pct": 8.586254560384969,
+        "e_criativo": true
+      },
+      {
+        "rank": 6,
+        "idx": 29,
+        "setor": "Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",
+        "impacto_mi": 121.16387046424002,
+        "pct": 8.20371577915504,
+        "e_criativo": true
+      },
+      {
+        "rank": 7,
+        "idx": 48,
+        "setor": "Atividades de televisão, rádio, cinema e gravação/edição de som e imagem",
+        "impacto_mi": 95.61332935653328,
+        "pct": 6.473749771564464,
+        "e_criativo": true
+      },
+      {
+        "rank": 8,
+        "idx": 46,
+        "setor": "Alimentação",
+        "impacto_mi": 94.4426702662247,
+        "pct": 6.394487245413895,
+        "e_criativo": true
+      },
+      {
+        "rank": 9,
+        "idx": 64,
+        "setor": "Atividades artísticas, criativas e de espetáculos",
+        "impacto_mi": 65.04817140539666,
+        "pct": 4.404256055200303,
+        "e_criativo": true
+      },
+      {
+        "rank": 10,
+        "idx": 38,
+        "setor": "Água, esgoto e gestão de resíduos",
+        "impacto_mi": 53.08103255619829,
+        "pct": 3.5939897156359604,
+        "e_criativo": false
+      },
+      {
+        "rank": 11,
+        "idx": 54,
+        "setor": "Serviços de arquitetura, engenharia, testes/análises técnicas e P&D",
+        "impacto_mi": 52.50807205867663,
+        "pct": 3.5551959311823826,
+        "e_criativo": false
+      },
+      {
+        "rank": 12,
+        "idx": 41,
+        "setor": "Transporte terrestre",
+        "impacto_mi": 40.287947230839606,
+        "pct": 2.727800516284684,
+        "e_criativo": false
+      },
+      {
+        "rank": 13,
+        "idx": 51,
+        "setor": "Intermediação financeira, seguros e previdência complementar",
+        "impacto_mi": 32.81059851645617,
+        "pct": 2.221527124724975,
+        "e_criativo": false
+      },
+      {
+        "rank": 14,
+        "idx": 49,
+        "setor": "Telecomunicações",
+        "impacto_mi": 21.970558523340475,
+        "pct": 1.487573952071572,
+        "e_criativo": false
+      },
+      {
+        "rank": 15,
+        "idx": 37,
+        "setor": "Energia elétrica, gás natural e outras utilidades",
+        "impacto_mi": 19.994091038528953,
+        "pct": 1.3537520674618309,
+        "e_criativo": false
+      }
+    ]
+  },
+  "fiscal": {
+    "por_segmento": {
+      "Audiovisual & Mídia": {
+        "choque_mi": 1000.0,
+        "icms_mi": 44.3277255935112,
+        "iss_mi": 7.300208602535702,
+        "total_tax_mi": 51.6279341960469,
+        "retorno_fiscal_pct": 5.16279341960469
+      },
+      "Tecnologia & Software": {
+        "choque_mi": 1000.0,
+        "icms_mi": 35.97200833451136,
+        "iss_mi": 7.439998493047133,
+        "total_tax_mi": 43.41200682755849,
+        "retorno_fiscal_pct": 4.341200682755849
+      },
+      "Eventos & Artes": {
+        "choque_mi": 1000.0,
+        "icms_mi": 46.731266978207316,
+        "iss_mi": 22.099167994166343,
+        "total_tax_mi": 68.83043497237367,
+        "retorno_fiscal_pct": 6.883043497237367
+      },
+      "Turismo & Gastronomia": {
+        "choque_mi": 1000.0,
+        "icms_mi": 75.31987632481643,
+        "iss_mi": 13.473397376139909,
+        "total_tax_mi": 88.79327370095635,
+        "retorno_fiscal_pct": 8.879327370095636
+      },
+      "Design & Serviços Criativos": {
+        "choque_mi": 1000.0,
+        "icms_mi": 48.80359219947527,
+        "iss_mi": 13.187795775790654,
+        "total_tax_mi": 61.99138797526592,
+        "retorno_fiscal_pct": 6.199138797526593
+      }
+    }
+  },
+  "emprego": {
+    "por_segmento": {
+      "Audiovisual & Mídia": {
+        "emprego_direto": 17832.60824512166,
+        "emprego_total": 28115.406442144034,
+        "multiplicador_emprego": 1.5766289516193104
+      },
+      "Tecnologia & Software": {
+        "emprego_direto": 7797.124500895224,
+        "emprego_total": 18079.922697917602,
+        "multiplicador_emprego": 2.318793639352785
+      },
+      "Eventos & Artes": {
+        "emprego_direto": 18470.65611230464,
+        "emprego_total": 27914.293617157273,
+        "multiplicador_emprego": 1.511277858644206
+      },
+      "Turismo & Gastronomia": {
+        "emprego_direto": 55773.956522119915,
+        "emprego_total": 61846.70415384967,
+        "multiplicador_emprego": 1.108881420835212
+      },
+      "Design & Serviços Criativos": {
+        "emprego_direto": 3736.6327532135597,
+        "emprego_total": 11191.558085326855,
+        "multiplicador_emprego": 2.995091791052238
+      }
+    }
+  },
+  "renuncia_fiscal": {
+    "renuncia_mi": 100.0,
+    "producao_gerada_mi": 147.6938910683709,
+    "multiplicador": 1.476938910683709,
+    "empregos_gerados": 2243.236606570626,
+    "renda_gerada_mi": 88.33247332918953,
+    "icms_retornado_mi": 4.5692550549213715,
+    "iss_retornado_mi": 1.1483558971200984,
+    "total_tax_retornado_mi": 5.71761095204147,
+    "roi_fiscal": 0.0571761095204147
+  }
+}
