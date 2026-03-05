@@ -37,14 +37,14 @@ def run_demand_shock(region: str, shocks: dict, agg_level: str = "detailed", req
     
     # 1. Selection of Matrix (MRIO or Single Region)
     if require_spillover:
-        # Try v6 (BA B+ integration) -> v5 -> v4 fallback chain
-        path_A = os.path.join(final_dir, 'A_mrio_official_v6.npy')
-        if not os.path.exists(path_A):
-             path_A = os.path.join(final_dir, 'A_mrio_official_v5.npy')
-             if not os.path.exists(path_A):
-                 path_A = os.path.join(final_dir, 'A_mrio_official_v4.npy')
-                 if not os.path.exists(path_A):
-                     raise FileNotFoundError("MRIO Matrix not found.")
+        # Fallback chain: v6.1 (VBP+RAS, BA integrated) → v6 → v5 → v4
+        for v in ['A_mrio_official_v6_1.npy', 'A_mrio_official_v6.npy',
+                  'A_mrio_official_v5.npy', 'A_mrio_official_v4.npy']:
+            path_A = os.path.join(final_dir, v)
+            if os.path.exists(path_A):
+                break
+        else:
+            raise FileNotFoundError("No MRIO matrix found.")
         A = np.load(path_A)
         n_total = A.shape[0] # 1809
         n_sectors = 67

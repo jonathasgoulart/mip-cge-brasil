@@ -6,6 +6,26 @@ Os scripts estao organizados por funcao. Scripts marcados com ★ sao **producao
 
 ---
 
+## 0. METODOLOGIA PADRÃO: Integração de Matrizes Estaduais
+
+> **Quando usar**: sempre que uma matriz estadual oficial tiver menos setores do que os 67 IBGE padrão.
+
+### Estratégia B+ — VBP Weights + RAS Biproportional Balancing
+
+#### Passo 1 — Crosswalk: mapear setores-fonte → IBGE-67
+#### Passo 2 — VBP National Weights
+Para setor-origem que mapeia para N setores-alvo:
+```
+peso_i = X_nas[i] / Σ X_nas[grupo]
+```
+#### Passo 3 — RAS Biproportional Balancing
+Itera escalando colunas e linhas até margens baterem com IBGE 2021 (tolerância 1e-6). Setores com marginal-alvo zero são ignorados e mantêm valores originais.
+#### Passo 4 — Blend final: `70% RAS + 30% MRIO original`
+Ancora macroeconômica de 2021 para corrigir defasagem temporal.
+#### Critérios de aceite: raio espectral < 1, max col sum < 0.95, varredura de 27 estados.
+
+---
+
 ## 1. GERADORES DE MATRIZES (Infraestrutura Core)
 
 Estes scripts criam os dados fundamentais do projeto. Devem ser executados nesta ordem quando se precisa reconstruir tudo do zero.
