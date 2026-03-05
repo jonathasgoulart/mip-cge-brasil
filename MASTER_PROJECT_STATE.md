@@ -15,8 +15,9 @@
   - Repositório Git sincronizado: `https://github.com/jonathasgoulart/mip-cge-brasil`
 
 ## 📊 2. Estrutura de Dados (Ref: [OFFICIAL_MATRICES_REFERENCE.md](file:///c:/Users/jonat/Documents/MIP%20e%20CGE/OFFICIAL_MATRICES_REFERENCE.md))
-- **MRIO v4 (2021)**: Matriz inter-regional (1809x1809) baseada em 27 UFs e 67 setores.
-  - *Arquivos*: `output/final/A_mrio_official_v4.npy`, `trade_prob_sectoral_v4.npy`
+- **MRIO v6.1 (05/03/2026)**: Matriz inter-regional ATUALIZADA com Bahia oficial.
+  - *Arquivos*: `output/final/A_mrio_official_v6_1.npy`
+  - *Metodologia*: B+ (VBP National Weights + RAS Biproportional Balancing).
 - **Matriz de Emprego (PNAD 2021)**: Pessoas Ocupadas (PO) e Renda para todos os 67 setores e 27 UFs.
   - *Arquivos*: `emp_coefficients_67x27.npy`, `inc_coefficients_67x27.npy`
 - **Base Fiscal**: Coeficientes de impostos (ICMS, IPI, ISS, etc.) e Importação (II) por setor.
@@ -26,7 +27,7 @@
 | Script | Função | Status |
 |---|---|---|
 | `scripts/mrio_official_v4.py` | Gerador do Modelo Gravitacional Core | ★ Produção |
-| `api/simulators/demand_shock.py` | Engine de Simulação (Leontief) | ★ Produção |
+| `api/simulators/demand_shock.py` | Engine de Simulação (Leontief) | ★ Produção (v6.1) |
 | `scripts/integrated_pipeline.py` | Processamento regional (FLQ) | ★ Produção |
 | `scripts/export_dashboard_data.py`| Sincronização API -> Dashboard | ★ Produção |
 
@@ -34,13 +35,13 @@
 - **Impacto Beyoncé/Rock in Rio/Carnaval**: Choques positivos RJ.
 - **Cenário Guerra no Irã (Recessivo)**: Choque negativo S18/S21.
 - **Integração Goiás**: Correção estrutural de multiplicadores. 
-  - *Descoberta*: Refino em GO tem multiplicador 1.0 (integrado via imports, não via produção local).
+- **Integração Bahia (v6.1)**: Substituição do bloco estimado por dados oficiais SEI-BA via B+ (RAS).
+  - *Impacto*: Multiplicador médio BA subiu de 1.41 para 1.44.
 
 ## 🚀 5. Onde Paramos & Próximos Passos
-- [x] Sincronização total com GitHub.
-- [x] Dockerização e portabilidade do sistema.
-- [x] Simulação de impacto geoeconômico (Guerra Irã).
-- [/] **PENDENTE**: Criar Aba de "Gestão de Crises" no Dashboard para simular choques negativos (como o do Irã) visualmente.
+- [x] Integração oficial da Bahia (v6.1) com metodologia B+.
+- [x] Sincronização total com GitHub e Deploy Render.
+- [/] **PENDENTE**: Criar Aba de "Gestão de Crises" no Dashboard.
 - [/] **PENDENTE**: Landing Page institucional do simulador online.
 
 ## ⚠️ Instruções Críticas para a IA

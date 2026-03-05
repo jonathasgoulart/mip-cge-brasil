@@ -31,11 +31,13 @@ Onde:
 | **Manufaturados** (Indústria) | 22–52 | 1.5 | Fricção intermediária |
 | **Serviços** | 53–67 | 3.0 | Altamente locais |
 
-### Tratamento Especial: Rio de Janeiro
+### Tratamento Especial: Estados Oficiais (Matrizes Híbridas)
 
-O RJ usa matrizes oficiais **UFRJ/CEPERJ 2019** (não FLQ):
-- `A_RIO_LOCAIS_67x67.xlsx` — Coeficientes locais
-- `A_RIO_INTER_67x67.xlsx` — Vazamentos interestaduais
+Os seguintes estados não usam estimativas FLQ puras, mas sim matrizes oficiais integradas ao modelo:
+
+1. **Rio de Janeiro** (v4+): Matrizes **UFRJ / CEPERJ 2019** (102x56 -> 67x67).
+2. **Goiás** (v5+): Matriz **SEGPLAN-GO 2019** (41 setores).
+3. **Bahia** (v6.1+): Matriz **SEI-BA 2012** (41 setores) calibrada via **VBP National Weights + RAS**.
 
 Demais estados: Regionalização via **FLQ** (δ = 0.3).
 
@@ -106,9 +108,11 @@ for i, uf in enumerate(UF_LIST):
 | V1 | `mrio_engine.py` | ❌ Removido |
 | V2 | `mrio_engine_lite.py` | ❌ Removido |
 | V3 | `generate_regional_mrio_v3.py` | ❌ Removido |
-| **V4** | **`mrio_official_v4.py`** | **✅ Oficial** |
+| **V4** | **`mrio_official_v4.py`** | **✅ Oficial (Base)** |
+| V5 | — | Integração GO |
+| **V6.1** | — | **✅ Atual (BA B+)** |
 
 ---
 
-**Última atualização**: 27/02/2026  
-**Versão**: 4.0 OFICIAL
+**Última atualização**: 05/03/2026  
+**Versão**: 6.1 OFICIAL (BA Híbrida)
