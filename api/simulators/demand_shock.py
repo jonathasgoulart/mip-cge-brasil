@@ -50,19 +50,29 @@ def run_demand_shock(region: str, shocks: dict, agg_level: str = "detailed", req
     else:
         if region == 'Nacional':
             path_A = os.path.join(inter_dir, 'A_nas.npy')
+            if not os.path.exists(path_A):
+                 raise FileNotFoundError("National Matrix not found.")
+            A = np.load(path_A)
         else:
-            region_map = {'RJ': 'A_Rio_de_Janeiro.npy', 'SP': 'A_Sao_Paulo.npy'}
-            filename = region_map.get(region, f'A_{region}.npy')
-            path_A = os.path.join(final_dir, filename)
-        
-        if not os.path.exists(path_A):
-            path_A_fallback = os.path.join(inter_dir, f'A_{region}.npy')
-            if os.path.exists(path_A_fallback):
-                 path_A = path_A_fallback
+            # Dynamically extract local state 67x67 block from full MRIO
+            path_mrio = os.path.join(final_dir, 'A_mrio_official_v5.npy')
+            if not os.path.exists(path_mrio):
+                path_mrio = os.path.join(final_dir, 'A_mrio_official_v4.npy')
+                
+            A_full = np.load(path_mrio)
+            
+            if region in STATES_ORDER:
+                idx = STATES_ORDER.index(region)
+                start_idx = idx * 67
+                end_idx = (idx + 1) * 67
+                A = A_full[start_idx:end_idx, start_idx:end_idx]
             else:
-                 raise FileNotFoundError(f"Matrix for region {region} not found.")
-        
-        A = np.load(path_A)
+                # Fallback for macro regions (e.g. 'Sul')
+                path_A = os.path.join(final_dir, f'A_{region}.npy')
+                if not os.path.exists(path_A):
+                    path_A = os.path.join(inter_dir, f'A_{region}.npy')
+                A = np.load(path_A)
+                
         n_total = A.shape[0] # 67
         n_sectors = n_total
         n_regions = 1
