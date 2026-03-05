@@ -12,31 +12,54 @@ def export_data():
     n = 67
     e = np.load(os.path.join(os.path.dirname(inter_dir), 'final', 'emp_coefficients_67x27.npy'))[:, 18]  # RJ
     
-    # 1. Estatísticas da Matriz
+    # 1. Carregar Regiões da MRIO V5
+    gravity_path = os.path.join(final_dir, 'A_mrio_official_v5.npy')
+    region_order_path = os.path.join(final_dir, 'region_order_v4.txt')
+    
+    if not os.path.exists(gravity_path):
+        # Fallback to v4 if v5 doesn't exist yet
+        gravity_path = os.path.join(final_dir, 'A_mrio_official_v4.npy')
+        
+    with open(region_order_path, 'r') as f:
+        regioes_mrio = [l.strip() for l in f.readlines()]
+        
     stats = {
-        "regioes": ["Sul", "Centro_Oeste", "Norte_Nordeste", "Rio_de_Janeiro", "Sao_Paulo", "Minas_EspiritoSanto"],
+        "regioes": regioes_mrio,
         "setores_count": 67,
-        "ano_base_mip": 2015,
+        "ano_base_mip": 2019, # Goiás MIP year/2021 PNAD
         "ano_base_cr": 2021,
         "multiplicadores": {}
     }
     
-    # Calcular multiplicadores por região para comparação
+    # Load global matrix to calculate multipliers for rank
+    print(f"Loading Global MRIO from {gravity_path}...")
+    A_global = np.load(gravity_path)
+    I_global = np.eye(A_global.shape[0])
+    L_global = np.linalg.inv(I_global - A_global)
+    
+    # Calcular multiplicadores por região
     multiplicadores_regiões = []
-    for reg in stats["regioes"]:
-        A = np.load(os.path.join(final_dir, f'A_{reg}.npy'))
-        L = np.linalg.inv(np.eye(n) - A)
-        mult_prod = np.sum(L, axis=0)
+    for i, reg in enumerate(stats["regioes"]):
+        # Extract the local Leontief block to get local production multipliers
+        # Or you can do the global multiplier for a shock in that region.
+        # Usually regional rank refers to the average multiplier of shocking that region.
+        start_idx = i * 67
+        end_idx = (i + 1) * 67
+        
+        # We can use the column sums of the Global Leontief for the region's columns
+        # Taking the mean of the 67 multipliers of this region
+        region_mults = np.sum(L_global[:, start_idx:end_idx], axis=0) 
         
         region_stats = {
             "nome": reg.replace('_', ' '),
-            "valor": float(np.mean(mult_prod)),
-            "max": float(np.max(mult_prod))
+            "valor": float(np.mean(region_mults)),
+            "max": float(np.max(region_mults))
         }
         multiplicadores_regiões.append(region_stats)
         stats["multiplicadores"][reg] = region_stats
 
     stats["rank_multiplicadores"] = sorted(multiplicadores_regiões, key=lambda x: x['valor'], reverse=True)
+
 
     # 2. Simulação Beyoncé
     A_rio = np.load(os.path.join(final_dir, 'A_Rio_de_Janeiro.npy'))
@@ -87,7 +110,6 @@ def export_data():
 
     # 5. [NEW] Dados para Simulador Dinamico
     print("Gerando matrizes para simulador...")
-    l_matrices = {}
     
     # Carregar labels oficiais
     labels_path = os.path.join(inter_dir, 'sector_labels.txt')
@@ -96,44 +118,11 @@ def export_data():
         with open(labels_path, 'r', encoding='utf-8') as f:
             sector_labels = [l.strip() for l in f.readlines()]
             
-    # 1. Carregar Matriz MRIO Global (V4 Official)
-    gravity_path = os.path.join(final_dir, 'A_mrio_official_v4.npy')
-    region_order_path = os.path.join(final_dir, 'region_order_v4.txt')
-    
-    if os.path.exists(gravity_path) and os.path.exists(region_order_path):
-        print("Calculando Inversa de Leontief (Global MRIO V4: 1809x1809)...")
-        A_mrio = np.load(gravity_path)
-        n_total = A_mrio.shape[0]
-        
-        # Calcular L = (I - A)^-1
-        I = np.eye(n_total)
-        L_mrio = np.linalg.inv(I - A_mrio)
-        
-        # Carregar Lista de Regiões
-        with open(region_order_path, 'r') as f:
-            regioes_mrio = [l.strip() for l in f.readlines()]
-            
-        print(f"L Global calculada. Shape: {L_mrio.shape}")
-        
-        # Serializar L Global (Pode ser grande, round 5 casas)
-        # Estratégia: Salvar flat ou lista de listas? Lista de listas pro JSON.
-        # ~3M floats.
-        l_matrices = {
-             "GLOBAL": np.round(L_mrio, 5).tolist()
-        }
-        
-        # Atualizar stats
-        stats["regioes"] = regioes_mrio
-        stats["model_type"] = "MRIO_GRAVITY_27UF"
-    else:
-        # Fallback LEGACY (6 Regiões)
-        print("MRIO Gravity não encontrado. Usando modo legado (6 Regiões).")
-        for reg in stats["regioes"]:
-            p = os.path.join(final_dir, f'A_{reg}.npy')
-            if os.path.exists(p):
-                A = np.load(p)
-                L = np.linalg.inv(np.eye(n) - A)
-                l_matrices[reg] = np.round(L, 6).tolist()
+    l_matrices = {
+        "GLOBAL": np.round(L_global, 5).tolist() # Reusing the one calculated in step 1
+    }
+    stats["model_type"] = "MRIO_GRAVITY_27UF"
+
     
     # Carregar dados de impostos e expandir para 27 UFs
     tax_data_path = os.path.join('output', 'tax_data.json')
@@ -156,7 +145,7 @@ def export_data():
 
     simulator_data = {
         "l_matrices": l_matrices,
-        "employment_vector": list(e) * 27 if "GLOBAL" in l_matrices else list(e), # Expandido também (Assumption: Employ coeff constant)
+        "employment_vector": list(e) * 27, # Expanded to cover all 27 states
         "tax_vector": tax_vector_full,
         "sector_labels": sector_labels,
         "regions": stats["regioes"]
