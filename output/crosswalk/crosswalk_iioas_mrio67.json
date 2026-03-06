@@ -1,0 +1,692 @@
+{
+  "metadata": {
+    "description": "Crosswalk entre os 68 setores da IIOAS_BRUF_2019 (NEREUS/USP) e os 67 setores da MRIO v6.1 (IBGE)",
+    "iioas_sectors": 68,
+    "mrio67_sectors": 67,
+    "key_difference": "IIOAS desagrega Comercio (S41 veiculos + S42 geral) que MRIO unifica em M41",
+    "source_iioas": "IIOAS_BRUF_2019.xlsx - aba Setores",
+    "source_mrio": "sector_labels.txt (output/intermediary/)"
+  },
+  "crosswalk": [
+    {
+      "iioas_idx": 1,
+      "iioas_code": "S01",
+      "iioas_label": "Agricultura, inclusive o apoio à agricultura e a pós-colheita",
+      "mrio67_idx": 1,
+      "mrio67_code": "M01",
+      "mrio67_label": "Agricultura, inclusive o apoio à agricultura e a pós-colheita",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 2,
+      "iioas_code": "S02",
+      "iioas_label": "Pecuária, inclusive o apoio à pecuária",
+      "mrio67_idx": 2,
+      "mrio67_code": "M02",
+      "mrio67_label": "Pecuária, inclusive o apoio à pecuária",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 3,
+      "iioas_code": "S03",
+      "iioas_label": "Produção florestal; pesca e aquicultura",
+      "mrio67_idx": 3,
+      "mrio67_code": "M03",
+      "mrio67_label": "Produção florestal; pesca e aquicultura",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 4,
+      "iioas_code": "S04",
+      "iioas_label": "Extração de carvão mineral e de minerais não-metálicos",
+      "mrio67_idx": 4,
+      "mrio67_code": "M04",
+      "mrio67_label": "Extração de carvão mineral e de minerais não metálicos",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 5,
+      "iioas_code": "S05",
+      "iioas_label": "Extração de petróleo e gás, inclusive as atividades de apoio",
+      "mrio67_idx": 5,
+      "mrio67_code": "M05",
+      "mrio67_label": "Extração de petróleo e gás, inclusive as atividades de apoio",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 6,
+      "iioas_code": "S06",
+      "iioas_label": "Extração de minério de ferro, inclusive beneficiamentos e a aglomeração",
+      "mrio67_idx": 6,
+      "mrio67_code": "M06",
+      "mrio67_label": "Extração de minério de ferro, inclusive beneficiamentos e a aglomeração",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 7,
+      "iioas_code": "S07",
+      "iioas_label": "Extração de minerais metálicos não-ferrosos, inclusive beneficiamentos",
+      "mrio67_idx": 7,
+      "mrio67_code": "M07",
+      "mrio67_label": "Extração de minerais metálicos não ferrosos, inclusive beneficiamentos",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 8,
+      "iioas_code": "S08",
+      "iioas_label": "Abate e produtos de carne, inclusive os produtos do laticínio e da pesca",
+      "mrio67_idx": 8,
+      "mrio67_code": "M08",
+      "mrio67_label": "Abate e produtos de carne, inclusive os produtos do laticínio e da pesca",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 9,
+      "iioas_code": "S09",
+      "iioas_label": "Fabricação e refino de açúcar",
+      "mrio67_idx": 9,
+      "mrio67_code": "M09",
+      "mrio67_label": "Fabricação e refino de açúcar",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 10,
+      "iioas_code": "S10",
+      "iioas_label": "Outros produtos alimentares",
+      "mrio67_idx": 10,
+      "mrio67_code": "M10",
+      "mrio67_label": "Outros produtos alimentares",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 11,
+      "iioas_code": "S11",
+      "iioas_label": "Fabricação de bebidas",
+      "mrio67_idx": 11,
+      "mrio67_code": "M11",
+      "mrio67_label": "Fabricação de bebidas",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 12,
+      "iioas_code": "S12",
+      "iioas_label": "Fabricação de produtos do fumo",
+      "mrio67_idx": 12,
+      "mrio67_code": "M12",
+      "mrio67_label": "Fabricação de produtos do fumo",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 13,
+      "iioas_code": "S13",
+      "iioas_label": "Fabricação de produtos têxteis",
+      "mrio67_idx": 13,
+      "mrio67_code": "M13",
+      "mrio67_label": "Fabricação de produtos têxteis",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 14,
+      "iioas_code": "S14",
+      "iioas_label": "Confecção de artefatos do vestuário e acessórios",
+      "mrio67_idx": 14,
+      "mrio67_code": "M14",
+      "mrio67_label": "Confecção de artefatos do vestuário e acessórios",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 15,
+      "iioas_code": "S15",
+      "iioas_label": "Fabricação de calçados e de artefatos de couro",
+      "mrio67_idx": 15,
+      "mrio67_code": "M15",
+      "mrio67_label": "Fabricação de calçados e de artefatos de couro",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 16,
+      "iioas_code": "S16",
+      "iioas_label": "Fabricação de produtos da madeira",
+      "mrio67_idx": 16,
+      "mrio67_code": "M16",
+      "mrio67_label": "Fabricação de produtos da madeira",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 17,
+      "iioas_code": "S17",
+      "iioas_label": "Fabricação de celulose, papel e produtos de papel",
+      "mrio67_idx": 17,
+      "mrio67_code": "M17",
+      "mrio67_label": "Fabricação de celulose, papel e produtos de papel",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 18,
+      "iioas_code": "S18",
+      "iioas_label": "Impressão e reprodução de gravações",
+      "mrio67_idx": 18,
+      "mrio67_code": "M18",
+      "mrio67_label": "Impressão e reprodução de gravações",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 19,
+      "iioas_code": "S19",
+      "iioas_label": "Refino de petróleo e coquerias",
+      "mrio67_idx": 19,
+      "mrio67_code": "M19",
+      "mrio67_label": "Refino de petróleo e coquerias",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 20,
+      "iioas_code": "S20",
+      "iioas_label": "Fabricação de biocombustíveis",
+      "mrio67_idx": 20,
+      "mrio67_code": "M20",
+      "mrio67_label": "Fabricação de biocombustíveis",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 21,
+      "iioas_code": "S21",
+      "iioas_label": "Fabricação de químicos orgânicos e inorgânicos, resinas e elastômeros",
+      "mrio67_idx": 21,
+      "mrio67_code": "M21",
+      "mrio67_label": "Fabricação de químicos orgânicos e inorgânicos, resinas e elastômeros",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 22,
+      "iioas_code": "S22",
+      "iioas_label": "Fabricação de defensivos, desinfestantes, tintas e químicos diversos",
+      "mrio67_idx": 22,
+      "mrio67_code": "M22",
+      "mrio67_label": "Fabricação de defensivos, desinfestantes, tintas e químicos diversos",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 23,
+      "iioas_code": "S23",
+      "iioas_label": "Fabricação de produtos de limpeza, cosméticos/perfumaria e higiene pessoal",
+      "mrio67_idx": 23,
+      "mrio67_code": "M23",
+      "mrio67_label": "Fabricação de produtos de limpeza, cosméticos/perfumaria e higiene pessoal",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 24,
+      "iioas_code": "S24",
+      "iioas_label": "Fabricação de produtos farmoquímicos e farmacêuticos",
+      "mrio67_idx": 24,
+      "mrio67_code": "M24",
+      "mrio67_label": "Fabricação de produtos farmoquímicos e farmacêuticos",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 25,
+      "iioas_code": "S25",
+      "iioas_label": "Fabricação de produtos de borracha e de material plástico",
+      "mrio67_idx": 25,
+      "mrio67_code": "M25",
+      "mrio67_label": "Fabricação de produtos de borracha e de material plástico",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 26,
+      "iioas_code": "S26",
+      "iioas_label": "Fabricação de produtos de minerais não-metálicos",
+      "mrio67_idx": 26,
+      "mrio67_code": "M26",
+      "mrio67_label": "Fabricação de produtos de minerais não metálicos",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 27,
+      "iioas_code": "S27",
+      "iioas_label": "Produção de ferro-gusa/ferroligas, siderurgia e tubos de aço sem costura",
+      "mrio67_idx": 27,
+      "mrio67_code": "M27",
+      "mrio67_label": "Produção de ferro gusa/ferroligas, siderurgia e tubos de aço sem costura",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 28,
+      "iioas_code": "S28",
+      "iioas_label": "Metalurgia de metais não-ferosos e a fundição de metais",
+      "mrio67_idx": 28,
+      "mrio67_code": "M28",
+      "mrio67_label": "Metalurgia de metais não ferosos e a fundição de metais",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 29,
+      "iioas_code": "S29",
+      "iioas_label": "Fabricação de produtos de metal, exceto máquinas e equipamentos",
+      "mrio67_idx": 29,
+      "mrio67_code": "M29",
+      "mrio67_label": "Fabricação de produtos de metal, exceto máquinas e equipamentos",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 30,
+      "iioas_code": "S30",
+      "iioas_label": "Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",
+      "mrio67_idx": 30,
+      "mrio67_code": "M30",
+      "mrio67_label": "Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 31,
+      "iioas_code": "S31",
+      "iioas_label": "Fabricação de máquinas e equipamentos elétricos",
+      "mrio67_idx": 31,
+      "mrio67_code": "M31",
+      "mrio67_label": "Fabricação de máquinas e equipamentos elétricos",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 32,
+      "iioas_code": "S32",
+      "iioas_label": "Fabricação de máquinas e equipamentos mecânicos",
+      "mrio67_idx": 32,
+      "mrio67_code": "M32",
+      "mrio67_label": "Fabricação de máquinas e equipamentos mecânicos",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 33,
+      "iioas_code": "S33",
+      "iioas_label": "Fabricação de automóveis, caminhões e ônibus, exceto peças",
+      "mrio67_idx": 33,
+      "mrio67_code": "M33",
+      "mrio67_label": "Fabricação de automóveis, caminhões e ônibus, exceto peças",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 34,
+      "iioas_code": "S34",
+      "iioas_label": "Fabricação de peças e acessórios para veículos automotores",
+      "mrio67_idx": 34,
+      "mrio67_code": "M34",
+      "mrio67_label": "Fabricação de peças e acessórios para veículos automotores",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 35,
+      "iioas_code": "S35",
+      "iioas_label": "Fabricação de outros equipamentos de transporte, exceto veículos automotores",
+      "mrio67_idx": 35,
+      "mrio67_code": "M35",
+      "mrio67_label": "Fabricação de outros equipamentos de transporte, exceto veículos automotores",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 36,
+      "iioas_code": "S36",
+      "iioas_label": "Fabricação de móveis e de produtos de indústrias diversas",
+      "mrio67_idx": 36,
+      "mrio67_code": "M36",
+      "mrio67_label": "Fabricação de móveis e de produtos de indústrias diversas",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 37,
+      "iioas_code": "S37",
+      "iioas_label": "Manutenção, reparação e instalação de máquinas e equipamentos",
+      "mrio67_idx": 37,
+      "mrio67_code": "M37",
+      "mrio67_label": "Manutenção, reparação e instalação de máquinas e equipamentos",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 38,
+      "iioas_code": "S38",
+      "iioas_label": "Energia elétrica, gás natural e outras utilidades",
+      "mrio67_idx": 38,
+      "mrio67_code": "M38",
+      "mrio67_label": "Energia elétrica, gás natural e outras utilidades",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 39,
+      "iioas_code": "S39",
+      "iioas_label": "Água, esgoto e gestão de resíduos",
+      "mrio67_idx": 39,
+      "mrio67_code": "M39",
+      "mrio67_label": "Água, esgoto e gestão de resíduos",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 40,
+      "iioas_code": "S40",
+      "iioas_label": "Construção",
+      "mrio67_idx": 40,
+      "mrio67_code": "M40",
+      "mrio67_label": "Construção",
+      "mapping_type": "direct",
+      "note": ""
+    },
+    {
+      "iioas_idx": 41,
+      "iioas_code": "S41",
+      "iioas_label": "Comércio e reparação de veículos automotores e motocicletas",
+      "mrio67_idx": 41,
+      "mrio67_code": "M41",
+      "mrio67_label": "Comércio por atacado e varejo",
+      "mapping_type": "aggregate",
+      "note": "S41 + S42 IIOAS → M41 MRIO (IIOAS desmembra comércio de veículos do resto)"
+    },
+    {
+      "iioas_idx": 42,
+      "iioas_code": "S42",
+      "iioas_label": "Comércio por atacado e a varejo, exceto veículos automotores",
+      "mrio67_idx": 41,
+      "mrio67_code": "M41",
+      "mrio67_label": "Comércio por atacado e varejo",
+      "mapping_type": "aggregate",
+      "note": "S41 + S42 IIOAS → M41 MRIO (IIOAS desmembra comércio de veículos do resto)"
+    },
+    {
+      "iioas_idx": 43,
+      "iioas_code": "S43",
+      "iioas_label": "Transporte terrestre",
+      "mrio67_idx": 42,
+      "mrio67_code": "M42",
+      "mrio67_label": "Transporte terrestre",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    },
+    {
+      "iioas_idx": 44,
+      "iioas_code": "S44",
+      "iioas_label": "Transporte aquaviário",
+      "mrio67_idx": 43,
+      "mrio67_code": "M43",
+      "mrio67_label": "Transporte aquaviário",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    },
+    {
+      "iioas_idx": 45,
+      "iioas_code": "S45",
+      "iioas_label": "Transporte aéreo",
+      "mrio67_idx": 44,
+      "mrio67_code": "M44",
+      "mrio67_label": "Transporte aéreo",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    },
+    {
+      "iioas_idx": 46,
+      "iioas_code": "S46",
+      "iioas_label": "Armazenamento, atividades auxiliares dos transportes e correio",
+      "mrio67_idx": 45,
+      "mrio67_code": "M45",
+      "mrio67_label": "Armazenamento, atividades auxiliares dos transportes e correio",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    },
+    {
+      "iioas_idx": 47,
+      "iioas_code": "S47",
+      "iioas_label": "Alojamento",
+      "mrio67_idx": 46,
+      "mrio67_code": "M46",
+      "mrio67_label": "Alojamento",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    },
+    {
+      "iioas_idx": 48,
+      "iioas_code": "S48",
+      "iioas_label": "Alimentação",
+      "mrio67_idx": 47,
+      "mrio67_code": "M47",
+      "mrio67_label": "Alimentação",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    },
+    {
+      "iioas_idx": 49,
+      "iioas_code": "S49",
+      "iioas_label": "Edição e edição integrada à impressão",
+      "mrio67_idx": 48,
+      "mrio67_code": "M48",
+      "mrio67_label": "Edição e edição integrada à impressão",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    },
+    {
+      "iioas_idx": 50,
+      "iioas_code": "S50",
+      "iioas_label": "Atividades de televisão, rádio, cinema e gravação/edição de som e imagem",
+      "mrio67_idx": 49,
+      "mrio67_code": "M49",
+      "mrio67_label": "Atividades de televisão, rádio, cinema e gravação/edição de som e imagem",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    },
+    {
+      "iioas_idx": 51,
+      "iioas_code": "S51",
+      "iioas_label": "Telecomunicações",
+      "mrio67_idx": 50,
+      "mrio67_code": "M50",
+      "mrio67_label": "Telecomunicações",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    },
+    {
+      "iioas_idx": 52,
+      "iioas_code": "S52",
+      "iioas_label": "Desenvolvimento de sistemas e outros serviços de informação",
+      "mrio67_idx": 51,
+      "mrio67_code": "M51",
+      "mrio67_label": "Desenvolvimento de sistemas e outros serviços de informação",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    },
+    {
+      "iioas_idx": 53,
+      "iioas_code": "S53",
+      "iioas_label": "Intermediação financeira, seguros e previdência complementar",
+      "mrio67_idx": 52,
+      "mrio67_code": "M52",
+      "mrio67_label": "Intermediação financeira, seguros e previdência complementar",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    },
+    {
+      "iioas_idx": 54,
+      "iioas_code": "S54",
+      "iioas_label": "Atividades imobiliárias",
+      "mrio67_idx": 53,
+      "mrio67_code": "M53",
+      "mrio67_label": "Atividades imobiliárias",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    },
+    {
+      "iioas_idx": 55,
+      "iioas_code": "S55",
+      "iioas_label": "Atividades jurídicas, contábeis, consultoria e sedes de empresas",
+      "mrio67_idx": 54,
+      "mrio67_code": "M54",
+      "mrio67_label": "Atividades jurídicas, contábeis, consultoria e sedes de empresas",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    },
+    {
+      "iioas_idx": 56,
+      "iioas_code": "S56",
+      "iioas_label": "Serviços de arquitetura, engenharia, testes/análises técnicas e P&D",
+      "mrio67_idx": 55,
+      "mrio67_code": "M55",
+      "mrio67_label": "Serviços de arquitetura, engenharia, testes/análises técnicas e P & D",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    },
+    {
+      "iioas_idx": 57,
+      "iioas_code": "S57",
+      "iioas_label": "Outras atividades profissionais, científicas e técnicas",
+      "mrio67_idx": 56,
+      "mrio67_code": "M56",
+      "mrio67_label": "Outras atividades profissionais, científicas e técnicas",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    },
+    {
+      "iioas_idx": 58,
+      "iioas_code": "S58",
+      "iioas_label": "Aluguéis não-imobiliários e gestão de ativos de propriedade intelectual",
+      "mrio67_idx": 57,
+      "mrio67_code": "M57",
+      "mrio67_label": "Aluguéis não imobiliários e gestão de ativos de propriedade intelectual",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    },
+    {
+      "iioas_idx": 59,
+      "iioas_code": "S59",
+      "iioas_label": "Outras atividades administrativas e serviços complementares",
+      "mrio67_idx": 58,
+      "mrio67_code": "M58",
+      "mrio67_label": "Outras atividades administrativas e serviços complementares",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    },
+    {
+      "iioas_idx": 60,
+      "iioas_code": "S60",
+      "iioas_label": "Atividades de vigilância, segurança e investigação",
+      "mrio67_idx": 59,
+      "mrio67_code": "M59",
+      "mrio67_label": "Atividades de vigilância, segurança e investigação",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    },
+    {
+      "iioas_idx": 61,
+      "iioas_code": "S61",
+      "iioas_label": "Administração pública, defesa e seguridade social",
+      "mrio67_idx": 60,
+      "mrio67_code": "M60",
+      "mrio67_label": "Administração pública, defesa e seguridade social",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    },
+    {
+      "iioas_idx": 62,
+      "iioas_code": "S62",
+      "iioas_label": "Educação pública",
+      "mrio67_idx": 61,
+      "mrio67_code": "M61",
+      "mrio67_label": "Educação pública",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    },
+    {
+      "iioas_idx": 63,
+      "iioas_code": "S63",
+      "iioas_label": "Educação privada",
+      "mrio67_idx": 62,
+      "mrio67_code": "M62",
+      "mrio67_label": "Educação privada",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    },
+    {
+      "iioas_idx": 64,
+      "iioas_code": "S64",
+      "iioas_label": "Saúde pública",
+      "mrio67_idx": 63,
+      "mrio67_code": "M63",
+      "mrio67_label": "Saúde pública",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    },
+    {
+      "iioas_idx": 65,
+      "iioas_code": "S65",
+      "iioas_label": "Saúde privada",
+      "mrio67_idx": 64,
+      "mrio67_code": "M64",
+      "mrio67_label": "Saúde privada",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    },
+    {
+      "iioas_idx": 66,
+      "iioas_code": "S66",
+      "iioas_label": "Atividades artísticas, criativas e de espetáculos",
+      "mrio67_idx": 65,
+      "mrio67_code": "M65",
+      "mrio67_label": "Atividades artísticas, criativas e de espetáculos",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    },
+    {
+      "iioas_idx": 67,
+      "iioas_code": "S67",
+      "iioas_label": "Organizações associativas e outros serviços pessoais",
+      "mrio67_idx": 66,
+      "mrio67_code": "M66",
+      "mrio67_label": "Organizações associativas e outros serviços pessoais",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    },
+    {
+      "iioas_idx": 68,
+      "iioas_code": "S68",
+      "iioas_label": "Serviços domésticos",
+      "mrio67_idx": 67,
+      "mrio67_code": "M67",
+      "mrio67_label": "Serviços domésticos",
+      "mapping_type": "direct",
+      "note": "Offset -1 por causa da fusão S41+S42→M41"
+    }
+  ]
+}

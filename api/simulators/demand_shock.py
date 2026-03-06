@@ -33,13 +33,19 @@ def run_demand_shock(region: str, shocks: dict, agg_level: str = "detailed", req
     base_proj = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
     final_dir = os.path.join(base_proj, 'output', 'final')
     inter_dir = os.path.join(base_proj, 'output', 'intermediary')
-    data_dir = os.path.join(base_proj, 'data', 'processed', '2021_final')
+    data_dir  = os.path.join(base_proj, 'data', 'processed', '2021_final')
+
+    # X_nas fiscal: VBP MIP Nacional 2019 — denominador correto para coef. tributários
+    # (separado do VBP_IIOAS que eh usado apenas para distribuir o choque y)
+    path_X_nas_fiscal = os.path.join(inter_dir, 'X_nas.npy')
+    X_nas_fiscal = np.load(path_X_nas_fiscal) if os.path.exists(path_X_nas_fiscal) else np.ones(67)
     
     # 1. Selection of Matrix (MRIO or Single Region)
     if require_spillover:
-        # Fallback chain: v6.1 (VBP+RAS, BA integrated) → v6 → v5 → v4
-        for v in ['A_mrio_official_v6_1.npy', 'A_mrio_official_v6.npy',
-                  'A_mrio_official_v5.npy', 'A_mrio_official_v4.npy']:
+        # Fallback chain: v7.0 (IIOAS real 2019) → v6.1 → v6 → v5 → v4
+        for v in ['A_mrio_official_v7_0.npy', 'A_mrio_official_v6_1.npy',
+                  'A_mrio_official_v6.npy', 'A_mrio_official_v5.npy',
+                  'A_mrio_official_v4.npy']:
             path_A = os.path.join(final_dir, v)
             if os.path.exists(path_A):
                 break
@@ -51,15 +57,25 @@ def run_demand_shock(region: str, shocks: dict, agg_level: str = "detailed", req
         n_regions = 27
     else:
         if region == 'Nacional':
-            path_A = os.path.join(inter_dir, 'A_nas.npy')
+            # Prioridade: A_nacional.npy (output/final, calibrada) > A_nas.npy (intermediary, bruta)
+            path_A = os.path.join(final_dir, 'A_nacional.npy')
             if not os.path.exists(path_A):
-                 raise FileNotFoundError("National Matrix not found.")
+                path_A = os.path.join(inter_dir, 'A_nas.npy')
+            if not os.path.exists(path_A):
+                raise FileNotFoundError("National Matrix not found.")
             A = np.load(path_A)
         else:
             # Dynamically extract local state 67x67 block from full MRIO
-            path_mrio = os.path.join(final_dir, 'A_mrio_official_v5.npy')
-            if not os.path.exists(path_mrio):
-                path_mrio = os.path.join(final_dir, 'A_mrio_official_v4.npy')
+            # Priority: v7.0 (IIOAS real 2019) → v6.1 → v5 → v4
+            path_mrio = None
+            for v in ['A_mrio_official_v7_0.npy', 'A_mrio_official_v6_1.npy',
+                      'A_mrio_official_v5.npy', 'A_mrio_official_v4.npy']:
+                cand = os.path.join(final_dir, v)
+                if os.path.exists(cand):
+                    path_mrio = cand
+                    break
+            if path_mrio is None:
+                raise FileNotFoundError("No MRIO matrix found.")
                 
             A_full = np.load(path_mrio)
             
@@ -82,9 +98,39 @@ def run_demand_shock(region: str, shocks: dict, agg_level: str = "detailed", req
     I = np.eye(n_total)
     L = np.linalg.inv(I - A)
 
-    # 2. VBP weights
+    # 2. VBP weights — usa VBP real da IIOAS 2019 por UF quando disponível
+    # Shape: (27 UFs, 68 setores IIOAS); agregamos para 67 setores MRIO
+    path_vbp_iioas = os.path.join(os.path.dirname(final_dir), 'crosswalk', 'vbp_iioas_all_ufs.npy')
     path_X_nas = os.path.join(inter_dir, 'X_nas.npy')
-    X_nas = np.load(path_X_nas) if os.path.exists(path_X_nas) else np.ones(n_sectors)
+    if os.path.exists(path_vbp_iioas):
+        vbp_all = np.load(path_vbp_iioas)  # (27, 68)
+        # Para a região de interesse (ou média nacional), agregar 68→67 setores
+        # S41+S42 IIOAS → M41 MRIO (índice 40, 0-based)
+        if region in STATES_ORDER:
+            origin_uf_idx = STATES_ORDER.index(region)
+            vbp_68 = vbp_all[origin_uf_idx]  # (68,)
+        else:
+            vbp_68 = vbp_all.sum(axis=0)     # (68,) Nacional ou fallback
+
+        vbp_67 = np.zeros(n_sectors)
+        for ii in range(68):
+            mi = ii if ii < 40 else (40 if ii == 41 else ii - 1)
+            if mi < n_sectors:
+                vbp_67[mi] += vbp_68[ii]
+        # Onde ainda for zero, usar média do nacional como fallback
+        vbp_br = vbp_all.sum(axis=0)
+        vbp_br_67 = np.zeros(n_sectors)
+        for ii in range(68):
+            mi = ii if ii < 40 else (40 if ii == 41 else ii - 1)
+            if mi < n_sectors:
+                vbp_br_67[mi] += vbp_br[ii]
+        vbp_67 = np.where(vbp_67 > 0, vbp_67, vbp_br_67 / 27.0)
+        X_nas = vbp_67
+    elif os.path.exists(path_X_nas):
+        X_nas = np.load(path_X_nas)
+    else:
+        X_nas = np.ones(n_sectors)
+    RJ_IDX = 18  # índice do RJ na ordem das UFs
 
     # 3. Build Shock Vector (y)
     y = np.zeros(n_total)
@@ -134,23 +180,62 @@ def run_demand_shock(region: str, shocks: dict, agg_level: str = "detailed", req
     
     total_jobs = np.sum(jobs_by_sector)
 
-    # 6. Fiscal Impact (Detailed)
-    tax_path = os.path.join(data_dir, 'tax_matrix.json')
+    # 6. Fiscal Impact — coeficientes estado-específicos 2019
+    # Prioridade 1: tax_matrix_by_state_2019.json (ICMS p/ UF + federais p/ VBP)
+    # Prioridade 2: tax_matrix_2019.json (nacional, fallback)
     tax_results = {}
     total_tax = 0
-    if os.path.exists(tax_path):
-        with open(tax_path, 'r') as f:
-            tax_data = json.load(f).get('taxes_by_type', {})
-        for tax_type, values in tax_data.items():
-            if len(values) >= n_sectors:
-                tax_values = np.array(values[:n_sectors])
-                coef = np.zeros(n_sectors)
-                valid = X_nas > 0
-                coef[valid] = tax_values[valid] / X_nas[valid]
-                x_origin = x_total[offset : offset + n_sectors]
-                revenue = np.sum(coef * x_origin)
-                tax_results[tax_type] = float(revenue)
-                total_tax += revenue
+
+    state_tax_path = os.path.join(data_dir, 'tax_matrix_by_state_2019.json')
+    nat_tax_path   = os.path.join(data_dir, 'tax_matrix_2019.json')
+    if not os.path.exists(nat_tax_path):
+        nat_tax_path = os.path.join(data_dir, 'tax_matrix.json')
+
+    # Escolher qual vetor de imposto usar (estado-específico ou nacional)
+    region_key = region if region in STATES_ORDER else None
+    use_state_tax = (os.path.exists(state_tax_path) and region_key is not None
+                     and region != 'Nacional')
+
+    if use_state_tax:
+        with open(state_tax_path, 'r', encoding='utf-8') as f:
+            state_tax_full = json.load(f).get('by_state', {})
+        state_tax_data = state_tax_full.get(region_key, {})
+    
+    if os.path.exists(nat_tax_path):
+        with open(nat_tax_path, 'r', encoding='utf-8') as f:
+            nat_tax_data = json.load(f).get('taxes_by_type', {})
+
+    tax_source = state_tax_data if use_state_tax else nat_tax_data
+
+    # Denominador fiscal correto: VBP do estado (quando estado-específico) ou VBP nacional
+    # τ = imposto[setor] / VBP[setor]  — denominador deve corresponder ao numerador
+    if use_state_tax and region_key in STATES_ORDER:
+        vbp_iioas_path = os.path.join(os.path.dirname(final_dir), 'crosswalk', 'vbp_iioas_all_ufs.npy')
+        if os.path.exists(vbp_iioas_path):
+            vbp_all = np.load(vbp_iioas_path)   # (27, 68)
+            uf_idx  = STATES_ORDER.index(region_key)
+            vbp68   = vbp_all[uf_idx]
+            X_fiscal = np.zeros(n_sectors)
+            for ii in range(68):
+                mi = ii if ii < 40 else (40 if ii == 41 else ii - 1)
+                if mi < n_sectors:
+                    X_fiscal[mi] += vbp68[ii]
+        else:
+            X_fiscal = X_nas_fiscal
+    else:
+        X_fiscal = X_nas_fiscal      # nacional: usa VBP MIP Nacional
+
+    for tax_type, values in tax_source.items():
+        vals = list(values.values())[:n_sectors] if isinstance(values, dict) else values[:n_sectors]
+        if len(vals) >= n_sectors:
+            tax_values = np.array(vals[:n_sectors])
+            coef = np.zeros(n_sectors)
+            valid = X_fiscal > 0
+            coef[valid] = tax_values[valid] / X_fiscal[valid]
+            x_origin = x_total[offset : offset + n_sectors]
+            revenue = np.sum(coef * x_origin)
+            tax_results[tax_type] = float(revenue)
+            total_tax += revenue
 
     # 7. Labels
     from ..main import DETAILED_SECTORS as labels

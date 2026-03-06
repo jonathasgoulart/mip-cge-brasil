@@ -1,0 +1,42 @@
+﻿Setor,Encadeamento_Frente (Wio),Encadeamento_Trás (Woj)
+Cultivo de cereais,0.07,0.31
+Cultivo de algodão herbáceo,0.32,0.56
+Cultivo de cana-de-açúcar,0.07,0.6
+Cultivo de soja,0.2,0.41
+Cultivo de outros produtos da lavoura temporária,0.25,0.36
+Cultivo de laranja,0.06,0.1
+Cultivo de café,0.03,0.38
+Cultivo de outros produtos da lavoura permanente,0.06,0.22
+"Pecuária, pesca e aquicultura",0.5,0.33
+Produção florestal,0.68,0.78
+Petróleo e gás natural,0.77,0.33
+Outros da indústria extrativa,0.58,0.54
+"Alimentos, bebidas e fumo",0.78,0.78
+"Têxtil, vestuário e couros",0.41,0.75
+Madeira e celulose,0.66,0.7
+Refino de petróleo,2.86,1.1
+Álcool e biocombustíveis,0.22,1.04
+Produtos químicos,2.71,0.88
+"Perfumaria, higiene e limpeza",0.12,1.94
+Produtos farmacêuticos,0.07,0.14
+Borracha e plásticos,0.97,0.84
+Outros produtos de minerais não metálicos,0.29,0.59
+Metalurgia e produtos de metal,0.93,0.85
+"Máquinas para escritórios, informática e comunicação",0.32,0.71
+Máquinas e materiais elétricos,0.57,0.58
+Máquinas e equipamentos industriais,0.47,0.82
+Automóveis e peças para veículos,0.52,0.92
+Outros equipamentos de transporte,0.01,0.58
+Móveis e indústrias diversas,0.21,0.59
+"Eletricidade, gás, água, esgoto e limpeza urbana",1.85,0.59
+Construção civil,1.0,0.53
+Comércio,0.36,0.33
+"Transporte, armazenagem e correio",0.8,0.48
+Alojamento e alimentação,0.24,0.6
+Serviços de informação,0.63,0.56
+Intermediação financeira,0.66,0.41
+Atividades imobiliárias e aluguéis,0.43,0.08
+Serviços prestados às empresas,1.76,0.3
+Administração pública,0.07,0.29
+Saúde e educação mercantis,0.09,0.4
+Serviços prestados às famílias,0.05,0.37

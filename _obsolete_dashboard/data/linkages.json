@@ -1,0 +1,2402 @@
+{
+    "Sao_Paulo": {
+        "key_sectors": [
+            {
+                "id": 18,
+                "nome": "Refino de petrÃ³leo e coquerias",
+                "bl": 1.3886276723174003,
+                "fl": 1.2302788992206533
+            },
+            {
+                "id": 12,
+                "nome": "FabricaÃ§Ã£o de produtos tÃªxteis",
+                "bl": 1.1731378242880441,
+                "fl": 1.007196348995631
+            },
+            {
+                "id": 37,
+                "nome": "Energia elÃ©trica, gÃ¡s natural e outras utilidades",
+                "bl": 1.1163467682526729,
+                "fl": 1.5796296172740056
+            },
+            {
+                "id": 55,
+                "nome": "Outras atividades profissionais, cientÃ­ficas e tÃ©cnicas",
+                "bl": 1.0850772338001564,
+                "fl": 1.2455370672958688
+            },
+            {
+                "id": 21,
+                "nome": "FabricaÃ§Ã£o de defensivos, desinfestantes, tintas e quÃ­micos diversos",
+                "bl": 1.0362011156725333,
+                "fl": 1.1742233129099289
+            },
+            {
+                "id": 26,
+                "nome": "ProduÃ§Ã£o de ferro gusa/ferroligas, siderurgia e tubos de aÃ§o sem costura",
+                "bl": 1.0323883735114006,
+                "fl": 1.0773943874451555
+            },
+            {
+                "id": 24,
+                "nome": "FabricaÃ§Ã£o de produtos de borracha e de material plÃ¡stico",
+                "bl": 1.030775002252908,
+                "fl": 1.204826554287735
+            },
+            {
+                "id": 28,
+                "nome": "FabricaÃ§Ã£o de produtos de metal, exceto mÃ¡quinas e equipamentos",
+                "bl": 1.0224613744609445,
+                "fl": 1.0685979225756745
+            },
+            {
+                "id": 4,
+                "nome": "ExtraÃ§Ã£o de petrÃ³leo e gÃ¡s, inclusive as atividades de apoio",
+                "bl": 1.0213043710485128,
+                "fl": 1.054193350699224
+            },
+            {
+                "id": 0,
+                "nome": "Agricultura, inclusive o apoio Ã  agricultura e a pÃ³s-colheita",
+                "bl": 1.0067536854708463,
+                "fl": 1.899662839559179
+            }
+        ],
+        "all_indices": [
+            {
+                "nome": "Agricultura, inclusive o apoio Ã  agricultura e a pÃ³s-colheita",
+                "bl": 1.0067536854708463,
+                "fl": 1.899662839559179
+            },
+            {
+                "nome": "PecuÃ¡ria, inclusive o apoio Ã  pecuÃ¡ria",
+                "bl": 1.0063747042714362,
+                "fl": 0.9385916014755945
+            },
+            {
+                "nome": "ProduÃ§Ã£o florestal; pesca e aquicultura",
+                "bl": 0.8232445579531985,
+                "fl": 0.820923163214087
+            },
+            {
+                "nome": "ExtraÃ§Ã£o de carvÃ£o mineral e de minerais nÃ£o metÃ¡licos",
+                "bl": 1.0520387992274534,
+                "fl": 0.7109146827202086
+            },
+            {
+                "nome": "ExtraÃ§Ã£o de petrÃ³leo e gÃ¡s, inclusive as atividades de apoio",
+                "bl": 1.0213043710485128,
+                "fl": 1.054193350699224
+            },
+            {
+                "nome": "ExtraÃ§Ã£o de minÃ©rio de ferro, inclusive beneficiamentos e a aglomeraÃ§Ã£o",
+                "bl": 1.042597086355394,
+                "fl": 0.6898992736856823
+            },
+            {
+                "nome": "ExtraÃ§Ã£o de minerais metÃ¡licos nÃ£o ferrosos, inclusive beneficiamentos",
+                "bl": 1.1494913909228168,
+                "fl": 0.7078664984183519
+            },
+            {
+                "nome": "Abate e produtos de carne, inclusive os produtos do laticÃ­nio e da pesca",
+                "bl": 1.3088742975354333,
+                "fl": 0.8309931113852859
+            },
+            {
+                "nome": "FabricaÃ§Ã£o e refino de aÃ§Ãºcar",
+                "bl": 1.297786455247893,
+                "fl": 0.7430266090414717
+            },
+            {
+                "nome": "Outros produtos alimentares",
+                "bl": 1.3683715291543768,
+                "fl": 0.8945751699731712
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de bebidas",
+                "bl": 1.2723411335751535,
+                "fl": 0.7561271176089838
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos do fumo",
+                "bl": 1.3096694073185138,
+                "fl": 0.6899372771900885
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos tÃªxteis",
+                "bl": 1.1731378242880441,
+                "fl": 1.007196348995631
+            },
+            {
+                "nome": "ConfecÃ§Ã£o de artefatos do vestuÃ¡rio e acessÃ³rios",
+                "bl": 1.1429793860233244,
+                "fl": 0.6927713238321102
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de calÃ§ados e de artefatos de couro",
+                "bl": 1.2311401018164445,
+                "fl": 0.7395424280599928
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos da madeira",
+                "bl": 1.1572282576804365,
+                "fl": 0.7477272098988385
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de celulose, papel e produtos de papel",
+                "bl": 1.192762285662978,
+                "fl": 0.8488563692309743
+            },
+            {
+                "nome": "ImpressÃ£o e reproduÃ§Ã£o de gravaÃ§Ãµes",
+                "bl": 1.0892632829025355,
+                "fl": 0.7118425011302546
+            },
+            {
+                "nome": "Refino de petrÃ³leo e coquerias",
+                "bl": 1.3886276723174003,
+                "fl": 1.2302788992206533
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de biocombustÃ­veis",
+                "bl": 1.4296886038594396,
+                "fl": 0.7176259197216435
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de quÃ­micos orgÃ¢nicos e inorgÃ¢nicos, resinas e elastÃ´meros",
+                "bl": 0.9939678808735831,
+                "fl": 1.7278823072176082
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de defensivos, desinfestantes, tintas e quÃ­micos diversos",
+                "bl": 1.0362011156725333,
+                "fl": 1.1742233129099289
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos de limpeza, cosmÃ©ticos/perfumaria e higiene pessoal",
+                "bl": 1.043525328839318,
+                "fl": 0.7365250851046323
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos farmoquÃ­micos e farmacÃªuticos",
+                "bl": 0.9673444153401598,
+                "fl": 0.7303789015740837
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos de borracha e de material plÃ¡stico",
+                "bl": 1.030775002252908,
+                "fl": 1.204826554287735
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos de minerais nÃ£o metÃ¡licos",
+                "bl": 1.017593677672692,
+                "fl": 0.9370202750636201
+            },
+            {
+                "nome": "ProduÃ§Ã£o de ferro gusa/ferroligas, siderurgia e tubos de aÃ§o sem costura",
+                "bl": 1.0323883735114006,
+                "fl": 1.0773943874451555
+            },
+            {
+                "nome": "Metalurgia de metais nÃ£o ferosos e a fundiÃ§Ã£o de metais",
+                "bl": 1.0191556331587723,
+                "fl": 0.94410361671231
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos de metal, exceto mÃ¡quinas e equipamentos",
+                "bl": 1.0224613744609445,
+                "fl": 1.0685979225756745
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de equipamentos de informÃ¡tica, produtos eletrÃ´nicos e Ã³pticos",
+                "bl": 0.9464004913482947,
+                "fl": 0.7727644331912877
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de mÃ¡quinas e equipamentos elÃ©tricos",
+                "bl": 1.0775440226124962,
+                "fl": 0.8590657881004811
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de mÃ¡quinas e equipamentos mecÃ¢nicos",
+                "bl": 1.0113129543728656,
+                "fl": 0.9162975580408462
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de automÃ³veis, caminhÃµes e Ã´nibus, exceto peÃ§as",
+                "bl": 1.1324314845074048,
+                "fl": 0.7021581559739205
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para veÃ­culos automotores",
+                "bl": 1.0637297423333798,
+                "fl": 0.8973289994727731
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de outros equipamentos de transporte, exceto veÃ­culos automotores",
+                "bl": 1.024032519648655,
+                "fl": 0.7639678943896953
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de mÃ³veis e de produtos de indÃºstrias diversas",
+                "bl": 0.9184776854963291,
+                "fl": 0.7465176859692303
+            },
+            {
+                "nome": "ManutenÃ§Ã£o, reparaÃ§Ã£o e instalaÃ§Ã£o de mÃ¡quinas e equipamentos",
+                "bl": 0.9601307544138581,
+                "fl": 1.1289684097216608
+            },
+            {
+                "nome": "Energia elÃ©trica, gÃ¡s natural e outras utilidades",
+                "bl": 1.1163467682526729,
+                "fl": 1.5796296172740056
+            },
+            {
+                "nome": "Ãgua, esgoto e gestÃ£o de resÃ­duos",
+                "bl": 0.9354437213093804,
+                "fl": 0.7951808271678794
+            },
+            {
+                "nome": "ConstruÃ§Ã£o",
+                "bl": 1.0339050605246731,
+                "fl": 0.9207788187371768
+            },
+            {
+                "nome": "ComÃ©rcio por atacado e varejo",
+                "bl": 0.8801259701985714,
+                "fl": 3.3502958516827706
+            },
+            {
+                "nome": "Transporte terrestre",
+                "bl": 0.9058412533120944,
+                "fl": 2.1449293934851155
+            },
+            {
+                "nome": "Transporte aquaviÃ¡rio",
+                "bl": 0.9260058871696871,
+                "fl": 0.7670425943839293
+            },
+            {
+                "nome": "Transporte aÃ©reo",
+                "bl": 0.9339961200959696,
+                "fl": 0.7748408163445808
+            },
+            {
+                "nome": "Armazenamento, atividades auxiliares dos transportes e correio",
+                "bl": 0.9135469990151095,
+                "fl": 1.2410096133190656
+            },
+            {
+                "nome": "Alojamento",
+                "bl": 0.9037731106947458,
+                "fl": 0.7141568886266401
+            },
+            {
+                "nome": "AlimentaÃ§Ã£o",
+                "bl": 0.8573660337403651,
+                "fl": 0.7819133604727585
+            },
+            {
+                "nome": "EdiÃ§Ã£o e ediÃ§Ã£o integrada Ã  impressÃ£o",
+                "bl": 0.8340164486678978,
+                "fl": 0.722719762155894
+            },
+            {
+                "nome": "Atividades de televisÃ£o, rÃ¡dio, cinema e  gravaÃ§Ã£o/ediÃ§Ã£o de som e imagem",
+                "bl": 0.8907148599995424,
+                "fl": 1.1669418713251758
+            },
+            {
+                "nome": "TelecomunicaÃ§Ãµes",
+                "bl": 0.9365882821693563,
+                "fl": 1.0801936954967573
+            },
+            {
+                "nome": "Desenvolvimento de sistemas e outros serviÃ§os de informaÃ§Ã£o",
+                "bl": 0.7858986240483028,
+                "fl": 1.0044441854562784
+            },
+            {
+                "nome": "IntermediaÃ§Ã£o financeira, seguros e previdÃªncia complementar",
+                "bl": 0.8440395655236815,
+                "fl": 2.159488928472558
+            },
+            {
+                "nome": "Atividades imobiliÃ¡rias",
+                "bl": 0.7183367990810021,
+                "fl": 0.9860091886971206
+            },
+            {
+                "nome": "Atividades jurÃ­dicas, contÃ¡beis, consultoria e sedes de empresas",
+                "bl": 0.8225033943887907,
+                "fl": 1.7998919826981359
+            },
+            {
+                "nome": "ServiÃ§os de arquitetura, engenharia, testes/anÃ¡lises tÃ©cnicas e P & D",
+                "bl": 0.8159132806937388,
+                "fl": 1.005266319015212
+            },
+            {
+                "nome": "Outras atividades profissionais, cientÃ­ficas e tÃ©cnicas",
+                "bl": 1.0850772338001564,
+                "fl": 1.2455370672958688
+            },
+            {
+                "nome": "AluguÃ©is nÃ£o imobiliÃ¡rios e gestÃ£o de ativos de propriedade intelectual",
+                "bl": 0.8036633421559789,
+                "fl": 0.9586772122672101
+            },
+            {
+                "nome": "Outras atividades administrativas e serviÃ§os complementares",
+                "bl": 0.7843442525773693,
+                "fl": 1.4245690623946485
+            },
+            {
+                "nome": "Atividades de vigilÃ¢ncia, seguranÃ§a e investigaÃ§Ã£o",
+                "bl": 0.7396954418641931,
+                "fl": 0.8612160341701235
+            },
+            {
+                "nome": "AdministraÃ§Ã£o pÃºblica, defesa e seguridade social",
+                "bl": 0.8797739147338249,
+                "fl": 0.7538987244157195
+            },
+            {
+                "nome": "EducaÃ§Ã£o pÃºblica",
+                "bl": 0.7814488266025705,
+                "fl": 0.672016015141558
+            },
+            {
+                "nome": "EducaÃ§Ã£o privada",
+                "bl": 0.8243014839719464,
+                "fl": 0.7266818847345724
+            },
+            {
+                "nome": "SaÃºde pÃºblica",
+                "bl": 0.9054077920669724,
+                "fl": 0.6655346769562173
+            },
+            {
+                "nome": "SaÃºde privada",
+                "bl": 0.8630451889736293,
+                "fl": 0.7168024230951728
+            },
+            {
+                "nome": "Atividades artÃ­sticas, criativas e de espetÃ¡culos",
+                "bl": 0.9296764152368473,
+                "fl": 0.7259726868052323
+            },
+            {
+                "nome": "OrganizaÃ§Ãµes associativas e outros serviÃ§os pessoais",
+                "bl": 0.9232721550821696,
+                "fl": 0.7690030301990217
+            },
+            {
+                "nome": "ServiÃ§os domÃ©sticos",
+                "bl": 0.6647844849015382,
+                "fl": 0.6647844849015382
+            }
+        ]
+    },
+    "Rio_de_Janeiro": {
+        "key_sectors": [
+            {
+                "id": 26,
+                "nome": "ProduÃ§Ã£o de ferro gusa/ferroligas, siderurgia e tubos de aÃ§o sem costura",
+                "bl": 1.1276879227944863,
+                "fl": 1.0218436578943446
+            },
+            {
+                "id": 0,
+                "nome": "Agricultura, inclusive o apoio Ã  agricultura e a pÃ³s-colheita",
+                "bl": 1.1154210296910243,
+                "fl": 1.0904415782393482
+            },
+            {
+                "id": 20,
+                "nome": "FabricaÃ§Ã£o de quÃ­micos orgÃ¢nicos e inorgÃ¢nicos, resinas e elastÃ´meros",
+                "bl": 1.104607393367983,
+                "fl": 1.408323083798458
+            },
+            {
+                "id": 21,
+                "nome": "FabricaÃ§Ã£o de defensivos, desinfestantes, tintas e quÃ­micos diversos",
+                "bl": 1.1025563421025295,
+                "fl": 1.0567415826439899
+            },
+            {
+                "id": 24,
+                "nome": "FabricaÃ§Ã£o de produtos de borracha e de material plÃ¡stico",
+                "bl": 1.099989168944126,
+                "fl": 1.0953487562281639
+            },
+            {
+                "id": 28,
+                "nome": "FabricaÃ§Ã£o de produtos de metal, exceto mÃ¡quinas e equipamentos",
+                "bl": 1.0813637220688603,
+                "fl": 1.0234317872948502
+            },
+            {
+                "id": 41,
+                "nome": "Transporte terrestre",
+                "bl": 1.0420345819752919,
+                "fl": 2.099608106259136
+            },
+            {
+                "id": 37,
+                "nome": "Energia elÃ©trica, gÃ¡s natural e outras utilidades",
+                "bl": 1.0298322801831052,
+                "fl": 1.6000956577595946
+            },
+            {
+                "id": 55,
+                "nome": "Outras atividades profissionais, cientÃ­ficas e tÃ©cnicas",
+                "bl": 1.0258481554951626,
+                "fl": 1.2327803678917877
+            }
+        ],
+        "all_indices": [
+            {
+                "nome": "Agricultura, inclusive o apoio Ã  agricultura e a pÃ³s-colheita",
+                "bl": 1.1154210296910243,
+                "fl": 1.0904415782393482
+            },
+            {
+                "nome": "PecuÃ¡ria, inclusive o apoio Ã  pecuÃ¡ria",
+                "bl": 1.1298245542026706,
+                "fl": 0.8996870754043446
+            },
+            {
+                "nome": "ProduÃ§Ã£o florestal; pesca e aquicultura",
+                "bl": 0.9136160753260326,
+                "fl": 0.7665696621572262
+            },
+            {
+                "nome": "ExtraÃ§Ã£o de carvÃ£o mineral e de minerais nÃ£o metÃ¡licos",
+                "bl": 1.1700241695872662,
+                "fl": 0.7494181225172898
+            },
+            {
+                "nome": "ExtraÃ§Ã£o de petrÃ³leo e gÃ¡s, inclusive as atividades de apoio",
+                "bl": 1.1032862189586083,
+                "fl": 0.7719431837999791
+            },
+            {
+                "nome": "ExtraÃ§Ã£o de minÃ©rio de ferro, inclusive beneficiamentos e a aglomeraÃ§Ã£o",
+                "bl": 1.1511974831324825,
+                "fl": 0.7442016834186805
+            },
+            {
+                "nome": "ExtraÃ§Ã£o de minerais metÃ¡licos nÃ£o ferrosos, inclusive beneficiamentos",
+                "bl": 1.2689176665651452,
+                "fl": 0.7563319686140979
+            },
+            {
+                "nome": "Abate e produtos de carne, inclusive os produtos do laticÃ­nio e da pesca",
+                "bl": 1.382706349864167,
+                "fl": 0.7881205357197973
+            },
+            {
+                "nome": "FabricaÃ§Ã£o e refino de aÃ§Ãºcar",
+                "bl": 1.3128232592035,
+                "fl": 0.7519691727438323
+            },
+            {
+                "nome": "Outros produtos alimentares",
+                "bl": 1.2171001690163212,
+                "fl": 0.9666081113048192
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de bebidas",
+                "bl": 1.2915257076909874,
+                "fl": 0.7988284747912193
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos do fumo",
+                "bl": 1.0597822306733955,
+                "fl": 0.7567875551216213
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos tÃªxteis",
+                "bl": 1.1558307503311909,
+                "fl": 0.9043823962846932
+            },
+            {
+                "nome": "ConfecÃ§Ã£o de artefatos do vestuÃ¡rio e acessÃ³rios",
+                "bl": 1.0383985910204725,
+                "fl": 0.7618524381261126
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de calÃ§ados e de artefatos de couro",
+                "bl": 1.1290002788682618,
+                "fl": 0.7955717284839532
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos da madeira",
+                "bl": 0.8333387315050581,
+                "fl": 0.8947497780200014
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de celulose, papel e produtos de papel",
+                "bl": 0.8350745440741156,
+                "fl": 1.1538494331667668
+            },
+            {
+                "nome": "ImpressÃ£o e reproduÃ§Ã£o de gravaÃ§Ãµes",
+                "bl": 0.8167306449368161,
+                "fl": 0.9195583904906276
+            },
+            {
+                "nome": "Refino de petrÃ³leo e coquerias",
+                "bl": 0.920583923133498,
+                "fl": 2.4061696514134163
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de biocombustÃ­veis",
+                "bl": 0.7791756728707933,
+                "fl": 0.8485417815789051
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de quÃ­micos orgÃ¢nicos e inorgÃ¢nicos, resinas e elastÃ´meros",
+                "bl": 1.104607393367983,
+                "fl": 1.408323083798458
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de defensivos, desinfestantes, tintas e quÃ­micos diversos",
+                "bl": 1.1025563421025295,
+                "fl": 1.0567415826439899
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos de limpeza, cosmÃ©ticos/perfumaria e higiene pessoal",
+                "bl": 1.1401690862960776,
+                "fl": 0.7792710063882023
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos farmoquÃ­micos e farmacÃªuticos",
+                "bl": 1.0814989680159335,
+                "fl": 0.7807136178777155
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos de borracha e de material plÃ¡stico",
+                "bl": 1.099989168944126,
+                "fl": 1.0953487562281639
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos de minerais nÃ£o metÃ¡licos",
+                "bl": 1.1278910474975887,
+                "fl": 0.9006857215248649
+            },
+            {
+                "nome": "ProduÃ§Ã£o de ferro gusa/ferroligas, siderurgia e tubos de aÃ§o sem costura",
+                "bl": 1.1276879227944863,
+                "fl": 1.0218436578943446
+            },
+            {
+                "nome": "Metalurgia de metais nÃ£o ferosos e a fundiÃ§Ã£o de metais",
+                "bl": 1.1043529433431976,
+                "fl": 0.9286582789869893
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos de metal, exceto mÃ¡quinas e equipamentos",
+                "bl": 1.0813637220688603,
+                "fl": 1.0234317872948502
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de equipamentos de informÃ¡tica, produtos eletrÃ´nicos e Ã³pticos",
+                "bl": 1.0219910423448757,
+                "fl": 0.8059779253777103
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de mÃ¡quinas e equipamentos elÃ©tricos",
+                "bl": 1.1272572785567767,
+                "fl": 0.8552406509392271
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de mÃ¡quinas e equipamentos mecÃ¢nicos",
+                "bl": 1.06117789188051,
+                "fl": 0.9244721574767777
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de automÃ³veis, caminhÃµes e Ã´nibus, exceto peÃ§as",
+                "bl": 1.169352324544807,
+                "fl": 0.7630157910772616
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para veÃ­culos automotores",
+                "bl": 1.1101102657842299,
+                "fl": 0.8915400398566241
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de outros equipamentos de transporte, exceto veÃ­culos automotores",
+                "bl": 1.0639360298897513,
+                "fl": 0.8085211244666282
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de mÃ³veis e de produtos de indÃºstrias diversas",
+                "bl": 1.0398213643559697,
+                "fl": 0.7894653975929116
+            },
+            {
+                "nome": "ManutenÃ§Ã£o, reparaÃ§Ã£o e instalaÃ§Ã£o de mÃ¡quinas e equipamentos",
+                "bl": 0.9991986806901999,
+                "fl": 1.0052092230711693
+            },
+            {
+                "nome": "Energia elÃ©trica, gÃ¡s natural e outras utilidades",
+                "bl": 1.0298322801831052,
+                "fl": 1.6000956577595946
+            },
+            {
+                "nome": "Ãgua, esgoto e gestÃ£o de resÃ­duos",
+                "bl": 0.8860916272994335,
+                "fl": 0.891328451802933
+            },
+            {
+                "nome": "ConstruÃ§Ã£o",
+                "bl": 0.9459126640661227,
+                "fl": 0.9367254860005026
+            },
+            {
+                "nome": "ComÃ©rcio por atacado e varejo",
+                "bl": 0.9569484135597045,
+                "fl": 2.7565387042705742
+            },
+            {
+                "nome": "Transporte terrestre",
+                "bl": 1.0420345819752919,
+                "fl": 2.099608106259136
+            },
+            {
+                "nome": "Transporte aquaviÃ¡rio",
+                "bl": 0.9488112113804257,
+                "fl": 0.8136052925562436
+            },
+            {
+                "nome": "Transporte aÃ©reo",
+                "bl": 1.005488618314465,
+                "fl": 0.8288561533974388
+            },
+            {
+                "nome": "Armazenamento, atividades auxiliares dos transportes e correio",
+                "bl": 0.9145294432206245,
+                "fl": 1.2475962974313524
+            },
+            {
+                "nome": "Alojamento",
+                "bl": 0.8739509108409649,
+                "fl": 0.7870945261113363
+            },
+            {
+                "nome": "AlimentaÃ§Ã£o",
+                "bl": 0.8198932043018321,
+                "fl": 0.8417627319318959
+            },
+            {
+                "nome": "EdiÃ§Ã£o e ediÃ§Ã£o integrada Ã  impressÃ£o",
+                "bl": 0.9610452622445718,
+                "fl": 0.7717757778773023
+            },
+            {
+                "nome": "Atividades de televisÃ£o, rÃ¡dio, cinema e  gravaÃ§Ã£o/ediÃ§Ã£o de som e imagem",
+                "bl": 0.9481979349524502,
+                "fl": 1.031025802389623
+            },
+            {
+                "nome": "TelecomunicaÃ§Ãµes",
+                "bl": 0.9693642942459941,
+                "fl": 1.0326680377126423
+            },
+            {
+                "nome": "Desenvolvimento de sistemas e outros serviÃ§os de informaÃ§Ã£o",
+                "bl": 0.8482187714869839,
+                "fl": 0.9678457876825426
+            },
+            {
+                "nome": "IntermediaÃ§Ã£o financeira, seguros e previdÃªncia complementar",
+                "bl": 0.9273605320122811,
+                "fl": 1.6141502075492413
+            },
+            {
+                "nome": "Atividades imobiliÃ¡rias",
+                "bl": 0.765044718590014,
+                "fl": 1.0055075079184725
+            },
+            {
+                "nome": "Atividades jurÃ­dicas, contÃ¡beis, consultoria e sedes de empresas",
+                "bl": 0.8600275630431343,
+                "fl": 1.6920381104853477
+            },
+            {
+                "nome": "ServiÃ§os de arquitetura, engenharia, testes/anÃ¡lises tÃ©cnicas e P & D",
+                "bl": 0.8591957054954639,
+                "fl": 1.0177006915597429
+            },
+            {
+                "nome": "Outras atividades profissionais, cientÃ­ficas e tÃ©cnicas",
+                "bl": 1.0258481554951626,
+                "fl": 1.2327803678917877
+            },
+            {
+                "nome": "AluguÃ©is nÃ£o imobiliÃ¡rios e gestÃ£o de ativos de propriedade intelectual",
+                "bl": 0.8465984474166258,
+                "fl": 0.9569583370862209
+            },
+            {
+                "nome": "Outras atividades administrativas e serviÃ§os complementares",
+                "bl": 0.8355236418758091,
+                "fl": 1.3280931109280758
+            },
+            {
+                "nome": "Atividades de vigilÃ¢ncia, seguranÃ§a e investigaÃ§Ã£o",
+                "bl": 0.7963873103073938,
+                "fl": 0.8861064174462848
+            },
+            {
+                "nome": "AdministraÃ§Ã£o pÃºblica, defesa e seguridade social",
+                "bl": 0.8353750544548144,
+                "fl": 0.8759609834110401
+            },
+            {
+                "nome": "EducaÃ§Ã£o pÃºblica",
+                "bl": 0.7928225482339702,
+                "fl": 0.7500930709560927
+            },
+            {
+                "nome": "EducaÃ§Ã£o privada",
+                "bl": 0.8552982756879989,
+                "fl": 0.7840905622048971
+            },
+            {
+                "nome": "SaÃºde pÃºblica",
+                "bl": 0.8418861950929339,
+                "fl": 0.7383245899252264
+            },
+            {
+                "nome": "SaÃºde privada",
+                "bl": 0.8700271559341283,
+                "fl": 0.7775847851138636
+            },
+            {
+                "nome": "Atividades artÃ­sticas, criativas e de espetÃ¡culos",
+                "bl": 0.9051356432532711,
+                "fl": 0.7961257739016446
+            },
+            {
+                "nome": "OrganizaÃ§Ãµes associativas e outros serviÃ§os pessoais",
+                "bl": 0.9089408470626262,
+                "fl": 0.8370266817036328
+            },
+            {
+                "nome": "ServiÃ§os domÃ©sticos",
+                "bl": 0.7368894648426864,
+                "fl": 0.7368894648426864
+            }
+        ]
+    },
+    "Sul": {
+        "key_sectors": [
+            {
+                "id": 37,
+                "nome": "Energia elÃ©trica, gÃ¡s natural e outras utilidades",
+                "bl": 1.1065252926274767,
+                "fl": 1.5327092765964876
+            },
+            {
+                "id": 55,
+                "nome": "Outras atividades profissionais, cientÃ­ficas e tÃ©cnicas",
+                "bl": 1.0823141898532769,
+                "fl": 1.0874527896802848
+            },
+            {
+                "id": 9,
+                "nome": "Outros produtos alimentares",
+                "bl": 1.0761492087796294,
+                "fl": 1.1171924572174068
+            },
+            {
+                "id": 26,
+                "nome": "ProduÃ§Ã£o de ferro gusa/ferroligas, siderurgia e tubos de aÃ§o sem costura",
+                "bl": 1.0587802139107136,
+                "fl": 1.1017241379158964
+            },
+            {
+                "id": 48,
+                "nome": "Atividades de televisÃ£o, rÃ¡dio, cinema e  gravaÃ§Ã£o/ediÃ§Ã£o de som e imagem",
+                "bl": 1.0484261104028127,
+                "fl": 1.0319095461333578
+            },
+            {
+                "id": 24,
+                "nome": "FabricaÃ§Ã£o de produtos de borracha e de material plÃ¡stico",
+                "bl": 1.0269115517312053,
+                "fl": 1.2151041897563322
+            },
+            {
+                "id": 21,
+                "nome": "FabricaÃ§Ã£o de defensivos, desinfestantes, tintas e quÃ­micos diversos",
+                "bl": 1.0203771129811905,
+                "fl": 1.1513374480651133
+            },
+            {
+                "id": 28,
+                "nome": "FabricaÃ§Ã£o de produtos de metal, exceto mÃ¡quinas e equipamentos",
+                "bl": 1.0177803694272982,
+                "fl": 1.0833351142299779
+            },
+            {
+                "id": 39,
+                "nome": "ConstruÃ§Ã£o",
+                "bl": 1.0157894019848885,
+                "fl": 1.013261566433207
+            },
+            {
+                "id": 12,
+                "nome": "FabricaÃ§Ã£o de produtos tÃªxteis",
+                "bl": 1.0101321414882578,
+                "fl": 1.092203577468909
+            }
+        ],
+        "all_indices": [
+            {
+                "nome": "Agricultura, inclusive o apoio Ã  agricultura e a pÃ³s-colheita",
+                "bl": 0.9305200725016863,
+                "fl": 1.8009035217098128
+            },
+            {
+                "nome": "PecuÃ¡ria, inclusive o apoio Ã  pecuÃ¡ria",
+                "bl": 0.9643067265363807,
+                "fl": 1.0061335661621147
+            },
+            {
+                "nome": "ProduÃ§Ã£o florestal; pesca e aquicultura",
+                "bl": 0.8323289593577012,
+                "fl": 0.8969978867343955
+            },
+            {
+                "nome": "ExtraÃ§Ã£o de carvÃ£o mineral e de minerais nÃ£o metÃ¡licos",
+                "bl": 0.9372348486432248,
+                "fl": 0.8234559308122925
+            },
+            {
+                "nome": "ExtraÃ§Ã£o de petrÃ³leo e gÃ¡s, inclusive as atividades de apoio",
+                "bl": 0.9254771354819012,
+                "fl": 1.0777682536271525
+            },
+            {
+                "nome": "ExtraÃ§Ã£o de minÃ©rio de ferro, inclusive beneficiamentos e a aglomeraÃ§Ã£o",
+                "bl": 0.9124526598820597,
+                "fl": 0.7883979116207325
+            },
+            {
+                "nome": "ExtraÃ§Ã£o de minerais metÃ¡licos nÃ£o ferrosos, inclusive beneficiamentos",
+                "bl": 0.9777916156508495,
+                "fl": 0.8113418155200551
+            },
+            {
+                "nome": "Abate e produtos de carne, inclusive os produtos do laticÃ­nio e da pesca",
+                "bl": 1.2065017569732386,
+                "fl": 0.9518236604598577
+            },
+            {
+                "nome": "FabricaÃ§Ã£o e refino de aÃ§Ãºcar",
+                "bl": 1.1669700019172982,
+                "fl": 0.8113578334508889
+            },
+            {
+                "nome": "Outros produtos alimentares",
+                "bl": 1.0761492087796294,
+                "fl": 1.1171924572174068
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de bebidas",
+                "bl": 1.0350521563633728,
+                "fl": 0.9160589836776423
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos do fumo",
+                "bl": 1.0367829389650423,
+                "fl": 0.7534795535649903
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos tÃªxteis",
+                "bl": 1.0101321414882578,
+                "fl": 1.092203577468909
+            },
+            {
+                "nome": "ConfecÃ§Ã£o de artefatos do vestuÃ¡rio e acessÃ³rios",
+                "bl": 1.032793552111516,
+                "fl": 0.7952481519417025
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de calÃ§ados e de artefatos de couro",
+                "bl": 1.0746664616515689,
+                "fl": 0.806292323941476
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos da madeira",
+                "bl": 1.2151809247142038,
+                "fl": 0.7951159818856848
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de celulose, papel e produtos de papel",
+                "bl": 1.2534500288763546,
+                "fl": 0.8325191387819777
+            },
+            {
+                "nome": "ImpressÃ£o e reproduÃ§Ã£o de gravaÃ§Ãµes",
+                "bl": 1.1530453288982407,
+                "fl": 0.7629810262108101
+            },
+            {
+                "nome": "Refino de petrÃ³leo e coquerias",
+                "bl": 1.3796404819546613,
+                "fl": 0.9975789945567715
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de biocombustÃ­veis",
+                "bl": 1.4482484831954046,
+                "fl": 0.7611545834141031
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de quÃ­micos orgÃ¢nicos e inorgÃ¢nicos, resinas e elastÃ´meros",
+                "bl": 0.9906213163680303,
+                "fl": 1.576365429612647
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de defensivos, desinfestantes, tintas e quÃ­micos diversos",
+                "bl": 1.0203771129811905,
+                "fl": 1.1513374480651133
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos de limpeza, cosmÃ©ticos/perfumaria e higiene pessoal",
+                "bl": 1.0427511766723832,
+                "fl": 0.8019673598708656
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos farmoquÃ­micos e farmacÃªuticos",
+                "bl": 0.9254655975308445,
+                "fl": 0.792956629049033
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos de borracha e de material plÃ¡stico",
+                "bl": 1.0269115517312053,
+                "fl": 1.2151041897563322
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos de minerais nÃ£o metÃ¡licos",
+                "bl": 1.0240260145324223,
+                "fl": 0.967322786602879
+            },
+            {
+                "nome": "ProduÃ§Ã£o de ferro gusa/ferroligas, siderurgia e tubos de aÃ§o sem costura",
+                "bl": 1.0587802139107136,
+                "fl": 1.1017241379158964
+            },
+            {
+                "nome": "Metalurgia de metais nÃ£o ferosos e a fundiÃ§Ã£o de metais",
+                "bl": 1.0550723090399567,
+                "fl": 0.9863714037015558
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos de metal, exceto mÃ¡quinas e equipamentos",
+                "bl": 1.0177803694272982,
+                "fl": 1.0833351142299779
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de equipamentos de informÃ¡tica, produtos eletrÃ´nicos e Ã³pticos",
+                "bl": 0.9284864296065545,
+                "fl": 0.8438959659637808
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de mÃ¡quinas e equipamentos elÃ©tricos",
+                "bl": 1.0504228875903858,
+                "fl": 0.9137754629862805
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de mÃ¡quinas e equipamentos mecÃ¢nicos",
+                "bl": 0.9993638491752607,
+                "fl": 0.9514805699001291
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de automÃ³veis, caminhÃµes e Ã´nibus, exceto peÃ§as",
+                "bl": 1.0887555847829675,
+                "fl": 0.7642557178064456
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para veÃ­culos automotores",
+                "bl": 1.058263839193279,
+                "fl": 0.9465283031935213
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de outros equipamentos de transporte, exceto veÃ­culos automotores",
+                "bl": 1.0168542371266642,
+                "fl": 0.8223967959630366
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de mÃ³veis e de produtos de indÃºstrias diversas",
+                "bl": 0.9315852647337964,
+                "fl": 0.8168756416031904
+            },
+            {
+                "nome": "ManutenÃ§Ã£o, reparaÃ§Ã£o e instalaÃ§Ã£o de mÃ¡quinas e equipamentos",
+                "bl": 0.9683986278732979,
+                "fl": 1.1893460595368377
+            },
+            {
+                "nome": "Energia elÃ©trica, gÃ¡s natural e outras utilidades",
+                "bl": 1.1065252926274767,
+                "fl": 1.5327092765964876
+            },
+            {
+                "nome": "Ãgua, esgoto e gestÃ£o de resÃ­duos",
+                "bl": 0.9541596288075476,
+                "fl": 0.8725593903044108
+            },
+            {
+                "nome": "ConstruÃ§Ã£o",
+                "bl": 1.0157894019848885,
+                "fl": 1.013261566433207
+            },
+            {
+                "nome": "ComÃ©rcio por atacado e varejo",
+                "bl": 0.8790010011149411,
+                "fl": 3.070398740229107
+            },
+            {
+                "nome": "Transporte terrestre",
+                "bl": 0.9257303145431756,
+                "fl": 1.7994787679005433
+            },
+            {
+                "nome": "Transporte aquaviÃ¡rio",
+                "bl": 0.951722476914689,
+                "fl": 0.8061395203194092
+            },
+            {
+                "nome": "Transporte aÃ©reo",
+                "bl": 0.935782094515885,
+                "fl": 0.8323504695419032
+            },
+            {
+                "nome": "Armazenamento, atividades auxiliares dos transportes e correio",
+                "bl": 0.919845720926055,
+                "fl": 1.1771578356919485
+            },
+            {
+                "nome": "Alojamento",
+                "bl": 0.9993651013065393,
+                "fl": 0.7783364443412933
+            },
+            {
+                "nome": "AlimentaÃ§Ã£o",
+                "bl": 1.0861635530311184,
+                "fl": 0.8564520090224245
+            },
+            {
+                "nome": "EdiÃ§Ã£o e ediÃ§Ã£o integrada Ã  impressÃ£o",
+                "bl": 0.9922833512534086,
+                "fl": 0.7624146524925084
+            },
+            {
+                "nome": "Atividades de televisÃ£o, rÃ¡dio, cinema e  gravaÃ§Ã£o/ediÃ§Ã£o de som e imagem",
+                "bl": 1.0484261104028127,
+                "fl": 1.0319095461333578
+            },
+            {
+                "nome": "TelecomunicaÃ§Ãµes",
+                "bl": 1.0915661773863412,
+                "fl": 0.9757217392238894
+            },
+            {
+                "nome": "Desenvolvimento de sistemas e outros serviÃ§os de informaÃ§Ã£o",
+                "bl": 0.8987365003327772,
+                "fl": 0.9288516757095805
+            },
+            {
+                "nome": "IntermediaÃ§Ã£o financeira, seguros e previdÃªncia complementar",
+                "bl": 0.953145978122042,
+                "fl": 1.4469723620991926
+            },
+            {
+                "nome": "Atividades imobiliÃ¡rias",
+                "bl": 0.7665190888449452,
+                "fl": 1.022005526686089
+            },
+            {
+                "nome": "Atividades jurÃ­dicas, contÃ¡beis, consultoria e sedes de empresas",
+                "bl": 0.9003583461941987,
+                "fl": 1.3838979888536125
+            },
+            {
+                "nome": "ServiÃ§os de arquitetura, engenharia, testes/anÃ¡lises tÃ©cnicas e P & D",
+                "bl": 0.9098144989268891,
+                "fl": 0.9128868956545035
+            },
+            {
+                "nome": "Outras atividades profissionais, cientÃ­ficas e tÃ©cnicas",
+                "bl": 1.0823141898532769,
+                "fl": 1.0874527896802848
+            },
+            {
+                "nome": "AluguÃ©is nÃ£o imobiliÃ¡rios e gestÃ£o de ativos de propriedade intelectual",
+                "bl": 0.8992065368659251,
+                "fl": 0.9064654308230741
+            },
+            {
+                "nome": "Outras atividades administrativas e serviÃ§os complementares",
+                "bl": 0.8932341406342539,
+                "fl": 1.229400721642268
+            },
+            {
+                "nome": "Atividades de vigilÃ¢ncia, seguranÃ§a e investigaÃ§Ã£o",
+                "bl": 0.8144678815545541,
+                "fl": 0.8479748678053247
+            },
+            {
+                "nome": "AdministraÃ§Ã£o pÃºblica, defesa e seguridade social",
+                "bl": 0.9066201095311419,
+                "fl": 0.8187109150639499
+            },
+            {
+                "nome": "EducaÃ§Ã£o pÃºblica",
+                "bl": 0.8387636574757942,
+                "fl": 0.7369939677855872
+            },
+            {
+                "nome": "EducaÃ§Ã£o privada",
+                "bl": 0.8706426331971509,
+                "fl": 0.7822231402016312
+            },
+            {
+                "nome": "SaÃºde pÃºblica",
+                "bl": 0.954046672967936,
+                "fl": 0.7301699999155539
+            },
+            {
+                "nome": "SaÃºde privada",
+                "bl": 0.949297300559445,
+                "fl": 0.7784038193187066
+            },
+            {
+                "nome": "Atividades artÃ­sticas, criativas e de espetÃ¡culos",
+                "bl": 0.9608515929369957,
+                "fl": 0.8046002006270602
+            },
+            {
+                "nome": "OrganizaÃ§Ãµes associativas e outros serviÃ§os pessoais",
+                "bl": 0.9937372669331134,
+                "fl": 0.82181405735095
+            },
+            {
+                "nome": "ServiÃ§os domÃ©sticos",
+                "bl": 0.7292415140358304,
+                "fl": 0.7292415140358304
+            }
+        ]
+    },
+    "Centro_Oeste": {
+        "key_sectors": [
+            {
+                "id": 18,
+                "nome": "Refino de petrÃ³leo e coquerias",
+                "bl": 1.3271646325563375,
+                "fl": 1.0494099873340854
+            },
+            {
+                "id": 26,
+                "nome": "ProduÃ§Ã£o de ferro gusa/ferroligas, siderurgia e tubos de aÃ§o sem costura",
+                "bl": 1.160313283444482,
+                "fl": 1.0429974363298933
+            },
+            {
+                "id": 9,
+                "nome": "Outros produtos alimentares",
+                "bl": 1.0884195729904584,
+                "fl": 1.0625175766659039
+            },
+            {
+                "id": 24,
+                "nome": "FabricaÃ§Ã£o de produtos de borracha e de material plÃ¡stico",
+                "bl": 1.0834277885621484,
+                "fl": 1.1023790682250953
+            },
+            {
+                "id": 21,
+                "nome": "FabricaÃ§Ã£o de defensivos, desinfestantes, tintas e quÃ­micos diversos",
+                "bl": 1.0818871595881991,
+                "fl": 1.0140104197041053
+            },
+            {
+                "id": 37,
+                "nome": "Energia elÃ©trica, gÃ¡s natural e outras utilidades",
+                "bl": 1.0712597632691807,
+                "fl": 1.4440855988232566
+            },
+            {
+                "id": 28,
+                "nome": "FabricaÃ§Ã£o de produtos de metal, exceto mÃ¡quinas e equipamentos",
+                "bl": 1.070301479367071,
+                "fl": 1.001107933136624
+            },
+            {
+                "id": 55,
+                "nome": "Outras atividades profissionais, cientÃ­ficas e tÃ©cnicas",
+                "bl": 1.0604934386558453,
+                "fl": 1.0538550106242435
+            },
+            {
+                "id": 20,
+                "nome": "FabricaÃ§Ã£o de quÃ­micos orgÃ¢nicos e inorgÃ¢nicos, resinas e elastÃ´meros",
+                "bl": 1.0577016910107402,
+                "fl": 1.3039000224210282
+            },
+            {
+                "id": 7,
+                "nome": "Abate e produtos de carne, inclusive os produtos do laticÃ­nio e da pesca",
+                "bl": 1.045541910165595,
+                "fl": 1.013515046832303
+            }
+        ],
+        "all_indices": [
+            {
+                "nome": "Agricultura, inclusive o apoio Ã  agricultura e a pÃ³s-colheita",
+                "bl": 0.8184856406444803,
+                "fl": 2.0271210238451993
+            },
+            {
+                "nome": "PecuÃ¡ria, inclusive o apoio Ã  pecuÃ¡ria",
+                "bl": 0.8612820729233687,
+                "fl": 1.0269852833631337
+            },
+            {
+                "nome": "ProduÃ§Ã£o florestal; pesca e aquicultura",
+                "bl": 0.8102594438904006,
+                "fl": 0.9321231217803732
+            },
+            {
+                "nome": "ExtraÃ§Ã£o de carvÃ£o mineral e de minerais nÃ£o metÃ¡licos",
+                "bl": 0.8232621725826452,
+                "fl": 0.8771479102700258
+            },
+            {
+                "nome": "ExtraÃ§Ã£o de petrÃ³leo e gÃ¡s, inclusive as atividades de apoio",
+                "bl": 0.8386975144215794,
+                "fl": 1.1186017898294478
+            },
+            {
+                "nome": "ExtraÃ§Ã£o de minÃ©rio de ferro, inclusive beneficiamentos e a aglomeraÃ§Ã£o",
+                "bl": 0.8182125385068189,
+                "fl": 0.8388949951625705
+            },
+            {
+                "nome": "ExtraÃ§Ã£o de minerais metÃ¡licos nÃ£o ferrosos, inclusive beneficiamentos",
+                "bl": 0.8445229714051422,
+                "fl": 0.8656985434186123
+            },
+            {
+                "nome": "Abate e produtos de carne, inclusive os produtos do laticÃ­nio e da pesca",
+                "bl": 1.045541910165595,
+                "fl": 1.013515046832303
+            },
+            {
+                "nome": "FabricaÃ§Ã£o e refino de aÃ§Ãºcar",
+                "bl": 1.0460305807629486,
+                "fl": 0.8552590907439976
+            },
+            {
+                "nome": "Outros produtos alimentares",
+                "bl": 1.0884195729904584,
+                "fl": 1.0625175766659039
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de bebidas",
+                "bl": 0.9675131991834263,
+                "fl": 0.9331357644644913
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos do fumo",
+                "bl": 1.1170307517878237,
+                "fl": 0.7793886184379099
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos tÃªxteis",
+                "bl": 0.9786754724501375,
+                "fl": 1.1595612126552235
+            },
+            {
+                "nome": "ConfecÃ§Ã£o de artefatos do vestuÃ¡rio e acessÃ³rios",
+                "bl": 1.0808048446514942,
+                "fl": 0.8117438001904752
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de calÃ§ados e de artefatos de couro",
+                "bl": 1.0966687464711022,
+                "fl": 0.8259005307420598
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos da madeira",
+                "bl": 1.2276623419801775,
+                "fl": 0.8228302658705713
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de celulose, papel e produtos de papel",
+                "bl": 1.2714774284970929,
+                "fl": 0.868126910234236
+            },
+            {
+                "nome": "ImpressÃ£o e reproduÃ§Ã£o de gravaÃ§Ãµes",
+                "bl": 1.1804140504661538,
+                "fl": 0.7990346248914808
+            },
+            {
+                "nome": "Refino de petrÃ³leo e coquerias",
+                "bl": 1.3271646325563375,
+                "fl": 1.0494099873340854
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de biocombustÃ­veis",
+                "bl": 1.4213783444352979,
+                "fl": 0.7896078819638093
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de quÃ­micos orgÃ¢nicos e inorgÃ¢nicos, resinas e elastÃ´meros",
+                "bl": 1.0577016910107402,
+                "fl": 1.3039000224210282
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de defensivos, desinfestantes, tintas e quÃ­micos diversos",
+                "bl": 1.0818871595881991,
+                "fl": 1.0140104197041053
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos de limpeza, cosmÃ©ticos/perfumaria e higiene pessoal",
+                "bl": 1.1302746330139597,
+                "fl": 0.8050813589353769
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos farmoquÃ­micos e farmacÃªuticos",
+                "bl": 1.0088623859814105,
+                "fl": 0.7884914848254457
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos de borracha e de material plÃ¡stico",
+                "bl": 1.0834277885621484,
+                "fl": 1.1023790682250953
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos de minerais nÃ£o metÃ¡licos",
+                "bl": 1.1093089480103384,
+                "fl": 0.9037230278646509
+            },
+            {
+                "nome": "ProduÃ§Ã£o de ferro gusa/ferroligas, siderurgia e tubos de aÃ§o sem costura",
+                "bl": 1.160313283444482,
+                "fl": 1.0429974363298933
+            },
+            {
+                "nome": "Metalurgia de metais nÃ£o ferosos e a fundiÃ§Ã£o de metais",
+                "bl": 1.1460377155050612,
+                "fl": 0.965461435844444
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos de metal, exceto mÃ¡quinas e equipamentos",
+                "bl": 1.070301479367071,
+                "fl": 1.001107933136624
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de equipamentos de informÃ¡tica, produtos eletrÃ´nicos e Ã³pticos",
+                "bl": 0.9920608203616569,
+                "fl": 0.8465182603152709
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de mÃ¡quinas e equipamentos elÃ©tricos",
+                "bl": 1.107204174497971,
+                "fl": 0.8891294858937296
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de mÃ¡quinas e equipamentos mecÃ¢nicos",
+                "bl": 1.054643963270172,
+                "fl": 0.8996505805413612
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de automÃ³veis, caminhÃµes e Ã´nibus, exceto peÃ§as",
+                "bl": 1.1428722171306929,
+                "fl": 0.7844111225417435
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para veÃ­culos automotores",
+                "bl": 1.110597222014184,
+                "fl": 0.9221292812301518
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de outros equipamentos de transporte, exceto veÃ­culos automotores",
+                "bl": 1.063497036720813,
+                "fl": 0.8340513850065492
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de mÃ³veis e de produtos de indÃºstrias diversas",
+                "bl": 0.996726722251087,
+                "fl": 0.8132457678580625
+            },
+            {
+                "nome": "ManutenÃ§Ã£o, reparaÃ§Ã£o e instalaÃ§Ã£o de mÃ¡quinas e equipamentos",
+                "bl": 1.0081340159668386,
+                "fl": 1.063259922858615
+            },
+            {
+                "nome": "Energia elÃ©trica, gÃ¡s natural e outras utilidades",
+                "bl": 1.0712597632691807,
+                "fl": 1.4440855988232566
+            },
+            {
+                "nome": "Ãgua, esgoto e gestÃ£o de resÃ­duos",
+                "bl": 0.9359387499114565,
+                "fl": 0.8890784651146222
+            },
+            {
+                "nome": "ConstruÃ§Ã£o",
+                "bl": 0.9675015747830663,
+                "fl": 0.981231863853225
+            },
+            {
+                "nome": "ComÃ©rcio por atacado e varejo",
+                "bl": 0.9004442468268256,
+                "fl": 2.889170890255217
+            },
+            {
+                "nome": "Transporte terrestre",
+                "bl": 0.9276347694637762,
+                "fl": 1.7390603364218362
+            },
+            {
+                "nome": "Transporte aquaviÃ¡rio",
+                "bl": 0.9410743967522773,
+                "fl": 0.8245422724820511
+            },
+            {
+                "nome": "Transporte aÃ©reo",
+                "bl": 0.9358448395648683,
+                "fl": 0.8436230296531988
+            },
+            {
+                "nome": "Armazenamento, atividades auxiliares dos transportes e correio",
+                "bl": 0.9181801879126975,
+                "fl": 1.1478217365313677
+            },
+            {
+                "nome": "Alojamento",
+                "bl": 1.017557444584831,
+                "fl": 0.7932725760421583
+            },
+            {
+                "nome": "AlimentaÃ§Ã£o",
+                "bl": 1.0987247837735656,
+                "fl": 0.8399567065803905
+            },
+            {
+                "nome": "EdiÃ§Ã£o e ediÃ§Ã£o integrada Ã  impressÃ£o",
+                "bl": 1.0291602827482078,
+                "fl": 0.7819273469173034
+            },
+            {
+                "nome": "Atividades de televisÃ£o, rÃ¡dio, cinema e  gravaÃ§Ã£o/ediÃ§Ã£o de som e imagem",
+                "bl": 1.074046983663731,
+                "fl": 0.9962307130176449
+            },
+            {
+                "nome": "TelecomunicaÃ§Ãµes",
+                "bl": 1.1099521471579088,
+                "fl": 0.9575633781808922
+            },
+            {
+                "nome": "Desenvolvimento de sistemas e outros serviÃ§os de informaÃ§Ã£o",
+                "bl": 0.924216998157059,
+                "fl": 0.9028954078855341
+            },
+            {
+                "nome": "IntermediaÃ§Ã£o financeira, seguros e previdÃªncia complementar",
+                "bl": 0.8793093902979002,
+                "fl": 1.8535767176533995
+            },
+            {
+                "nome": "Atividades imobiliÃ¡rias",
+                "bl": 0.7973760586914113,
+                "fl": 1.024910138407037
+            },
+            {
+                "nome": "Atividades jurÃ­dicas, contÃ¡beis, consultoria e sedes de empresas",
+                "bl": 0.9182841873583341,
+                "fl": 1.304607709133719
+            },
+            {
+                "nome": "ServiÃ§os de arquitetura, engenharia, testes/anÃ¡lises tÃ©cnicas e P & D",
+                "bl": 0.9276712155471776,
+                "fl": 0.9127454131124509
+            },
+            {
+                "nome": "Outras atividades profissionais, cientÃ­ficas e tÃ©cnicas",
+                "bl": 1.0604934386558453,
+                "fl": 1.0538550106242435
+            },
+            {
+                "nome": "AluguÃ©is nÃ£o imobiliÃ¡rios e gestÃ£o de ativos de propriedade intelectual",
+                "bl": 0.9155051469440911,
+                "fl": 0.8944681631866291
+            },
+            {
+                "nome": "Outras atividades administrativas e serviÃ§os complementares",
+                "bl": 0.9088354550827026,
+                "fl": 1.1343511133805309
+            },
+            {
+                "nome": "Atividades de vigilÃ¢ncia, seguranÃ§a e investigaÃ§Ã£o",
+                "bl": 0.8438255767091105,
+                "fl": 0.8477205163035071
+            },
+            {
+                "nome": "AdministraÃ§Ã£o pÃºblica, defesa e seguridade social",
+                "bl": 0.8270564456118502,
+                "fl": 0.9159551548792231
+            },
+            {
+                "nome": "EducaÃ§Ã£o pÃºblica",
+                "bl": 0.7979446626799254,
+                "fl": 0.7727020111854573
+            },
+            {
+                "nome": "EducaÃ§Ã£o privada",
+                "bl": 0.9012533459308438,
+                "fl": 0.7949349151459494
+            },
+            {
+                "nome": "SaÃºde pÃºblica",
+                "bl": 0.8312277591841619,
+                "fl": 0.7597450954588053
+            },
+            {
+                "nome": "SaÃºde privada",
+                "bl": 0.9572556246441368,
+                "fl": 0.8008868571837632
+            },
+            {
+                "nome": "Atividades artÃ­sticas, criativas e de espetÃ¡culos",
+                "bl": 0.9102515166749432,
+                "fl": 0.841755921960903
+            },
+            {
+                "nome": "OrganizaÃ§Ãµes associativas e outros serviÃ§os pessoais",
+                "bl": 0.926890282412522,
+                "fl": 0.8632457308613455
+            },
+            {
+                "nome": "ServiÃ§os domÃ©sticos",
+                "bl": 0.7579272375362797,
+                "fl": 0.7579272375362797
+            }
+        ]
+    },
+    "Norte_Nordeste": {
+        "key_sectors": [
+            {
+                "id": 26,
+                "nome": "ProduÃ§Ã£o de ferro gusa/ferroligas, siderurgia e tubos de aÃ§o sem costura",
+                "bl": 1.1871604141760288,
+                "fl": 1.0534299055670757
+            },
+            {
+                "id": 18,
+                "nome": "Refino de petrÃ³leo e coquerias",
+                "bl": 1.1690193401964848,
+                "fl": 2.283815887965662
+            },
+            {
+                "id": 41,
+                "nome": "Transporte terrestre",
+                "bl": 1.1406457194291224,
+                "fl": 1.6862257816953665
+            },
+            {
+                "id": 20,
+                "nome": "FabricaÃ§Ã£o de quÃ­micos orgÃ¢nicos e inorgÃ¢nicos, resinas e elastÃ´meros",
+                "bl": 1.1208387910962212,
+                "fl": 1.397505694082422
+            },
+            {
+                "id": 24,
+                "nome": "FabricaÃ§Ã£o de produtos de borracha e de material plÃ¡stico",
+                "bl": 1.1184628218160906,
+                "fl": 1.105381701128219
+            },
+            {
+                "id": 21,
+                "nome": "FabricaÃ§Ã£o de defensivos, desinfestantes, tintas e quÃ­micos diversos",
+                "bl": 1.1003316004094728,
+                "fl": 1.033455283053569
+            },
+            {
+                "id": 28,
+                "nome": "FabricaÃ§Ã£o de produtos de metal, exceto mÃ¡quinas e equipamentos",
+                "bl": 1.0876773839402658,
+                "fl": 1.0073519406876972
+            },
+            {
+                "id": 9,
+                "nome": "Outros produtos alimentares",
+                "bl": 1.0727871388299537,
+                "fl": 1.0882765458029582
+            },
+            {
+                "id": 55,
+                "nome": "Outras atividades profissionais, cientÃ­ficas e tÃ©cnicas",
+                "bl": 1.044905311677547,
+                "fl": 1.0831115230940431
+            },
+            {
+                "id": 16,
+                "nome": "FabricaÃ§Ã£o de celulose, papel e produtos de papel",
+                "bl": 1.0161123052269276,
+                "fl": 1.1000246380161824
+            }
+        ],
+        "all_indices": [
+            {
+                "nome": "Agricultura, inclusive o apoio Ã  agricultura e a pÃ³s-colheita",
+                "bl": 0.9435714277051558,
+                "fl": 1.6022738260317273
+            },
+            {
+                "nome": "PecuÃ¡ria, inclusive o apoio Ã  pecuÃ¡ria",
+                "bl": 0.9929914208986755,
+                "fl": 0.9635321329069217
+            },
+            {
+                "nome": "ProduÃ§Ã£o florestal; pesca e aquicultura",
+                "bl": 0.8434810819668576,
+                "fl": 0.8465176966225583
+            },
+            {
+                "nome": "ExtraÃ§Ã£o de carvÃ£o mineral e de minerais nÃ£o metÃ¡licos",
+                "bl": 0.9790791176834723,
+                "fl": 0.814724485030966
+            },
+            {
+                "nome": "ExtraÃ§Ã£o de petrÃ³leo e gÃ¡s, inclusive as atividades de apoio",
+                "bl": 0.9310345443199316,
+                "fl": 1.1318309874825518
+            },
+            {
+                "nome": "ExtraÃ§Ã£o de minÃ©rio de ferro, inclusive beneficiamentos e a aglomeraÃ§Ã£o",
+                "bl": 0.9666168681472697,
+                "fl": 0.7877260122150539
+            },
+            {
+                "nome": "ExtraÃ§Ã£o de minerais metÃ¡licos nÃ£o ferrosos, inclusive beneficiamentos",
+                "bl": 1.0552752179450975,
+                "fl": 0.8127400471304778
+            },
+            {
+                "nome": "Abate e produtos de carne, inclusive os produtos do laticÃ­nio e da pesca",
+                "bl": 1.2361021955319105,
+                "fl": 0.8756149892980911
+            },
+            {
+                "nome": "FabricaÃ§Ã£o e refino de aÃ§Ãºcar",
+                "bl": 1.1915479810825989,
+                "fl": 0.7995177151620291
+            },
+            {
+                "nome": "Outros produtos alimentares",
+                "bl": 1.0727871388299537,
+                "fl": 1.0882765458029582
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de bebidas",
+                "bl": 1.0235689234842025,
+                "fl": 0.866509567051352
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos do fumo",
+                "bl": 1.0353412418534704,
+                "fl": 0.7397883895987517
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos tÃªxteis",
+                "bl": 1.0098885838091254,
+                "fl": 0.9743923339864929
+            },
+            {
+                "nome": "ConfecÃ§Ã£o de artefatos do vestuÃ¡rio e acessÃ³rios",
+                "bl": 0.8685545804227117,
+                "fl": 0.785461713916259
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de calÃ§ados e de artefatos de couro",
+                "bl": 0.9161428509530253,
+                "fl": 0.7940289631556509
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos da madeira",
+                "bl": 1.0138581353891005,
+                "fl": 0.8775892991022728
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de celulose, papel e produtos de papel",
+                "bl": 1.0161123052269276,
+                "fl": 1.1000246380161824
+            },
+            {
+                "nome": "ImpressÃ£o e reproduÃ§Ã£o de gravaÃ§Ãµes",
+                "bl": 0.9444872569261273,
+                "fl": 0.8879478064013364
+            },
+            {
+                "nome": "Refino de petrÃ³leo e coquerias",
+                "bl": 1.1690193401964848,
+                "fl": 2.283815887965662
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de biocombustÃ­veis",
+                "bl": 1.1244820696923064,
+                "fl": 0.830851563044204
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de quÃ­micos orgÃ¢nicos e inorgÃ¢nicos, resinas e elastÃ´meros",
+                "bl": 1.1208387910962212,
+                "fl": 1.397505694082422
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de defensivos, desinfestantes, tintas e quÃ­micos diversos",
+                "bl": 1.1003316004094728,
+                "fl": 1.033455283053569
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos de limpeza, cosmÃ©ticos/perfumaria e higiene pessoal",
+                "bl": 1.1881077409606726,
+                "fl": 0.7715642017688605
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos farmoquÃ­micos e farmacÃªuticos",
+                "bl": 1.0133307056825338,
+                "fl": 0.7583851507772347
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos de borracha e de material plÃ¡stico",
+                "bl": 1.1184628218160906,
+                "fl": 1.105381701128219
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos de minerais nÃ£o metÃ¡licos",
+                "bl": 1.1708314024137982,
+                "fl": 0.8839451191237471
+            },
+            {
+                "nome": "ProduÃ§Ã£o de ferro gusa/ferroligas, siderurgia e tubos de aÃ§o sem costura",
+                "bl": 1.1871604141760288,
+                "fl": 1.0534299055670757
+            },
+            {
+                "nome": "Metalurgia de metais nÃ£o ferosos e a fundiÃ§Ã£o de metais",
+                "bl": 1.1895666320988596,
+                "fl": 0.951458544887671
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos de metal, exceto mÃ¡quinas e equipamentos",
+                "bl": 1.0876773839402658,
+                "fl": 1.0073519406876972
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de equipamentos de informÃ¡tica, produtos eletrÃ´nicos e Ã³pticos",
+                "bl": 0.9815593195533955,
+                "fl": 0.8151508835380624
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de mÃ¡quinas e equipamentos elÃ©tricos",
+                "bl": 1.1232723691272632,
+                "fl": 0.8636374111935494
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de mÃ¡quinas e equipamentos mecÃ¢nicos",
+                "bl": 1.0538698495380039,
+                "fl": 0.9065882700151059
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de automÃ³veis, caminhÃµes e Ã´nibus, exceto peÃ§as",
+                "bl": 1.1558807213539821,
+                "fl": 0.7468518518570558
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para veÃ­culos automotores",
+                "bl": 1.1294199679539467,
+                "fl": 0.9107251797705175
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de outros equipamentos de transporte, exceto veÃ­culos automotores",
+                "bl": 1.067534878609191,
+                "fl": 0.8035303369395778
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de mÃ³veis e de produtos de indÃºstrias diversas",
+                "bl": 1.0582631876980555,
+                "fl": 0.775603826195744
+            },
+            {
+                "nome": "ManutenÃ§Ã£o, reparaÃ§Ã£o e instalaÃ§Ã£o de mÃ¡quinas e equipamentos",
+                "bl": 1.004610551970831,
+                "fl": 1.0633908821619442
+            },
+            {
+                "nome": "Energia elÃ©trica, gÃ¡s natural e outras utilidades",
+                "bl": 1.007117012440215,
+                "fl": 1.9083108850385067
+            },
+            {
+                "nome": "Ãgua, esgoto e gestÃ£o de resÃ­duos",
+                "bl": 0.8414555142436628,
+                "fl": 0.9380390434656706
+            },
+            {
+                "nome": "ConstruÃ§Ã£o",
+                "bl": 0.9404271119544985,
+                "fl": 0.9941157011058319
+            },
+            {
+                "nome": "ComÃ©rcio por atacado e varejo",
+                "bl": 0.8990099246504322,
+                "fl": 3.0304344966804027
+            },
+            {
+                "nome": "Transporte terrestre",
+                "bl": 1.1406457194291224,
+                "fl": 1.6862257816953665
+            },
+            {
+                "nome": "Transporte aquaviÃ¡rio",
+                "bl": 1.009476368151665,
+                "fl": 0.7861462003405447
+            },
+            {
+                "nome": "Transporte aÃ©reo",
+                "bl": 1.0751477977025368,
+                "fl": 0.8018165284931004
+            },
+            {
+                "nome": "Armazenamento, atividades auxiliares dos transportes e correio",
+                "bl": 0.9507784265375079,
+                "fl": 1.1327983953162035
+            },
+            {
+                "nome": "Alojamento",
+                "bl": 0.9202025622029202,
+                "fl": 0.7807400283683178
+            },
+            {
+                "nome": "AlimentaÃ§Ã£o",
+                "bl": 0.9532313538578977,
+                "fl": 0.8645088565039081
+            },
+            {
+                "nome": "EdiÃ§Ã£o e ediÃ§Ã£o integrada Ã  impressÃ£o",
+                "bl": 1.1115781731694618,
+                "fl": 0.7386831026812982
+            },
+            {
+                "nome": "Atividades de televisÃ£o, rÃ¡dio, cinema e  gravaÃ§Ã£o/ediÃ§Ã£o de som e imagem",
+                "bl": 1.0938439702268143,
+                "fl": 0.9589167882863189
+            },
+            {
+                "nome": "TelecomunicaÃ§Ãµes",
+                "bl": 1.1292016942590024,
+                "fl": 0.9104021066207686
+            },
+            {
+                "nome": "Desenvolvimento de sistemas e outros serviÃ§os de informaÃ§Ã£o",
+                "bl": 0.9188069527335309,
+                "fl": 0.8738173996181461
+            },
+            {
+                "nome": "IntermediaÃ§Ã£o financeira, seguros e previdÃªncia complementar",
+                "bl": 0.9460025139285475,
+                "fl": 1.3458032922752243
+            },
+            {
+                "nome": "Atividades imobiliÃ¡rias",
+                "bl": 0.7458145732879643,
+                "fl": 1.0383417910597617
+            },
+            {
+                "nome": "Atividades jurÃ­dicas, contÃ¡beis, consultoria e sedes de empresas",
+                "bl": 0.898458904338417,
+                "fl": 1.3984604069929942
+            },
+            {
+                "nome": "ServiÃ§os de arquitetura, engenharia, testes/anÃ¡lises tÃ©cnicas e P & D",
+                "bl": 0.9106168464870271,
+                "fl": 0.896674764036391
+            },
+            {
+                "nome": "Outras atividades profissionais, cientÃ­ficas e tÃ©cnicas",
+                "bl": 1.044905311677547,
+                "fl": 1.0831115230940431
+            },
+            {
+                "nome": "AluguÃ©is nÃ£o imobiliÃ¡rios e gestÃ£o de ativos de propriedade intelectual",
+                "bl": 0.9015616340104878,
+                "fl": 0.8918428504513805
+            },
+            {
+                "nome": "Outras atividades administrativas e serviÃ§os complementares",
+                "bl": 0.8941662589960713,
+                "fl": 1.1940302269394634
+            },
+            {
+                "nome": "Atividades de vigilÃ¢ncia, seguranÃ§a e investigaÃ§Ã£o",
+                "bl": 0.8101096524482088,
+                "fl": 0.8272245094756933
+            },
+            {
+                "nome": "AdministraÃ§Ã£o pÃºblica, defesa e seguridade social",
+                "bl": 0.8036628039016698,
+                "fl": 0.8820085695748381
+            },
+            {
+                "nome": "EducaÃ§Ã£o pÃºblica",
+                "bl": 0.7712426202204036,
+                "fl": 0.7310178159118085
+            },
+            {
+                "nome": "EducaÃ§Ã£o privada",
+                "bl": 0.8516633268251357,
+                "fl": 0.7747365657610323
+            },
+            {
+                "nome": "SaÃºde pÃºblica",
+                "bl": 0.8243323346456755,
+                "fl": 0.7177505099898952
+            },
+            {
+                "nome": "SaÃºde privada",
+                "bl": 0.9156760598558629,
+                "fl": 0.7642912381847622
+            },
+            {
+                "nome": "Atividades artÃ­sticas, criativas e de espetÃ¡culos",
+                "bl": 0.9263131872809555,
+                "fl": 0.7995187157832989
+            },
+            {
+                "nome": "OrganizaÃ§Ãµes associativas e outros serviÃ§os pessoais",
+                "bl": 0.963942622185091,
+                "fl": 0.8231629756968317
+            },
+            {
+                "nome": "ServiÃ§os domÃ©sticos",
+                "bl": 0.7159481478886454,
+                "fl": 0.7159481478886454
+            }
+        ]
+    },
+    "Minas_EspiritoSanto": {
+        "key_sectors": [
+            {
+                "id": 41,
+                "nome": "Transporte terrestre",
+                "bl": 1.1035555139299786,
+                "fl": 1.7498446110110093
+            },
+            {
+                "id": 26,
+                "nome": "ProduÃ§Ã£o de ferro gusa/ferroligas, siderurgia e tubos de aÃ§o sem costura",
+                "bl": 1.101321928117187,
+                "fl": 1.0557944939461148
+            },
+            {
+                "id": 37,
+                "nome": "Energia elÃ©trica, gÃ¡s natural e outras utilidades",
+                "bl": 1.0913546981683382,
+                "fl": 1.4530206729417579
+            },
+            {
+                "id": 20,
+                "nome": "FabricaÃ§Ã£o de quÃ­micos orgÃ¢nicos e inorgÃ¢nicos, resinas e elastÃ´meros",
+                "bl": 1.0717421471102606,
+                "fl": 1.3979544582234589
+            },
+            {
+                "id": 9,
+                "nome": "Outros produtos alimentares",
+                "bl": 1.069383496765191,
+                "fl": 1.1018410170276776
+            },
+            {
+                "id": 24,
+                "nome": "FabricaÃ§Ã£o de produtos de borracha e de material plÃ¡stico",
+                "bl": 1.0681350658408366,
+                "fl": 1.1135396974368224
+            },
+            {
+                "id": 21,
+                "nome": "FabricaÃ§Ã£o de defensivos, desinfestantes, tintas e quÃ­micos diversos",
+                "bl": 1.055760036361757,
+                "fl": 1.0621316230125069
+            },
+            {
+                "id": 55,
+                "nome": "Outras atividades profissionais, cientÃ­ficas e tÃ©cnicas",
+                "bl": 1.0508773279375727,
+                "fl": 1.0967055880891048
+            },
+            {
+                "id": 28,
+                "nome": "FabricaÃ§Ã£o de produtos de metal, exceto mÃ¡quinas e equipamentos",
+                "bl": 1.0446993726641258,
+                "fl": 1.0313304928458054
+            },
+            {
+                "id": 18,
+                "nome": "Refino de petrÃ³leo e coquerias",
+                "bl": 1.0418359785748121,
+                "fl": 2.3997549786688666
+            }
+        ],
+        "all_indices": [
+            {
+                "nome": "Agricultura, inclusive o apoio Ã  agricultura e a pÃ³s-colheita",
+                "bl": 1.0016832443669659,
+                "fl": 1.3969631295479032
+            },
+            {
+                "nome": "PecuÃ¡ria, inclusive o apoio Ã  pecuÃ¡ria",
+                "bl": 1.0304480977177508,
+                "fl": 0.9666373500886495
+            },
+            {
+                "nome": "ProduÃ§Ã£o florestal; pesca e aquicultura",
+                "bl": 0.8783121827007739,
+                "fl": 0.8243860721195718
+            },
+            {
+                "nome": "ExtraÃ§Ã£o de carvÃ£o mineral e de minerais nÃ£o metÃ¡licos",
+                "bl": 1.0395372888498358,
+                "fl": 0.8123393917277573
+            },
+            {
+                "nome": "ExtraÃ§Ã£o de petrÃ³leo e gÃ¡s, inclusive as atividades de apoio",
+                "bl": 0.9948547977309473,
+                "fl": 0.9581734471646759
+            },
+            {
+                "nome": "ExtraÃ§Ã£o de minÃ©rio de ferro, inclusive beneficiamentos e a aglomeraÃ§Ã£o",
+                "bl": 1.0310486574879907,
+                "fl": 0.7911505735379223
+            },
+            {
+                "nome": "ExtraÃ§Ã£o de minerais metÃ¡licos nÃ£o ferrosos, inclusive beneficiamentos",
+                "bl": 1.1255992296008934,
+                "fl": 0.8104351552374419
+            },
+            {
+                "nome": "Abate e produtos de carne, inclusive os produtos do laticÃ­nio e da pesca",
+                "bl": 1.2634124597531284,
+                "fl": 0.9045893510802832
+            },
+            {
+                "nome": "FabricaÃ§Ã£o e refino de aÃ§Ãºcar",
+                "bl": 1.2264340537412237,
+                "fl": 0.7986727331888399
+            },
+            {
+                "nome": "Outros produtos alimentares",
+                "bl": 1.069383496765191,
+                "fl": 1.1018410170276776
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de bebidas",
+                "bl": 1.040022355380607,
+                "fl": 0.922010556830712
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos do fumo",
+                "bl": 1.0279343717554197,
+                "fl": 0.7684956732535471
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos tÃªxteis",
+                "bl": 1.0053319841240003,
+                "fl": 1.0635392213686754
+            },
+            {
+                "nome": "ConfecÃ§Ã£o de artefatos do vestuÃ¡rio e acessÃ³rios",
+                "bl": 1.0139226589619523,
+                "fl": 0.8026760314003006
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de calÃ§ados e de artefatos de couro",
+                "bl": 1.057784648396923,
+                "fl": 0.8146537520374445
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos da madeira",
+                "bl": 0.9204316995644843,
+                "fl": 0.9118902262290328
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de celulose, papel e produtos de papel",
+                "bl": 0.9250171493376549,
+                "fl": 1.1714766633262161
+            },
+            {
+                "nome": "ImpressÃ£o e reproduÃ§Ã£o de gravaÃ§Ãµes",
+                "bl": 0.8904374325369095,
+                "fl": 0.9243943420550967
+            },
+            {
+                "nome": "Refino de petrÃ³leo e coquerias",
+                "bl": 1.0418359785748121,
+                "fl": 2.3997549786688666
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de biocombustÃ­veis",
+                "bl": 0.9487346734551646,
+                "fl": 0.8629532305215927
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de quÃ­micos orgÃ¢nicos e inorgÃ¢nicos, resinas e elastÃ´meros",
+                "bl": 1.0717421471102606,
+                "fl": 1.3979544582234589
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de defensivos, desinfestantes, tintas e quÃ­micos diversos",
+                "bl": 1.055760036361757,
+                "fl": 1.0621316230125069
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos de limpeza, cosmÃ©ticos/perfumaria e higiene pessoal",
+                "bl": 1.122108272656213,
+                "fl": 0.8012227961136652
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos farmoquÃ­micos e farmacÃªuticos",
+                "bl": 0.9855299356736203,
+                "fl": 0.7982583951137346
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos de borracha e de material plÃ¡stico",
+                "bl": 1.0681350658408366,
+                "fl": 1.1135396974368224
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos de minerais nÃ£o metÃ¡licos",
+                "bl": 1.097300230630595,
+                "fl": 0.925380082302988
+            },
+            {
+                "nome": "ProduÃ§Ã£o de ferro gusa/ferroligas, siderurgia e tubos de aÃ§o sem costura",
+                "bl": 1.101321928117187,
+                "fl": 1.0557944939461148
+            },
+            {
+                "nome": "Metalurgia de metais nÃ£o ferosos e a fundiÃ§Ã£o de metais",
+                "bl": 1.0927397916976713,
+                "fl": 0.9586490340067347
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de produtos de metal, exceto mÃ¡quinas e equipamentos",
+                "bl": 1.0446993726641258,
+                "fl": 1.0313304928458054
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de equipamentos de informÃ¡tica, produtos eletrÃ´nicos e Ã³pticos",
+                "bl": 0.961529234517189,
+                "fl": 0.8376616742051703
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de mÃ¡quinas e equipamentos elÃ©tricos",
+                "bl": 1.0729636592390441,
+                "fl": 0.8912948654441459
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de mÃ¡quinas e equipamentos mecÃ¢nicos",
+                "bl": 1.0157523995787536,
+                "fl": 0.9333770111625422
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de automÃ³veis, caminhÃµes e Ã´nibus, exceto peÃ§as",
+                "bl": 1.103127657736104,
+                "fl": 0.7757666862144662
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de peÃ§as e acessÃ³rios para veÃ­culos automotores",
+                "bl": 1.0758707595004613,
+                "fl": 0.9245019415950232
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de outros equipamentos de transporte, exceto veÃ­culos automotores",
+                "bl": 1.0310876718009387,
+                "fl": 0.8260713238976459
+            },
+            {
+                "nome": "FabricaÃ§Ã£o de mÃ³veis e de produtos de indÃºstrias diversas",
+                "bl": 1.026508492751648,
+                "fl": 0.8130807206228033
+            },
+            {
+                "nome": "ManutenÃ§Ã£o, reparaÃ§Ã£o e instalaÃ§Ã£o de mÃ¡quinas e equipamentos",
+                "bl": 0.977807297122788,
+                "fl": 1.0782234567404068
+            },
+            {
+                "nome": "Energia elÃ©trica, gÃ¡s natural e outras utilidades",
+                "bl": 1.0913546981683382,
+                "fl": 1.4530206729417579
+            },
+            {
+                "nome": "Ãgua, esgoto e gestÃ£o de resÃ­duos",
+                "bl": 0.9500816958640289,
+                "fl": 0.8749602318098217
+            },
+            {
+                "nome": "ConstruÃ§Ã£o",
+                "bl": 0.9648413156794929,
+                "fl": 1.0312063064726367
+            },
+            {
+                "nome": "ComÃ©rcio por atacado e varejo",
+                "bl": 0.9312993465669707,
+                "fl": 2.5308023670043567
+            },
+            {
+                "nome": "Transporte terrestre",
+                "bl": 1.1035555139299786,
+                "fl": 1.7498446110110093
+            },
+            {
+                "nome": "Transporte aquaviÃ¡rio",
+                "bl": 0.9913132624325802,
+                "fl": 0.8133757747708473
+            },
+            {
+                "nome": "Transporte aÃ©reo",
+                "bl": 1.041944581118499,
+                "fl": 0.8383386300173812
+            },
+            {
+                "nome": "Armazenamento, atividades auxiliares dos transportes e correio",
+                "bl": 0.9333863816786779,
+                "fl": 1.1616729027118429
+            },
+            {
+                "nome": "Alojamento",
+                "bl": 1.0266694936310332,
+                "fl": 0.7816038207932701
+            },
+            {
+                "nome": "AlimentaÃ§Ã£o",
+                "bl": 1.091069969944521,
+                "fl": 0.8348410953268754
+            },
+            {
+                "nome": "EdiÃ§Ã£o e ediÃ§Ã£o integrada Ã  impressÃ£o",
+                "bl": 1.0775645598261838,
+                "fl": 0.7735679427268674
+            },
+            {
+                "nome": "Atividades de televisÃ£o, rÃ¡dio, cinema e  gravaÃ§Ã£o/ediÃ§Ã£o de som e imagem",
+                "bl": 1.05328107451232,
+                "fl": 0.9893909809484503
+            },
+            {
+                "nome": "TelecomunicaÃ§Ãµes",
+                "bl": 1.0832984960608703,
+                "fl": 0.9483092531489608
+            },
+            {
+                "nome": "Desenvolvimento de sistemas e outros serviÃ§os de informaÃ§Ã£o",
+                "bl": 0.9110869576106784,
+                "fl": 0.9136812191845491
+            },
+            {
+                "nome": "IntermediaÃ§Ã£o financeira, seguros e previdÃªncia complementar",
+                "bl": 0.958075556036338,
+                "fl": 1.339059559341134
+            },
+            {
+                "nome": "Atividades imobiliÃ¡rias",
+                "bl": 0.7789951230838289,
+                "fl": 1.0044932922461214
+            },
+            {
+                "nome": "Atividades jurÃ­dicas, contÃ¡beis, consultoria e sedes de empresas",
+                "bl": 0.8966563350006491,
+                "fl": 1.3862704686855685
+            },
+            {
+                "nome": "ServiÃ§os de arquitetura, engenharia, testes/anÃ¡lises tÃ©cnicas e P & D",
+                "bl": 0.9083689684053863,
+                "fl": 0.9262792829911898
+            },
+            {
+                "nome": "Outras atividades profissionais, cientÃ­ficas e tÃ©cnicas",
+                "bl": 1.0508773279375727,
+                "fl": 1.0967055880891048
+            },
+            {
+                "nome": "AluguÃ©is nÃ£o imobiliÃ¡rios e gestÃ£o de ativos de propriedade intelectual",
+                "bl": 0.8994009636891929,
+                "fl": 0.9159445953418751
+            },
+            {
+                "nome": "Outras atividades administrativas e serviÃ§os complementares",
+                "bl": 0.8873467402692469,
+                "fl": 1.222466094360137
+            },
+            {
+                "nome": "Atividades de vigilÃ¢ncia, seguranÃ§a e investigaÃ§Ã£o",
+                "bl": 0.8256763736778114,
+                "fl": 0.8579875526854613
+            },
+            {
+                "nome": "AdministraÃ§Ã£o pÃºblica, defesa e seguridade social",
+                "bl": 0.8882173422760878,
+                "fl": 0.8376374838385277
+            },
+            {
+                "nome": "EducaÃ§Ã£o pÃºblica",
+                "bl": 0.8361574775985271,
+                "fl": 0.7550238531923926
+            },
+            {
+                "nome": "EducaÃ§Ã£o privada",
+                "bl": 0.8857178125384518,
+                "fl": 0.7886278388538991
+            },
+            {
+                "nome": "SaÃºde pÃºblica",
+                "bl": 0.9206721149227987,
+                "fl": 0.7478421761186154
+            },
+            {
+                "nome": "SaÃºde privada",
+                "bl": 0.9364400606593031,
+                "fl": 0.7904839844816974
+            },
+            {
+                "nome": "Atividades artÃ­sticas, criativas e de espetÃ¡culos",
+                "bl": 0.9383387831585339,
+                "fl": 0.8195838696860834
+            },
+            {
+                "nome": "OrganizaÃ§Ãµes associativas e outros serviÃ§os pessoais",
+                "bl": 0.9553154581140961,
+                "fl": 0.8388611001171508
+            },
+            {
+                "nome": "ServiÃ§os domÃ©sticos",
+                "bl": 0.7468458018061748,
+                "fl": 0.7468458018061748
+            }
+        ]
+    }
+}

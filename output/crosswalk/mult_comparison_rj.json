@@ -1,0 +1,538 @@
+[
+  {
+    "mrio67_idx": 1,
+    "label": "Agricultura, inclusive o apoio à agricultura e a pós-colheita",
+    "mult_iioas": -9506149276687096.0,
+    "mult_mrio61": 1.2036,
+    "diff_abs": 9506149276687098.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 2,
+    "label": "Pecuária, inclusive o apoio à pecuária",
+    "mult_iioas": -9506149276687100.0,
+    "mult_mrio61": 1.4085,
+    "diff_abs": 9506149276687102.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 3,
+    "label": "Produção florestal; pesca e aquicultura",
+    "mult_iioas": -9506149276687092.0,
+    "mult_mrio61": 1.0845,
+    "diff_abs": 9506149276687094.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 4,
+    "label": "Extração de carvão mineral e de minerais não metálicos",
+    "mult_iioas": -9506149276687096.0,
+    "mult_mrio61": 1.7165,
+    "diff_abs": 9506149276687098.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 5,
+    "label": "Extração de petróleo e gás, inclusive as atividades de apoio",
+    "mult_iioas": -9506149276687104.0,
+    "mult_mrio61": 1.4901,
+    "diff_abs": 9506149276687106.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 6,
+    "label": "Extração de minério de ferro, inclusive beneficiamentos e a aglomeração",
+    "mult_iioas": -9506149276687100.0,
+    "mult_mrio61": 1.7165,
+    "diff_abs": 9506149276687102.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 7,
+    "label": "Extração de minerais metálicos não ferrosos, inclusive beneficiamentos",
+    "mult_iioas": -9506149276687098.0,
+    "mult_mrio61": 1.7165,
+    "diff_abs": 9506149276687100.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 8,
+    "label": "Abate e produtos de carne, inclusive os produtos do laticínio e da pesca",
+    "mult_iioas": -9506149276687092.0,
+    "mult_mrio61": 1.7582,
+    "diff_abs": 9506149276687094.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 9,
+    "label": "Fabricação e refino de açúcar",
+    "mult_iioas": -9506149276687094.0,
+    "mult_mrio61": 1.7582,
+    "diff_abs": 9506149276687096.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 10,
+    "label": "Outros produtos alimentares",
+    "mult_iioas": -9506149276687100.0,
+    "mult_mrio61": 1.7582,
+    "diff_abs": 9506149276687102.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 11,
+    "label": "Fabricação de bebidas",
+    "mult_iioas": -9506149276687096.0,
+    "mult_mrio61": 1.7518,
+    "diff_abs": 9506149276687098.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 12,
+    "label": "Fabricação de produtos do fumo",
+    "mult_iioas": -9506149276687094.0,
+    "mult_mrio61": 1.4584,
+    "diff_abs": 9506149276687096.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 13,
+    "label": "Fabricação de produtos têxteis",
+    "mult_iioas": -9506149276687096.0,
+    "mult_mrio61": 1.3164,
+    "diff_abs": 9506149276687098.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 14,
+    "label": "Confecção de artefatos do vestuário e acessórios",
+    "mult_iioas": -9506149276687092.0,
+    "mult_mrio61": 1.3164,
+    "diff_abs": 9506149276687094.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 15,
+    "label": "Fabricação de calçados e de artefatos de couro",
+    "mult_iioas": -9506149276687100.0,
+    "mult_mrio61": 1.3164,
+    "diff_abs": 9506149276687102.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 16,
+    "label": "Fabricação de produtos da madeira",
+    "mult_iioas": -9506149276687096.0,
+    "mult_mrio61": 1.4863,
+    "diff_abs": 9506149276687098.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 17,
+    "label": "Fabricação de celulose, papel e produtos de papel",
+    "mult_iioas": -9506149276687092.0,
+    "mult_mrio61": 1.5416,
+    "diff_abs": 9506149276687094.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 18,
+    "label": "Impressão e reprodução de gravações",
+    "mult_iioas": -9506149276687094.0,
+    "mult_mrio61": 1.5416,
+    "diff_abs": 9506149276687096.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 19,
+    "label": "Refino de petróleo e coquerias",
+    "mult_iioas": -9506149276687100.0,
+    "mult_mrio61": 1.9635,
+    "diff_abs": 9506149276687102.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 20,
+    "label": "Fabricação de biocombustíveis",
+    "mult_iioas": -9506149276687096.0,
+    "mult_mrio61": 1.9635,
+    "diff_abs": 9506149276687098.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 21,
+    "label": "Fabricação de químicos orgânicos e inorgânicos, resinas e elastômeros",
+    "mult_iioas": -9506149276687096.0,
+    "mult_mrio61": 1.6328,
+    "diff_abs": 9506149276687098.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 22,
+    "label": "Fabricação de defensivos, desinfestantes, tintas e químicos diversos",
+    "mult_iioas": -9506149276687100.0,
+    "mult_mrio61": 1.6328,
+    "diff_abs": 9506149276687102.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 23,
+    "label": "Fabricação de produtos de limpeza, cosméticos/perfumaria e higiene pessoal",
+    "mult_iioas": -9506149276687096.0,
+    "mult_mrio61": 1.6328,
+    "diff_abs": 9506149276687098.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 24,
+    "label": "Fabricação de produtos farmoquímicos e farmacêuticos",
+    "mult_iioas": -9506149276687102.0,
+    "mult_mrio61": 1.5324,
+    "diff_abs": 9506149276687104.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 25,
+    "label": "Fabricação de produtos de borracha e de material plástico",
+    "mult_iioas": -9506149276687100.0,
+    "mult_mrio61": 1.5883,
+    "diff_abs": 9506149276687102.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 26,
+    "label": "Fabricação de produtos de minerais não metálicos",
+    "mult_iioas": -9506149276687094.0,
+    "mult_mrio61": 1.7539,
+    "diff_abs": 9506149276687096.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 27,
+    "label": "Produção de ferro gusa/ferroligas, siderurgia e tubos de aço sem costura",
+    "mult_iioas": -9506149276687096.0,
+    "mult_mrio61": 1.7903,
+    "diff_abs": 9506149276687098.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 28,
+    "label": "Metalurgia de metais não ferosos e a fundição de metais",
+    "mult_iioas": -9506149276687094.0,
+    "mult_mrio61": 1.7903,
+    "diff_abs": 9506149276687096.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 29,
+    "label": "Fabricação de produtos de metal, exceto máquinas e equipamentos",
+    "mult_iioas": -9506149276687096.0,
+    "mult_mrio61": 1.6767,
+    "diff_abs": 9506149276687098.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 30,
+    "label": "Fabricação de equipamentos de informática, produtos eletrônicos e ópticos",
+    "mult_iioas": -9506149276687102.0,
+    "mult_mrio61": 1.5455,
+    "diff_abs": 9506149276687104.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 31,
+    "label": "Fabricação de máquinas e equipamentos elétricos",
+    "mult_iioas": -9506149276687098.0,
+    "mult_mrio61": 1.5455,
+    "diff_abs": 9506149276687100.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 32,
+    "label": "Fabricação de máquinas e equipamentos mecânicos",
+    "mult_iioas": -9506149276687098.0,
+    "mult_mrio61": 1.5649,
+    "diff_abs": 9506149276687100.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 33,
+    "label": "Fabricação de automóveis, caminhões e ônibus, exceto peças",
+    "mult_iioas": -9506149276687096.0,
+    "mult_mrio61": 1.5466,
+    "diff_abs": 9506149276687098.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 34,
+    "label": "Fabricação de peças e acessórios para veículos automotores",
+    "mult_iioas": -9506149276687096.0,
+    "mult_mrio61": 1.5466,
+    "diff_abs": 9506149276687098.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 35,
+    "label": "Fabricação de outros equipamentos de transporte, exceto veículos automotores",
+    "mult_iioas": -9506149276687096.0,
+    "mult_mrio61": 1.5031,
+    "diff_abs": 9506149276687098.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 36,
+    "label": "Fabricação de móveis e de produtos de indústrias diversas",
+    "mult_iioas": -9506149276687096.0,
+    "mult_mrio61": 1.5031,
+    "diff_abs": 9506149276687098.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 37,
+    "label": "Manutenção, reparação e instalação de máquinas e equipamentos",
+    "mult_iioas": -9506149276687100.0,
+    "mult_mrio61": 1.6308,
+    "diff_abs": 9506149276687102.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 38,
+    "label": "Energia elétrica, gás natural e outras utilidades",
+    "mult_iioas": -9506149276687100.0,
+    "mult_mrio61": 1.7011,
+    "diff_abs": 9506149276687102.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 39,
+    "label": "Água, esgoto e gestão de resíduos",
+    "mult_iioas": -9506149276687096.0,
+    "mult_mrio61": 1.7011,
+    "diff_abs": 9506149276687098.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 40,
+    "label": "Construção",
+    "mult_iioas": -9506149276687094.0,
+    "mult_mrio61": 1.4826,
+    "diff_abs": 9506149276687096.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 41,
+    "label": "Comércio por atacado e varejo",
+    "mult_iioas": -9506149276687096.0,
+    "mult_mrio61": 1.3685,
+    "diff_abs": 9506149276687098.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 42,
+    "label": "Transporte terrestre",
+    "mult_iioas": -9506149276687094.0,
+    "mult_mrio61": 1.4901,
+    "diff_abs": 9506149276687096.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 43,
+    "label": "Transporte aquaviário",
+    "mult_iioas": -9506149276687096.0,
+    "mult_mrio61": 1.4471,
+    "diff_abs": 9506149276687098.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 44,
+    "label": "Transporte aéreo",
+    "mult_iioas": -9506149276687098.0,
+    "mult_mrio61": 1.5357,
+    "diff_abs": 9506149276687100.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 45,
+    "label": "Armazenamento, atividades auxiliares dos transportes e correio",
+    "mult_iioas": -9506149276687096.0,
+    "mult_mrio61": 1.4311,
+    "diff_abs": 9506149276687098.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 46,
+    "label": "Alojamento",
+    "mult_iioas": -9506149276687098.0,
+    "mult_mrio61": 1.5139,
+    "diff_abs": 9506149276687100.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 47,
+    "label": "Alimentação",
+    "mult_iioas": -9506149276687096.0,
+    "mult_mrio61": 1.4348,
+    "diff_abs": 9506149276687098.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 48,
+    "label": "Edição e edição integrada à impressão",
+    "mult_iioas": -9506149276687102.0,
+    "mult_mrio61": 1.5013,
+    "diff_abs": 9506149276687104.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 49,
+    "label": "Atividades de televisão, rádio, cinema e gravação/edição de som e imagem",
+    "mult_iioas": -9506149276687102.0,
+    "mult_mrio61": 1.5013,
+    "diff_abs": 9506149276687104.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 50,
+    "label": "Telecomunicações",
+    "mult_iioas": -9506149276687102.0,
+    "mult_mrio61": 1.6144,
+    "diff_abs": 9506149276687104.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 51,
+    "label": "Desenvolvimento de sistemas e outros serviços de informação",
+    "mult_iioas": -9506149276687096.0,
+    "mult_mrio61": 1.5013,
+    "diff_abs": 9506149276687098.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 52,
+    "label": "Intermediação financeira, seguros e previdência complementar",
+    "mult_iioas": -9506149276687102.0,
+    "mult_mrio61": 1.2782,
+    "diff_abs": 9506149276687104.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 53,
+    "label": "Atividades imobiliárias",
+    "mult_iioas": -9506149276687102.0,
+    "mult_mrio61": 1.0824,
+    "diff_abs": 9506149276687104.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 54,
+    "label": "Atividades jurídicas, contábeis, consultoria e sedes de empresas",
+    "mult_iioas": -9506149276687100.0,
+    "mult_mrio61": 1.4148,
+    "diff_abs": 9506149276687102.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 55,
+    "label": "Serviços de arquitetura, engenharia, testes/análises técnicas e P & D",
+    "mult_iioas": -9506149276687102.0,
+    "mult_mrio61": 1.4148,
+    "diff_abs": 9506149276687104.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 56,
+    "label": "Outras atividades profissionais, científicas e técnicas",
+    "mult_iioas": -9506149276687102.0,
+    "mult_mrio61": 1.4148,
+    "diff_abs": 9506149276687104.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 57,
+    "label": "Aluguéis não imobiliários e gestão de ativos de propriedade intelectual",
+    "mult_iioas": -9506149276687096.0,
+    "mult_mrio61": 1.4148,
+    "diff_abs": 9506149276687098.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 58,
+    "label": "Outras atividades administrativas e serviços complementares",
+    "mult_iioas": -9506149276687098.0,
+    "mult_mrio61": 1.4148,
+    "diff_abs": 9506149276687100.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 59,
+    "label": "Atividades de vigilância, segurança e investigação",
+    "mult_iioas": -9506149276687098.0,
+    "mult_mrio61": 1.4148,
+    "diff_abs": 9506149276687100.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 60,
+    "label": "Administração pública, defesa e seguridade social",
+    "mult_iioas": -9506149276687094.0,
+    "mult_mrio61": 1.2283,
+    "diff_abs": 9506149276687096.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 61,
+    "label": "Educação pública",
+    "mult_iioas": -9506149276687098.0,
+    "mult_mrio61": 1.2283,
+    "diff_abs": 9506149276687100.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 62,
+    "label": "Educação privada",
+    "mult_iioas": -9506149276687102.0,
+    "mult_mrio61": 1.3572,
+    "diff_abs": 9506149276687104.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 63,
+    "label": "Saúde pública",
+    "mult_iioas": -9506149276687094.0,
+    "mult_mrio61": 1.2283,
+    "diff_abs": 9506149276687096.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 64,
+    "label": "Saúde privada",
+    "mult_iioas": -9506149276687098.0,
+    "mult_mrio61": 1.3572,
+    "diff_abs": 9506149276687100.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 65,
+    "label": "Atividades artísticas, criativas e de espetáculos",
+    "mult_iioas": -9506149276687100.0,
+    "mult_mrio61": 1.4593,
+    "diff_abs": 9506149276687102.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 66,
+    "label": "Organizações associativas e outros serviços pessoais",
+    "mult_iioas": -9506149276687098.0,
+    "mult_mrio61": 1.4593,
+    "diff_abs": 9506149276687100.0,
+    "diff_pct": 0.0
+  },
+  {
+    "mrio67_idx": 67,
+    "label": "Serviços domésticos",
+    "mult_iioas": 1.0,
+    "mult_mrio61": 1.0,
+    "diff_abs": 0.0,
+    "diff_pct": 0.0
+  }
+]

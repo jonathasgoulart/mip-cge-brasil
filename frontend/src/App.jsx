@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import {
-  Activity, TrendingUp, Users, DollarSign, Plus, Trash2, RefreshCcw, Zap, Globe, Layers, Database, ShieldCheck, Download, Map, LayoutPanelLeft
+  Activity, TrendingUp, Users, DollarSign, Plus, Trash2, RefreshCcw, Zap, Globe, Layers, Database, ShieldCheck, Download, Map, LayoutPanelLeft, Info, X
 } from 'lucide-react';
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell
@@ -43,6 +43,7 @@ const App = () => {
   const [aggLevel, setAggLevel] = useState('detailed');
   const [requireSpillover, setRequireSpillover] = useState(false);
   const [outputAgg, setOutputAgg] = useState('detailed');
+  const [isMethodologyOpen, setIsMethodologyOpen] = useState(false);
 
   useEffect(() => {
     const fetchSectors = async () => {
@@ -133,17 +134,20 @@ const App = () => {
             <Activity className="text-indigo-500 w-6 h-6" />
             <div>
               <h1 className="text-xl font-bold text-white tracking-tight">MIP-CGE</h1>
-              <p className="text-[10px] text-slate-400 font-bold uppercase leading-none mt-1">Simulador Brasil v4.0</p>
+              <p className="text-[10px] text-slate-400 font-bold uppercase leading-none mt-1">Simulador Brasil v7.0</p>
             </div>
           </div>
           <div className="flex items-center gap-4">
+            <button onClick={() => setIsMethodologyOpen(true)} className="flex items-center gap-2 px-3 py-1.5 bg-slate-800/50 hover:bg-slate-700/50 border border-white/10 rounded-full text-[10px] font-black text-slate-300 transition-all">
+              <Info size={14} className="text-indigo-400" /> METODOLOGIA
+            </button>
             {results && (
               <button onClick={handleExportExcel} className="flex items-center gap-2 px-4 py-2 bg-emerald-500/10 border border-emerald-500/20 rounded-xl text-[10px] font-black text-emerald-400 hover:bg-emerald-500 hover:text-white transition-all">
                 <Download size={14} /> DOWNLOAD EXCEL
               </button>
             )}
             <div className="hidden sm:block px-3 py-1 bg-indigo-500/10 border border-indigo-500/20 rounded-full text-[9px] font-black text-indigo-400 uppercase tracking-widest">
-              MRIO Engine Active
+              MRIO v7.0 (NEREUS) Active
             </div>
           </div>
         </div>
@@ -371,10 +375,74 @@ const App = () => {
 
       <footer className="max-w-7xl mx-auto px-6 mt-20 pb-12 text-center opacity-30 select-none">
         <div className="flex flex-col items-center gap-2">
-          <p className="text-[9px] font-black tracking-[0.5em] uppercase text-white">MODELO MRIO-BRASIL 4.0 | 2026</p>
-          <p className="text-[8px] font-black text-slate-500 uppercase tracking-widest">Setorial Base: 2021 | Haversine calibrated</p>
+          <p className="text-[9px] font-black tracking-[0.5em] uppercase text-white">MODELO MRIO-BRASIL 7.0 | IIOAS 2019</p>
+          <p className="text-[8px] font-black text-slate-500 uppercase tracking-widest">Tecnologia Inter-regional NEREUS/USP | Tributos IBGE 2019</p>
         </div>
       </footer>
+
+      {/* Methodology Modal */}
+      {isMethodologyOpen && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 sm:p-6 animate-in fade-in duration-300">
+          <div className="absolute inset-0 bg-slate-950/80 backdrop-blur-sm" onClick={() => setIsMethodologyOpen(false)} />
+          <div className="relative w-full max-w-5xl max-h-[90vh] overflow-y-auto custom-scrollbar glass bg-slate-900/95 border border-white/10 rounded-3xl shadow-2xl p-8 sm:p-10">
+            <button onClick={() => setIsMethodologyOpen(false)} className="absolute top-6 right-6 p-2 rounded-full bg-white/5 hover:bg-rose-500/20 text-slate-400 hover:text-rose-400 transition-all">
+              <X size={20} className="stroke-[3]" />
+            </button>
+
+            <div className="flex items-center gap-4 mb-8">
+              <div className="p-3 bg-indigo-500/20 rounded-2xl border border-indigo-500/30 text-indigo-400">
+                <Info size={28} />
+              </div>
+              <div>
+                <h2 className="text-2xl font-black text-white tracking-tight">Metodologia do Simulador Escala Brasil</h2>
+                <p className="text-xs font-bold uppercase tracking-widest text-slate-500 mt-1">Como a Matrix MRIO v7.0 calcula os impactos</p>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="space-y-4">
+                <div className="flex items-center gap-3 border-b border-white/10 pb-3">
+                  <Globe className="text-blue-400" size={20} />
+                  <h3 className="text-sm font-black text-white uppercase tracking-widest">1. Motor Leontief (NEREUS)</h3>
+                </div>
+                <p className="text-slate-400 text-xs leading-relaxed font-medium">
+                  Utilizamos a <strong>Matriz de Insumo-Produto Inter-Regional Oficial (MRIO v7.0)</strong>, cobrindo 67 setores e as 27 Unidades Federativas. Diferente de modelos teóricos (antigo modelo gravitacional de Haversine), nossa matriz engloba <strong className="text-indigo-300">fluxos interestaduais documentados e reais</strong> extraídos da colossal base IIOAS-BRUF (NEREUS/USP, 2025). O simulador capta exatamente os vazamentos monetários fidedignos—diagnosticando matematicamente o quanto Goiás compra de insumos de São Paulo num choque simulado.
+                </p>
+              </div>
+
+              <div className="space-y-4">
+                <div className="flex items-center gap-3 border-b border-white/10 pb-3">
+                  <Users className="text-emerald-400" size={20} />
+                  <h3 className="text-sm font-black text-white uppercase tracking-widest">2. Emprego e Renda (PNAD)</h3>
+                </div>
+                <p className="text-slate-400 text-xs leading-relaxed font-medium">
+                  Atrelado ao volume de produção, o impacto social de trabalho é derivado dos microdados da <strong>PNAD Contínua 2021 (IBGE)</strong>. Convertimos horas trabalhadas isoladas e salários estaduais em <strong className="text-emerald-300">Coeficientes de Produtividade Regionais Diferenciados</strong>. Isto dita que investir R$ 1 Milhão em agricultura na Bahia gera uma estatística intrinsecamente diferente (historicamente provada) de vagas de trabalho do que os mesmos R$ 1 Mi na agricultura mecânica do Rio Grande do Sul.
+                </p>
+              </div>
+
+              <div className="space-y-4">
+                <div className="flex items-center gap-3 border-b border-white/10 pb-3">
+                  <ShieldCheck className="text-amber-400" size={20} />
+                  <h3 className="text-sm font-black text-white uppercase tracking-widest">3. Tributação Estadual Híbrida</h3>
+                </div>
+                <p className="text-slate-400 text-xs leading-relaxed font-medium">
+                  Os coeficientes fiscais ($\tau$) substituem brutas aproximações por uma <strong>Matriz de "Sharing Factors"</strong> fundamentada em arrecadações reportadas pelo CONFAZ e auditadas via Sistema de Contas Nacionais IBGE. Isso garante que impostos como o <strong className="text-amber-300">ICMS</strong> não sejam taxados medianamente pelo país; cada estado aplica sua intensidade tributária estatística observada em cima do Valor Bruto de sua respectiva Produção Setorial, gerando alta fidedignidade em arrecadação na ponta final de governos locais.
+                </p>
+              </div>
+            </div>
+
+            <div className="mt-10 p-5 bg-indigo-500/10 border border-indigo-500/20 rounded-2xl flex items-start gap-4">
+              <Zap className="text-indigo-400 mt-1 shrink-0" size={20} fill="currentColor" />
+              <div>
+                <h4 className="text-sm font-black text-white mb-1 uppercase tracking-widest">O Efeito Spillover Transbordante</h4>
+                <p className="text-slate-300 text-xs leading-relaxed font-medium">
+                  Ao ativar a flag de Spillover (MRIO Spillover), o algoritmo matricial Leontief não apenas aplica as fórmulas no estado inicial sede, porém, através das interconexões vetoriais cruzadas de Comércio Interestadual que possuímos mapeados, <strong className="text-white">projeta a onde a riqueza transbordará para o resto da Nação</strong>. Você mapeará na tabela verde/roxa qual foi o estado que mais proveu serviços/insumos para a realização do evento base no primeiro estado.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

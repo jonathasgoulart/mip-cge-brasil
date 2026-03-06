@@ -1,0 +1,16 @@
+=== ANÁLISE DE DEPENDÊNCIA (TRADE SHARES) - RJ ===
+Auto-suficiência Média RJ (diagonal): 47.9%
+
+Top 5 Setores Mais Auto-suficientes do RJ:
+  Serviços domésticos                      : 100.0%
+  Educação privada                         :  97.8%
+  Água, esgoto e gestão de resíduos        :  97.5%
+  Telecomunicações                         :  97.0%
+  Atividades imobiliárias                  :  96.3%
+
+Top 5 Setores Mais Dependentes (Mais importados de outras UFs):
+  Extração de minério de ferro, inclusive  : RJ produz  0.1%, Principal: MG (66.9%)
+  Fabricação de biocombustíveis            : RJ produz  0.9%, Principal: SP (64.6%)
+  Extração de minerais metálicos não ferro : RJ produz  1.0%, Principal: PA (33.9%)
+  Fabricação e refino de açúcar            : RJ produz  1.0%, Principal: SP (78.0%)
+  Fabricação de produtos da madeira        : RJ produz  3.2%, Principal: SP (30.9%)

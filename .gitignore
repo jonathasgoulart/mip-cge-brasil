@@ -27,3 +27,7 @@ brain/
 # data/raw/
 # data/intermediary/
 # output/archive/
+data/IIOAS_BRUF_2019.xlsx
+data/*.xlsx
+data/*.xls
+_obsolete_dashboard/data.json

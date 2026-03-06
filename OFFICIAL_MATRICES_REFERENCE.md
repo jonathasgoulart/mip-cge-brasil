@@ -1,21 +1,19 @@
 # Referencia Oficial de Matrizes e Dados do Projeto MIP-CGE Brasil
 
-> Ultima atualizacao: 28/02/2026
-> Ano-base: 2021
+> Ultima atualizacao: 06/03/2026
+> Ano-base predominante: 2019 (IIOAS-BRUF) e 2021 (PNAD Emprego/Renda)
 
 ---
 
-## 1. MRIO Inter-Regional (Modelo Gravitacional v4)
+## 1. MRIO Inter-Regional (Versao 7.0 - Substituição Direta)
 
 | Arquivo | Dim. | Descricao |
 |---------|------|-----------|
-| `A_mrio_official_v4.npy` | (1809, 1809) | Matriz de coeficientes tecnicos inter-regional (27 UFs x 67 setores = 1809) |
-| `trade_prob_sectoral_v4.npy` | (27, 27, 67) | Probabilidades de comercio inter-regional por setor (modelo gravitacional com beta setorial) |
-| `beta_sectoral_calibration.json` | - | Parametros beta do modelo gravitacional: 0.8 (commodities), 1.5 (manufatura), 3.0 (servicos) |
-| `region_order_v4.txt` | - | Ordem das 27 UFs na MRIO |
+| `A_mrio_official_v7_0.npy` | (1809, 1809) | Matriz de coeficientes tecnicos inter-regional (27 UFs x 67 setores) baseada em Fatores Reais Observados da IIOAS. |
+| `trade_shares_iioas_2019.npy` | (27, 27, 67) | Participacoes de mercado inter-regional por setor (Trade Shares), derivadas do consumo efetivo interestadual. |
 
-**Script gerador**: `scripts/mrio_official_v4.py`
-**Como funciona**: Combina a matriz nacional com o modelo gravitacional de distancias (Haversine) e beta setorial para estimar fluxos de comercio inter-regional. Para o RJ, usa matrizes regionais hibridas especificas.
+**Script gerador**: `scripts/build_mrio_v7_0.py`
+**Como funciona**: Substitui todo o antigo modelo gravitacional estimado pelos fluxos observados reais inter-regionais da tabela NEREUS/USP (MIIP SS), ajustados pelo VBP Real Estadual.
 
 ---
 
@@ -94,14 +92,13 @@ sp = emp[:, 19]   # 67 coeficientes de SP
 
 ---
 
-## 5. Dados Fiscais
+## 5. Dados Fiscais (Base 2019)
 
 | Arquivo | Descricao |
 |---------|-----------|
-| `ICMS_Burden_RJ_Official.csv/.xlsx` | Carga de ICMS por setor no RJ (ICMS/VBP) |
-| `data/processed/2021_final/tax_matrix.json` | Aliquotas de ISS e ICMS por setor |
-| `data/processed/2021_final/tax_matrix_hybrid_by_state.json` | Aliquotas fiscais hibridas por estado |
-| `data/processed/2021_final/export_ratios.json` | Razoes de exportacao por setor |
+| `data/processed/2021_final/tax_matrix_2019.json` | Total Nacional dos Tributos IBGE expandidos por IPCA. |
+| `data/processed/2021_final/tax_matrix_by_state_2019.json` | Matriz oficial de tributos distribuidos por UF (Sharing Factors), com taxas Estado-Especificas (100% calibrado para simulacoes regionais). |
+| `data/processed/2021_final/export_ratios.json` | Razoes de exportacao por setor. |
 
 ---
 
