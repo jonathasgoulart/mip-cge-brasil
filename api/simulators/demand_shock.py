@@ -57,8 +57,10 @@ def run_demand_shock(region: str, shocks: dict, agg_level: str = "detailed", req
         n_regions = 27
     else:
         if region == 'Nacional':
-            # Prioridade: A_nacional.npy (output/final, calibrada) > A_nas.npy (intermediary, bruta)
-            path_A = os.path.join(final_dir, 'A_nacional.npy')
+            # Prioridade: A_nacional_v7_0.npy (NEREUS 2019) > A_nacional.npy > A_nas.npy
+            path_A = os.path.join(final_dir, 'A_nacional_v7_0.npy')
+            if not os.path.exists(path_A):
+                path_A = os.path.join(final_dir, 'A_nacional.npy')
             if not os.path.exists(path_A):
                 path_A = os.path.join(inter_dir, 'A_nas.npy')
             if not os.path.exists(path_A):
@@ -172,7 +174,23 @@ def run_demand_shock(region: str, shocks: dict, agg_level: str = "detailed", req
             for r in range(n_regions):
                 jobs_by_sector[r*n_sectors : (r+1)*n_sectors] = emp_coeffs[:, r] * x_total[r*n_sectors : (r+1)*n_sectors]
         else:
-            if region == 'Nacional': c = np.mean(emp_coeffs, axis=1)
+            if region == 'Nacional': 
+                # Média Ponderada de Empregos: (Soma Ocupações UFs) / (VBP Nacional NEREUS)
+                # emp_coeffs[:, r] = jobs/VBP_r -> jobs = emp_coeffs * VBP_r
+                path_vbp = os.path.join(os.path.dirname(final_dir), 'crosswalk', 'vbp_iioas_all_ufs.npy')
+                if os.path.exists(path_vbp):
+                    vbp_68_all = np.load(path_vbp)
+                    # Agregar pra 67 para todas UFs
+                    vbp_67_ufs = np.zeros((27, n_sectors))
+                    for uf in range(27):
+                        for ii in range(68):
+                            mi = ii if ii < 40 else (40 if ii == 41 else ii - 1)
+                            if mi < n_sectors: vbp_67_ufs[uf, mi] += vbp_68_all[uf, ii]
+                    total_jobs_nat = np.sum(emp_coeffs * vbp_67_ufs.T, axis=1)
+                    total_prod_nat = np.sum(vbp_67_ufs, axis=0)
+                    c = np.where(total_prod_nat > 0, total_jobs_nat / total_prod_nat, 0)
+                else:
+                    c = np.mean(emp_coeffs, axis=1) # Fallback para média simples
             else:
                  idx = STATES_ORDER.index(region) if region in STATES_ORDER else 18
                  c = emp_coeffs[:, idx]
@@ -207,10 +225,10 @@ def run_demand_shock(region: str, shocks: dict, agg_level: str = "detailed", req
 
     tax_source = state_tax_data if use_state_tax else nat_tax_data
 
-    # Denominador fiscal correto: VBP do estado (quando estado-específico) ou VBP nacional
+    # Denominador fiscal correto: VBP do estado (quando estado-específico) ou VBP nacional NEREUS
     # τ = imposto[setor] / VBP[setor]  — denominador deve corresponder ao numerador
+    vbp_iioas_path = os.path.join(os.path.dirname(final_dir), 'crosswalk', 'vbp_iioas_all_ufs.npy')
     if use_state_tax and region_key in STATES_ORDER:
-        vbp_iioas_path = os.path.join(os.path.dirname(final_dir), 'crosswalk', 'vbp_iioas_all_ufs.npy')
         if os.path.exists(vbp_iioas_path):
             vbp_all = np.load(vbp_iioas_path)   # (27, 68)
             uf_idx  = STATES_ORDER.index(region_key)
@@ -223,7 +241,16 @@ def run_demand_shock(region: str, shocks: dict, agg_level: str = "detailed", req
         else:
             X_fiscal = X_nas_fiscal
     else:
-        X_fiscal = X_nas_fiscal      # nacional: usa VBP MIP Nacional
+        # Se Nacional ou Fallback, usar VBP agregado real das UFs 2019 da NEREUS
+        if os.path.exists(vbp_iioas_path):
+            vbp_all = np.load(vbp_iioas_path)
+            vbp_nat_68 = vbp_all.sum(axis=0)
+            X_fiscal = np.zeros(n_sectors)
+            for ii in range(68):
+                mi = ii if ii < 40 else (40 if ii == 41 else ii - 1)
+                if mi < n_sectors: X_fiscal[mi] += vbp_nat_68[ii]
+        else:
+            X_fiscal = X_nas_fiscal
 
     for tax_type, values in tax_source.items():
         vals = list(values.values())[:n_sectors] if isinstance(values, dict) else values[:n_sectors]
